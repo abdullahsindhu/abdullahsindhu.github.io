@@ -625,7 +625,9 @@
    ],
    "summary": "IL-1beta induces HIF-1alpha and its target VEGF-A in human astrocytes and in mouse brain, and HIF-1alpha is needed for the VEGF-A response. Both proteins are found in reactive astrocytes of active multiple sclerosis lesions, and astrocytic VEGF-A drives BBB breakdown in EAE.",
    "links": [
-    "Induced by IL-1 receptor signalling (top-level map); in Astrocyte signaling its production under IL-1beta is an unknown process (?), as the paper shows the induction, not the path; drives VEGFA production in astrocytes (altered BBB permeability). The outgoing top-level arc to VEGFA was removed (nuclear protein to secreted product)."
+    "Induced by IL-1 receptor signalling (top-level map); in Astrocyte signaling its production under IL-1beta is an unknown process (?), as the paper shows the induction, not the path.",
+    "Drives VEGFA production in astrocytes (altered BBB permeability). In detail (small map HIF1A): HIF-1alpha binds ARNT, and HIF-1 drives VEGFA transcription from the HIF-1 site in its promoter (Forsythe 1996, Argaw 2006).",
+    "The outgoing top-level arc to VEGFA was removed (nuclear protein to secreted product)."
    ],
    "refs": [
     {
@@ -635,6 +637,10 @@
     {
      "pmid": "22653056",
      "cite": "Argaw AT et al. 2012, J Clin Invest."
+    },
+    {
+     "pmid": "8756616",
+     "cite": "Forsythe JA et al. 1996, Mol Cell Biol."
     }
    ],
    "diseases": [

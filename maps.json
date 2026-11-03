@@ -405,6 +405,20 @@
   "about": "GBA1 cleaves glucosylceramide in the lysosome; glucosylceramide stabilises alpha-synuclein oligomers, which block GBA1 transport to the lysosome (the loop of Mazzulli 2011) (to be merged into: NLRP3 inflammasome (now one omitted process there))"
  },
  {
+  "name": "HIF1A",
+  "slug": "small-hif1a",
+  "group": "Small maps",
+  "file": "maps-small/hif1a.xml",
+  "sha1": "cb0fbd34a0d01d9da5bb305fd824b8012f34b148",
+  "error": "",
+  "notes": [],
+  "svg": "5120ad8f04241701680697fd2979382cbe65886d",
+  "width": 2000.0,
+  "height": 1400.0,
+  "ann": "0bac68e29d3e1da786b63e985442d064d03d496b",
+  "about": "IL-1beta raises HIF-1alpha by a path not shown (?) (Argaw 2006); HIF-1alpha with ARNT (HIF-1) on the VEGFA gene drives its transcription (Forsythe 1996, the HIF-1 site in the VEGFA promoter; Argaw 2006 in astrocytes) (to be merged into: altered BBB permeability (replacing the production step HIF1A stimulates there))"
+ },
+ {
   "name": "POMC",
   "slug": "small-pomc",
   "group": "Small maps",
