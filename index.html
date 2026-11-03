@@ -7,20 +7,30 @@
 <title>Neuroinflammation map</title>
 <style>
   body { margin: 0; padding: 16px; font-family: Helvetica, Arial, sans-serif; color: #222; background: #fff; }
-  h1 { font-size: 20px; font-weight: normal; margin: 0 0 14px; text-align: center; }
 </style>
 <style>
   /* the maps on the left, the chosen one in the middle as CellDesigner draws it
-     (converter/cdrender.py), an empty column of the list's width on the right */
-  .m2 { display: grid; grid-template-columns: 240px minmax(600px, 1fr) minmax(0, 240px); column-gap: 32px; align-items: start;
+     (converter/cdrender.py), on the right what the file says about the process or entity clicked */
+  .m2 { display: grid; grid-template-columns: 240px minmax(600px, 1fr) 260px; column-gap: 32px; align-items: start;
         width: min(100vw / var(--zoom, 1) - 32px, 2000px); position: relative; left: 50%; transform: translateX(-50%); }
   .m2-nav { grid-column: 1; }
   .m2-main { grid-column: 2; min-width: 0; }
+  .m2-side { grid-column: 3; min-width: 0; }
+  #m2-info { max-height: calc(100vh / var(--zoom, 1) - 40px); overflow-y: auto; font-size: 14px; line-height: 19px; overflow-wrap: anywhere; }
+  #m2-info h3 { font-size: 15px; font-weight: bold; margin: 0 0 4px; }
+  #m2-info h4 { font-size: 13px; font-weight: normal; color: #777; margin: 10px 0 2px; }
+  #m2-info p { margin: 0 0 3px; }
+  #m2-info ul { margin: 0; padding-left: 18px; }
+  #m2-info .m2-quiet { color: #777; }
+  #m2-info .m2-text { white-space: pre-line; }
+  #m2-hl { position: absolute; left: 0; top: 0; pointer-events: none; overflow: visible; }
   #m2-list { max-height: calc(100vh / var(--zoom, 1) - 140px); overflow-y: auto; display: flex; flex-direction: column; gap: 2px; }
   @media (max-width: 940px) {
     .m2 { display: block; width: auto; left: 0; transform: none; }
     .m2-nav { margin-bottom: 12px; }
     #m2-list { max-height: 127px; border-bottom: 1px solid #eee; }
+    .m2-side { margin-top: 14px; }
+    #m2-info { max-height: none; }
   }
   .m2-group { font-size: 14px; line-height: 18px; color: #000; padding: 2px 5px 2px 0; margin-top: 6px; }
   .m2-group:first-child { margin-top: 0; }
@@ -75,7 +85,6 @@
 </style>
 </head>
 <body>
-<h1>Neuroinflammation map</h1>
 <div class="m2">
 <div class="m2-nav">
 <div id="m2-list"></div>
@@ -83,6 +92,7 @@
 <div class="m2-main">
 <div id="m2-view" tabindex="0">
 <img id="m2-img" alt="">
+<svg id="m2-hl" xmlns="http://www.w3.org/2000/svg"></svg>
 <div id="m2-err"></div>
 <div id="m2-note"></div>
 <div class="m2-ctrl">
@@ -96,6 +106,7 @@
 <div id="m2-downloads"></div>
 <div id="m2-evidence"></div>
 </div>
+<div class="m2-side"><div id="m2-info"></div></div>
 </div>
 <script>
 (function () {
@@ -108,6 +119,7 @@
   var STANDARD = 0.675, MIN = 0.08, MAX = 4, KEEP = 80;
   var z = STANDARD, tx = 0, ty = 0, moved = false, mapW = 0, mapH = 0, shown = false;
   var maps = [], cur = -1, buttons = [];
+  var hl = document.getElementById('m2-hl'), info = document.getElementById('m2-info'), ann = null, downAt = null;
   function pz() { return view.currentCSSZoom || 1; }
   function draw() {
     if (!shown) return;
@@ -117,6 +129,10 @@
     img.style.width = w + 'px';
     img.style.height = h + 'px';
     img.style.transform = 'translate(' + tx + 'px,' + ty + 'px)';
+    hl.setAttribute('width', w);
+    hl.setAttribute('height', h);
+    hl.setAttribute('viewBox', '0 0 ' + mapW + ' ' + mapH);
+    hl.style.transform = img.style.transform;
     document.getElementById('m2-zoom').textContent = Math.round(z / STANDARD * 100) + '%';
   }
   function zoomAt(nz, cx, cy) {
@@ -156,6 +172,7 @@
     if (e.clientX > r.right - 18 && e.clientY > r.bottom - 18) return; // the resize handle
     view.setPointerCapture(e.pointerId);
     pts[e.pointerId] = [e.clientX, e.clientY];
+    downAt = Object.keys(pts).length === 1 ? [e.clientX, e.clientY] : null;
     last = null;
     view.classList.add('m2-drag');
   });
@@ -177,6 +194,9 @@
     }
   });
   function release(e) {
+    // a click (the pointer moved under 5 px): what is under it opens on the right
+    if (e.type === 'pointerup' && downAt && Object.keys(pts).length === 1 && Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) < 5) pick(e);
+    downAt = null;
     delete pts[e.pointerId];
     last = null;
     if (!Object.keys(pts).length) view.classList.remove('m2-drag');
@@ -216,6 +236,82 @@
   } else full.style.display = 'none'; // iPhone: no full screen for page elements
 
   function cdOf(m) { return 'drawn/' + m.slug + '.svg?' + m.svg.slice(0, 8); }
+
+  // What the file says about what is clicked (user, 2026-11-03: only what the file has): a process with what it
+  // does, its type, modifiers, references (PubMed, DOI), identifiers and notes; an entity with its type,
+  // compartment, identifiers and notes. drawn/<slug>.json, made by scripts/annotations.py at build time.
+  var HINT = '<p class="m2-quiet">Click a process or an entity on the map to see its references, identifiers and notes.</p>';
+  function e_(t) { return String(t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function idList(ids) {
+    return '<ul>' + ids.map(function (i) {
+      var label = i.db === 'PubMed' ? 'PMID ' + i.id : i.db + ' ' + i.id;
+      return '<li><a href="' + e_(i.url) + '" target="_blank" rel="noopener">' + e_(label) + '</a>' +
+        (i.rel && i.rel !== 'is' && i.rel !== 'described by' ? ' <span class="m2-quiet">(' + e_(i.rel) + ')</span>' : '') + '</li>';
+    }).join('') + '</ul>';
+  }
+  function section(title, body) { return body ? '<h4>' + title + '</h4>' + body : ''; }
+  function nothing(has) { return has ? '' : '<p class="m2-quiet">The file gives no references, identifiers or notes for it.</p>'; }
+  function showReaction(r) {
+    var refs = r.refs.filter(function (i) { return i.db === 'PubMed' || i.db === 'DOI'; });
+    info.innerHTML = '<h3>' + e_(r.what) + '</h3><p class="m2-quiet">' + e_(r.type) + (r.reversible ? ', reversible' : '') + '</p>' +
+      section('Modifiers', r.modifiers.length ? '<ul>' + r.modifiers.map(function (m) { return '<li>' + e_(m.by) + ' <span class="m2-quiet">(' + e_(m.how) + ')</span></li>'; }).join('') + '</ul>' : '') +
+      section('References', refs.length ? idList(refs) : '') +
+      section('Identifiers', r.ids.length ? idList(r.ids) : '') +
+      section('Notes', r.notes ? '<p class="m2-text">' + e_(r.notes) + '</p>' : '') +
+      nothing(refs.length || r.ids.length || r.notes);
+  }
+  function showSpecies(s) {
+    var refs = s.ids.filter(function (i) { return i.db === 'PubMed' || i.db === 'DOI'; });
+    var other = s.ids.filter(function (i) { return refs.indexOf(i) < 0; });
+    info.innerHTML = '<h3>' + e_(s.name) + '</h3><p class="m2-quiet">' + e_(s['class'].toLowerCase().replace(/_/g, ' ')) +
+      (s.compartment ? ', ' + e_(s.compartment) : '') + '</p>' +
+      section('Identifiers', other.length ? idList(other) : '') +
+      section('References', refs.length ? idList(refs) : '') +
+      section('Notes', s.notes ? '<p class="m2-text">' + e_(s.notes) + '</p>' : '') +
+      nothing(s.ids.length || s.notes);
+  }
+  function clearPick() { hl.innerHTML = ''; info.innerHTML = ann ? HINT : ''; }
+  function segDist(p, a, b) {
+    var dx = b[0] - a[0], dy = b[1] - a[1], L = dx * dx + dy * dy || 1;
+    var t = Math.max(0, Math.min(1, ((p[0] - a[0]) * dx + (p[1] - a[1]) * dy) / L));
+    return Math.hypot(a[0] + t * dx - p[0], a[1] + t * dy - p[1]);
+  }
+  function pick(e) {
+    if (!ann || !shown || e.target.closest('.m2-ctrl')) return;
+    var r = view.getBoundingClientRect();
+    var p = [((e.clientX - r.left) / pz() - tx) / z, ((e.clientY - r.top) / pz() - ty) / z];
+    // inside an entity's box the smallest such entity, unless the click is on a process square; elsewhere the
+    // process whose lines or square are within 6 screen pixels
+    var tol = Math.max(2, 6 / z), best = null, bd = tol, onSquare = false;
+    var inBox = ann.aliases.find(function (q) { var b = q.box; return p[0] >= b[0] && p[0] <= b[0] + b[2] && p[1] >= b[1] && p[1] <= b[1] + b[3]; });
+    ann.reactions.forEach(function (x) {
+      if (x.at) { var d = Math.hypot(p[0] - x.at[0], p[1] - x.at[1]) - 4; if (d < bd) { bd = d; best = x; onSquare = true; } }
+      if (!inBox) x.lines.forEach(function (l) { for (var k = 1; k < l.length; k++) { var d2 = segDist(p, l[k - 1], l[k]); if (d2 < bd) { bd = d2; best = x; onSquare = false; } } });
+    });
+    if (best && (!inBox || onSquare)) {
+      hl.innerHTML = best.lines.map(function (l) {
+        return '<polyline points="' + l.map(function (q) { return q.join(','); }).join(' ') + '" fill="none" stroke="#4183c4" stroke-opacity="0.55" stroke-width="6" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"/>';
+      }).join('') + (best.at ? '<circle cx="' + best.at[0] + '" cy="' + best.at[1] + '" r="9" fill="none" stroke="#4183c4" stroke-width="3" vector-effect="non-scaling-stroke"/>' : '');
+      showReaction(best);
+      return;
+    }
+    var a = inBox;
+    if (!a) { clearPick(); return; }
+    var b = a.box;
+    hl.innerHTML = '<rect x="' + (b[0] - 3) + '" y="' + (b[1] - 3) + '" width="' + (b[2] + 6) + '" height="' + (b[3] + 6) + '" rx="6" fill="none" stroke="#4183c4" stroke-width="3" vector-effect="non-scaling-stroke"/>';
+    showSpecies(ann.species[a.species]);
+  }
+  function loadAnn(m) {
+    ann = null;
+    hl.innerHTML = '';
+    info.innerHTML = '';
+    if (!m.ann) return;
+    fetch('drawn/' + m.slug + '.json?' + m.ann.slice(0, 8)).then(function (r) { return r.json(); }).then(function (d) {
+      if (maps[cur] !== m) return;
+      ann = d;
+      info.innerHTML = HINT;
+    }).catch(function () {});
+  }
   var note = document.getElementById('m2-note');
   function address() {
     if (cur >= 0) history.replaceState(null, '', '?map=' + maps[cur].slug);
@@ -223,7 +319,8 @@
   // the chosen map; reactions cdrender.py cannot draw yet are counted under it
   function show() {
     var m = maps[cur];
-    note.textContent = m.notes && m.notes.length ? m.notes.length + (m.notes.length > 1 ? ' reactions' : ' reaction') + ' not drawn yet (two joining into one, or one splitting in two)' : '';
+    note.textContent = m.notes && m.notes.length ? m.notes.length + (m.notes.length > 1 ? ' reactions' : ' reaction') + ' not drawn' : '';
+    loadAnn(m);
     err.className = '';
     if (m.error) {
       shown = false;
@@ -262,7 +359,8 @@
   }
   document.addEventListener('keydown', function (e) {
     if (e.altKey || e.ctrlKey || e.metaKey) return;
-    if (e.key === 'ArrowDown') choose(cur + 1);
+    if (e.key === 'Escape' && !isFull()) clearPick();
+    else if (e.key === 'ArrowDown') choose(cur + 1);
     else if (e.key === 'ArrowUp') choose(cur - 1);
     else if (document.activeElement === view && (e.key === '+' || e.key === '=')) { var c = centre(); zoomAt(z * 1.25, c[0], c[1]); }
     else if (document.activeElement === view && e.key === '-') { var c2 = centre(); zoomAt(z / 1.25, c2[0], c2[1]); }

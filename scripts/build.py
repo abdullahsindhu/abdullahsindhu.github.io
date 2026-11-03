@@ -84,6 +84,13 @@ def main(src, upd=None):
         if r.returncode == 0:
             w, h = size(svg)
             e.update({'svg': sha1(svg), 'width': w, 'height': h})
+            # what the file says about each process and entity, with where it is drawn (scripts/annotations.py)
+            js = os.path.join(drawn, s + '.json')
+            a = subprocess.run([sys.executable, os.path.join(ROOT, 'scripts', 'annotations.py'), os.path.join(ROOT, folder, rel), js], capture_output=True, text=True)
+            if a.returncode == 0:
+                e['ann'] = sha1(js)
+            else:
+                print('annotations of %s: %s' % (name, (a.stderr.strip().splitlines() or ['failed'])[-1]))
         print('%-70s %s' % (name, e['error'] or ('%d not drawn' % len(notes) if notes else 'ok')))
         return e
 

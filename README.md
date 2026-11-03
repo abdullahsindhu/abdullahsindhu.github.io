@@ -9,6 +9,10 @@ every page), no sitemap, not linked from other sites.
 - `drawn/`: the drawings, made from the files by `converter/cdrender.py` (copied with `converter/mapconv/`
   from the Metabolism Regulation site's converter). The files themselves are not converted.
 - `index.html`: the viewer (list, zoom, pan, Fit, full screen, up and down arrow keys, `?map=<name>`).
+  A click on a process or an entity opens on the right what its CellDesigner file holds for it: for a
+  process what it does, its type, modifiers, references (PubMed, DOI), identifiers and notes; for an
+  entity its type, compartment, identifiers and notes. Nothing is shown that the file does not hold.
+  `drawn/<name>.json` per map, made by `scripts/annotations.py` during the build.
 
 Rebuild after the map changes:
 

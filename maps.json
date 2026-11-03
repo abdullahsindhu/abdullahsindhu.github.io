@@ -9,7 +9,8 @@
   "notes": [],
   "svg": "36bf7234983f7a4d8addffa4069e8b89b8f5aa70",
   "width": 10000.0,
-  "height": 7000.0
+  "height": 7000.0,
+  "ann": "2f3aecb6279b385722633abea264cbb4bda3b91f"
  },
  {
   "name": "ChrNeuroinflammation46 (updated)",
@@ -22,6 +23,7 @@
   "svg": "82ecd10f874c0f8c207f8eb862a8e3dcae2d860d",
   "width": 10000.0,
   "height": 7000.0,
+  "ann": "2b0d3034370cc965d7be6cfef5058fafb17a5a60",
   "updated": true
  },
  {
@@ -34,7 +36,8 @@
   "notes": [],
   "svg": "76ce795b45f16ff8d680b801b939be9fe20dd395",
   "width": 8000.0,
-  "height": 9000.0
+  "height": 9000.0,
+  "ann": "dd4317c4c88c4968c8a432311b92809c628a53fa"
  },
  {
   "name": "altered BBB permeability (updated)",
@@ -47,6 +50,7 @@
   "svg": "45717385b71d528e7b3764b8e005c13567376f2f",
   "width": 8000.0,
   "height": 9000.0,
+  "ann": "00c0dc65a6fc9fe724bf163d1927619f44836465",
   "updated": true
  },
  {
@@ -59,7 +63,8 @@
   "notes": [],
   "svg": "56969b7ca019486a0a4739f82a52a3329a754529",
   "width": 7500.0,
-  "height": 4334.0
+  "height": 4334.0,
+  "ann": "4feddf1ee0566a9f22d6fb80c99ddb5d00724c3d"
  },
  {
   "name": "APP processing",
@@ -71,7 +76,8 @@
   "notes": [],
   "svg": "b0f7dea30328074b874a9b0c9ec88de789dec263",
   "width": 4000.0,
-  "height": 4500.0
+  "height": 4500.0,
+  "ann": "c4fe1cdac2fe541b9517614cc6811aa734176974"
  },
  {
   "name": "APP processing (updated)",
@@ -84,6 +90,7 @@
   "svg": "b1ce4487550270e44e9746779b0952fafc5adca8",
   "width": 4000.0,
   "height": 4500.0,
+  "ann": "45a56cca8ef6f9f485912176aab54f9f12c36ffd",
   "updated": true
  },
  {
@@ -96,7 +103,8 @@
   "notes": [],
   "svg": "67b7cf0cb886ab3dca2a9e18a26b3a6ea67719fc",
   "width": 13244.0,
-  "height": 7334.0
+  "height": 7334.0,
+  "ann": "a4946649b3aeb44d9b36c6601f55261a04525aa2"
  },
  {
   "name": "Astrocyte signaling (updated)",
@@ -109,6 +117,7 @@
   "svg": "03d2a992aff28b5d70ab987508345dbd51f625c1",
   "width": 13244.0,
   "height": 7334.0,
+  "ann": "a5c7013512ecd83c9b9d57553927a4d97cf56055",
   "updated": true
  },
  {
@@ -121,7 +130,8 @@
   "notes": [],
   "svg": "c4394bd0b582d3b9f2f8cd6f03cc8bdd17ad0ad0",
   "width": 7000.0,
-  "height": 6200.0
+  "height": 6200.0,
+  "ann": "fe7daa626afeb1af3426c3184303678940f68a72"
  },
  {
   "name": "MAPT aggregation and degradation",
@@ -133,7 +143,8 @@
   "notes": [],
   "svg": "f1ed1412d83bb24026a00f64d4444e11260da15d",
   "width": 3500.0,
-  "height": 3200.0
+  "height": 3200.0,
+  "ann": "c0ed3c287941229abf12617b624b6e3ca5c81070"
  },
  {
   "name": "MAPT cleavage",
@@ -145,7 +156,8 @@
   "notes": [],
   "svg": "aad6276264877e9c67731e0dc5c4c1261310cc0a",
   "width": 6231.0,
-  "height": 5114.0
+  "height": 5114.0,
+  "ann": "ecaa8481eb10ff809a8817418487b3dbf216e948"
  },
  {
   "name": "MAPT cleavage (updated)",
@@ -158,6 +170,7 @@
   "svg": "379b4406ff02ec7483644358812d13921783034b",
   "width": 6231.0,
   "height": 5114.0,
+  "ann": "e98072b28a1c0ee471c754a8547bd8e423d01a2a",
   "updated": true
  },
  {
@@ -170,7 +183,8 @@
   "notes": [],
   "svg": "60a09cc24d99e879582b806560302fe68ff24525",
   "width": 5800.0,
-  "height": 2000.0
+  "height": 2000.0,
+  "ann": "d89d46651f70a420be8abac448e883b8dbb093a6"
  },
  {
   "name": "Microglial phagocytosis of protein aggregates, neurons and synapses",
@@ -182,7 +196,8 @@
   "notes": [],
   "svg": "fcf1acc412e790124d90444456cdf17f06bf332c",
   "width": 15000.0,
-  "height": 12000.0
+  "height": 12000.0,
+  "ann": "e26d4cfcf0d6e6046aecb67d28a3e38f29143830"
  },
  {
   "name": "Microglial phagocytosis of protein aggregates, neurons and synapses (updated)",
@@ -195,6 +210,7 @@
   "svg": "05804de2def8738fd33149d96ef2c3b39d922eed",
   "width": 15000.0,
   "height": 12000.0,
+  "ann": "a473b014bb7c01f6ae1ca7ec14e345c74d2bef46",
   "updated": true
  },
  {
@@ -207,7 +223,8 @@
   "notes": [],
   "svg": "673996858121ed79fc036926025016bbc952d1cd",
   "width": 8312.0,
-  "height": 7020.0
+  "height": 7020.0,
+  "ann": "2f2dc9ed8cbc48fbf80262172b939405443ee495"
  },
  {
   "name": "Neuron signaling",
@@ -219,7 +236,8 @@
   "notes": [],
   "svg": "3beebc33ee929a0e4c51bb8a8428d875a96b7a69",
   "width": 6000.0,
-  "height": 4000.0
+  "height": 4000.0,
+  "ann": "c75f5646577b5ec6f705bda948de79c27226b059"
  },
  {
   "name": "Neuron signaling (updated)",
@@ -232,6 +250,7 @@
   "svg": "5a53c2e13caf6d58fecb912ab46559cd1a258654",
   "width": 6000.0,
   "height": 4000.0,
+  "ann": "84b9cad90ab74236de76a68bc4a018885e5f4199",
   "updated": true
  },
  {
@@ -244,7 +263,8 @@
   "notes": [],
   "svg": "1a1d451ffa140bc08e2986a7ead07746db43bc15",
   "width": 6000.0,
-  "height": 4000.0
+  "height": 4000.0,
+  "ann": "eb9dda73d2cb59a77d8953f3bab0c17a2507e3fb"
  },
  {
   "name": "NLRP3 inflammasome",
@@ -256,7 +276,8 @@
   "notes": [],
   "svg": "28b4be40c4e31088afdbc42faa6738d4d0484d54",
   "width": 4300.0,
-  "height": 3210.0
+  "height": 3210.0,
+  "ann": "c50dbf26ec50baea5972d7e3cae919c33a65706d"
  },
  {
   "name": "NLRP3 inflammasome (updated)",
@@ -269,6 +290,7 @@
   "svg": "f41150d9352174d4c6f71ccdfdd6698c8de229c9",
   "width": 4300.0,
   "height": 3210.0,
+  "ann": "d1ddaee84e24017fbaf0d8307ce12827253c7f52",
   "updated": true
  },
  {
@@ -281,6 +303,7 @@
   "notes": [],
   "svg": "494da4bf2968482009aa56231f308332207b1c7f",
   "width": 13244.0,
-  "height": 7334.0
+  "height": 7334.0,
+  "ann": "33bb64cb149ff1217f5b13c5723623d2469a3ed2"
  }
 ]
