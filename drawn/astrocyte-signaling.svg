@@ -361,6 +361,18 @@
 <text x="5860" y="574" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CD300LF</text>
 <rect x="5405" y="1715" width="80" height="40" rx="5" fill="#e7dbe2" stroke="#000"/>
 <text x="5445" y="1739" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NR0B2</text>
+<rect x="2343" y="291" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="2383" y="315" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IL1RN</text>
+<rect x="4461" y="2236.8" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="4501" y="2260.8" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">OSM</text>
+<rect x="3587.2" y="601" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="3627.2" y="625" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SOCS1</text>
+<rect x="2540" y="630" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="2580" y="654" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">HIF1A</text>
+<rect x="3190" y="2066" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="3230" y="2090" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">BMAL1</text>
+<rect x="1329" y="545" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="1369" y="569" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LDLR</text>
 <rect x="1178" y="560" width="80" height="40" rx="5" fill="#e7dbe2" stroke="#000"/>
 <text x="1218" y="584" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CASR</text>
 <rect x="1178" y="510" width="80" height="40" rx="5" fill="#e7dbe2" stroke="#000"/>
@@ -703,6 +715,13 @@
 <polyline points="6030,665.5 6030,1155.5 2400,1155.5 2401.17,988.5"/>
 <polyline points="5493,1735 5563,1735"/>
 <polyline points="4730,1892 4730.02,1799.92 5522.61,1800.05 5522.5,1735"/>
+<polyline points="2335,311 2250,311 2250,469"/>
+<polyline points="4549,2256.8 4599.98,2256.81 4600,1962"/>
+<polyline points="3577.83,567.01 3627.21,567.02 3627.21,579"/>
+<polyline points="3579.2,621 2619.97,621.02 2620,1889"/>
+<polyline points="2383,393 2383,650 2518,650"/>
+<polyline points="3230,2114 3230,2139"/>
+<polyline points="1417,565 1480,565 1480,571"/>
 </g>
 <polygon points="1168,560 1153,565 1153,555" fill="#000"/>
 <polyline points="1078,560 1154,560" fill="none" stroke="#000000" stroke-width="1"/>
@@ -1224,4 +1243,18 @@
 <polyline points="5485,1735 5571,1735" fill="none" stroke="#000000" stroke-width="1"/>
 <polyline points="4730,1900 4730.02,1799.92 5522.61,1800.05 5522.5,1735" fill="none" stroke="#000000" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(5535,1735) rotate(0)"/>
+<line x1="2244" y1="477" x2="2256" y2="477" stroke="#000"/>
+<polyline points="2343,311 2250,311 2250,477" fill="none" stroke="#e69500" stroke-width="1"/>
+<polygon points="4600,1940 4605,1955 4595,1955" fill="#000"/>
+<polyline points="4541,2256.8 4599.98,2256.81 4600,1954" fill="none" stroke="#e69500" stroke-width="1"/>
+<polygon points="3627.2,601 3622.21,586 3632.21,586" fill="#000"/>
+<polyline points="3569.83,567.01 3627.21,567.02 3627.21,587" fill="none" stroke="#e69500" stroke-width="1"/>
+<line x1="2614" y1="1897" x2="2626" y2="1897" stroke="#000"/>
+<polyline points="3587.2,621 2619.97,621.02 2620,1897" fill="none" stroke="#e69500" stroke-width="1"/>
+<polygon points="2540,650 2525,655 2525,645" fill="#000"/>
+<polyline points="2383,385 2383,650 2526,650" fill="none" stroke="#e69500" stroke-width="1"/>
+<line x1="3224" y1="2147" x2="3236" y2="2147" stroke="#000"/>
+<polyline points="3230,2106 3230,2147" fill="none" stroke="#e69500" stroke-width="1"/>
+<line x1="1486" y1="563" x2="1474" y2="563" stroke="#000"/>
+<polyline points="1409,565 1480,565 1480,563" fill="none" stroke="#e69500" stroke-width="1"/>
 </svg>

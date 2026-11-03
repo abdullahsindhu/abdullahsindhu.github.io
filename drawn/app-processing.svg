@@ -408,6 +408,10 @@
 <text x="3130" y="2134" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">amyloid-beta clearance by phagocytosis</text>
 <circle cx="3258" cy="2058" r="11.25" fill="#ffcccc" stroke="#000"/>
 <line x1="3264" y1="2043" x2="3252" y2="2073" stroke="#000"/>
+<rect x="1252.8" y="2106" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="1292.8" y="2130" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LDLR</text>
+<rect x="1332.2" y="2254.5" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="1372.2" y="2278.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LPL</text>
 <rect x="188.08" y="933" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
 <text x="228.08" y="957" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">PSENEN</text>
 <rect x="188.5" y="975.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
@@ -652,6 +656,8 @@
 <polyline points="1190.5,3347.5 1232.5,3347.5 1232.5,3590.5"/>
 <polyline points="3021.5,2058.72 3221,2058.07"/>
 <polyline points="3129.73,2107 3128.52,2070.87"/>
+<polyline points="1340.8,2126.01 1400.01,2126.02 1400,2157.75"/>
+<polyline points="1380.2,2274.5 1399.97,2274.51 1399.99,2202.25"/>
 </g>
 <polygon points="750,1050 765,1045 765,1055" fill="#000"/>
 <polyline points="870,1050 764,1050" fill="none" stroke="#000000" stroke-width="1"/>
@@ -962,4 +968,8 @@
 <circle cx="3128.42" cy="2067.87" r="3" fill="#fff" stroke="#000"/>
 <polyline points="3130,2115 3128.52,2070.87" fill="none" stroke="#000000" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(3128.25,2058.38) rotate(-0.19)"/>
+<line x1="1394" y1="2165.75" x2="1406" y2="2165.75" stroke="#000"/>
+<polyline points="1332.8,2126.01 1400.01,2126.02 1400,2165.75" fill="none" stroke="#e69500" stroke-width="1"/>
+<line x1="1406" y1="2194.25" x2="1394" y2="2194.25" stroke="#000"/>
+<polyline points="1372.2,2274.5 1399.97,2274.51 1400,2194.25" fill="none" stroke="#e69500" stroke-width="1"/>
 </svg>

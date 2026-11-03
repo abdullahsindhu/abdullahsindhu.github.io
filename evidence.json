@@ -1,0 +1,498 @@
+{
+ "legend": [
+  {
+   "colour": "#ffcc00",
+   "text": "round 1: the strongest candidates"
+  }
+ ],
+ "proteins": [
+  {
+   "name": "IL1RN",
+   "full_name": "interleukin 1 receptor antagonist",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "astrocyte-signaling",
+    "chrneuroinflammation46"
+   ],
+   "summary": "The IL-1 receptor antagonist binds IL-1R1 and blocks IL-1 signalling. IL-1Ra knockout mice have much larger infarcts after transient cerebral ischaemia, with microglia as the protective source, and develop EAE without pertussis toxin. In mouse mixed glial cultures recombinant IL-1Ra abolishes IL-1beta-induced IL-6, NF-kB and MAPK activation.",
+   "links": [
+    "Inhibits the IL-1 receptor (IL1R) in astrocytes and microglia."
+   ],
+   "refs": [
+    {
+     "pmid": "16374779",
+     "cite": "Pinteaux E et al. 2006, Glia."
+    },
+    {
+     "pmid": "16415102",
+     "cite": "Matsuki T et al. 2006, Int Immunol."
+    },
+    {
+     "pmid": "12799018",
+     "cite": "Berglöf E et al. 2003, J Neuroimmunol."
+    },
+    {
+     "pmid": "7589429",
+     "cite": "Schreuder H et al. 1995, FEBS Lett."
+    }
+   ]
+  },
+  {
+   "name": "OSM",
+   "full_name": "oncostatin M",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "altered-bbb-permeability",
+    "astrocyte-signaling",
+    "chrneuroinflammation46"
+   ],
+   "summary": "Oncostatin M, made by CNS myeloid cells, acts on astrocytes and brain endothelium through its receptor OSMR with gp130. It induces IL-6 and STAT1/STAT3 activation in astrocytes and lowers claudin-5 and VE-cadherin in inflamed brain endothelial cells, and the OSM-OSMR axis shapes EAE, BBB leakage and cuprizone demyelination in mice.",
+   "links": [
+    "Binds OSMR on astrocytes and endothelial cells (top-level map).",
+    "Induces IL6 in astrocytes (Astrocyte signaling).",
+    "Lowers claudin-5 in brain endothelium (altered BBB permeability)."
+   ],
+   "refs": [
+    {
+     "pmid": "10377335",
+     "cite": "Van Wagoner NJ et al. 1999, J Neurosci."
+    },
+    {
+     "pmid": "10899931",
+     "cite": "Van Wagoner NJ et al. 2000, J Neurochem."
+    },
+    {
+     "pmid": "25103368",
+     "cite": "Hsu MP et al. 2015, Glia."
+    },
+    {
+     "pmid": "33581044",
+     "cite": "Deerhake ME et al. 2021, Immunity."
+    },
+    {
+     "pmid": "35666306",
+     "cite": "Hermans D et al. 2022, Acta Neuropathol."
+    },
+    {
+     "pmid": "25921393",
+     "cite": "Janssens K et al. 2015, Glia."
+    }
+   ]
+  },
+  {
+   "name": "OSMR",
+   "full_name": "oncostatin M receptor",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "chrneuroinflammation46"
+   ],
+   "summary": "The oncostatin M receptor. Primary mouse astrocytes express OSMR and phosphorylate STAT1 and STAT3 on OSM, while microglia do not. Astrocyte-specific OsmR deletion worsens EAE, and OSMRbeta-deficient mice show less BBB leakage and Th17 infiltration.",
+   "links": [
+    "Activates JAK-STAT signalling in astrocytes.",
+    "Increases BBB permeability in endothelial cells."
+   ],
+   "refs": [
+    {
+     "pmid": "25103368",
+     "cite": "Hsu MP et al. 2015, Glia."
+    },
+    {
+     "pmid": "10899931",
+     "cite": "Van Wagoner NJ et al. 2000, J Neurochem."
+    },
+    {
+     "pmid": "33581044",
+     "cite": "Deerhake ME et al. 2021, Immunity."
+    },
+    {
+     "pmid": "35666306",
+     "cite": "Hermans D et al. 2022, Acta Neuropathol."
+    },
+    {
+     "pmid": "32071226",
+     "cite": "Houben E et al. 2020, Proc Natl Acad Sci U S A."
+    }
+   ]
+  },
+  {
+   "name": "SOCS1",
+   "full_name": "suppressor of cytokine signaling 1",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "astrocyte-signaling",
+    "chrneuroinflammation46"
+   ],
+   "summary": "Suppressor of cytokine signalling 1 limits interferon signalling in glia. SOCS1 expressed in oligodendrocytes (PLP/SOCS1 mice) lowers their IFN-gamma responsiveness and changes the course of EAE. In primary mouse astrocytes interferon induces SOCS1, and SOCS1 knockdown raises interferon-induced CXCL10, CCL2 and CCL5.",
+   "links": [
+    "Inhibits IFN-gamma receptor signalling in oligodendrocytes (top-level map).",
+    "Induced by IFN-gamma receptor signalling and represses CXCL10 in astrocytes (Astrocyte signaling)."
+   ],
+   "refs": [
+    {
+     "pmid": "16687505",
+     "cite": "Balabanov R et al. 2006, J Neurosci."
+    },
+    {
+     "pmid": "17314297",
+     "cite": "Balabanov R et al. 2007, J Neurosci."
+    },
+    {
+     "pmid": "18713987",
+     "cite": "Qin H et al. 2008, J Immunol."
+    },
+    {
+     "pmid": "24963279",
+     "cite": "Kim JH et al. 2014, Exp Neurobiol."
+    }
+   ]
+  },
+  {
+   "name": "TAB2",
+   "full_name": "TGF-beta activated kinase 1 (MAP3K7) binding protein 2",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "chrneuroinflammation46"
+   ],
+   "summary": "TAB2 links upstream signals to TAK1. In primary mouse microglia K63 ubiquitination of TAB2 drives TAB1-TAK1-TAB2 complex formation and NF-kB activation, and microglia-specific Tab2 knockdown protects dopaminergic neurons in MPTP mice. TAB2 knockdown also reduces injury after ischaemic stroke.",
+   "links": [
+    "Activates NF-kB signalling in microglia."
+   ],
+   "refs": [
+    {
+     "pmid": "42606072",
+     "cite": "Zhao Y et al. 2026, Adv Sci (Weinh)."
+    },
+    {
+     "pmid": "35217833",
+     "cite": "Xia Q et al. 2022, Exp Mol Med."
+    },
+    {
+     "pmid": "37587766",
+     "cite": "Li Z et al. 2023, Adv Sci (Weinh)."
+    }
+   ]
+  },
+  {
+   "name": "ACKR1",
+   "full_name": "atypical chemokine receptor 1 (Duffy blood group)",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "chrneuroinflammation46"
+   ],
+   "summary": "The atypical chemokine receptor ACKR1 (Darc) shuttles chemokines across endothelium. In mouse EAE its expression in blood-brain barrier endothelial cells depends on endothelial IL-1R1 signalling.",
+   "links": [
+    "Induced by IL-1 receptor signalling in endothelial cells."
+   ],
+   "refs": [
+    {
+     "pmid": "32651669",
+     "cite": "Hauptmann J et al. 2020, Acta Neuropathol."
+    }
+   ]
+  },
+  {
+   "name": "GRN",
+   "full_name": "granulin precursor",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "chrneuroinflammation46",
+    "microglial-phagocytosis-of-protein-aggregates-neurons-and-synapses"
+   ],
+   "summary": "Progranulin restrains microglial activation. Microglia-specific progranulin deletion in mice raises NF-kB activity and TNF, and progranulin-deficient microglia make more C1q and C3 and prune inhibitory synapses. Progranulin-deficient mice also show more microgliosis and neuron loss after MPTP.",
+   "links": [
+    "Lowers TNF production by microglia (top-level map).",
+    "Lowers microglial C1q (Microglial phagocytosis)."
+   ],
+   "refs": [
+    {
+     "pmid": "28438992",
+     "cite": "Krabbe G et al. 2017, Proc Natl Acad Sci U S A."
+    },
+    {
+     "pmid": "27114033",
+     "cite": "Lui H et al. 2016, Cell."
+    },
+    {
+     "pmid": "23041626",
+     "cite": "Martens LH et al. 2012, J Clin Invest."
+    }
+   ]
+  },
+  {
+   "name": "CTSD",
+   "full_name": "cathepsin D",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "mapt-cleavage",
+    "nlrp3-inflammasome"
+   ],
+   "summary": "Cathepsin D is the main lysosomal aspartic protease of the brain. Its loss in mice turns microglia and astrocytes reactive, with iNOS and NO-driven neuronal death. Cathepsin D degrades alpha-synuclein and tau, and its deficiency leads to insoluble alpha-synuclein and hyperphosphorylated tau.",
+   "links": [
+    "Degrades alpha-synuclein in the phagolysosome (NLRP3 inflammasome).",
+    "Degrades tau in neurons (MAPT cleavage)."
+   ],
+   "refs": [
+    {
+     "pmid": "11567042",
+     "cite": "Nakanishi H et al. 2001, J Neurosci."
+    },
+    {
+     "pmid": "35804072",
+     "cite": "Suzuki C et al. 2022, Sci Rep."
+    },
+    {
+     "pmid": "17570679",
+     "cite": "Yamasaki R et al. 2007, Mol Cell Neurosci."
+    },
+    {
+     "pmid": "35287553",
+     "cite": "Prieto Huarcaya S et al. 2022, Autophagy."
+    },
+    {
+     "pmid": "31634558",
+     "cite": "Yang SY et al. 2020, Neurobiol Dis."
+    },
+    {
+     "pmid": "38575959",
+     "cite": "Terron HM et al. 2024, Alzheimers Res Ther."
+    },
+    {
+     "pmid": "20664788",
+     "cite": "Khurana V et al. 2010, PLoS Genet."
+    }
+   ]
+  },
+  {
+   "name": "LDLR",
+   "full_name": "low density lipoprotein receptor",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "app-processing",
+    "astrocyte-signaling",
+    "chrneuroinflammation46"
+   ],
+   "summary": "The LDL receptor takes up apoE and amyloid-beta in the brain. Brain LDLR overexpression lowers apoE by 50 to 90 percent, speeds amyloid-beta clearance and reduces microgliosis and astrogliosis in APP/PS1 mice, and it suppresses microglial activation in tauopathy mice. In primary astrocytes LDLR drives amyloid-beta uptake and lysosomal degradation.",
+   "links": [
+    "Lowers extracellular apoE (top-level map and Astrocyte signaling).",
+    "Clears amyloid-beta 42 into astrocytes (APP processing)."
+   ],
+   "refs": [
+    {
+     "pmid": "20005821",
+     "cite": "Kim J et al. 2009, Neuron."
+    },
+    {
+     "pmid": "34157306",
+     "cite": "Shi Y et al. 2021, Neuron."
+    },
+    {
+     "pmid": "22383525",
+     "cite": "Basak JM et al. 2012, J Biol Chem."
+    }
+   ]
+  },
+  {
+   "name": "LPL",
+   "full_name": "lipoprotein lipase",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "app-processing",
+    "chrneuroinflammation46"
+   ],
+   "summary": "Lipoprotein lipase supports lipid uptake by microglia. Microglia-specific Lpl knockdown in mice lowers lipid uptake and phagocytic capacity, LPL activity rises in the mouse brain during remyelination, and LPL binds amyloid-beta and promotes its uptake by astrocytes and microglia.",
+   "links": [
+    "Supports phagocytosis by microglia (top-level map).",
+    "Promotes amyloid-beta 42 clearance (APP processing)."
+   ],
+   "refs": [
+    {
+     "pmid": "28954222",
+     "cite": "Gao Y et al. 2017, Cell Rep."
+    },
+    {
+     "pmid": "29599706",
+     "cite": "Bruce KD et al. 2018, Front Mol Neurosci."
+    },
+    {
+     "pmid": "33498265",
+     "cite": "Loving BA et al. 2021, Cells."
+    },
+    {
+     "pmid": "21177248",
+     "cite": "Nishitsuji K et al. 2011, J Biol Chem."
+    },
+    {
+     "pmid": "23816988",
+     "cite": "Ma Y et al. 2013, Mol Cell Proteomics."
+    }
+   ]
+  },
+  {
+   "name": "IGF1",
+   "full_name": "insulin like growth factor 1",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "chrneuroinflammation46"
+   ],
+   "summary": "IGF-1 dampens astrocyte inflammation. In primary mouse astrocytes it lowers LPS-induced IL-6, IL-1beta and TNF, reduces TLR4 and blocks NF-kB p65 nuclear translocation, and it opposes TNF-driven NF-kB signalling in reactive astrocytes. The effect depends on time and sex in culture.",
+   "links": [
+    "Lowers TLR4 and NF-kB signalling in astrocytes."
+   ],
+   "refs": [
+    {
+     "pmid": "21371294",
+     "cite": "Bellini MJ et al. 2011, J Neuroinflammation."
+    },
+    {
+     "pmid": "35175663",
+     "cite": "Pinto-Benito D et al. 2022, Glia."
+    },
+    {
+     "pmid": "22005929",
+     "cite": "Fernandez AM et al. 2012, Mol Psychiatry."
+    },
+    {
+     "pmid": "23586526",
+     "cite": "Grinberg YY et al. 2013, J Neurochem."
+    }
+   ]
+  },
+  {
+   "name": "PKM",
+   "full_name": "pyruvate kinase M1/2",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "chrneuroinflammation46"
+   ],
+   "summary": "Pyruvate kinase M2 sits in a glycolysis and histone lactylation loop that drives microglial dysfunction in 5XFAD mice, where microglia-specific Pkm2 ablation or PKM2 inhibition improves microglial function, amyloid burden and memory. PKM2-positive microglia are increased around plaques in human Alzheimer disease brain.",
+   "links": [
+    "Drives glycolysis in microglia."
+   ],
+   "refs": [
+    {
+     "pmid": "35303422",
+     "cite": "Pan RY et al. 2022, Cell Metab."
+    },
+    {
+     "pmid": "41039597",
+     "cite": "Lu N et al. 2025, J Neuroinflammation."
+    }
+   ]
+  },
+  {
+   "name": "LDHA",
+   "full_name": "lactate dehydrogenase A",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "chrneuroinflammation46"
+   ],
+   "summary": "Lactate dehydrogenase A supplies the lactate of microglial glycolysis. Microglia-specific Ldha deletion changes microglial histone lactylation and the course of EAE in mice, and LDHA knockdown in microglia lowers glycolysis and shifts their state in an MPTP Parkinson model. The two studies differ on whether LDHA loss is pro- or anti-inflammatory, so only its glycolytic role is drawn.",
+   "links": [
+    "Drives glycolysis in microglia."
+   ],
+   "refs": [
+    {
+     "pmid": "42706251",
+     "cite": "Li J et al. 2026, Nat Commun."
+    },
+    {
+     "pmid": "42026401",
+     "cite": "Yan W et al. 2026, Neuromolecular Med."
+    }
+   ]
+  },
+  {
+   "name": "HIF1A",
+   "full_name": "hypoxia inducible factor 1 subunit alpha",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "altered-bbb-permeability",
+    "astrocyte-signaling",
+    "chrneuroinflammation46"
+   ],
+   "summary": "IL-1beta induces HIF-1alpha and its target VEGF-A in human astrocytes and in mouse brain, and HIF-1alpha is needed for the VEGF-A response. Both proteins are found in reactive astrocytes of active multiple sclerosis lesions, and astrocytic VEGF-A drives BBB breakdown in EAE.",
+   "links": [
+    "Induced by IL-1 signalling and induces VEGFA in astrocytes."
+   ],
+   "refs": [
+    {
+     "pmid": "17015745",
+     "cite": "Argaw AT et al. 2006, J Immunol."
+    },
+    {
+     "pmid": "22653056",
+     "cite": "Argaw AT et al. 2012, J Clin Invest."
+    }
+   ]
+  },
+  {
+   "name": "BMAL1",
+   "full_name": "basic helix-loop-helix ARNT like 1",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "astrocyte-signaling",
+    "chrneuroinflammation46"
+   ],
+   "summary": "The clock protein BMAL1 restrains astrocyte activation. Astrocyte-specific Bmal1 deletion causes astrocyte activation and inflammatory gene expression in vivo, and Bmal1 deletion raises complement C3, mainly in astrocytes, through REV-ERBalpha, with more microglial synapse engulfment.",
+   "links": [
+    "Represses C3 in astrocytes (indirectly, through REV-ERBalpha)."
+   ],
+   "refs": [
+    {
+     "pmid": "30282019",
+     "cite": "Lananna BV et al. 2018, Cell Rep."
+    },
+    {
+     "pmid": "33258449",
+     "cite": "Griffin P et al. 2020, Elife."
+    }
+   ]
+  },
+  {
+   "name": "PTGS2",
+   "full_name": "prostaglandin-endoperoxide synthase 2",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "chrneuroinflammation46"
+   ],
+   "summary": "Cyclooxygenase-2 makes the prostaglandin precursor for PGE2, and in the brain it is induced together with mPGES-1 in activated microglia. PGE2 acting through the microglial EP2 receptor raises COX-2 further. COX-2 deletion made LPS-induced neuroinflammation worse in mice, so COX-2 is drawn as the source of PGE2 only.",
+   "links": [
+    "Produces PGE2 in microglia, induced through PTGER2 (EP2)."
+   ],
+   "refs": [
+    {
+     "pmid": "16000148",
+     "cite": "Ikeda-Matsuo Y et al. 2005, J Neurochem."
+    },
+    {
+     "pmid": "8913778",
+     "cite": "Fiebich BL et al. 1996, Glia."
+    },
+    {
+     "pmid": "9182946",
+     "cite": "Minghetti L et al. 1997, Eur J Neurosci."
+    },
+    {
+     "pmid": "18489773",
+     "cite": "Aid S et al. 2008, J Neuroinflammation."
+    }
+   ]
+  }
+ ]
+}
