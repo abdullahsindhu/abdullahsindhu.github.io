@@ -7,7 +7,7 @@
   "sha1": "51df4b4042e4645f3203569a6a1f3a496807f0d5",
   "error": "",
   "notes": [],
-  "svg": "a79dccdd090ff78c64778dd67b0eb48ac8197d54",
+  "svg": "36bf7234983f7a4d8addffa4069e8b89b8f5aa70",
   "width": 10000.0,
   "height": 7000.0
  },
@@ -18,10 +18,8 @@
   "file": "maps/submaps/altered BBB permeability.xml",
   "sha1": "9c149f8032a20b244549aa534be7f32190e3b031",
   "error": "",
-  "notes": [
-   "re190: 2 base reactants and 1 base products, not drawn"
-  ],
-  "svg": "748b3d3473dcf11cc1516225550ebb3be4f26f65",
+  "notes": [],
+  "svg": "0300f001130407e7258414ee2054cd4e9519a06c",
   "width": 8000.0,
   "height": 9000.0
  },
@@ -33,7 +31,7 @@
   "sha1": "de6595b89a60ae3184255a29973399ee488a4bfb",
   "error": "",
   "notes": [],
-  "svg": "9ef8cd14e31e3d517fb7182a715a8d06bdb8a06c",
+  "svg": "56969b7ca019486a0a4739f82a52a3329a754529",
   "width": 7500.0,
   "height": 4334.0
  },
@@ -45,7 +43,7 @@
   "sha1": "70a4c8fa17906a8f97bc51248ded5296c9eb976b",
   "error": "",
   "notes": [],
-  "svg": "eb164de6573f8f04641ef91277cad14f179fef58",
+  "svg": "08499b9495a234709c5eb6b43311749656486855",
   "width": 4000.0,
   "height": 4500.0
  },
@@ -57,7 +55,7 @@
   "sha1": "fbeb60cbb8c4aa63b5f1c80e0e60ea25a957e777",
   "error": "",
   "notes": [],
-  "svg": "e6032fffbe543bdf7b3917b9e51ed13f6146f72b",
+  "svg": "fd71f2de6b021f46703f461d41fba4f4cc69bb68",
   "width": 13244.0,
   "height": 7334.0
  },
@@ -68,16 +66,8 @@
   "file": "maps/submaps/Ferroptosis.xml",
   "sha1": "4027d27d9799972e7e5d39eebb4ddf13499bc327",
   "error": "",
-  "notes": [
-   "re47: 1 base reactants and 2 base products, not drawn",
-   "re57: 2 base reactants and 1 base products, not drawn",
-   "re58: 2 base reactants and 1 base products, not drawn",
-   "re59: 1 base reactants and 2 base products, not drawn",
-   "re97: 2 base reactants and 1 base products, not drawn",
-   "re100: 2 base reactants and 1 base products, not drawn",
-   "re101: 1 base reactants and 2 base products, not drawn"
-  ],
-  "svg": "24977a4a50f9156d537537c389bfe9a7affc76f8",
+  "notes": [],
+  "svg": "403fe964709a7367353694dbf781b1c822f1441e",
   "width": 7000.0,
   "height": 6200.0
  },
@@ -89,7 +79,7 @@
   "sha1": "2e77e78eeb36ccf79151401de41ebf1bddea840b",
   "error": "",
   "notes": [],
-  "svg": "1cae2ec35d994ac30f4bfbbaf54e05549c376259",
+  "svg": "f1ed1412d83bb24026a00f64d4444e11260da15d",
   "width": 3500.0,
   "height": 3200.0
  },
@@ -100,13 +90,8 @@
   "file": "maps/submaps/MAPT cleavage.xml",
   "sha1": "00768be24f3a0d951aa1813300da086661c4c2e5",
   "error": "",
-  "notes": [
-   "re10: 2 base reactants and 1 base products, not drawn",
-   "re11: 1 base reactants and 2 base products, not drawn",
-   "re22: 2 base reactants and 1 base products, not drawn",
-   "re23: 1 base reactants and 2 base products, not drawn"
-  ],
-  "svg": "7309e740fc1bb916244cbeb1274c8c70f481e014",
+  "notes": [],
+  "svg": "aad6276264877e9c67731e0dc5c4c1261310cc0a",
   "width": 6231.0,
   "height": 5114.0
  },
@@ -118,7 +103,7 @@
   "sha1": "f5e1ba24eb4916ecc9cdbdbefefbe3797463be8e",
   "error": "",
   "notes": [],
-  "svg": "1535098e3461a5013300a808a0aa9f43118ca40c",
+  "svg": "60a09cc24d99e879582b806560302fe68ff24525",
   "width": 5800.0,
   "height": 2000.0
  },
@@ -129,10 +114,8 @@
   "file": "maps/submaps/Microglial phagocytosis of protein aggregates, neurons and synapses.xml",
   "sha1": "9f34a471f29dac1bde81a5e9e7e98fa82e58fe31",
   "error": "",
-  "notes": [
-   "re618: 2 base reactants and 1 base products, not drawn"
-  ],
-  "svg": "1a99fd9c7d7a5918af15e4df204f4d6712546c64",
+  "notes": [],
+  "svg": "211a16226f122675e3361e5161f4bc4ddd1521fa",
   "width": 15000.0,
   "height": 12000.0
  },
@@ -143,11 +126,8 @@
   "file": "maps/submaps/Mitophagy and mitochondrial-derived vesicles.xml",
   "sha1": "e9c836a429f88eed468eccc54d193c0b7911f637",
   "error": "",
-  "notes": [
-   "re8: 2 base reactants and 1 base products, not drawn",
-   "re33: 2 base reactants and 1 base products, not drawn"
-  ],
-  "svg": "06559c82581e7f2de2221cc712b7b9875170d2f8",
+  "notes": [],
+  "svg": "714cd8066f0faeffff5b873882136827ad8b0003",
   "width": 8312.0,
   "height": 7020.0
  },
@@ -159,7 +139,7 @@
   "sha1": "743f93e4c8aed877236535ae2348ddff268e0952",
   "error": "",
   "notes": [],
-  "svg": "b078ddda97c21cb6863a0968533c8c1dc24eac87",
+  "svg": "b4bf51fbe713f4b4a80a2a97d144f44106d00483",
   "width": 6000.0,
   "height": 4000.0
  },
@@ -171,7 +151,7 @@
   "sha1": "8276407a816592ad549b475bf3e8d9ccd068dbdb",
   "error": "",
   "notes": [],
-  "svg": "3440714d1ef56ff1428cd84ceef077b29440ba56",
+  "svg": "1a1d451ffa140bc08e2986a7ead07746db43bc15",
   "width": 6000.0,
   "height": 4000.0
  },
@@ -183,7 +163,7 @@
   "sha1": "2f8fbd43e61c6e63e62c0843505cbad26c9d5cf9",
   "error": "",
   "notes": [],
-  "svg": "0f63df7cdef58c44caa357e35c1f39b1e6fead5b",
+  "svg": "15172415afce5bf6dfbc0075895593c111fb6a86",
   "width": 4300.0,
   "height": 3210.0
  },
@@ -195,7 +175,7 @@
   "sha1": "c30fcdc5b159ed11db388682e76c0888c6ad1ae5",
   "error": "",
   "notes": [],
-  "svg": "9f62835502a575793e029a09c62e29fe731dd471",
+  "svg": "b22afdf420e09fe33f57cb9e84b0a967712f31e9",
   "width": 13244.0,
   "height": 7334.0
  }

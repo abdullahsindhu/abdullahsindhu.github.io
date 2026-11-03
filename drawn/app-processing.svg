@@ -1,157 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="4000" height="4500" viewBox="0 0 4000 4500">
 <rect width="100%" height="100%" fill="#fff"/>
-<path d="M450 1970 H3600 A20 20 0 0 1 3620 1990 V3990 A20 20 0 0 1 3600 4010 H450 A20 20 0 0 1 430 3990 V1990 A20 20 0 0 1 450 1970 Z M456 1982 H3594 A14 14 0 0 1 3608 1996 V3984 A14 14 0 0 1 3594 3998 H456 A14 14 0 0 1 442 3984 V1996 A14 14 0 0 1 456 1982 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="430" y="1970" width="3190" height="2040" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="442" y="1982" width="3166" height="2016" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M450 1970 H3600 A20 20 0 0 1 3620 1990 V3990 A20 20 0 0 1 3600 4010 H450 A20 20 0 0 1 430 3990 V1990 A20 20 0 0 1 450 1970 Z M456 1982 H3594 A14 14 0 0 1 3608 1996 V3984 A14 14 0 0 1 3594 3998 H456 A14 14 0 0 1 442 3984 V1996 A14 14 0 0 1 456 1982 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="430" y="1970" width="3190" height="2040" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="442" y="1982" width="3166" height="2016" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2560.5" y="2534" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">amyloid-beta clearance</text>
-<path d="M70 230 H3580 A20 20 0 0 1 3600 250 V1020 A20 20 0 0 1 3580 1040 H70 A20 20 0 0 1 50 1020 V250 A20 20 0 0 1 70 230 Z M76 242 H3574 A14 14 0 0 1 3588 256 V1014 A14 14 0 0 1 3574 1028 H76 A14 14 0 0 1 62 1014 V256 A14 14 0 0 1 76 242 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="50" y="230" width="3550" height="810" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="62" y="242" width="3526" height="786" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M70 230 H3580 A20 20 0 0 1 3600 250 V1020 A20 20 0 0 1 3580 1040 H70 A20 20 0 0 1 50 1020 V250 A20 20 0 0 1 70 230 Z M76 242 H3574 A14 14 0 0 1 3588 256 V1014 A14 14 0 0 1 3574 1028 H76 A14 14 0 0 1 62 1014 V256 A14 14 0 0 1 76 242 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="50" y="230" width="3550" height="810" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="62" y="242" width="3526" height="786" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1175" y="595" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">neuron</text>
-<path d="M742.5 2250 H2340 A20 20 0 0 1 2360 2270 V3187.5 A20 20 0 0 1 2340 3207.5 H742.5 A20 20 0 0 1 722.5 3187.5 V2270 A20 20 0 0 1 742.5 2250 Z M748.5 2262 H2334 A14 14 0 0 1 2348 2276 V3181.5 A14 14 0 0 1 2334 3195.5 H748.5 A14 14 0 0 1 734.5 3181.5 V2276 A14 14 0 0 1 748.5 2262 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="722.5" y="2250" width="1637.5" height="957.5" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="734.5" y="2262" width="1613.5" height="933.5" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M742.5 2250 H2340 A20 20 0 0 1 2360 2270 V3187.5 A20 20 0 0 1 2340 3207.5 H742.5 A20 20 0 0 1 722.5 3187.5 V2270 A20 20 0 0 1 742.5 2250 Z M748.5 2262 H2334 A14 14 0 0 1 2348 2276 V3181.5 A14 14 0 0 1 2334 3195.5 H748.5 A14 14 0 0 1 734.5 3181.5 V2276 A14 14 0 0 1 748.5 2262 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="722.5" y="2250" width="1637.5" height="957.5" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="734.5" y="2262" width="1613.5" height="933.5" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1353" y="2844" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">astrocyte</text>
-<ellipse cx="2395" cy="496.25" rx="659" ry="240.25" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="2395" cy="496.25" rx="665" ry="246.25" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="2395" cy="496.25" rx="653" ry="234.25" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="2395" cy="496.25" rx="659" ry="240.25" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="2395" cy="496.25" rx="665" ry="246.25" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="2395" cy="496.25" rx="653" ry="234.25" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2039" y="534" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">endosome</text>
-<path d="M2030 3237.5 H2907.5 A20 20 0 0 1 2927.5 3257.5 V3910 A20 20 0 0 1 2907.5 3930 H2030 A20 20 0 0 1 2010 3910 V3257.5 A20 20 0 0 1 2030 3237.5 Z M2036 3249.5 H2901.5 A14 14 0 0 1 2915.5 3263.5 V3904 A14 14 0 0 1 2901.5 3918 H2036 A14 14 0 0 1 2022 3904 V3263.5 A14 14 0 0 1 2036 3249.5 Z" fill="#0099ff" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="2010" y="3237.5" width="917.5" height="692.5" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="2022" y="3249.5" width="893.5" height="668.5" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M2030 3237.5 H2907.5 A20 20 0 0 1 2927.5 3257.5 V3910 A20 20 0 0 1 2907.5 3930 H2030 A20 20 0 0 1 2010 3910 V3257.5 A20 20 0 0 1 2030 3237.5 Z M2036 3249.5 H2901.5 A14 14 0 0 1 2915.5 3263.5 V3904 A14 14 0 0 1 2901.5 3918 H2036 A14 14 0 0 1 2022 3904 V3263.5 A14 14 0 0 1 2036 3249.5 Z" fill="#0099ff" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="2010" y="3237.5" width="917.5" height="692.5" rx="20" fill="none" stroke="#0099ff" stroke-width="2"/>
+<rect x="2022" y="3249.5" width="893.5" height="668.5" rx="14" fill="none" stroke="#0099ff" stroke-width="1"/>
 <text x="2430" y="3324" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">cerebral endothelial cell</text>
-<path d="M752.5 3502.5 H1632.5 A20 20 0 0 1 1652.5 3522.5 V3907.5 A20 20 0 0 1 1632.5 3927.5 H752.5 A20 20 0 0 1 732.5 3907.5 V3522.5 A20 20 0 0 1 752.5 3502.5 Z M758.5 3514.5 H1626.5 A14 14 0 0 1 1640.5 3528.5 V3901.5 A14 14 0 0 1 1626.5 3915.5 H758.5 A14 14 0 0 1 744.5 3901.5 V3528.5 A14 14 0 0 1 758.5 3514.5 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="732.5" y="3502.5" width="920" height="425" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="744.5" y="3514.5" width="896" height="401" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M752.5 3502.5 H1632.5 A20 20 0 0 1 1652.5 3522.5 V3907.5 A20 20 0 0 1 1632.5 3927.5 H752.5 A20 20 0 0 1 732.5 3907.5 V3522.5 A20 20 0 0 1 752.5 3502.5 Z M758.5 3514.5 H1626.5 A14 14 0 0 1 1640.5 3528.5 V3901.5 A14 14 0 0 1 1626.5 3915.5 H758.5 A14 14 0 0 1 744.5 3901.5 V3528.5 A14 14 0 0 1 758.5 3514.5 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="732.5" y="3502.5" width="920" height="425" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="744.5" y="3514.5" width="896" height="401" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1222" y="3907.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">lymphatic system</text>
-<path d="M3070 3237.5 H3467.5 A20 20 0 0 1 3487.5 3257.5 V3910 A20 20 0 0 1 3467.5 3930 H3070 A20 20 0 0 1 3050 3910 V3257.5 A20 20 0 0 1 3070 3237.5 Z M3076 3249.5 H3461.5 A14 14 0 0 1 3475.5 3263.5 V3904 A14 14 0 0 1 3461.5 3918 H3076 A14 14 0 0 1 3062 3904 V3263.5 A14 14 0 0 1 3076 3249.5 Z" fill="#0033ff" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="3050" y="3237.5" width="437.5" height="692.5" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="3062" y="3249.5" width="413.5" height="668.5" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M3070 3237.5 H3467.5 A20 20 0 0 1 3487.5 3257.5 V3910 A20 20 0 0 1 3467.5 3930 H3070 A20 20 0 0 1 3050 3910 V3257.5 A20 20 0 0 1 3070 3237.5 Z M3076 3249.5 H3461.5 A14 14 0 0 1 3475.5 3263.5 V3904 A14 14 0 0 1 3461.5 3918 H3076 A14 14 0 0 1 3062 3904 V3263.5 A14 14 0 0 1 3076 3249.5 Z" fill="#0033ff" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="3050" y="3237.5" width="437.5" height="692.5" rx="20" fill="none" stroke="#0033ff" stroke-width="2"/>
+<rect x="3062" y="3249.5" width="413.5" height="668.5" rx="14" fill="none" stroke="#0033ff" stroke-width="1"/>
 <text x="3208.5" y="3356.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">venous blood vessel</text>
-<path d="M882.5 3542.5 H1562.5 A20 20 0 0 1 1582.5 3562.5 V3847.5 A20 20 0 0 1 1562.5 3867.5 H882.5 A20 20 0 0 1 862.5 3847.5 V3562.5 A20 20 0 0 1 882.5 3542.5 Z M888.5 3554.5 H1556.5 A14 14 0 0 1 1570.5 3568.5 V3841.5 A14 14 0 0 1 1556.5 3855.5 H888.5 A14 14 0 0 1 874.5 3841.5 V3568.5 A14 14 0 0 1 888.5 3554.5 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="862.5" y="3542.5" width="720" height="325" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="874.5" y="3554.5" width="696" height="301" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M882.5 3542.5 H1562.5 A20 20 0 0 1 1582.5 3562.5 V3847.5 A20 20 0 0 1 1562.5 3867.5 H882.5 A20 20 0 0 1 862.5 3847.5 V3562.5 A20 20 0 0 1 882.5 3542.5 Z M888.5 3554.5 H1556.5 A14 14 0 0 1 1570.5 3568.5 V3841.5 A14 14 0 0 1 1556.5 3855.5 H888.5 A14 14 0 0 1 874.5 3841.5 V3568.5 A14 14 0 0 1 888.5 3554.5 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="862.5" y="3542.5" width="720" height="325" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="874.5" y="3554.5" width="696" height="301" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1307.5" y="3847.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">lymph node</text>
-<path d="M742.5 3237.5 H1632.5 A20 20 0 0 1 1652.5 3257.5 V3457.5 A20 20 0 0 1 1632.5 3477.5 H742.5 A20 20 0 0 1 722.5 3457.5 V3257.5 A20 20 0 0 1 742.5 3237.5 Z M748.5 3249.5 H1626.5 A14 14 0 0 1 1640.5 3263.5 V3451.5 A14 14 0 0 1 1626.5 3465.5 H748.5 A14 14 0 0 1 734.5 3451.5 V3263.5 A14 14 0 0 1 748.5 3249.5 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="722.5" y="3237.5" width="930" height="240" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="734.5" y="3249.5" width="906" height="216" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M742.5 3237.5 H1632.5 A20 20 0 0 1 1652.5 3257.5 V3457.5 A20 20 0 0 1 1632.5 3477.5 H742.5 A20 20 0 0 1 722.5 3457.5 V3257.5 A20 20 0 0 1 742.5 3237.5 Z M748.5 3249.5 H1626.5 A14 14 0 0 1 1640.5 3263.5 V3451.5 A14 14 0 0 1 1626.5 3465.5 H748.5 A14 14 0 0 1 734.5 3451.5 V3263.5 A14 14 0 0 1 748.5 3249.5 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="722.5" y="3237.5" width="930" height="240" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="734.5" y="3249.5" width="906" height="216" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1256" y="3454" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">glymphatic system</text>
-<path d="M1702.5 3227.5 H1910 A20 20 0 0 1 1930 3247.5 V3910 A20 20 0 0 1 1910 3930 H1702.5 A20 20 0 0 1 1682.5 3910 V3247.5 A20 20 0 0 1 1702.5 3227.5 Z M1708.5 3239.5 H1904 A14 14 0 0 1 1918 3253.5 V3904 A14 14 0 0 1 1904 3918 H1708.5 A14 14 0 0 1 1694.5 3904 V3253.5 A14 14 0 0 1 1708.5 3239.5 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="1682.5" y="3227.5" width="247.5" height="702.5" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="1694.5" y="3239.5" width="223.5" height="678.5" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M1702.5 3227.5 H1910 A20 20 0 0 1 1930 3247.5 V3910 A20 20 0 0 1 1910 3930 H1702.5 A20 20 0 0 1 1682.5 3910 V3247.5 A20 20 0 0 1 1702.5 3227.5 Z M1708.5 3239.5 H1904 A14 14 0 0 1 1918 3253.5 V3904 A14 14 0 0 1 1904 3918 H1708.5 A14 14 0 0 1 1694.5 3904 V3253.5 A14 14 0 0 1 1708.5 3239.5 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="1682.5" y="3227.5" width="247.5" height="702.5" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="1694.5" y="3239.5" width="223.5" height="678.5" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1729.5" y="3524" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">brain intesrtitial fluid</text>
-<ellipse cx="2830" cy="880" rx="274" ry="134" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="2830" cy="880" rx="280" ry="140" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="2830" cy="880" rx="268" ry="128" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="2830" cy="880" rx="274" ry="134" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="2830" cy="880" rx="280" ry="140" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="2830" cy="880" rx="268" ry="128" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2799" y="874" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">endosome</text>
-<path d="M1050 370 H1692.5 A20 20 0 0 1 1712.5 390 V550.5 A20 20 0 0 1 1692.5 570.5 H1050 A20 20 0 0 1 1030 550.5 V390 A20 20 0 0 1 1050 370 Z M1056 382 H1686.5 A14 14 0 0 1 1700.5 396 V544.5 A14 14 0 0 1 1686.5 558.5 H1056 A14 14 0 0 1 1042 544.5 V396 A14 14 0 0 1 1056 382 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="1030" y="370" width="682.5" height="200.5" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="1042" y="382" width="658.5" height="176.5" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M1050 370 H1692.5 A20 20 0 0 1 1712.5 390 V550.5 A20 20 0 0 1 1692.5 570.5 H1050 A20 20 0 0 1 1030 550.5 V390 A20 20 0 0 1 1050 370 Z M1056 382 H1686.5 A14 14 0 0 1 1700.5 396 V544.5 A14 14 0 0 1 1686.5 558.5 H1056 A14 14 0 0 1 1042 544.5 V396 A14 14 0 0 1 1056 382 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="1030" y="370" width="682.5" height="200.5" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="1042" y="382" width="658.5" height="176.5" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1344" y="474" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">endoplasmic reticulum</text>
-<path d="M882.5 3277.5 H1542.5 A20 20 0 0 1 1562.5 3297.5 V3417.5 A20 20 0 0 1 1542.5 3437.5 H882.5 A20 20 0 0 1 862.5 3417.5 V3297.5 A20 20 0 0 1 882.5 3277.5 Z M888.5 3289.5 H1536.5 A14 14 0 0 1 1550.5 3303.5 V3411.5 A14 14 0 0 1 1536.5 3425.5 H888.5 A14 14 0 0 1 874.5 3411.5 V3303.5 A14 14 0 0 1 888.5 3289.5 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="862.5" y="3277.5" width="700" height="160" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="874.5" y="3289.5" width="676" height="136" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M882.5 3277.5 H1542.5 A20 20 0 0 1 1562.5 3297.5 V3417.5 A20 20 0 0 1 1542.5 3437.5 H882.5 A20 20 0 0 1 862.5 3417.5 V3297.5 A20 20 0 0 1 882.5 3277.5 Z M888.5 3289.5 H1536.5 A14 14 0 0 1 1550.5 3303.5 V3411.5 A14 14 0 0 1 1536.5 3425.5 H888.5 A14 14 0 0 1 874.5 3411.5 V3303.5 A14 14 0 0 1 888.5 3289.5 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="862.5" y="3277.5" width="700" height="160" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="874.5" y="3289.5" width="676" height="136" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1247" y="3414" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">cerebro spinal fluid (CSF)</text>
-<ellipse cx="1887.5" cy="2790" rx="221.5" ry="114" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="1887.5" cy="2790" rx="227.5" ry="120" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="1887.5" cy="2790" rx="215.5" ry="108" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="1887.5" cy="2790" rx="221.5" ry="114" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="1887.5" cy="2790" rx="227.5" ry="120" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="1887.5" cy="2790" rx="215.5" ry="108" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1832.5" y="2874" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">sorting endosome</text>
-<path d="M1185 2390 H1550 A20 20 0 0 1 1570 2410 V2600 A20 20 0 0 1 1550 2620 H1185 A20 20 0 0 1 1165 2600 V2410 A20 20 0 0 1 1185 2390 Z M1191 2402 H1544 A14 14 0 0 1 1558 2416 V2594 A14 14 0 0 1 1544 2608 H1191 A14 14 0 0 1 1177 2594 V2416 A14 14 0 0 1 1191 2402 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="1165" y="2390" width="405" height="230" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="1177" y="2402" width="381" height="206" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M1185 2390 H1550 A20 20 0 0 1 1570 2410 V2600 A20 20 0 0 1 1550 2620 H1185 A20 20 0 0 1 1165 2600 V2410 A20 20 0 0 1 1185 2390 Z M1191 2402 H1544 A14 14 0 0 1 1558 2416 V2594 A14 14 0 0 1 1544 2608 H1191 A14 14 0 0 1 1177 2594 V2416 A14 14 0 0 1 1191 2402 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="1165" y="2390" width="405" height="230" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="1177" y="2402" width="381" height="206" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1347.5" y="2594" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">nucleus</text>
-<ellipse cx="2607.5" cy="3522.5" rx="154" ry="126.5" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="2607.5" cy="3522.5" rx="160" ry="132.5" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="2607.5" cy="3522.5" rx="148" ry="120.5" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="2607.5" cy="3522.5" rx="154" ry="126.5" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="2607.5" cy="3522.5" rx="160" ry="132.5" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="2607.5" cy="3522.5" rx="148" ry="120.5" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2545" y="3446.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">sorting endosome</text>
-<path d="M245 643 H595 A20 20 0 0 1 615 663 V837 A20 20 0 0 1 595 857 H245 A20 20 0 0 1 225 837 V663 A20 20 0 0 1 245 643 Z M251 655 H589 A14 14 0 0 1 603 669 V831 A14 14 0 0 1 589 845 H251 A14 14 0 0 1 237 831 V669 A14 14 0 0 1 251 655 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="225" y="643" width="390" height="214" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="237" y="655" width="366" height="190" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M245 643 H595 A20 20 0 0 1 615 663 V837 A20 20 0 0 1 595 857 H245 A20 20 0 0 1 225 837 V663 A20 20 0 0 1 245 643 Z M251 655 H589 A14 14 0 0 1 603 669 V831 A14 14 0 0 1 589 845 H251 A14 14 0 0 1 237 831 V669 A14 14 0 0 1 251 655 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="225" y="643" width="390" height="214" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="237" y="655" width="366" height="190" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="382.5" y="777" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">nucleus</text>
-<ellipse cx="1990" cy="3090" rx="194" ry="94" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="1990" cy="3090" rx="200" ry="100" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="1990" cy="3090" rx="188" ry="88" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="1990" cy="3090" rx="194" ry="94" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="1990" cy="3090" rx="200" ry="100" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="1990" cy="3090" rx="188" ry="88" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1970" y="3146.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">lysosome</text>
-<ellipse cx="1850" cy="2510" rx="179" ry="99" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="1850" cy="2510" rx="185" ry="105" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="1850" cy="2510" rx="173" ry="93" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="1850" cy="2510" rx="179" ry="99" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="1850" cy="2510" rx="185" ry="105" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="1850" cy="2510" rx="173" ry="93" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1913" y="2524" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">early endosome</text>
-<ellipse cx="2236.25" cy="3783.75" rx="137.75" ry="107.75" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="2236.25" cy="3783.75" rx="143.75" ry="113.75" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="2236.25" cy="3783.75" rx="131.75" ry="101.75" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="2236.25" cy="3783.75" rx="137.75" ry="107.75" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="2236.25" cy="3783.75" rx="143.75" ry="113.75" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="2236.25" cy="3783.75" rx="131.75" ry="101.75" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2180.5" y="3866.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">early endosome</text>
-<path d="M887.5 3016.25 H1197.5 A20 20 0 0 1 1217.5 3036.25 V3158.75 A20 20 0 0 1 1197.5 3178.75 H887.5 A20 20 0 0 1 867.5 3158.75 V3036.25 A20 20 0 0 1 887.5 3016.25 Z M893.5 3028.25 H1191.5 A14 14 0 0 1 1205.5 3042.25 V3152.75 A14 14 0 0 1 1191.5 3166.75 H893.5 A14 14 0 0 1 879.5 3152.75 V3042.25 A14 14 0 0 1 893.5 3028.25 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="867.5" y="3016.25" width="350" height="162.5" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="879.5" y="3028.25" width="326" height="138.5" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M887.5 3016.25 H1197.5 A20 20 0 0 1 1217.5 3036.25 V3158.75 A20 20 0 0 1 1197.5 3178.75 H887.5 A20 20 0 0 1 867.5 3158.75 V3036.25 A20 20 0 0 1 887.5 3016.25 Z M893.5 3028.25 H1191.5 A14 14 0 0 1 1205.5 3042.25 V3152.75 A14 14 0 0 1 1191.5 3166.75 H893.5 A14 14 0 0 1 879.5 3152.75 V3042.25 A14 14 0 0 1 893.5 3028.25 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="867.5" y="3016.25" width="350" height="162.5" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="879.5" y="3028.25" width="326" height="138.5" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="978" y="3091.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">astrocyte end-foot</text>
-<path d="M1298 674 H1540 A20 20 0 0 1 1560 694 V846 A20 20 0 0 1 1540 866 H1298 A20 20 0 0 1 1278 846 V694 A20 20 0 0 1 1298 674 Z M1304 686 H1534 A14 14 0 0 1 1548 700 V840 A14 14 0 0 1 1534 854 H1304 A14 14 0 0 1 1290 840 V700 A14 14 0 0 1 1304 686 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="1278" y="674" width="282" height="192" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="1290" y="686" width="258" height="168" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M1298 674 H1540 A20 20 0 0 1 1560 694 V846 A20 20 0 0 1 1540 866 H1298 A20 20 0 0 1 1278 846 V694 A20 20 0 0 1 1298 674 Z M1304 686 H1534 A14 14 0 0 1 1548 700 V840 A14 14 0 0 1 1534 854 H1304 A14 14 0 0 1 1290 840 V700 A14 14 0 0 1 1304 686 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="1278" y="674" width="282" height="192" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="1290" y="686" width="258" height="168" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1378" y="824" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">Golgi complex</text>
-<ellipse cx="2197.5" cy="3386.5" rx="84" ry="89" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="2197.5" cy="3386.5" rx="90" ry="95" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="2197.5" cy="3386.5" rx="78" ry="83" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="2197.5" cy="3386.5" rx="84" ry="89" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="2197.5" cy="3386.5" rx="90" ry="95" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="2197.5" cy="3386.5" rx="78" ry="83" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2139.5" y="3365.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">recycling endosome</text>
-<polygon points="83.5,913.5 376.5,913.5 381.5,918.5 381.5,1061.5 376.5,1066.5 83.5,1066.5 78.5,1061.5 78.5,918.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="83.5,913.5 376.5,913.5 381.5,918.5 381.5,1061.5 376.5,1066.5 83.5,1066.5 78.5,1061.5 78.5,918.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="230" y="1059.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">gamma secretase complex</text>
-<polygon points="975,991.5 1145,991.5 1150,996.5 1150,1063.5 1145,1068.5 975,1068.5 970,1063.5 970,996.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="975,991.5 1145,991.5 1150,996.5 1150,1063.5 1145,1068.5 975,1068.5 970,1063.5 970,996.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="1060" y="1061.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SORL1:APP</text>
-<polygon points="2923.5,1832.25 3020.5,1832.25 3025.5,1837.25 3025.5,1900.25 3020.5,1905.25 2923.5,1905.25 2918.5,1900.25 2918.5,1837.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2923.5,1832.25 3020.5,1832.25 3025.5,1837.25 3025.5,1900.25 3020.5,1905.25 2923.5,1905.25 2918.5,1900.25 2918.5,1837.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2972" y="1898.25" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="3294,1076.5 3391,1076.5 3396,1081.5 3396,1144.5 3391,1149.5 3294,1149.5 3289,1144.5 3289,1081.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="3294,1076.5 3391,1076.5 3396,1081.5 3396,1144.5 3391,1149.5 3294,1149.5 3289,1144.5 3289,1081.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="3342.5" y="1142.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="2924,1658.5 3021,1658.5 3026,1663.5 3026,1726.5 3021,1731.5 2924,1731.5 2919,1726.5 2919,1663.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2924,1658.5 3021,1658.5 3026,1663.5 3026,1726.5 3021,1731.5 2924,1731.5 2919,1726.5 2919,1663.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2972.5" y="1724.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">fibril</text>
-<polygon points="2924.25,1482.5 3021.25,1482.5 3026.25,1487.5 3026.25,1550.5 3021.25,1555.5 2924.25,1555.5 2919.25,1550.5 2919.25,1487.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2924.25,1482.5 3021.25,1482.5 3026.25,1487.5 3026.25,1550.5 3021.25,1555.5 2924.25,1555.5 2919.25,1550.5 2919.25,1487.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2972.75" y="1548.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">protofibril</text>
-<polygon points="3145,1295 3235,1295 3240,1300 3240,1400 3235,1405 3145,1405 3140,1400 3140,1300" fill="#f7f7f7" stroke="#000"/>
+<polygon points="3145,1295 3235,1295 3240,1300 3240,1400 3235,1405 3145,1405 3140,1400 3140,1300" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="3190" y="1398" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MME: Zn2+</text>
-<polygon points="2726.44,1483.5 2823.44,1483.5 2828.44,1488.5 2828.44,1551.5 2823.44,1556.5 2726.44,1556.5 2721.44,1551.5 2721.44,1488.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2726.44,1483.5 2823.44,1483.5 2828.44,1488.5 2828.44,1551.5 2823.44,1556.5 2726.44,1556.5 2721.44,1551.5 2721.44,1488.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2774.94" y="1549.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">paranucleus</text>
-<polygon points="2924.5,1343.5 3021.5,1343.5 3026.5,1348.5 3026.5,1411.5 3021.5,1416.5 2924.5,1416.5 2919.5,1411.5 2919.5,1348.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2924.5,1343.5 3021.5,1343.5 3026.5,1348.5 3026.5,1411.5 3021.5,1416.5 2924.5,1416.5 2919.5,1411.5 2919.5,1348.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2973" y="1409.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">oligomer</text>
-<polygon points="1692.5,920 1867.5,920 1872.5,925 1872.5,1035 1867.5,1040 1692.5,1040 1687.5,1035 1687.5,925" fill="#f7f7f7" stroke="#000"/>
+<polygon points="1692.5,920 1867.5,920 1872.5,925 1872.5,1035 1867.5,1040 1692.5,1040 1687.5,1035 1687.5,925" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="1780" y="1033" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP: APBB1: LRP1</text>
-<polygon points="1945,991.5 2115,991.5 2120,996.5 2120,1063.5 2115,1068.5 1945,1068.5 1940,1063.5 1940,996.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="1945,991.5 2115,991.5 2120,996.5 2120,1063.5 2115,1068.5 1945,1068.5 1940,1063.5 1940,996.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="2030" y="1061.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SORL1:APP</text>
-<polygon points="1782.5,395 1957.5,395 1962.5,400 1962.5,510 1957.5,515 1782.5,515 1777.5,510 1777.5,400" fill="#f7f7f7" stroke="#000"/>
+<polygon points="1782.5,395 1957.5,395 1962.5,400 1962.5,510 1957.5,515 1782.5,515 1777.5,510 1777.5,400" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="1870" y="508" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP: APBB1: LRP1</text>
-<polygon points="2143.5,613.5 2436.5,613.5 2441.5,618.5 2441.5,761.5 2436.5,766.5 2143.5,766.5 2138.5,761.5 2138.5,618.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="2143.5,613.5 2436.5,613.5 2441.5,618.5 2441.5,761.5 2436.5,766.5 2143.5,766.5 2138.5,761.5 2138.5,618.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="2290" y="759.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">gamma secretase complex</text>
-<polygon points="2655,805 2765,805 2770,810 2770,850 2765,855 2655,855 2650,850 2650,810" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2655,805 2765,805 2770,810 2770,850 2765,855 2655,855 2650,850 2650,810" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2710" y="848" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">endosome</text>
-<polygon points="2525,645 2635,645 2640,650 2640,690 2635,695 2525,695 2520,690 2520,650" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2525,645 2635,645 2640,650 2640,690 2635,695 2525,695 2520,690 2520,650" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2580" y="688" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">endosome</text>
-<polygon points="1972.5,3712.5 2062.5,3712.5 2067.5,3717.5 2067.5,3837.5 2062.5,3842.5 1972.5,3842.5 1967.5,3837.5 1967.5,3717.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="1972.5,3712.5 2062.5,3712.5 2067.5,3717.5 2067.5,3837.5 2062.5,3842.5 1972.5,3842.5 1967.5,3837.5 1967.5,3717.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="2017.5" y="3835.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Abeta 42: LRP1</text>
-<polygon points="2182.5,3712.5 2272.5,3712.5 2277.5,3717.5 2277.5,3837.5 2272.5,3842.5 2182.5,3842.5 2177.5,3837.5 2177.5,3717.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="2182.5,3712.5 2272.5,3712.5 2277.5,3717.5 2277.5,3837.5 2272.5,3842.5 2182.5,3842.5 2177.5,3837.5 2177.5,3717.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="2227.5" y="3835.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Abeta 42: LRP1</text>
-<polygon points="2502.5,3457.5 2592.5,3457.5 2597.5,3462.5 2597.5,3582.5 2592.5,3587.5 2502.5,3587.5 2497.5,3582.5 2497.5,3462.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="2502.5,3457.5 2592.5,3457.5 2597.5,3462.5 2597.5,3582.5 2592.5,3587.5 2502.5,3587.5 2497.5,3582.5 2497.5,3462.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="2547.5" y="3580.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Abeta 42: LRP1</text>
-<polygon points="2702.5,3492.5 2792.5,3492.5 2797.5,3497.5 2797.5,3607.5 2792.5,3612.5 2702.5,3612.5 2697.5,3607.5 2697.5,3497.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="2702.5,3492.5 2792.5,3492.5 2797.5,3497.5 2797.5,3607.5 2792.5,3612.5 2702.5,3612.5 2697.5,3607.5 2697.5,3497.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="2747.5" y="3605.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Abeta 42: ABCB1</text>
-<polygon points="2882.5,3492.5 2972.5,3492.5 2977.5,3497.5 2977.5,3607.5 2972.5,3612.5 2882.5,3612.5 2877.5,3607.5 2877.5,3497.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="2882.5,3492.5 2972.5,3492.5 2977.5,3497.5 2977.5,3607.5 2972.5,3612.5 2882.5,3612.5 2877.5,3607.5 2877.5,3497.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="2927.5" y="3605.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Abeta 42: ABCB1</text>
-<polygon points="1445,2180 1535,2180 1540,2185 1540,2305 1535,2310 1445,2310 1440,2305 1440,2185" fill="#f7f7f7" stroke="#000"/>
+<polygon points="1445,2180 1535,2180 1540,2185 1540,2305 1535,2310 1445,2310 1440,2305 1440,2185" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="1490" y="2303" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Abeta 42: LRP1</text>
-<polygon points="1800,2440 1890,2440 1895,2445 1895,2565 1890,2570 1800,2570 1795,2565 1795,2445" fill="#f7f7f7" stroke="#000"/>
+<polygon points="1800,2440 1890,2440 1895,2445 1895,2565 1890,2570 1800,2570 1795,2565 1795,2445" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="1845" y="2563" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Abeta 42: LRP1</text>
-<polygon points="1800,2715 1890,2715 1895,2720 1895,2840 1890,2845 1800,2845 1795,2840 1795,2720" fill="#f7f7f7" stroke="#000"/>
+<polygon points="1800,2715 1890,2715 1895,2720 1895,2840 1890,2845 1800,2845 1795,2840 1795,2720" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="1845" y="2838" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Abeta 42: LRP1</text>
-<polygon points="931,3685 1114,3685 1119,3690 1119,3755 1114,3760 931,3760 926,3755 926,3690" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="931,3685 1114,3685 1119,3690 1119,3755 1114,3760 931,3760 926,3755 926,3690" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1022.5" y="3753" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">antigen presenting cells</text>
-<polygon points="2911.5,2022.25 3008.5,2022.25 3013.5,2027.25 3013.5,2090.25 3008.5,2095.25 2911.5,2095.25 2906.5,2090.25 2906.5,2027.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2911.5,2022.25 3008.5,2022.25 3013.5,2027.25 3013.5,2090.25 3008.5,2095.25 2911.5,2095.25 2906.5,2090.25 2906.5,2027.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2960" y="2088.25" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="279.5,921 369.5,921 374.5,926 374.5,1036 369.5,1041 279.5,1041 274.5,1036 274.5,926" fill="#f7f7f7" stroke="#000"/>
+<polygon points="279.5,921 369.5,921 374.5,926 374.5,1036 369.5,1041 279.5,1041 274.5,1036 274.5,926" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="324.5" y="1034" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">PSEN1:PSEN2</text>
-<polygon points="88.5,921 178.5,921 183.5,926 183.5,1036 178.5,1041 88.5,1041 83.5,1036 83.5,926" fill="#f7f7f7" stroke="#000"/>
+<polygon points="88.5,921 178.5,921 183.5,926 183.5,1036 178.5,1041 88.5,1041 83.5,1036 83.5,926" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="133.5" y="1034" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APH1A:APH1B</text>
-<polygon points="2148.5,621 2238.5,621 2243.5,626 2243.5,736 2238.5,741 2148.5,741 2143.5,736 2143.5,626" fill="#f7f7f7" stroke="#000"/>
+<polygon points="2148.5,621 2238.5,621 2243.5,626 2243.5,736 2238.5,741 2148.5,741 2143.5,736 2143.5,626" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="2193.5" y="734" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APH1A:APH1B</text>
-<polygon points="2339.5,621 2429.5,621 2434.5,626 2434.5,736 2429.5,741 2339.5,741 2334.5,736 2334.5,626" fill="#f7f7f7" stroke="#000"/>
+<polygon points="2339.5,621 2429.5,621 2434.5,626 2434.5,736 2429.5,741 2339.5,741 2334.5,736 2334.5,626" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="2384.5" y="734" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">PSEN1:PSEN2</text>
-<polygon points="940,3692 1107,3692 1112,3697 1112,3718 1107,3723 940,3723 935,3718 935,3697" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="940,3692 1107,3692 1112,3697 1112,3718 1107,3723 940,3723 935,3718 935,3697" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1023.5" y="3716" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MHC class II protein complex</text>
 <rect x="1451" y="1020" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
 <text x="1491" y="1044" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
@@ -277,6 +277,7 @@
 <text x="2147.5" y="459" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
 <rect x="1950" y="655" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
 <text x="1990" y="684" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LRP1</text>
+<rect x="2253.5" y="381" width="88" height="48" rx="9" fill="none" stroke="#000" stroke-dasharray="4,2"/>
 <rect x="2257.5" y="385" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
 <text x="2297.5" y="409" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">BACE1</text>
 <rect x="2557.5" y="435" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
@@ -722,12 +723,12 @@
 <polygon points="2760,1295 2755,1280 2765,1280" fill="#000"/>
 <polyline points="2932,1259.5 2760,1259.5 2760,1281" fill="none" stroke="#000000" stroke-width="1"/>
 <polygon points="324,775.5 321.5,759.89 331.37,761.51" fill="#000"/>
-<polyline points="336,702.5 326.27,761.69" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="336,702.5 326.27,761.69" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="10,4,2,4,2,4"/>
 <polygon points="335.74,734.88 340.77,730.91 345.74,734.94 340.72,738.91" fill="#fff" stroke="#000"/>
 <polyline points="421.5,707.5 421.32,735.44 345.74,734.94" fill="none" stroke="#000000" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(330,739) rotate(99.33)"/>
 <polygon points="494,774.5 492.16,758.8 501.95,760.84" fill="#000"/>
-<polyline points="509,702.5 496.86,760.79" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="509,702.5 496.86,760.79" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="10,4,2,4,2,4"/>
 <polygon points="496.61,737.48 491.53,741.38 486.61,737.28 491.69,733.38" fill="#fff" stroke="#000"/>
 <polyline points="421.5,707.5 420.93,735.98 486.61,737.28" fill="none" stroke="#000000" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(501.5,738.5) rotate(101.77)"/>
@@ -751,19 +752,19 @@
 <polyline points="1440,2110 1347.67,2109.06 1347.15,2160" fill="none" stroke="#000000" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1342,2180) rotate(0)"/><text x="1342" y="2183" font-family="'Times New Roman', serif" font-weight="bold" font-size="10" text-anchor="middle">//</text>
 <polygon points="1395,2540 1380,2545 1380,2535" fill="#000"/>
-<polyline points="1335,2540 1381,2540" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="1335,2540 1381,2540" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="10,4,2,4,2,4"/>
 <polygon points="1365,2535 1360.19,2519.94 1370.19,2520.06" fill="#fff" stroke="#000"/>
 <line x1="1360.75" y1="2514.95" x2="1369.75" y2="2515.06" stroke="#000"/>
 <polyline points="1110,2275 1107.09,2507.31 1365.31,2510.54 1365.19,2520" fill="none" stroke="#000000" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1365,2540) rotate(0)"/>
 <polygon points="1395,2490 1380,2495 1380,2485" fill="#000"/>
-<polyline points="1335,2490 1381,2490" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="1335,2490 1381,2490" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="10,4,2,4,2,4"/>
 <polygon points="1365,2485 1360.19,2469.94 1370.19,2470.06" fill="#fff" stroke="#000"/>
 <line x1="1360.75" y1="2464.95" x2="1369.75" y2="2465.06" stroke="#000"/>
 <polyline points="1110,2275 1107.74,2457.41 1365.3,2460.61 1365.19,2470" fill="none" stroke="#000000" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1365,2490) rotate(0)"/>
 <polygon points="1395,2440 1380,2445 1380,2435" fill="#000"/>
-<polyline points="1335,2440 1381,2440" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="1335,2440 1381,2440" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="10,4,2,4,2,4"/>
 <polygon points="1365,2435 1360.17,2419.94 1370.17,2420.06" fill="#fff" stroke="#000"/>
 <line x1="1360.73" y1="2414.95" x2="1369.73" y2="2415.05" stroke="#000"/>
 <polyline points="1110,2275 1108.47,2407.72 1365.28,2410.68 1365.17,2420" fill="none" stroke="#000000" stroke-width="1"/>

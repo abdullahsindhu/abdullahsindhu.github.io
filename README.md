@@ -16,6 +16,7 @@ Rebuild after the map changes:
 
 `<map folder>` holds the top-level map, `submaps/` and `glyphs/`. Needs lxml.
 
-Known gaps of the drawing: reactions where two entities join into one or one splits in two are not
-drawn yet (the viewer counts them under the map); MINERVA glyphs named in the notes and text layers
-are not drawn.
+Known gaps of the drawing: text layers and the MINERVA glyphs named in the notes are not drawn. The
+bend points on the arms of binding reactions (Ferroptosis) and the logic gates between entities
+(Mitophagy, altered BBB permeability, Microglial phagocytosis) are drawn by rule, not yet checked
+against a CellDesigner export.

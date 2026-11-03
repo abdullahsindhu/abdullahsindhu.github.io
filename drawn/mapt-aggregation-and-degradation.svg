@@ -1,111 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="3500" height="3200" viewBox="0 0 3500 3200">
 <rect width="100%" height="100%" fill="#fff"/>
-<path d="M70 540 H2930 A20 20 0 0 1 2950 560 V2740 A20 20 0 0 1 2930 2760 H70 A20 20 0 0 1 50 2740 V560 A20 20 0 0 1 70 540 Z M76 552 H2924 A14 14 0 0 1 2938 566 V2734 A14 14 0 0 1 2924 2748 H76 A14 14 0 0 1 62 2734 V566 A14 14 0 0 1 76 552 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="50" y="540" width="2900" height="2220" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="62" y="552" width="2876" height="2196" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M70 540 H2930 A20 20 0 0 1 2950 560 V2740 A20 20 0 0 1 2930 2760 H70 A20 20 0 0 1 50 2740 V560 A20 20 0 0 1 70 540 Z M76 552 H2924 A14 14 0 0 1 2938 566 V2734 A14 14 0 0 1 2924 2748 H76 A14 14 0 0 1 62 2734 V566 A14 14 0 0 1 76 552 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="50" y="540" width="2900" height="2220" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="62" y="552" width="2876" height="2196" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1749" y="1774" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">neuron</text>
-<path d="M690 1820 H1530 A20 20 0 0 1 1550 1840 V2670 A20 20 0 0 1 1530 2690 H690 A20 20 0 0 1 670 2670 V1840 A20 20 0 0 1 690 1820 Z M696 1832 H1524 A14 14 0 0 1 1538 1846 V2664 A14 14 0 0 1 1524 2678 H696 A14 14 0 0 1 682 2664 V1846 A14 14 0 0 1 696 1832 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="670" y="1820" width="880" height="870" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="682" y="1832" width="856" height="846" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M690 1820 H1530 A20 20 0 0 1 1550 1840 V2670 A20 20 0 0 1 1530 2690 H690 A20 20 0 0 1 670 2670 V1840 A20 20 0 0 1 690 1820 Z M696 1832 H1524 A14 14 0 0 1 1538 1846 V2664 A14 14 0 0 1 1524 2678 H696 A14 14 0 0 1 682 2664 V1846 A14 14 0 0 1 696 1832 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="670" y="1820" width="880" height="870" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="682" y="1832" width="856" height="846" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1070" y="2100" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">microtubule</text>
-<path d="M1590 1820 H2070 A20 20 0 0 1 2090 1840 V2670 A20 20 0 0 1 2070 2690 H1590 A20 20 0 0 1 1570 2670 V1840 A20 20 0 0 1 1590 1820 Z M1596 1832 H2064 A14 14 0 0 1 2078 1846 V2664 A14 14 0 0 1 2064 2678 H1596 A14 14 0 0 1 1582 2664 V1846 A14 14 0 0 1 1596 1832 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="1570" y="1820" width="520" height="870" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="1582" y="1832" width="496" height="846" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M1590 1820 H2070 A20 20 0 0 1 2090 1840 V2670 A20 20 0 0 1 2070 2690 H1590 A20 20 0 0 1 1570 2670 V1840 A20 20 0 0 1 1590 1820 Z M1596 1832 H2064 A14 14 0 0 1 2078 1846 V2664 A14 14 0 0 1 2064 2678 H1596 A14 14 0 0 1 1582 2664 V1846 A14 14 0 0 1 1596 1832 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="1570" y="1820" width="520" height="870" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="1582" y="1832" width="496" height="846" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1747.5" y="2094" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">distal axon</text>
-<path d="M190 1820 H630 A20 20 0 0 1 650 1840 V2660 A20 20 0 0 1 630 2680 H190 A20 20 0 0 1 170 2660 V1840 A20 20 0 0 1 190 1820 Z M196 1832 H624 A14 14 0 0 1 638 1846 V2654 A14 14 0 0 1 624 2668 H196 A14 14 0 0 1 182 2654 V1846 A14 14 0 0 1 196 1832 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="170" y="1820" width="480" height="860" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="182" y="1832" width="456" height="836" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M190 1820 H630 A20 20 0 0 1 650 1840 V2660 A20 20 0 0 1 630 2680 H190 A20 20 0 0 1 170 2660 V1840 A20 20 0 0 1 190 1820 Z M196 1832 H624 A14 14 0 0 1 638 1846 V2654 A14 14 0 0 1 624 2668 H196 A14 14 0 0 1 182 2654 V1846 A14 14 0 0 1 196 1832 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="170" y="1820" width="480" height="860" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="182" y="1832" width="456" height="836" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="355" y="2100" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">neuronal cell soma</text>
-<ellipse cx="1630" cy="1550" rx="315.5" ry="186" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="1630" cy="1550" rx="321.5" ry="192" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="1630" cy="1550" rx="309.5" ry="180" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="1630" cy="1550" rx="315.5" ry="186" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="1630" cy="1550" rx="321.5" ry="192" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="1630" cy="1550" rx="309.5" ry="180" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1592.5" y="1694" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">lysosome</text>
-<ellipse cx="2582.69" cy="1149.31" rx="276.69" ry="93.31" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="2582.69" cy="1149.31" rx="282.69" ry="99.31" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="2582.69" cy="1149.31" rx="270.69" ry="87.31" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="2582.69" cy="1149.31" rx="276.69" ry="93.31" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="2582.69" cy="1149.31" rx="282.69" ry="99.31" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="2582.69" cy="1149.31" rx="270.69" ry="87.31" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2546.58" y="1227.82" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">late endosome</text>
-<ellipse cx="2596.38" cy="724.12" rx="209" ry="116.5" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="2596.38" cy="724.12" rx="215" ry="122.5" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="2596.38" cy="724.12" rx="203" ry="110.5" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="2596.38" cy="724.12" rx="209" ry="116.5" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="2596.38" cy="724.12" rx="215" ry="122.5" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="2596.38" cy="724.12" rx="203" ry="110.5" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2568.04" y="816.9" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">proteasome</text>
-<polygon points="1465,1560 1555,1560 1560,1565 1560,1638.5 1555,1643.5 1465,1643.5 1460,1638.5 1460,1565" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1465,1560 1555,1560 1560,1565 1560,1638.5 1555,1643.5 1465,1643.5 1460,1638.5 1460,1565" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1510" y="1636.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="1560,1098.5 1760,1098.5 1765,1103.5 1765,1196.5 1760,1201.5 1560,1201.5 1555,1196.5 1555,1103.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1560,1098.5 1760,1098.5 1765,1103.5 1765,1196.5 1760,1201.5 1560,1201.5 1555,1196.5 1555,1103.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1660" y="1194.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">soluble neurotoxic forms of MAPT</text>
-<polygon points="2460,1098.5 2660,1098.5 2665,1103.5 2665,1196.5 2660,1201.5 2460,1201.5 2455,1196.5 2455,1103.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2460,1098.5 2660,1098.5 2665,1103.5 2665,1196.5 2660,1201.5 2460,1201.5 2455,1196.5 2455,1103.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2560" y="1194.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">soluble neurotoxic forms of MAPT</text>
-<polygon points="2465.19,675 2665.19,675 2670.19,680 2670.19,773 2665.19,778 2465.19,778 2460.19,773 2460.19,680" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2465.19,675 2665.19,675 2670.19,680 2670.19,773 2665.19,778 2465.19,778 2460.19,773 2460.19,680" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2565.19" y="771" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">soluble neurotoxic forms of MAPT</text>
-<polygon points="1471,1408.5 1671,1408.5 1676,1413.5 1676,1506.5 1671,1511.5 1471,1511.5 1466,1506.5 1466,1413.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1471,1408.5 1671,1408.5 1676,1413.5 1676,1506.5 1671,1511.5 1471,1511.5 1466,1506.5 1466,1413.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1571" y="1504.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">soluble neurotoxic forms of MAPT</text>
-<polygon points="278.09,427.62 501.91,427.62 506.91,432.62 506.91,627.38 501.91,632.38 278.09,632.38 273.09,627.38 273.09,432.62" fill="#f7f7f7" stroke="#000"/>
+<polygon points="278.09,427.62 501.91,427.62 506.91,432.62 506.91,627.38 501.91,632.38 278.09,632.38 273.09,627.38 273.09,432.62" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="390" y="625.38" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CHRNA7: high concentration Abeta 42</text>
-<polygon points="786,670.5 894,670.5 899,675.5 899,764.5 894,769.5 786,769.5 781,764.5 781,675.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="786,670.5 894,670.5 899,675.5 899,764.5 894,769.5 786,769.5 781,764.5 781,675.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="840" y="762.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT: vitamin B12</text>
-<polygon points="955,970 1065,970 1070,975 1070,1045 1065,1050 955,1050 950,1045 950,975" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="955,970 1065,970 1070,975 1070,1045 1065,1050 955,1050 950,1045 950,975" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1010" y="1043" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="115,620 205,620 210,625 210,1775 205,1780 115,1780 110,1775 110,625" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="115,620 205,620 210,625 210,1775 205,1780 115,1780 110,1775 110,625" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="160" y="1773" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">mutated MAPT</text>
-<polygon points="455,1937 605,1937 610,1942 610,2062 605,2067 455,2067 450,2062 450,1942" fill="#f7f7f7" stroke="#000"/>
+<polygon points="455,1937 605,1937 610,1942 610,2062 605,2067 455,2067 450,2062 450,1942" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="530" y="2060" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">lysosome: kinesin</text>
-<polygon points="205,1977 335,1977 340,1982 340,2022 335,2027 205,2027 200,2022 200,1982" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="205,1977 335,1977 340,1982 340,2022 335,2027 205,2027 200,2022 200,1982" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="270" y="2020" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">lysosome</text>
-<polygon points="1625,1937 1775,1937 1780,1942 1780,2062 1775,2067 1625,2067 1620,2062 1620,1942" fill="#f7f7f7" stroke="#000"/>
+<polygon points="1625,1937 1775,1937 1780,1942 1780,2062 1775,2067 1625,2067 1620,2062 1620,1942" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="1700" y="2060" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">lysosome: kinesin</text>
-<polygon points="245,1920 335,1920 340,1925 340,1955 335,1960 245,1960 240,1955 240,1925" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="245,1920 335,1920 340,1925 340,1955 335,1960 245,1960 240,1955 240,1925" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="290" y="1953" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">kinesin</text>
-<polygon points="1625,2165 1795,2165 1800,2170 1800,2290 1795,2295 1625,2295 1620,2290 1620,2170" fill="#f7f7f7" stroke="#000"/>
+<polygon points="1625,2165 1795,2165 1800,2170 1800,2290 1795,2295 1625,2295 1620,2290 1620,2170" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="1710" y="2288" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">autophagosome: dynein</text>
-<polygon points="435,2165 605,2165 610,2170 610,2290 605,2295 435,2295 430,2290 430,2170" fill="#f7f7f7" stroke="#000"/>
+<polygon points="435,2165 605,2165 610,2170 610,2290 605,2295 435,2295 430,2290 430,2170" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="520" y="2288" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">autophagosome: dynein</text>
-<polygon points="1900,2205 2040,2205 2045,2210 2045,2250 2040,2255 1900,2255 1895,2250 1895,2210" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1900,2205 2040,2205 2045,2210 2045,2250 2040,2255 1900,2255 1895,2250 1895,2210" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1970" y="2248" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">autophagosome</text>
-<polygon points="1905,2140 1995,2140 2000,2145 2000,2175 1995,2180 1905,2180 1900,2175 1900,2145" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1905,2140 1995,2140 2000,2145 2000,2175 1995,2180 1905,2180 1900,2175 1900,2145" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1950" y="2173" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">dynein</text>
-<polygon points="455,1840 565,1840 570,1845 570,1915 565,1920 455,1920 450,1915 450,1845" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="455,1840 565,1840 570,1845 570,1915 565,1920 455,1920 450,1915 450,1845" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="510" y="1913" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="535,1337.5 625,1337.5 630,1342.5 630,1417.5 625,1422.5 535,1422.5 530,1417.5 530,1342.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="535,1337.5 625,1337.5 630,1342.5 630,1417.5 625,1422.5 535,1422.5 530,1417.5 530,1342.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="580" y="1415.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="1055,2405 1305,2405 1310,2410 1310,2490 1305,2495 1055,2495 1050,2490 1050,2410" fill="#f7f7f7" stroke="#000"/>
+<polygon points="1055,2405 1305,2405 1310,2410 1310,2490 1305,2495 1055,2495 1050,2490 1050,2410" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="1180" y="2488" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">hyperphosphorylated MAPT: microtubule</text>
-<polygon points="1400,2425 1520,2425 1525,2430 1525,2470 1520,2475 1400,2475 1395,2470 1395,2430" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1400,2425 1520,2425 1525,2430 1525,2470 1520,2475 1400,2475 1395,2470 1395,2430" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1460" y="2468" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">microtubule</text>
-<polygon points="1028.12,386.25 1231.88,386.25 1236.88,391.25 1236.88,488.75 1231.88,493.75 1028.12,493.75 1023.12,488.75 1023.12,391.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1028.12,386.25 1231.88,386.25 1236.88,391.25 1236.88,488.75 1231.88,493.75 1028.12,493.75 1023.12,488.75 1023.12,391.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1130" y="486.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">high concentration / long exposure</text>
-<polygon points="1417.5,395 1522.5,395 1527.5,400 1527.5,480 1522.5,485 1417.5,485 1412.5,480 1412.5,400" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1417.5,395 1522.5,395 1527.5,400 1527.5,480 1522.5,485 1417.5,485 1412.5,480 1412.5,400" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1470" y="478" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">low concentration</text>
-<polygon points="441.5,1123.5 538.5,1123.5 543.5,1128.5 543.5,1191.5 538.5,1196.5 441.5,1196.5 436.5,1191.5 436.5,1128.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="441.5,1123.5 538.5,1123.5 543.5,1128.5 543.5,1191.5 538.5,1196.5 441.5,1196.5 436.5,1191.5 436.5,1128.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="490" y="1189.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">oligomer</text>
-<polygon points="575,1060 625,1060 630,1065 630,1095 625,1100 575,1100 570,1095 570,1065" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="575,1060 625,1060 630,1065 630,1095 625,1100 575,1100 570,1095 570,1065" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="600" y="1093" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">PP2A</text>
-<polygon points="735,1060 785,1060 790,1065 790,1095 785,1100 735,1100 730,1095 730,1065" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="731,1056 789,1056 794,1061 794,1099 789,1104 731,1104 726,1099 726,1061" fill="none" stroke="#000" stroke-dasharray="4,2"/>
+<polygon points="735,1060 785,1060 790,1065 790,1095 785,1100 735,1100 730,1095 730,1065" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="760" y="1093" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">PP2A</text>
-<polygon points="1100,1085 1460,1085 1465,1090 1465,1150 1460,1155 1100,1155 1095,1150 1095,1090" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1100,1085 1460,1085 1465,1090 1465,1150 1460,1155 1100,1155 1095,1150 1095,1090" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1280" y="1148" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">microtubule affinity-regulating kinases</text>
-<polygon points="1100,885 1460,885 1465,890 1465,950 1460,955 1100,955 1095,950 1095,890" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1100,885 1460,885 1465,890 1465,950 1460,955 1100,955 1095,950 1095,890" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1280" y="948" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">microtubule affinity-regulating kinases</text>
-<polygon points="38.12,366.25 241.88,366.25 246.88,371.25 246.88,468.75 241.88,473.75 38.12,473.75 33.12,468.75 33.12,371.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="38.12,366.25 241.88,366.25 246.88,371.25 246.88,468.75 241.88,473.75 38.12,473.75 33.12,468.75 33.12,371.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="140" y="466.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">high concentration / long exposure</text>
-<polygon points="465,1992 595,1992 600,1997 600,2037 595,2042 465,2042 460,2037 460,1997" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="465,1992 595,1992 600,1997 600,2037 595,2042 465,2042 460,2037 460,1997" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="530" y="2035" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">lysosome</text>
-<polygon points="485,1947 575,1947 580,1952 580,1982 575,1987 485,1987 480,1982 480,1952" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="485,1947 575,1947 580,1952 580,1982 575,1987 485,1987 480,1982 480,1952" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="530" y="1980" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">kinesin</text>
-<polygon points="1655,1947 1745,1947 1750,1952 1750,1982 1745,1987 1655,1987 1650,1982 1650,1952" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1655,1947 1745,1947 1750,1952 1750,1982 1745,1987 1655,1987 1650,1982 1650,1952" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1700" y="1980" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">kinesin</text>
-<polygon points="1635,1992 1765,1992 1770,1997 1770,2037 1765,2042 1635,2042 1630,2037 1630,1997" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1635,1992 1765,1992 1770,1997 1770,2037 1765,2042 1635,2042 1630,2037 1630,1997" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1700" y="2035" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">lysosome</text>
-<polygon points="1640,2220 1780,2220 1785,2225 1785,2265 1780,2270 1640,2270 1635,2265 1635,2225" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1640,2220 1780,2220 1785,2225 1785,2265 1780,2270 1640,2270 1635,2265 1635,2225" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1710" y="2263" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">autophagosome</text>
-<polygon points="1665,2175 1755,2175 1760,2180 1760,2210 1755,2215 1665,2215 1660,2210 1660,2180" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1665,2175 1755,2175 1760,2180 1760,2210 1755,2215 1665,2215 1660,2210 1660,2180" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1710" y="2208" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">dynein</text>
-<polygon points="475,2175 565,2175 570,2180 570,2210 565,2215 475,2215 470,2210 470,2180" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="475,2175 565,2175 570,2180 570,2210 565,2215 475,2215 470,2210 470,2180" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="520" y="2208" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">dynein</text>
-<polygon points="450,2220 590,2220 595,2225 595,2265 590,2270 450,2270 445,2265 445,2225" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="450,2220 590,2220 595,2225 595,2265 590,2270 450,2270 445,2265 445,2225" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="520" y="2263" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">autophagosome</text>
-<polygon points="1170,2420 1290,2420 1295,2425 1295,2465 1290,2470 1170,2470 1165,2465 1165,2425" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1170,2420 1290,2420 1295,2425 1295,2465 1290,2470 1170,2470 1165,2465 1165,2425" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1230" y="2463" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">microtubule</text>
-<polygon points="288.12,436.25 491.88,436.25 496.88,441.25 496.88,538.75 491.88,543.75 288.12,543.75 283.12,538.75 283.12,441.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="288.12,436.25 491.88,436.25 496.88,441.25 496.88,538.75 491.88,543.75 288.12,543.75 283.12,538.75 283.12,441.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="390" y="536.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">high concentration / long exposure</text>
 <polygon points="2033.38,579.62 2463.38,579.62 2478.38,594.62 2463.38,609.62 2033.38,609.62 2018.38,594.62" fill="#cc99ff" stroke="#000"/>
 <text x="2248.38" y="598.62" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cytoplasm protein quality control by the ubiquitin-proteasome system (USP)</text>
@@ -165,6 +166,7 @@
 <text x="1353" y="2574" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">microtubule depolymerization</text>
 <polygon points="1400,685 1580,685 1595,700 1580,715 1400,715 1385,700" fill="#cc99ff" stroke="#000"/>
 <text x="1490" y="704" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cholinergic synaptic transmission</text>
+<rect x="1356" y="511" width="88" height="58" rx="9" fill="none" stroke="#000" stroke-dasharray="4,2"/>
 <rect x="1360" y="515" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
 <text x="1400" y="544" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CHRNA7</text>
 <rect x="1190" y="515" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
@@ -183,11 +185,15 @@
 <text x="680" y="1024" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CIP2A</text>
 <polygon points="885,1075 1015,1075 1030,1090 1015,1105 885,1105 870,1090" fill="#cc99ff" stroke="#000"/>
 <text x="950" y="1094" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">mitochondrial damage</text>
+<rect x="1046" y="726" width="88" height="48" rx="9" fill="none" stroke="#000" stroke-dasharray="4,2"/>
 <rect x="1050" y="730" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="1061" y="745.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">S9</text>
 <circle cx="1050" cy="731.05" r="8" fill="#fff" stroke="#000"/>
 <text x="1050" y="734.55" font-family="sans-serif" font-size="9" text-anchor="middle">P</text>
 <text x="1090" y="754" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">GSK3B</text>
 <rect x="1250" y="730" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="1250" cy="731.05" r="8" fill="#fff" stroke="#000"/>
+<text x="1261" y="745.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">S9</text>
 <text x="1290" y="754" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">GSK3B</text>
 <polygon points="1445,785 1535,785 1550,800 1535,815 1445,815 1430,800" fill="#cc99ff" stroke="#000"/>
 <text x="1490" y="804" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cognitive function</text>
@@ -403,8 +409,8 @@
 <polyline points="720.07,822 721,720"/>
 <polyline points="768,850 845.4,850 845.4,850 948,850"/>
 <polyline points="810.49,777.5 810.49,780.43 797.76,780.42 797.7,842"/>
-<polyline points="549.88,917 549.5,891.86 798.2,888.13 797.93,870"/>
-<polyline points="537.48,843 537.41,878.75 797.65,879.29 797.67,870"/>
+<polyline points="535,917 535,890 797.7,889.99 797.7,870"/>
+<polyline points="530,843 530,880 797.7,879.99 797.7,870"/>
 <polyline points="789.91,1052 788.71,945.3 803.72,945.13 802.73,858"/>
 <polyline points="1087,1137.5 807.7,1137.5 807.7,870"/>
 <polyline points="862,1090 807.71,1090 807.7,870"/>
@@ -417,7 +423,7 @@
 <polyline points="178.84,535.56 251.13,531.3"/>
 <polyline points="193.33,481.75 193.02,506.13 209.55,506.34 209.19,533.77"/>
 <polyline points="448.43,640.38 448.31,679.92 500.39,680.09 500.07,783"/>
-<polyline points="389.6,640.37 377.78,876.91 452.22,880.63 451.1,903.03"/>
+<polyline points="389.99,640.38 389.68,879.98 465.06,880.07 465.03,903"/>
 <polyline points="218,1200.01 370.11,1200.19 369.89,1379.81 508,1379.97"/>
 <polyline points="638,1380 708,1380"/>
 <polyline points="618,2002 1598,2002"/>
@@ -440,7 +446,7 @@
 <polyline points="1278,540 1338,540"/>
 <polyline points="1404.5,440.19 1317.75,442.31 1319.64,520"/>
 <polyline points="1244.87,440.24 1312.73,442.23 1310.09,532"/>
-<polyline points="1399.01,572.94 1390.38,642 1390.38,642 1387.73,663.17"/>
+<polyline points="1400,573 1400,642 1400,642 1400,663"/>
 <polyline points="500,1002 500,977"/>
 <polyline points="870,1237 870,1197"/>
 <polyline points="638,1080 708,1080"/>
@@ -500,12 +506,12 @@
 <polyline points="760,850 845.4,850 845.4,850 956,850" fill="none" stroke="#000000" stroke-width="1"/>
 <line x1="791.7" y1="841.99" x2="803.7" y2="842.01" stroke="#000"/>
 <polyline points="810.5,769.5 810.49,780.43 797.76,780.42 797.7,842" fill="none" stroke="#000000" stroke-width="1"/>
-<polygon points="797.7,855 802.93,869.92 792.93,870.07" fill="#fff" stroke="#000"/>
-<line x1="802.5" y1="874.93" x2="793.5" y2="875.07" stroke="#000"/>
-<polyline points="550,925 549.5,891.86 798.2,888.13 797.93,870" fill="none" stroke="#000000" stroke-width="1"/>
-<polygon points="797.7,855 802.67,870.01 792.67,869.99" fill="#fff" stroke="#000"/>
-<line x1="802.16" y1="875.01" x2="793.16" y2="874.99" stroke="#000"/>
-<polyline points="537.5,835 537.41,878.75 797.65,879.29 797.67,870" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="797.7,855 802.7,870 792.7,870" fill="#fff" stroke="#000"/>
+<line x1="802.2" y1="875" x2="793.2" y2="875" stroke="#000"/>
+<polyline points="535,925 535,890 797.7,889.99 797.7,870" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="797.7,855 802.7,870 792.7,870" fill="#fff" stroke="#000"/>
+<line x1="802.2" y1="875" x2="793.2" y2="875" stroke="#000"/>
+<polyline points="530,835 530,880 797.7,879.99 797.7,870" fill="none" stroke="#000000" stroke-width="1"/>
 <line x1="808.73" y1="857.93" x2="796.74" y2="858.07" stroke="#000"/>
 <polyline points="790,1060 788.71,945.3 803.72,945.13 802.73,858" fill="none" stroke="#000000" stroke-width="1"/>
 <polygon points="807.7,855 812.7,870 802.7,870" fill="#fff" stroke="#000"/>
@@ -536,9 +542,9 @@
 <polygon points="500,805 495.05,789.98 505.05,790.02" fill="#000"/>
 <polyline points="448.46,632.38 448.31,679.92 500.39,680.09 500.04,791" fill="none" stroke="#000000" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(500.2,742.54) rotate(90.18)"/>
-<polygon points="450,925 445.76,909.77 455.74,910.27" fill="#000"/>
-<polyline points="390,632.38 377.78,876.91 452.22,880.63 450.7,911.02" fill="none" stroke="#000000" stroke-width="1"/>
-<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(383.89,754.65) rotate(92.86)"/>
+<polygon points="465,925 460.02,909.99 470.02,910.01" fill="#000"/>
+<polyline points="390,632.38 389.68,879.98 465.06,880.07 465.02,911" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(389.84,756.18) rotate(90.07)"/>
 <polygon points="530,1380 514.99,1384.98 515.01,1374.98" fill="#000"/>
 <polyline points="210,1200 370.11,1200.19 369.89,1379.81 516,1379.98" fill="none" stroke="#000000" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(290.05,1200.1) rotate(0.07)"/>
@@ -588,8 +594,8 @@
 <line x1="1304.09" y1="531.82" x2="1316.09" y2="532.18" stroke="#000"/>
 <polyline points="1236.88,440 1312.73,442.23 1310.09,532" fill="none" stroke="#000000" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1315,540) rotate(0)"/>
-<polygon points="1385,685 1381.9,669.5 1391.82,670.74" fill="#000"/>
-<polyline points="1400,565 1390.38,642 1390.38,642 1386.74,671.11" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1400,685 1395,670 1405,670" fill="#000"/>
+<polyline points="1400,565 1400,642 1400,642 1400,671" fill="none" stroke="#000000" stroke-width="1"/>
 <polygon points="500,955 505,970 495,970" fill="#000"/>
 <polyline points="500,1010 500,969" fill="none" stroke="#000000" stroke-width="1"/>
 <polygon points="870,1175 875,1190 865,1190" fill="#000"/>

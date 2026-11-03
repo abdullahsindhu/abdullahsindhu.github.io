@@ -1,133 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="5800" height="2000" viewBox="0 0 5800 2000">
 <rect width="100%" height="100%" fill="#fff"/>
-<path d="M270 135 H5390 A20 20 0 0 1 5410 155 V1785 A20 20 0 0 1 5390 1805 H270 A20 20 0 0 1 250 1785 V155 A20 20 0 0 1 270 135 Z M276 147 H5384 A14 14 0 0 1 5398 161 V1779 A14 14 0 0 1 5384 1793 H276 A14 14 0 0 1 262 1779 V161 A14 14 0 0 1 276 147 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="250" y="135" width="5160" height="1670" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="262" y="147" width="5136" height="1646" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M270 135 H5390 A20 20 0 0 1 5410 155 V1785 A20 20 0 0 1 5390 1805 H270 A20 20 0 0 1 250 1785 V155 A20 20 0 0 1 270 135 Z M276 147 H5384 A14 14 0 0 1 5398 161 V1779 A14 14 0 0 1 5384 1793 H276 A14 14 0 0 1 262 1779 V161 A14 14 0 0 1 276 147 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="250" y="135" width="5160" height="1670" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="262" y="147" width="5136" height="1646" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2818" y="1785" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">c20</text>
-<path d="M440 1085 H5185 A20 20 0 0 1 5205 1105 V1685 A20 20 0 0 1 5185 1705 H440 A20 20 0 0 1 420 1685 V1105 A20 20 0 0 1 440 1085 Z M446 1097 H5179 A14 14 0 0 1 5193 1111 V1679 A14 14 0 0 1 5179 1693 H446 A14 14 0 0 1 432 1679 V1111 A14 14 0 0 1 446 1097 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="420" y="1085" width="4785" height="620" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="432" y="1097" width="4761" height="596" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M440 1085 H5185 A20 20 0 0 1 5205 1105 V1685 A20 20 0 0 1 5185 1705 H440 A20 20 0 0 1 420 1685 V1105 A20 20 0 0 1 440 1085 Z M446 1097 H5179 A14 14 0 0 1 5193 1111 V1679 A14 14 0 0 1 5179 1693 H446 A14 14 0 0 1 432 1679 V1111 A14 14 0 0 1 446 1097 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="420" y="1085" width="4785" height="620" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="432" y="1097" width="4761" height="596" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2313" y="1113" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">neighbour neuron</text>
-<path d="M440 325 H5185 A20 20 0 0 1 5205 345 V635 A20 20 0 0 1 5185 655 H440 A20 20 0 0 1 420 635 V345 A20 20 0 0 1 440 325 Z M446 337 H5179 A14 14 0 0 1 5193 351 V629 A14 14 0 0 1 5179 643 H446 A14 14 0 0 1 432 629 V351 A14 14 0 0 1 446 337 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="420" y="325" width="4785" height="330" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="432" y="337" width="4761" height="306" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M440 325 H5185 A20 20 0 0 1 5205 345 V635 A20 20 0 0 1 5185 655 H440 A20 20 0 0 1 420 635 V345 A20 20 0 0 1 440 325 Z M446 337 H5179 A14 14 0 0 1 5193 351 V629 A14 14 0 0 1 5179 643 H446 A14 14 0 0 1 432 629 V351 A14 14 0 0 1 446 337 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="420" y="325" width="4785" height="330" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="432" y="337" width="4761" height="306" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2454" y="353" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">neuron</text>
-<ellipse cx="4497.5" cy="1340" rx="601.5" ry="119" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="4497.5" cy="1340" rx="607.5" ry="125" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="4497.5" cy="1340" rx="595.5" ry="113" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="4497.5" cy="1340" rx="601.5" ry="119" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="4497.5" cy="1340" rx="607.5" ry="125" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="4497.5" cy="1340" rx="595.5" ry="113" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="4410.5" y="1243.04" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">clathrin-coated endocytic vesicle</text>
-<ellipse cx="1505" cy="1332.5" rx="474" ry="141.5" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="1505" cy="1332.5" rx="480" ry="147.5" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="1505" cy="1332.5" rx="468" ry="135.5" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="1505" cy="1332.5" rx="474" ry="141.5" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="1505" cy="1332.5" rx="480" ry="147.5" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="1505" cy="1332.5" rx="468" ry="135.5" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="1458" y="1213.07" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">macropinosome</text>
-<path d="M3525 685 H3865 A20 20 0 0 1 3885 705 V1037.5 A20 20 0 0 1 3865 1057.5 H3525 A20 20 0 0 1 3505 1037.5 V705 A20 20 0 0 1 3525 685 Z M3531 697 H3859 A14 14 0 0 1 3873 711 V1031.5 A14 14 0 0 1 3859 1045.5 H3531 A14 14 0 0 1 3517 1031.5 V711 A14 14 0 0 1 3531 697 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
-<rect x="3505" y="685" width="380" height="372.5" rx="20" fill="none" stroke="#000" stroke-width="2"/>
-<rect x="3517" y="697" width="356" height="348.5" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M3525 685 H3865 A20 20 0 0 1 3885 705 V1037.5 A20 20 0 0 1 3865 1057.5 H3525 A20 20 0 0 1 3505 1037.5 V705 A20 20 0 0 1 3525 685 Z M3531 697 H3859 A14 14 0 0 1 3873 711 V1031.5 A14 14 0 0 1 3859 1045.5 H3531 A14 14 0 0 1 3517 1031.5 V711 A14 14 0 0 1 3531 697 Z" fill="#cccc00" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="3505" y="685" width="380" height="372.5" rx="20" fill="none" stroke="#cccc00" stroke-width="2"/>
+<rect x="3517" y="697" width="356" height="348.5" rx="14" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="3639" y="713" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">tunneling nanotube</text>
-<ellipse cx="2355" cy="1325" rx="209" ry="109" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="2355" cy="1325" rx="215" ry="115" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="2355" cy="1325" rx="203" ry="103" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="2355" cy="1325" rx="209" ry="109" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="2355" cy="1325" rx="215" ry="115" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="2355" cy="1325" rx="203" ry="103" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2306" y="1238.28" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">endocytic vesicle</text>
-<ellipse cx="2853" cy="1325" rx="206.5" ry="101.5" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="2853" cy="1325" rx="212.5" ry="107.5" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="2853" cy="1325" rx="200.5" ry="95.5" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="2853" cy="1325" rx="206.5" ry="101.5" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="2853" cy="1325" rx="212.5" ry="107.5" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="2853" cy="1325" rx="200.5" ry="95.5" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2804" y="1245.77" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">endocytic vesicle</text>
-<ellipse cx="3305" cy="1330" rx="131.5" ry="84" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="3305" cy="1330" rx="137.5" ry="90" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="3305" cy="1330" rx="125.5" ry="78" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="3305" cy="1330" rx="131.5" ry="84" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="3305" cy="1330" rx="137.5" ry="90" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="3305" cy="1330" rx="125.5" ry="78" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="3256" y="1268.56" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">endocytic vesicle</text>
-<ellipse cx="2105" cy="555" rx="103" ry="83.5" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="2105" cy="555" rx="109" ry="89.5" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="2105" cy="555" rx="97" ry="77.5" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="2105" cy="555" rx="103" ry="83.5" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="2105" cy="555" rx="109" ry="89.5" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="2105" cy="555" rx="97" ry="77.5" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2048.5" y="494.44" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">multivesicular body</text>
-<ellipse cx="870" cy="907.5" rx="104" ry="76.5" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="870" cy="907.5" rx="110" ry="82.5" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="870" cy="907.5" rx="98" ry="70.5" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="870" cy="907.5" rx="104" ry="76.5" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="870" cy="907.5" rx="110" ry="82.5" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="870" cy="907.5" rx="98" ry="70.5" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="841.5" y="853.83" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">ectosome</text>
-<ellipse cx="2115" cy="795" rx="108.5" ry="72" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="2115" cy="795" rx="114.5" ry="78" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="2115" cy="795" rx="102.5" ry="66" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="2115" cy="795" rx="108.5" ry="72" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="2115" cy="795" rx="114.5" ry="78" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="2115" cy="795" rx="102.5" ry="66" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="2050.5" y="745.71" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">extracellular exosome</text>
-<ellipse cx="627.5" cy="897.5" rx="96.5" ry="71.5" fill="none" stroke="#cccc00" stroke-opacity="0.5" stroke-width="12"/>
-<ellipse cx="627.5" cy="897.5" rx="102.5" ry="77.5" fill="none" stroke="#000" stroke-width="2"/>
-<ellipse cx="627.5" cy="897.5" rx="90.5" ry="65.5" fill="none" stroke="#000" stroke-width="1"/>
+<ellipse cx="627.5" cy="897.5" rx="96.5" ry="71.5" fill="none" stroke="#cccc00" stroke-opacity="0.25" stroke-width="12"/>
+<ellipse cx="627.5" cy="897.5" rx="102.5" ry="77.5" fill="none" stroke="#cccc00" stroke-width="2"/>
+<ellipse cx="627.5" cy="897.5" rx="90.5" ry="65.5" fill="none" stroke="#cccc00" stroke-width="1"/>
 <text x="599" y="848.91" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">ectosome</text>
-<polygon points="4885,1035 5165,1035 5170,1040 5170,1110 5165,1115 4885,1115 4880,1110 4880,1040" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="4885,1035 5165,1035 5170,1040 5170,1110 5165,1115 4885,1115 4880,1110 4880,1040" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="5025" y="1108" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">sodium:potassium-exchanging ATPase complex</text>
-<polygon points="3180,910 3270,910 3275,915 3275,975 3270,980 3180,980 3175,975 3175,915" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="3180,910 3270,910 3275,915 3275,975 3270,980 3180,980 3175,975 3175,915" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="3225" y="973" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="2734.25,1221.25 2986.75,1221.25 2991.75,1226.25 2991.75,1368.75 2986.75,1373.75 2734.25,1373.75 2729.25,1368.75 2729.25,1226.25" fill="#f7f7f7" stroke="#000"/>
+<polygon points="2734.25,1221.25 2986.75,1221.25 2991.75,1226.25 2991.75,1368.75 2986.75,1373.75 2734.25,1373.75 2729.25,1368.75 2729.25,1226.25" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="2860.5" y="1366.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT aggregated: cell membrane</text>
-<polygon points="1607.5,1257.5 1862.5,1257.5 1867.5,1262.5 1867.5,1397.5 1862.5,1402.5 1607.5,1402.5 1602.5,1397.5 1602.5,1262.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="1607.5,1257.5 1862.5,1257.5 1867.5,1262.5 1867.5,1397.5 1862.5,1402.5 1607.5,1402.5 1602.5,1397.5 1602.5,1262.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="1735" y="1395.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT aggregated: HSPG</text>
-<polygon points="1165.5,1257.5 1420.5,1257.5 1425.5,1262.5 1425.5,1397.5 1420.5,1402.5 1165.5,1402.5 1160.5,1397.5 1160.5,1262.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="1165.5,1257.5 1420.5,1257.5 1425.5,1262.5 1425.5,1397.5 1420.5,1402.5 1165.5,1402.5 1160.5,1397.5 1160.5,1262.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="1293" y="1395.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT: HSPG</text>
-<polygon points="4286,1261 4486,1261 4491,1266 4491,1366 4486,1371 4286,1371 4281,1366 4281,1266" fill="#f7f7f7" stroke="#000"/>
+<polygon points="4286,1261 4486,1261 4491,1266 4491,1366 4486,1371 4286,1371 4281,1366 4281,1266" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="4386" y="1364" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LRP1: MAPT aggregated</text>
-<polygon points="4340,990 4430,990 4435,995 4435,1055 4430,1060 4340,1060 4335,1055 4335,995" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="4340,990 4430,990 4435,995 4435,1055 4430,1060 4340,1060 4335,1055 4335,995" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="4385" y="1053" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="4686.5,1263.5 4881.5,1263.5 4886.5,1268.5 4886.5,1363.5 4881.5,1368.5 4686.5,1368.5 4681.5,1363.5 4681.5,1268.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="4686.5,1263.5 4881.5,1263.5 4886.5,1268.5 4886.5,1363.5 4881.5,1368.5 4686.5,1368.5 4681.5,1363.5 4681.5,1268.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="4784" y="1361.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ATP1A3: MAPT aggregated</text>
-<polygon points="4738.5,987.5 4828.5,987.5 4833.5,992.5 4833.5,1052.5 4828.5,1057.5 4738.5,1057.5 4733.5,1052.5 4733.5,992.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="4738.5,987.5 4828.5,987.5 4833.5,992.5 4833.5,1052.5 4828.5,1057.5 4738.5,1057.5 4733.5,1052.5 4733.5,992.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="4783.5" y="1050.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="3920,800 4010,800 4015,805 4015,865 4010,870 3920,870 3915,865 3915,805" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="3920,800 4010,800 4015,805 4015,865 4010,870 3920,870 3915,865 3915,805" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="3965" y="863" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">fibril</text>
-<polygon points="3582.5,755 3707.5,755 3712.5,760 3712.5,790 3707.5,795 3582.5,795 3577.5,790 3577.5,760" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="3582.5,755 3707.5,755 3712.5,760 3712.5,790 3707.5,795 3582.5,795 3577.5,790 3577.5,760" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="3645" y="788" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">tunneling nanotube</text>
-<polygon points="3520,570 3610,570 3615,575 3615,635 3610,640 3520,640 3515,635 3515,575" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="3520,570 3610,570 3615,575 3615,635 3610,640 3520,640 3515,635 3515,575" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="3565" y="633" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="3520,1120 3610,1120 3615,1125 3615,1185 3610,1190 3520,1190 3515,1185 3515,1125" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="3520,1120 3610,1120 3615,1125 3615,1185 3610,1190 3520,1190 3515,1185 3515,1125" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="3565" y="1183" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="2733.75,618.75 2986.25,618.75 2991.25,623.75 2991.25,766.25 2986.25,771.25 2733.75,771.25 2728.75,766.25 2728.75,623.75" fill="#f7f7f7" stroke="#000"/>
+<polygon points="2733.75,618.75 2986.25,618.75 2991.25,623.75 2991.25,766.25 2986.25,771.25 2733.75,771.25 2728.75,766.25 2728.75,623.75" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="2860" y="764.25" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT aggregated: cell membrane</text>
-<polygon points="2227.5,1252.5 2482.5,1252.5 2487.5,1257.5 2487.5,1392.5 2482.5,1397.5 2227.5,1397.5 2222.5,1392.5 2222.5,1257.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="2227.5,1252.5 2482.5,1252.5 2487.5,1257.5 2487.5,1392.5 2482.5,1397.5 2227.5,1397.5 2222.5,1392.5 2222.5,1257.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="2355" y="1390.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT fibirl: HSPG</text>
-<polygon points="1607.5,602.5 1862.5,602.5 1867.5,607.5 1867.5,742.5 1862.5,747.5 1607.5,747.5 1602.5,742.5 1602.5,607.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="1607.5,602.5 1862.5,602.5 1867.5,607.5 1867.5,742.5 1862.5,747.5 1607.5,747.5 1602.5,742.5 1602.5,607.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="1735" y="740.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT aggregated: HSPG</text>
-<polygon points="2814,980 2904,980 2909,985 2909,1045 2904,1050 2814,1050 2809,1045 2809,985" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2814,980 2904,980 2909,985 2909,1045 2904,1050 2814,1050 2809,1045 2809,985" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2859" y="1043" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="2640,1060 2810,1060 2815,1065 2815,1090 2810,1095 2640,1095 2635,1090 2635,1065" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2640,1060 2810,1060 2815,1065 2815,1090 2810,1095 2640,1095 2635,1090 2635,1065" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <ellipse cx="2725" cy="1060" rx="60" ry="8" fill="#fff" stroke="#000"/>
 <text x="2725" y="1063" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">anionic microdomains</text>
 <text x="2725" y="1088" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cell membrane</text>
-<polygon points="3180,470 3270,470 3275,475 3275,535 3270,540 3180,540 3175,535 3175,475" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="3180,470 3270,470 3275,475 3275,535 3270,540 3180,540 3175,535 3175,475" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="3225" y="533" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="2064.5,752 2154.5,752 2159.5,757 2159.5,817 2154.5,822 2064.5,822 2059.5,817 2059.5,757" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2064.5,752 2154.5,752 2159.5,757 2159.5,817 2154.5,822 2064.5,822 2059.5,817 2059.5,757" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2109.5" y="815" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="2064,509.5 2154,509.5 2159,514.5 2159,574.5 2154,579.5 2064,579.5 2059,574.5 2059,514.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2064,509.5 2154,509.5 2159,514.5 2159,574.5 2154,579.5 2064,579.5 2059,574.5 2059,514.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2109" y="572.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="1167.5,602.5 1422.5,602.5 1427.5,607.5 1427.5,742.5 1422.5,747.5 1167.5,747.5 1162.5,742.5 1162.5,607.5" fill="#f7f7f7" stroke="#000"/>
+<polygon points="1167.5,602.5 1422.5,602.5 1427.5,607.5 1427.5,742.5 1422.5,747.5 1167.5,747.5 1162.5,742.5 1162.5,607.5" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
 <text x="1295" y="740.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT: HSPG</text>
-<polygon points="1690,1000 1780,1000 1785,1005 1785,1065 1780,1070 1690,1070 1685,1065 1685,1005" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1690,1000 1780,1000 1785,1005 1785,1065 1780,1070 1690,1070 1685,1065 1685,1005" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1735" y="1063" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="2305,950 2395,950 2400,955 2400,1015 2395,1020 2305,1020 2300,1015 2300,955" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2305,950 2395,950 2400,955 2400,1015 2395,1020 2305,1020 2300,1015 2300,955" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2350" y="1013" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">fibril</text>
-<polygon points="3250,1290 3340,1290 3345,1295 3345,1355 3340,1360 3250,1360 3245,1355 3245,1295" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="3250,1290 3340,1290 3345,1295 3345,1355 3340,1360 3250,1360 3245,1355 3245,1295" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="3295" y="1353" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="1250.5,1307.5 1340.5,1307.5 1345.5,1312.5 1345.5,1372.5 1340.5,1377.5 1250.5,1377.5 1245.5,1372.5 1245.5,1312.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1250.5,1307.5 1340.5,1307.5 1345.5,1312.5 1345.5,1372.5 1340.5,1377.5 1250.5,1377.5 1245.5,1372.5 1245.5,1312.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1295.5" y="1370.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="4386,1276 4476,1276 4481,1281 4481,1341 4476,1346 4386,1346 4381,1341 4381,1281" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="4386,1276 4476,1276 4481,1281 4481,1341 4476,1346 4386,1346 4381,1341 4381,1281" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="4431" y="1339" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="4781.5,1273.5 4871.5,1273.5 4876.5,1278.5 4876.5,1338.5 4871.5,1343.5 4781.5,1343.5 4776.5,1338.5 4776.5,1278.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="4781.5,1273.5 4871.5,1273.5 4876.5,1278.5 4876.5,1338.5 4871.5,1343.5 4781.5,1343.5 4776.5,1338.5 4776.5,1278.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="4826.5" y="1336.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="1692.5,1307.5 1782.5,1307.5 1787.5,1312.5 1787.5,1372.5 1782.5,1377.5 1692.5,1377.5 1687.5,1372.5 1687.5,1312.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1692.5,1307.5 1782.5,1307.5 1787.5,1312.5 1787.5,1372.5 1782.5,1377.5 1692.5,1377.5 1687.5,1372.5 1687.5,1312.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1737.5" y="1370.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="2816.75,1278.75 2906.75,1278.75 2911.75,1283.75 2911.75,1343.75 2906.75,1348.75 2816.75,1348.75 2811.75,1343.75 2811.75,1283.75" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2816.75,1278.75 2906.75,1278.75 2911.75,1283.75 2911.75,1343.75 2906.75,1348.75 2816.75,1348.75 2811.75,1343.75 2811.75,1283.75" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2861.75" y="1341.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="2310,1300 2400,1300 2405,1305 2405,1365 2400,1370 2310,1370 2305,1365 2305,1305" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2310,1300 2400,1300 2405,1305 2405,1365 2400,1370 2310,1370 2305,1365 2305,1305" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2355" y="1363" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">fibril</text>
-<polygon points="1692.5,652.5 1782.5,652.5 1787.5,657.5 1787.5,717.5 1782.5,722.5 1692.5,722.5 1687.5,717.5 1687.5,657.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1692.5,652.5 1782.5,652.5 1787.5,657.5 1787.5,717.5 1782.5,722.5 1692.5,722.5 1687.5,717.5 1687.5,657.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1737.5" y="715.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="1252.5,652.5 1342.5,652.5 1347.5,657.5 1347.5,717.5 1342.5,722.5 1252.5,722.5 1247.5,717.5 1247.5,657.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="1252.5,652.5 1342.5,652.5 1347.5,657.5 1347.5,717.5 1342.5,722.5 1252.5,722.5 1247.5,717.5 1247.5,657.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="1297.5" y="715.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="2816.25,676.25 2906.25,676.25 2911.25,681.25 2911.25,741.25 2906.25,746.25 2816.25,746.25 2811.25,741.25 2811.25,681.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2816.25,676.25 2906.25,676.25 2911.25,681.25 2911.25,741.25 2906.25,746.25 2816.25,746.25 2811.25,741.25 2811.25,681.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <text x="2861.25" y="739.25" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
-<polygon points="2776.25,636.25 2946.25,636.25 2951.25,641.25 2951.25,661.25 2946.25,666.25 2776.25,666.25 2771.25,661.25 2771.25,641.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2776.25,636.25 2946.25,636.25 2951.25,641.25 2951.25,661.25 2946.25,666.25 2776.25,666.25 2771.25,661.25 2771.25,641.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <ellipse cx="2861.25" cy="636.25" rx="60" ry="8" fill="#fff" stroke="#000"/>
 <text x="2861.25" y="639.25" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">anionic microdomains</text>
 <text x="2861.25" y="659.25" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cell membrane</text>
-<polygon points="2776.75,1238.75 2946.75,1238.75 2951.75,1243.75 2951.75,1263.75 2946.75,1268.75 2776.75,1268.75 2771.75,1263.75 2771.75,1243.75" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<polygon points="2776.75,1238.75 2946.75,1238.75 2951.75,1243.75 2951.75,1263.75 2946.75,1268.75 2776.75,1268.75 2771.75,1263.75 2771.75,1243.75" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3" stroke-width="2"/>
 <ellipse cx="2861.75" cy="1238.75" rx="60" ry="8" fill="#fff" stroke="#000"/>
 <text x="2861.75" y="1241.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">anionic microdomains</text>
 <text x="2861.75" y="1261.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cell membrane</text>
@@ -136,6 +136,12 @@
 <polygon points="1470,1105 1560,1105 1575,1120 1560,1135 1470,1135 1455,1120" fill="#cc99ff" stroke="#000"/>
 <text x="1515" y="1124" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">macropinocytosis</text>
 <rect x="1255" y="1025" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="1335" cy="1026.05" r="8" fill="#fff" stroke="#000"/>
+<text x="1321.61" y="1040.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="1255" cy="1025.1" r="8" fill="#fff" stroke="#000"/>
+<text x="1266" y="1039.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="1255" cy="1061.19" r="8" fill="#fff" stroke="#000"/>
+<text x="1266" y="1053.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="1295" y="1049" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <polygon points="1405,1145 1625,1145 1640,1160 1625,1175 1405,1175 1390,1160" fill="#cc99ff" stroke="#000"/>
 <text x="1515" y="1164" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">heparan sulfate proteoglycan binding</text>
@@ -144,8 +150,20 @@
 <polygon points="4135,1160 4315,1160 4330,1175 4315,1190 4135,1190 4120,1175" fill="#cc99ff" stroke="#000"/>
 <text x="4225" y="1179" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">clathrin-dependent endocytosis</text>
 <rect x="4025" y="1015" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="4105" cy="1016.05" r="8" fill="#fff" stroke="#000"/>
+<text x="4091.61" y="1030.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="4025" cy="1015.1" r="8" fill="#fff" stroke="#000"/>
+<text x="4036" y="1029.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="4025" cy="1051.19" r="8" fill="#fff" stroke="#000"/>
+<text x="4036" y="1043.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="4065" y="1039" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="4026" y="1305" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="4106" cy="1306.05" r="8" fill="#fff" stroke="#000"/>
+<text x="4092.61" y="1320.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="4026" cy="1305.1" r="8" fill="#fff" stroke="#000"/>
+<text x="4037" y="1319.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="4026" cy="1341.19" r="8" fill="#fff" stroke="#000"/>
+<text x="4037" y="1333.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="4066" y="1329" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="4455" y="1050" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
 <text x="4495" y="1079" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LRP1</text>
@@ -172,12 +190,24 @@
 <polygon points="2245,680 2305,680 2320,695 2305,710 2245,710 2230,695" fill="#cc99ff" stroke="#000"/>
 <text x="2275" y="699" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">exocytosis</text>
 <rect x="830" y="875" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="910" cy="876.05" r="8" fill="#fff" stroke="#000"/>
+<text x="896.61" y="890.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="830" cy="875.1" r="8" fill="#fff" stroke="#000"/>
+<text x="841" y="889.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="830" cy="911.19" r="8" fill="#fff" stroke="#000"/>
+<text x="841" y="903.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="870" y="899" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <ellipse cx="650" cy="725" rx="20" ry="20" fill="#9999ff" stroke="#000"/>
 <text x="650" y="729" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Ca2+</text>
 <ellipse cx="650" cy="550" rx="20" ry="20" fill="#9999ff" stroke="#000"/>
 <text x="650" y="554" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Ca2+</text>
 <rect x="940" y="580" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="1020" cy="581.05" r="8" fill="#fff" stroke="#000"/>
+<text x="1006.61" y="595.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="940" cy="580.1" r="8" fill="#fff" stroke="#000"/>
+<text x="951" y="594.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="940" cy="616.19" r="8" fill="#fff" stroke="#000"/>
+<text x="951" y="608.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="980" y="604" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <polygon points="650,475 870,475 885,490 870,505 650,505 635,490" fill="#cc99ff" stroke="#000"/>
 <text x="760" y="494" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">intracellular calcium ion homeostasis</text>
@@ -190,10 +220,28 @@
 <rect x="595" y="870" width="80" height="40" rx="5" fill="#ffcccc" stroke="#000"/>
 <text x="635" y="894" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT (C terminus)</text>
 <rect x="3186" y="919" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="3266" cy="920.05" r="8" fill="#fff" stroke="#000"/>
+<text x="3252.61" y="934.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="3186" cy="919.1" r="8" fill="#fff" stroke="#000"/>
+<text x="3197" y="933.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="3186" cy="955.19" r="8" fill="#fff" stroke="#000"/>
+<text x="3197" y="947.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="3226" y="943" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="3254.25" y="1300.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="3334.25" cy="1301.55" r="8" fill="#fff" stroke="#000"/>
+<text x="3320.86" y="1316.05" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="3254.25" cy="1300.6" r="8" fill="#fff" stroke="#000"/>
+<text x="3265.25" y="1315.1" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="3254.25" cy="1336.69" r="8" fill="#fff" stroke="#000"/>
+<text x="3265.25" y="1329.19" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="3294.25" y="1324.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="1694.25" y="1010.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="1774.25" cy="1011.55" r="8" fill="#fff" stroke="#000"/>
+<text x="1760.86" y="1026.05" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="1694.25" cy="1010.6" r="8" fill="#fff" stroke="#000"/>
+<text x="1705.25" y="1025.1" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="1694.25" cy="1046.69" r="8" fill="#fff" stroke="#000"/>
+<text x="1705.25" y="1039.19" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="1734.25" y="1034.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <ellipse cx="1737.5" cy="1282.5" rx="125" ry="12.5" fill="#ccff66" stroke="#000"/>
 <text x="1737.5" y="1286.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">heparan sulfate proteoglycan (HSPG)</text>
@@ -202,52 +250,166 @@
 <rect x="4905" y="1055" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
 <text x="4945" y="1079" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ATP1A3</text>
 <rect x="4344.25" y="1000.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="4424.25" cy="1001.55" r="8" fill="#fff" stroke="#000"/>
+<text x="4410.85" y="1016.05" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="4344.25" cy="1000.6" r="8" fill="#fff" stroke="#000"/>
+<text x="4355.25" y="1015.1" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="4344.25" cy="1036.69" r="8" fill="#fff" stroke="#000"/>
+<text x="4355.25" y="1029.19" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="4384.25" y="1024.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="4291" y="1286" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
 <text x="4331" y="1315" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LRP1</text>
 <rect x="4742.75" y="998" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="4822.75" cy="999.05" r="8" fill="#fff" stroke="#000"/>
+<text x="4809.35" y="1013.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="4742.75" cy="998.1" r="8" fill="#fff" stroke="#000"/>
+<text x="4753.75" y="1012.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="4742.75" cy="1034.19" r="8" fill="#fff" stroke="#000"/>
+<text x="4753.75" y="1026.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="4782.75" y="1022" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="4691.5" y="1283.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
 <text x="4731.5" y="1307.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ATP1A3</text>
 <rect x="3926" y="809" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="4006" cy="810.05" r="8" fill="#fff" stroke="#000"/>
+<text x="3992.61" y="824.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="3926" cy="809.1" r="8" fill="#fff" stroke="#000"/>
+<text x="3937" y="823.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="3926" cy="845.19" r="8" fill="#fff" stroke="#000"/>
+<text x="3937" y="837.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="3966" y="833" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="3524.25" y="580.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="3604.25" cy="581.55" r="8" fill="#fff" stroke="#000"/>
+<text x="3590.86" y="596.05" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="3524.25" cy="580.6" r="8" fill="#fff" stroke="#000"/>
+<text x="3535.25" y="595.1" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="3524.25" cy="616.69" r="8" fill="#fff" stroke="#000"/>
+<text x="3535.25" y="609.19" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="3564.25" y="604.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="3524.25" y="1130.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="3604.25" cy="1131.55" r="8" fill="#fff" stroke="#000"/>
+<text x="3590.86" y="1146.05" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="3524.25" cy="1130.6" r="8" fill="#fff" stroke="#000"/>
+<text x="3535.25" y="1145.1" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="3524.25" cy="1166.69" r="8" fill="#fff" stroke="#000"/>
+<text x="3535.25" y="1159.19" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="3564.25" y="1154.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="2311" y="959" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="2391" cy="960.05" r="8" fill="#fff" stroke="#000"/>
+<text x="2377.61" y="974.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="2311" cy="959.1" r="8" fill="#fff" stroke="#000"/>
+<text x="2322" y="973.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="2311" cy="995.19" r="8" fill="#fff" stroke="#000"/>
+<text x="2322" y="987.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="2351" y="983" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <ellipse cx="2357.5" cy="1277.5" rx="125" ry="12.5" fill="#ccff66" stroke="#000"/>
 <text x="2357.5" y="1281.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">heparan sulfate proteoglycan (HSPG)</text>
 <rect x="2819" y="990" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="2899" cy="991.05" r="8" fill="#fff" stroke="#000"/>
+<text x="2885.61" y="1005.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="2819" cy="990.1" r="8" fill="#fff" stroke="#000"/>
+<text x="2830" y="1004.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="2819" cy="1026.19" r="8" fill="#fff" stroke="#000"/>
+<text x="2830" y="1018.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="2859" y="1014" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="3184.25" y="480.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="3264.25" cy="481.55" r="8" fill="#fff" stroke="#000"/>
+<text x="3250.86" y="496.05" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="3184.25" cy="480.6" r="8" fill="#fff" stroke="#000"/>
+<text x="3195.25" y="495.1" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="3184.25" cy="516.69" r="8" fill="#fff" stroke="#000"/>
+<text x="3195.25" y="509.19" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="3224.25" y="504.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="2068.75" y="762.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="2148.75" cy="763.55" r="8" fill="#fff" stroke="#000"/>
+<text x="2135.36" y="778.05" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="2068.75" cy="762.6" r="8" fill="#fff" stroke="#000"/>
+<text x="2079.75" y="777.1" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="2068.75" cy="798.69" r="8" fill="#fff" stroke="#000"/>
+<text x="2079.75" y="791.19" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="2108.75" y="786.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="2068.25" y="520" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="2148.25" cy="521.05" r="8" fill="#fff" stroke="#000"/>
+<text x="2134.86" y="535.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="2068.25" cy="520.1" r="8" fill="#fff" stroke="#000"/>
+<text x="2079.25" y="534.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="2068.25" cy="556.19" r="8" fill="#fff" stroke="#000"/>
+<text x="2079.25" y="548.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="2108.25" y="544" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <ellipse cx="1737.5" cy="627.5" rx="125" ry="12.5" fill="#ccff66" stroke="#000"/>
 <text x="1737.5" y="631.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">heparan sulfate proteoglycan (HSPG)</text>
 <ellipse cx="1297.5" cy="627.5" rx="125" ry="12.5" fill="#ccff66" stroke="#000"/>
 <text x="1297.5" y="631.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">heparan sulfate proteoglycan (HSPG)</text>
 <rect x="1696.75" y="1318" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="1776.75" cy="1319.05" r="8" fill="#fff" stroke="#000"/>
+<text x="1763.36" y="1333.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="1696.75" cy="1318.1" r="8" fill="#fff" stroke="#000"/>
+<text x="1707.75" y="1332.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="1696.75" cy="1354.19" r="8" fill="#fff" stroke="#000"/>
+<text x="1707.75" y="1346.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="1736.75" y="1342" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="1254.75" y="1318" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="1334.75" cy="1319.05" r="8" fill="#fff" stroke="#000"/>
+<text x="1321.36" y="1333.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="1254.75" cy="1318.1" r="8" fill="#fff" stroke="#000"/>
+<text x="1265.75" y="1332.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="1254.75" cy="1354.19" r="8" fill="#fff" stroke="#000"/>
+<text x="1265.75" y="1346.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="1294.75" y="1342" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="4390.25" y="1286.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="4470.25" cy="1287.55" r="8" fill="#fff" stroke="#000"/>
+<text x="4456.85" y="1302.05" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="4390.25" cy="1286.6" r="8" fill="#fff" stroke="#000"/>
+<text x="4401.25" y="1301.1" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="4390.25" cy="1322.69" r="8" fill="#fff" stroke="#000"/>
+<text x="4401.25" y="1315.19" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="4430.25" y="1310.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="4785.75" y="1284" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="4865.75" cy="1285.05" r="8" fill="#fff" stroke="#000"/>
+<text x="4852.35" y="1299.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="4785.75" cy="1284.1" r="8" fill="#fff" stroke="#000"/>
+<text x="4796.75" y="1298.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="4785.75" cy="1320.19" r="8" fill="#fff" stroke="#000"/>
+<text x="4796.75" y="1312.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="4825.75" y="1308" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="2316" y="1309" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="2396" cy="1310.05" r="8" fill="#fff" stroke="#000"/>
+<text x="2382.61" y="1324.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="2316" cy="1309.1" r="8" fill="#fff" stroke="#000"/>
+<text x="2327" y="1323.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="2316" cy="1345.19" r="8" fill="#fff" stroke="#000"/>
+<text x="2327" y="1337.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="2356" y="1333" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="2821" y="1289.25" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="2901" cy="1290.3" r="8" fill="#fff" stroke="#000"/>
+<text x="2887.61" y="1304.8" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="2821" cy="1289.35" r="8" fill="#fff" stroke="#000"/>
+<text x="2832" y="1303.85" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="2821" cy="1325.44" r="8" fill="#fff" stroke="#000"/>
+<text x="2832" y="1317.94" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="2861" y="1313.25" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="1696.75" y="663" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="1776.75" cy="664.05" r="8" fill="#fff" stroke="#000"/>
+<text x="1763.36" y="678.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="1696.75" cy="663.1" r="8" fill="#fff" stroke="#000"/>
+<text x="1707.75" y="677.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="1696.75" cy="699.19" r="8" fill="#fff" stroke="#000"/>
+<text x="1707.75" y="691.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="1736.75" y="687" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="1256.75" y="663" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="1336.75" cy="664.05" r="8" fill="#fff" stroke="#000"/>
+<text x="1323.36" y="678.55" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="1256.75" cy="663.1" r="8" fill="#fff" stroke="#000"/>
+<text x="1267.75" y="677.6" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="1256.75" cy="699.19" r="8" fill="#fff" stroke="#000"/>
+<text x="1267.75" y="691.69" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="1296.75" y="687" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <rect x="2820.5" y="686.75" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<circle cx="2900.5" cy="687.8" r="8" fill="#fff" stroke="#000"/>
+<text x="2887.11" y="702.3" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">T181</text>
+<circle cx="2820.5" cy="686.85" r="8" fill="#fff" stroke="#000"/>
+<text x="2831.5" y="701.35" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Y18</text>
+<circle cx="2820.5" cy="722.94" r="8" fill="#fff" stroke="#000"/>
+<text x="2831.5" y="715.44" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">K18</text>
 <text x="2860.5" y="710.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
 <polyline points="3283,945 3295,945 3295,1268"/>
@@ -298,7 +460,7 @@
 <polyline points="650,697 650,592"/>
 <polyline points="520.07,643 522.48,900.68 573,900.21"/>
 <polyline points="622,549.96 589.85,549.8 588.79,768.1 541.24,767.87"/>
-<polyline points="700.22,708 701.87,767.96 541.28,772.38"/>
+<polyline points="714.99,708 714.91,773.01 541.29,772.81"/>
 <polyline points="717,735 719.96,735 719.97,772.78 541.29,772.79"/>
 <polyline points="627,489.97 580.18,489.76 579,763.02 529.19,762.81"/>
 </g>
@@ -422,9 +584,9 @@
 <polygon points="526.24,767.79 541.26,762.87 541.22,772.87" fill="#fff" stroke="#000"/>
 <line x1="546.26" y1="763.39" x2="546.22" y2="772.39" stroke="#000"/>
 <polyline points="630,550 589.85,549.8 588.79,768.1 541.24,767.87" fill="none" stroke="#000000" stroke-width="1"/>
-<polygon points="526.29,772.79 541.14,767.38 541.42,777.38" fill="#fff" stroke="#000"/>
-<line x1="546.16" y1="767.74" x2="546.4" y2="776.74" stroke="#000"/>
-<polyline points="700,700 701.87,767.96 541.28,772.38" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="526.29,772.79 541.29,767.81 541.28,777.81" fill="#fff" stroke="#000"/>
+<line x1="546.29" y1="768.32" x2="546.28" y2="777.32" stroke="#000"/>
+<polyline points="715,700 714.91,773.01 541.29,772.81" fill="none" stroke="#000000" stroke-width="1"/>
 <polygon points="526.29,772.79 541.29,767.79 541.29,777.79" fill="#fff" stroke="#000"/>
 <line x1="546.29" y1="768.29" x2="546.29" y2="777.29" stroke="#000"/>
 <polyline points="725,735 719.96,735 719.97,772.78 541.29,772.79" fill="none" stroke="#000000" stroke-width="1"/>
