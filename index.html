@@ -82,6 +82,9 @@
   .m2-ev p { margin: 0 0 4px; }
   .m2-ev ol { margin: 4px 0 0; padding-left: 22px; }
   .m2-ev .m2-where { color: #555; }
+  .m2-dis-h { margin: 6px 0 2px !important; color: #333; }
+  .m2-dis { margin: 0; padding-left: 22px; }
+  .m2-dis li { margin: 2px 0; }
   #m2-notation { margin: 18px 0 0; font-size: 14px; line-height: 20px; }
   #m2-notation[hidden] { display: none; }
   #m2-about p { margin: 10px 0 0; }
@@ -426,6 +429,7 @@ long for its submap is drawn as a small map first and merged once checked.</p>
   function ref(r) {
     return esc(r.cite) + ' <a href="https://pubmed.ncbi.nlm.nih.gov/' + esc(r.pmid) + '/" target="_blank" rel="noopener">PMID ' + esc(r.pmid) + '</a>';
   }
+  var DIS = { AD: "Alzheimer's disease", PD: "Parkinson's disease", MS: 'Multiple sclerosis' };
   function showEvidence() {
     var box = document.getElementById('m2-evidence'), m = maps[cur];
     var here = evidence.proteins.filter(function (p) { return p.maps.indexOf(m.slug) >= 0; });
@@ -437,7 +441,10 @@ long for its submap is drawn as a small map first and merged once checked.</p>
         (p.full_name ? ' <span class="m2-where">(' + esc(p.full_name) + ')</span>' : '') + '</h3>' +
         '<p>' + esc(p.summary) + '</p>' +
         (p.links || []).map(function (l) { return '<p class="m2-where">' + esc(l) + '</p>'; }).join('') +
-        '<ol>' + p.refs.map(function (r) { return '<li>' + ref(r) + '</li>'; }).join('') + '</ol></div>';
+        '<ol>' + p.refs.map(function (r) { return '<li>' + ref(r) + '</li>'; }).join('') + '</ol>' +
+        ((p.diseases || []).length ? '<p class="m2-dis-h">In disease models and patients:</p><ul class="m2-dis">' + p.diseases.map(function (x) {
+          return '<li><b>' + esc(DIS[x.disease] || x.disease) + '</b>: ' + esc(x.shows) + ' <span class="m2-where">(' + esc(x.model) + ')</span> ' + ref(x) + '</li>';
+        }).join('') + '</ul>' : '') + '</div>';
     });
     box.innerHTML = h;
   }

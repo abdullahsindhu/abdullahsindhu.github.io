@@ -386,7 +386,7 @@
 <reaction metaid="re3" id="re3" reversible="false">
 <annotation>
 <celldesigner:extension>
-<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:reactionType>UNKNOWN_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s5" alias="sa5"/>
 </celldesigner:baseReactants>

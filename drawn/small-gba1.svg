@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400">
+<rect width="100%" height="100%" fill="#fff"/>
+<path d="M60 40 H920 A20 20 0 0 1 940 60 V580 A20 20 0 0 1 920 600 H60 A20 20 0 0 1 40 580 V60 A20 20 0 0 1 60 40 Z M56 42 H924 A14 14 0 0 1 938 56 V584 A14 14 0 0 1 924 598 H56 A14 14 0 0 1 42 584 V56 A14 14 0 0 1 56 42 Z" fill="#9999ff" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="40" y="40" width="900" height="560" rx="20" fill="none" stroke="#9999ff" stroke-width="1"/>
+<rect x="42" y="42" width="896" height="556" rx="14" fill="none" stroke="#9999ff" stroke-width="1"/>
+<text x="50" y="601.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">neuron</text>
+<rect x="100" y="100" width="80" height="40" rx="5" fill="#66b2ff" stroke="#000"/>
+<text x="140" y="124" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">GBA1</text>
+<rect x="490" y="100" width="80" height="40" rx="5" fill="#66b2ff" stroke="#000"/>
+<text x="530" y="124" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">GBA1</text>
+<ellipse cx="370" cy="280" rx="70" ry="15" fill="#ccff66" stroke="#000"/>
+<text x="370" y="284" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">glucosylceramide</text>
+<ellipse cx="690" cy="280" rx="40" ry="15" fill="#ccff66" stroke="#000"/>
+<text x="690" y="284" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ceramide</text>
+<rect x="330" y="420" width="80" height="40" rx="5" fill="#f7f7f7" stroke="#000"/>
+<text x="370" y="444" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SNCA</text>
+<rect x="650" y="420" width="110" height="40" rx="5" fill="#f7f7f7" stroke="#000"/>
+<text x="705" y="444" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SNCA oligomer</text>
+<g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<polyline points="188,120 468,120"/>
+<polyline points="676.22,414.72 337.25,116.98"/>
+<polyline points="448,280 628,280"/>
+<polyline points="532.71,147.96 544.28,267.53"/>
+<polyline points="418,440 628,440"/>
+<polyline points="390.84,300.18 524.25,429.43"/>
+</g>
+<polygon points="490,120 475,125 475,115" fill="#000"/>
+<polyline points="180,120 476,120" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<line x1="341.21" y1="112.47" x2="333.29" y2="121.49" stroke="#000"/>
+<polyline points="682.23,420 337.25,116.98" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(335,120) rotate(0)"/>
+<polygon points="650,280 635,285 635,275" fill="#000"/>
+<polyline points="440,280 636,280" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<circle cx="544.57" cy="270.52" r="3" fill="#fff" stroke="#000"/>
+<polyline points="531.94,140 544.28,267.53" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(545,280) rotate(0)"/>
+<polygon points="650,440 635,445 635,435" fill="#000"/>
+<polyline points="410,440 636,440" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<polygon points="530,435 521.47,432.31 527.04,426.56" fill="#fff" stroke="#000"/>
+<polyline points="385.09,294.62 524.25,429.43" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(530,440) rotate(0)"/>
+</svg>

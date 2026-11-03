@@ -17,13 +17,13 @@
   "slug": "chrneuroinflammation46-updated",
   "group": "Top-level map",
   "file": "maps-updated/ChrNeuroinflammation46.xml",
-  "sha1": "660d9fdf2ed36eecd9607a6bf30329f7850e389a",
+  "sha1": "e106d915f0140f0ec1c767ad8821fa73e8d6f1ae",
   "error": "",
   "notes": [],
-  "svg": "bafc1c184bbf94af27f9b3662002d06c1d23d961",
+  "svg": "7a2eb09a09b407bc46787c65e45ff3f11b0bc603",
   "width": 10000.0,
   "height": 7000.0,
-  "ann": "71a5c9e5b20653984559d051592616dca78ebd7c",
+  "ann": "5a9c1e75fe5863fe8f4eb34bd69e75bbef55afd6",
   "updated": true
  },
  {
@@ -44,13 +44,13 @@
   "slug": "altered-bbb-permeability-updated",
   "group": "Submaps",
   "file": "maps-updated/submaps/altered BBB permeability.xml",
-  "sha1": "d94d315a0f9dee6916ad8f75ef210cf2a590dce1",
+  "sha1": "025e406dc688a7ef68b0330cd597c84ab6352474",
   "error": "",
   "notes": [],
-  "svg": "28fd83160d30cb18cb1e80c8b1e3282a05cd2518",
+  "svg": "b0c4af4ac771601928973c0e072a20978d844f8a",
   "width": 8000.0,
   "height": 9000.0,
-  "ann": "d8f000da6b39fe50b7517749f718d0daad78fd33",
+  "ann": "e9c4152d91bca2eebc37b766955f206d86b447eb",
   "updated": true
  },
  {
@@ -84,13 +84,13 @@
   "slug": "app-processing-updated",
   "group": "Submaps",
   "file": "maps-updated/submaps/APP processing.xml",
-  "sha1": "fece30ca8be3fdf3218fe0f6a6bd5041e7f5bd3f",
+  "sha1": "cf289a330c5c3a34d4a1d6e3ce8690729ef24a40",
   "error": "",
   "notes": [],
-  "svg": "f8b5956404d2038c35df87edcfac6dcdd24f1d39",
+  "svg": "5ef1c657c55c1dfee7c03edeacba9d4f0bfe7fef",
   "width": 4000.0,
   "height": 4500.0,
-  "ann": "5ec1f4e3be250453b37ab39189eaea3b9fe056cc",
+  "ann": "10ec3829040c45abcf27d48098b56e74f454d15a",
   "updated": true
  },
  {
@@ -111,13 +111,13 @@
   "slug": "astrocyte-signaling-updated",
   "group": "Submaps",
   "file": "maps-updated/submaps/Astrocyte signaling.xml",
-  "sha1": "5d2f8b484cc997a8a92dd388f065e07126480504",
+  "sha1": "856138602ef49397b40860187d36626a75bd1208",
   "error": "",
   "notes": [],
-  "svg": "4a43e6176e4a255ec6da25830c012c40884e6fdc",
+  "svg": "ab8b8e41ce1ed8138f0d0662723532b60009c7ef",
   "width": 13244.0,
   "height": 7334.0,
-  "ann": "c357b4c7e0c142dddafd22230ddc554e41825bb2",
+  "ann": "9ca46be23fb2522301720c693b2ce03b57352925",
   "updated": true
  },
  {
@@ -244,13 +244,13 @@
   "slug": "neuron-signaling-updated",
   "group": "Submaps",
   "file": "maps-updated/submaps/Neuron signaling.xml",
-  "sha1": "e0c5925e29cc282537b36f24672898da431b5703",
+  "sha1": "78f50f11aa990312086f91919a538e6352909264",
   "error": "",
   "notes": [],
-  "svg": "75d074abd2c051e0a42eee0c760c6e093d027222",
+  "svg": "90d257c70f4cb8c1e0f45ef1baf9301a60e2ddc2",
   "width": 6000.0,
   "height": 4000.0,
-  "ann": "50b90bd886822af788d4953c6706e292c21a9d3a",
+  "ann": "6fc0a5adca1eded588aebcac6772505bead9e416",
   "updated": true
  },
  {
@@ -284,13 +284,13 @@
   "slug": "nlrp3-inflammasome-updated",
   "group": "Submaps",
   "file": "maps-updated/submaps/NLRP3 inflammasome.xml",
-  "sha1": "e79333f0ed5d794dd8753b60f1b51756ae0489c6",
+  "sha1": "f993c694e25fd4af324baf56baf234576ac420cb",
   "error": "",
   "notes": [],
-  "svg": "87ac08dbde6a698522ceb7813644d48ee820c874",
+  "svg": "5cc0e284290da372fb0eb9e643d8d07c0ceeadf7",
   "width": 4300.0,
   "height": 3210.0,
-  "ann": "d7046f23d5dc5d51dc64dc496bee58ca2b56f0cd",
+  "ann": "1ceb4aa0c20b1a22a7d5a629365eb6bfe5b6c7b5",
   "updated": true
  },
  {
@@ -305,6 +305,20 @@
   "width": 13244.0,
   "height": 7334.0,
   "ann": "33bb64cb149ff1217f5b13c5723623d2469a3ed2"
+ },
+ {
+  "name": "BMAL1",
+  "slug": "small-bmal1",
+  "group": "Small maps",
+  "file": "maps-small/bmal1.xml",
+  "sha1": "6fab226a3fbd81e26bd4ca573496ac039b8fb058",
+  "error": "",
+  "notes": [],
+  "svg": "62f7537abf731a4c2977acbe9730d493cba9d884",
+  "width": 2000.0,
+  "height": 1400.0,
+  "ann": "a98fb80743e702fd4b55243397a22a3039608be2",
+  "about": "BMAL1 drives NR1D1 (REV-ERBalpha) transcription; REV-ERBalpha lowers C3 transcription, directly or not is not shown (dashed inhibition) (Griffin 2020) (to be merged into: Astrocyte signaling)"
  },
  {
   "name": "CCR5",
@@ -325,13 +339,13 @@
   "slug": "small-ch25h",
   "group": "Small maps",
   "file": "maps-small/ch25h.xml",
-  "sha1": "8a5f53863c674644f1a7f118724da8a85980730e",
+  "sha1": "cb59bcf63928c836a128cb3245d94eb482ac15f6",
   "error": "",
   "notes": [],
-  "svg": "f250750da0542e72fa52be5ca17eb2213257d0b2",
+  "svg": "245d06a3c4120e2f00212f262edcdd1a744e9fd6",
   "width": 2000.0,
   "height": 1400.0,
-  "ann": "b209eef845dece6340afea091decaed99973bb33",
+  "ann": "aafca4eef4200930dae8763ac7bbe0e06f6ef1af",
   "about": "cholesterol -> 25-hydroxycholesterol (CH25H, TLR4-driven) -> NLRP3 inflammasome (to be merged into: NLRP3 inflammasome)"
  },
  {
@@ -377,6 +391,20 @@
   "about": "GALC - (to be merged into: astrocytic LCN2)"
  },
  {
+  "name": "GBA1",
+  "slug": "small-gba1",
+  "group": "Small maps",
+  "file": "maps-small/gba1.xml",
+  "sha1": "4d57e7cb60b24b49124295f17ef95921086e42b9",
+  "error": "",
+  "notes": [],
+  "svg": "5258823f3fa48324ab40ddedf7cb5f974e0be45e",
+  "width": 2000.0,
+  "height": 1400.0,
+  "ann": "2111ae2043b26c3fd4ca85bb8b910c43c3cc400b",
+  "about": "GBA1 cleaves glucosylceramide in the lysosome; glucosylceramide stabilises alpha-synuclein oligomers, which block GBA1 transport to the lysosome (the loop of Mazzulli 2011) (to be merged into: NLRP3 inflammasome (now one omitted process there))"
+ },
+ {
   "name": "POMC",
   "slug": "small-pomc",
   "group": "Small maps",
@@ -389,5 +417,19 @@
   "height": 1400.0,
   "ann": "b1af4d390ea05a47c29b08cc74f5e8416e1df49d",
   "about": "POMC -> alpha-MSH; alpha-MSH:MC4R - (to be merged into: NOS2)"
+ },
+ {
+  "name": "VTN",
+  "slug": "small-vtn",
+  "group": "Small maps",
+  "file": "maps-small/vtn.xml",
+  "sha1": "5b7c661b6c47fbf8dc3da09c4f7be581ea831a2b",
+  "error": "",
+  "notes": [],
+  "svg": "36b51b024e5a9f7287c10c83959e3159cbc8f7a0",
+  "width": 2000.0,
+  "height": 1400.0,
+  "ann": "1dc63d171cfe6d95e17417329b5fbd52f1b7f0e7",
+  "about": "VTN binds integrin alphaVbeta5, which activates FAK (PTK2); FAK to IL6 transcription by steps not shown (//) (Keasey 2018) (to be merged into: Astrocyte signaling)"
  }
 ]

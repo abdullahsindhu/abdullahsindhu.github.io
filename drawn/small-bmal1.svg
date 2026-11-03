@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400">
+<rect width="100%" height="100%" fill="#fff"/>
+<path d="M60 40 H920 A20 20 0 0 1 940 60 V580 A20 20 0 0 1 920 600 H60 A20 20 0 0 1 40 580 V60 A20 20 0 0 1 60 40 Z M56 42 H924 A14 14 0 0 1 938 56 V584 A14 14 0 0 1 924 598 H56 A14 14 0 0 1 42 584 V56 A14 14 0 0 1 56 42 Z" fill="#9999ff" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="40" y="40" width="900" height="560" rx="20" fill="none" stroke="#9999ff" stroke-width="1"/>
+<rect x="42" y="42" width="896" height="556" rx="14" fill="none" stroke="#9999ff" stroke-width="1"/>
+<text x="50" y="601.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">astrocyte</text>
+<rect x="100" y="307" width="80" height="40" rx="5" fill="#66b2ff" stroke="#000"/>
+<text x="140" y="331" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">BMAL1</text>
+<rect x="330" y="250" width="70" height="25" fill="#ffcc99" stroke="#000"/>
+<text x="365" y="266.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NR1D1</text>
+<polygon points="345,380 410,380 385,405 320,405" fill="#ffcc99" stroke="#000"/>
+<text x="365" y="396.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NR1D1</text>
+<rect x="325" y="500" width="80" height="40" rx="5" fill="#f7f7f7" stroke="#000"/>
+<text x="365" y="524" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NR1D1</text>
+<rect x="700" y="250" width="70" height="25" fill="#ffcc99" stroke="#000"/>
+<text x="735" y="266.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">C3</text>
+<polygon points="715,380 780,380 755,405 690,405" fill="#ffcc99" stroke="#000"/>
+<text x="735" y="396.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">C3</text>
+<g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<polyline points="365,283 365,358"/>
+<polyline points="188,327.1 362,327.48"/>
+<polyline points="365,413 365,478"/>
+<polyline points="735,283 735,358"/>
+<polyline points="411.08,496.35 737.33,328.87"/>
+</g>
+<polygon points="365,380 360,365 370,365" fill="#000"/>
+<polyline points="365,275 365,366" fill="none" stroke="#1f6fd1" stroke-width="1" stroke-dasharray="10,4,2,4,2,4"/>
+<polygon points="370,327.5 361.99,331.48 362.01,323.48" fill="#fff" stroke="#000"/>
+<polyline points="180,327.09 362,327.48" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(365,327.5) rotate(90)"/>
+<polygon points="365,500 360,485 370,485" fill="#000"/>
+<polyline points="365,405 365,486" fill="none" stroke="#1f6fd1" stroke-width="1" stroke-dasharray="10,3,2,3"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(365,452.5) rotate(90)"/>
+<polygon points="735,380 730,365 740,365" fill="#000"/>
+<polyline points="735,275 735,366" fill="none" stroke="#1f6fd1" stroke-width="1" stroke-dasharray="10,4,2,4,2,4"/>
+<line x1="740.07" y1="334.21" x2="734.59" y2="323.53" stroke="#000"/>
+<polyline points="403.96,500 737.33,328.87" fill="none" stroke="#1f6fd1" stroke-width="1" stroke-dasharray="6,4"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(735,327.5) rotate(90)"/>
+</svg>
