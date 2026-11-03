@@ -965,18 +965,18 @@
 <polyline points="1830,7052 1830,6840 1878,6840"/>
 <polyline points="1376.5,6001.75 1550.39,6001.79 1550.18,6949.94 1810,6950"/>
 <polyline points="2070,6828 2070,6950 1838,6950"/>
-<polyline points="2538.74,7242.4 2532.9,7278.89 2469.69,7268.78 2460.97,7323.28"/>
+<polyline points="2528,7218.5 2528,7260 2457.5,7260 2457.5,7323"/>
 <polyline points="2270,6953 2270,7173"/>
-<polyline points="2485.01,7209.68 2469.45,7209.06 2474.68,7077.98 2278,7070.12"/>
+<polyline points="2485,7198 2470,7198 2470,7070 2278,7070"/>
 <polyline points="1960,6868 1960.01,7075.01 2250,7075"/>
 <polyline points="1990,6320.5 1990.01,7065 2250,7065"/>
 <polyline points="2170,6633 2170.01,7065 2250,7065"/>
 <polyline points="2270,7233 2270,7260 2322.5,7260 2322.5,7334"/>
-<polyline points="2530.61,6882.98 2538.32,6983.56"/>
-<polyline points="2562.02,6989.49 2552.53,6988.87 2555.62,6940.88 2547.47,6940.35"/>
-<polyline points="2368,6930.13 2401.5,6930.65 2401.37,6938.61 2522.52,6940.51"/>
-<polyline points="2138,6800.02 2414.19,6800.71 2413.86,6935.36 2514.63,6935.61"/>
-<polyline points="2540,7062.5 2540,7163.5"/>
+<polyline points="2529.88,6883 2528.34,6983.5"/>
+<polyline points="2562,6990.19 2551.62,6990.43 2550.44,6939.94 2541.5,6940.15"/>
+<polyline points="2368,6930.12 2400.03,6930.61 2399.91,6938.29 2516.5,6940.06"/>
+<polyline points="2138,6800.05 2410.55,6801.6 2409.79,6934.52 2509.08,6935.09"/>
+<polyline points="2528,7038.5 2528,7163.5"/>
 <polyline points="987.5,6969.95 980.48,6969.9 980.14,7023"/>
 <polyline points="980,6598 980,6622.5 1080,6622.5 1080,6683"/>
 <polyline points="1080.04,6743 1080.1,6774.54 1169.67,6774.37 1169.96,6932"/>
@@ -1436,12 +1436,12 @@
 <line x1="1838" y1="6944" x2="1838" y2="6956" stroke="#000"/>
 <polyline points="2070,6820 2070,6950 1838,6950" fill="none" stroke="#000000" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1830,6950) rotate(-90)"/>
-<polygon points="2457.5,7345 2454.93,7329.4 2464.81,7330.98" fill="#000"/>
-<polyline points="2540,7234.5 2532.9,7278.89 2469.69,7268.78 2459.71,7331.18" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2457.5,7345 2452.5,7330 2462.5,7330" fill="#000"/>
+<polyline points="2528,7210.5 2528,7260 2457.5,7260 2457.5,7331" fill="none" stroke="#000000" stroke-width="1"/>
 <polygon points="2270,7195 2265,7180 2275,7180" fill="#000"/>
 <polyline points="2270,6945 2270,7181" fill="none" stroke="#000000" stroke-width="1"/>
-<line x1="2278.24" y1="7064.12" x2="2277.76" y2="7076.11" stroke="#000"/>
-<polyline points="2493,7210 2469.45,7209.06 2474.68,7077.98 2278,7070.12" fill="none" stroke="#000000" stroke-width="1"/>
+<line x1="2278" y1="7064" x2="2278" y2="7076" stroke="#000"/>
+<polyline points="2493,7198 2470,7198 2470,7070 2278,7070" fill="none" stroke="#000000" stroke-width="1"/>
 <polygon points="2265,7075 2250,7080 2250,7070" fill="#fff" stroke="#000"/>
 <line x1="2245" y1="7079.5" x2="2245" y2="7070.5" stroke="#000"/>
 <polyline points="1960,6860 1960.01,7075.01 2250,7075" fill="none" stroke="#000000" stroke-width="1"/>
@@ -1454,19 +1454,19 @@
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2270,7070) rotate(90)"/>
 <line x1="2316.5" y1="7342" x2="2328.5" y2="7342" stroke="#000"/>
 <polyline points="2270,7225 2270,7260 2322.5,7260 2322.5,7342" fill="none" stroke="#000000" stroke-width="1"/>
-<polygon points="2540,7005.5 2533.87,6990.93 2543.84,6990.16" fill="#000"/>
-<polyline points="2530,6875 2538.93,6991.54" fill="none" stroke="#000000" stroke-width="1"/>
-<circle cx="2544.48" cy="6940.16" r="3" fill="#fff" stroke="#000"/>
-<polyline points="2570,6990 2552.53,6988.87 2555.62,6940.88 2547.47,6940.35" fill="none" stroke="#000000" stroke-width="1"/>
-<circle cx="2525.52" cy="6940.56" r="3" fill="#fff" stroke="#000"/>
-<polyline points="2360,6930 2401.5,6930.65 2401.37,6938.61 2522.52,6940.51" fill="none" stroke="#000000" stroke-width="1"/>
-<polygon points="2529.63,6935.65 2514.62,6940.61 2514.65,6930.61" fill="#fff" stroke="#000"/>
-<line x1="2509.62" y1="6940.1" x2="2509.64" y2="6931.1" stroke="#000"/>
-<polyline points="2130,6800 2414.19,6800.71 2413.86,6935.36 2514.63,6935.61" fill="none" stroke="#000000" stroke-width="1"/>
-<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2535,6940.25) rotate(85.62)"/>
-<polygon points="2540,7185.5 2535,7170.5 2545,7170.5" fill="#000"/>
-<polyline points="2540,7054.5 2540,7171.5" fill="none" stroke="#000000" stroke-width="1"/>
-<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2540,7120) rotate(90)"/>
+<polygon points="2528,7005.5 2523.23,6990.43 2533.23,6990.58" fill="#000"/>
+<polyline points="2530,6875 2528.21,6991.5" fill="none" stroke="#000000" stroke-width="1"/>
+<circle cx="2538.5" cy="6940.22" r="3" fill="#fff" stroke="#000"/>
+<polyline points="2570,6990 2551.62,6990.43 2550.44,6939.94 2541.5,6940.15" fill="none" stroke="#000000" stroke-width="1"/>
+<circle cx="2519.5" cy="6940.11" r="3" fill="#fff" stroke="#000"/>
+<polyline points="2360,6930 2400.03,6930.61 2399.91,6938.29 2516.5,6940.06" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2524.08,6935.17 2509.05,6940.09 2509.11,6930.09" fill="#fff" stroke="#000"/>
+<line x1="2504.05" y1="6939.56" x2="2504.1" y2="6930.56" stroke="#000"/>
+<polyline points="2130,6800 2410.55,6801.6 2409.79,6934.52 2509.08,6935.09" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2529,6940.25) rotate(90.88)"/>
+<polygon points="2528,7185.5 2523,7170.5 2533,7170.5" fill="#000"/>
+<polyline points="2528,7030.5 2528,7171.5" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2528,7108) rotate(90)"/>
 <polygon points="980,7045 975.1,7029.97 985.1,7030.03" fill="#000"/>
 <polyline points="995.5,6970 980.48,6969.9 980.09,7031" fill="none" stroke="#000000" stroke-width="1"/>
 <polygon points="1080,6705 1075,6690 1085,6690" fill="#000"/>

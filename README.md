@@ -17,6 +17,6 @@ Rebuild after the map changes:
 `<map folder>` holds the top-level map, `submaps/` and `glyphs/`. Needs lxml.
 
 Known gaps of the drawing: text layers and the MINERVA glyphs named in the notes are not drawn. The
-bend points on the arms of binding reactions (Ferroptosis) and the logic gates between entities
-(Mitophagy, altered BBB permeability, Microglial phagocytosis) are drawn by rule, not yet checked
-against a CellDesigner export.
+logic gates between entities (Mitophagy, altered BBB permeability, Microglial phagocytosis) are drawn
+by rule, not checked against a CellDesigner export; every other line was checked against CellDesigner's
+PDF exports of four of the maps.

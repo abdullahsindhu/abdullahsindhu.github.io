@@ -322,9 +322,9 @@
 <polyline points="1679.37,585.22 1679.23,613.86 1619.18,613.57 1619.11,628"/>
 <polyline points="2832,670.02 2677.41,670.36"/>
 <polyline points="2894,577 2894,617.6 2747.69,617.61 2747.69,650.21"/>
-<polyline points="1854.78,1092.41 1846.36,1146.76"/>
-<polyline points="1743,1125.98 1829.56,1125.77"/>
-<polyline points="1896,1187.24 2073,1187.03"/>
+<polyline points="1855.95,1092.5 1855.63,1146.5"/>
+<polyline points="1743,1126.03 1835.75,1126.41"/>
+<polyline points="1877.25,1187.24 2073,1187.02"/>
 <polyline points="1685,1194 1685,2081 2331,2081"/>
 <polyline points="3492.39,813.94 3492.05,959"/>
 <polyline points="3347.81,737.06 3347.81,893.46 3472.21,893.46"/>
@@ -470,15 +470,15 @@
 <line x1="2743.19" y1="645.21" x2="2752.19" y2="645.21" stroke="#000"/>
 <polyline points="2894,569 2894,617.6 2747.69,617.61 2747.69,650.21" fill="none" stroke="#000000" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2747.71,670.21) rotate(179.87)"/>
-<polygon points="1843,1168.5 1840.35,1152.91 1850.24,1154.44" fill="#000"/>
-<polyline points="1856,1084.5 1845.14,1154.66" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="10,4,2,4,2,4"/>
-<polygon points="1844.56,1125.74 1829.57,1130.77 1829.55,1120.77" fill="#fff" stroke="#000"/>
-<line x1="1824.57" y1="1130.28" x2="1824.55" y2="1121.28" stroke="#000"/>
-<polyline points="1735,1126 1829.56,1125.77" fill="none" stroke="#000000" stroke-width="1"/>
-<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1849.5,1126.5) rotate(98.8)"/>
+<polygon points="1855.5,1168.5 1850.59,1153.47 1860.59,1153.53" fill="#000"/>
+<polyline points="1856,1084.5 1855.58,1154.5" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="10,4,2,4,2,4"/>
+<polygon points="1850.75,1126.47 1835.73,1131.41 1835.77,1121.41" fill="#fff" stroke="#000"/>
+<line x1="1830.73" y1="1130.89" x2="1830.77" y2="1121.89" stroke="#000"/>
+<polyline points="1735,1126 1835.75,1126.41" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1855.75,1126.5) rotate(90.34)"/>
 <polygon points="2095,1187 2080.01,1192.02 2079.99,1182.02" fill="#000"/>
-<polyline points="1888,1187.25 2081,1187.02" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="10,3,2,3"/>
-<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1991.5,1187.12) rotate(-0.07)"/>
+<polyline points="1869.25,1187.25 2081,1187.02" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="10,3,2,3"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1982.12,1187.12) rotate(-0.06)"/>
 <polygon points="2353,2081 2338,2086 2338,2076" fill="#000"/>
 <polyline points="1685,1186 1685,2081 2339,2081" fill="none" stroke="#000000" stroke-width="1"/>
 <polygon points="3492,981 3487.04,965.99 3497.04,966.01" fill="#000"/>
