@@ -21623,7 +21623,7 @@ activated microglia
 <reaction metaid="re_add6" id="re_add6" reversible="false">
 <annotation>
 <celldesigner:extension>
-<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:reactionType>UNKNOWN_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s_add1" alias="sa_add2"/>
 </celldesigner:baseReactants>

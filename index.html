@@ -82,6 +82,12 @@
   .m2-ev p { margin: 0 0 4px; }
   .m2-ev ol { margin: 4px 0 0; padding-left: 22px; }
   .m2-ev .m2-where { color: #555; }
+  #m2-notation { margin: 18px 0 0; font-size: 14px; line-height: 20px; }
+  #m2-notation[hidden] { display: none; }
+  #m2-about p { margin: 10px 0 0; }
+  #m2-notation h2 { font-size: 16px; font-weight: normal; margin: 0 0 6px; }
+  #m2-notation ol { margin: 4px 0 8px; padding-left: 22px; }
+  #m2-notation p { margin: 0 0 6px; }
 </style>
 </head>
 <body>
@@ -104,7 +110,28 @@
 </div>
 </div>
 <div id="m2-downloads"></div>
+<div id="m2-about"></div>
 <div id="m2-evidence"></div>
+<div id="m2-notation" hidden>
+<h2>How the additions are drawn</h2>
+<p>Each added step is classified first and drawn by what is known about it, in this order of preference:</p>
+<ol>
+<li><b>Direct interaction</b>, drawn as the molecular step itself: binding into a complex, a modification, transcription,
+translation, degradation, with the protein acting on it as catalysis (an enzyme), physical stimulation, inhibition or a
+transcription factor on the transcription step. This is the default; a longer path is drawn out step by step, on the
+submap or as a small map.</li>
+<li><b>Omitted process</b> (square with <b>//</b>): the path is known to take several steps and they are left out on
+purpose, e.g. a receptor and its signalling cascade leading to a gene being transcribed, or uptake, transport to the
+lysosome and proteolysis collapsed into one degradation step.</li>
+<li><b>Unknown process</b> (square with <b>?</b>): an effect shown in experiments (a knockout or an inhibitor changes
+the outcome) whose mechanism the papers do not establish.</li>
+</ol>
+<p>The aim is that no plain arrow stands for a hidden multi-step path; a few earlier additions are still being
+reclassified. The top-level map is Activity Flow: its arrows are influences,
+which may span several steps by definition; there a ligand acts on its receptor and the receptor on a process box, and no
+protein crosses a membrane it does not cross. The submaps and small maps are Process Description. A mechanism too
+long for its submap is drawn as a small map first and merged once checked.</p>
+</div>
 </div>
 <div class="m2-side"><div id="m2-info"></div></div>
 </div>
@@ -356,6 +383,7 @@
       '<a class="m2-btn" href="' + encodeURI(m.file) + '" download title="' + m.name + '.xml, sha1 ' + m.sha1 + '">CellDesigner' + DL_ICON + '</a>';
     show();
     showEvidence();
+    showNotation();
   }
   document.addEventListener('keydown', function (e) {
     if (e.altKey || e.ctrlKey || e.metaKey) return;
@@ -412,6 +440,11 @@
         '<ol>' + p.refs.map(function (r) { return '<li>' + ref(r) + '</li>'; }).join('') + '</ol></div>';
     });
     box.innerHTML = h;
+  }
+  function showNotation() {
+    var m = maps[cur];
+    document.getElementById('m2-notation').hidden = !(m.updated || m.group === 'Small maps');
+    document.getElementById('m2-about').innerHTML = m.about ? '<p class="m2-legend">' + esc(m.about) + '</p>' : '';
   }
 
   fetch('maps.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (data) {

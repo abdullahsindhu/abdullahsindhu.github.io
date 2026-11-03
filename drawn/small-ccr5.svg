@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400">
+<rect width="100%" height="100%" fill="#fff"/>
+<path d="M60 40 H1140 A20 20 0 0 1 1160 60 V460 A20 20 0 0 1 1140 480 H60 A20 20 0 0 1 40 460 V60 A20 20 0 0 1 60 40 Z M56 42 H1144 A14 14 0 0 1 1158 56 V464 A14 14 0 0 1 1144 478 H56 A14 14 0 0 1 42 464 V56 A14 14 0 0 1 56 42 Z" fill="#9999ff" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="40" y="40" width="1120" height="440" rx="20" fill="none" stroke="#9999ff" stroke-width="1"/>
+<rect x="42" y="42" width="1116" height="436" rx="14" fill="none" stroke="#9999ff" stroke-width="1"/>
+<text x="50" y="481.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">neuron</text>
+<polygon points="355,300 445,300 450,305 450,360 445,365 355,365 350,360 350,305" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
+<text x="400" y="358" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CCL4:CCR5</text>
+<rect x="100" y="110" width="80" height="40" rx="5" fill="#66b2ff" stroke="#000"/>
+<text x="140" y="134" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CCL4</text>
+<rect x="100" y="320" width="80" height="40" rx="5" fill="#66b2ff" stroke="#000"/>
+<text x="140" y="344" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CCR5</text>
+<rect x="600" y="110" width="80" height="40" rx="5" fill="#f7f7f7" stroke="#000"/>
+<text x="640" y="134" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MTOR</text>
+<polygon points="900,150 960,150 980,170 960,190 900,190 880,170" fill="#ccffcc" stroke="#000"/>
+<text x="930" y="174" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">AUTOPHAGY</text>
+<rect x="600" y="330" width="80" height="40" rx="5" fill="#f7f7f7" stroke="#000"/>
+<text x="640" y="354" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MTOR</text>
+<rect x="360" y="310" width="80" height="40" rx="5" fill="#66b2ff" stroke="#000"/>
+<text x="400" y="334" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CCR5</text>
+<g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<polyline points="188,338.62 328.01,334.58"/>
+<polyline points="153.61,157.15 243.75,337.01"/>
+<polyline points="640,158 640,308"/>
+<polyline points="457.48,310.8 637.52,242.83"/>
+<polyline points="679.02,325.78 889.8,194.95"/>
+</g>
+<polygon points="350,333.94 335.15,339.37 334.86,329.38" fill="#000"/>
+<polyline points="180,338.85 336.01,334.35" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<polyline points="150.02,150 243.75,337.01" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(265,336.39) rotate(-1.65)"/>
+<polygon points="640,330 635,315 645,315" fill="#000"/>
+<polyline points="640,150 640,316" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<polygon points="645,240 638.93,246.57 636.1,239.08" fill="#fff" stroke="#000"/>
+<polyline points="450,313.62 637.52,242.83" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(640,240) rotate(90)"/><text x="640" y="243" font-family="'Times New Roman', serif" font-weight="bold" font-size="10" text-anchor="middle">//</text>
+<line x1="899.76" y1="195.83" x2="893.44" y2="185.63" stroke="#000"/>
+<polyline points="672.22,330 896.6,190.73" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+</svg>

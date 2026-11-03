@@ -11096,7 +11096,7 @@
 <reaction metaid="re_add9" id="re_add9" reversible="false">
 <annotation>
 <celldesigner:extension>
-<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:reactionType>KNOWN_TRANSITION_OMITTED</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s2367" alias="sa253"/>
 </celldesigner:baseReactants>

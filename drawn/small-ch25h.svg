@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400">
+<rect width="100%" height="100%" fill="#fff"/>
+<path d="M60 40 H1140 A20 20 0 0 1 1160 60 V500 A20 20 0 0 1 1140 520 H60 A20 20 0 0 1 40 500 V60 A20 20 0 0 1 60 40 Z M56 42 H1144 A14 14 0 0 1 1158 56 V504 A14 14 0 0 1 1144 518 H56 A14 14 0 0 1 42 504 V56 A14 14 0 0 1 56 42 Z" fill="#9999ff" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="40" y="40" width="1120" height="480" rx="20" fill="none" stroke="#9999ff" stroke-width="1"/>
+<rect x="42" y="42" width="1116" height="476" rx="14" fill="none" stroke="#9999ff" stroke-width="1"/>
+<text x="50" y="521.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">microglia</text>
+<rect x="380" y="90" width="80" height="40" rx="5" fill="#f7f7f7" stroke="#000"/>
+<text x="420" y="114" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TLR4</text>
+<rect x="460" y="205" width="80" height="40" rx="5" fill="#66b2ff" stroke="#000"/>
+<text x="500" y="229" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CH25H</text>
+<ellipse cx="370" cy="345" rx="40" ry="15" fill="#ccff66" stroke="#000"/>
+<text x="370" y="349" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cholesterol</text>
+<ellipse cx="715" cy="345" rx="75" ry="15" fill="#ccff66" stroke="#000"/>
+<text x="715" y="349" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">25-hydroxycholesterol</text>
+<rect x="640" y="110" width="80" height="40" rx="5" fill="#f7f7f7" stroke="#000"/>
+<text x="680" y="134" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NLRP3</text>
+<rect x="880" y="110" width="140" height="40" rx="5" fill="#f7f7f7" stroke="#000"/>
+<text x="950" y="134" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NLRP3 inflammasome</text>
+<circle cx="315" cy="230" r="11.25" fill="#ffffff" stroke="#000"/>
+<line x1="321" y1="215" x2="309" y2="245" stroke="#000"/>
+<g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<polyline points="334.23,229.48 438.01,226.68"/>
+<polyline points="413.35,137.78 394.84,215.11"/>
+<polyline points="418,345 618,345"/>
+<polyline points="506.05,252.82 523.41,332.67"/>
+<polyline points="728,130 858,130"/>
+<polyline points="723.65,322.61 797.12,132.46"/>
+</g>
+<polygon points="460,226.08 445.14,231.48 444.87,221.49" fill="#000"/>
+<polyline points="326.23,229.7 446.01,226.46" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<polygon points="392.98,222.89 390.95,214.18 398.73,216.04" fill="#fff" stroke="#000"/>
+<polyline points="415.21,130 394.84,215.11" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(393.12,227.89) rotate(-1.55)"/><text x="393.12" y="230.89" font-family="'Times New Roman', serif" font-weight="bold" font-size="10" text-anchor="middle">//</text>
+<polygon points="640,345 625,350 625,340" fill="#000"/>
+<polyline points="410,345 626,345" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<circle cx="524.04" cy="335.6" r="3" fill="#fff" stroke="#000"/>
+<polyline points="504.35,245 523.41,332.67" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(525,345) rotate(0)"/>
+<polygon points="880,130 865,135 865,125" fill="#000"/>
+<polyline points="720,130 866,130" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<polygon points="800,125 800.85,133.9 793.39,131.02" fill="#fff" stroke="#000"/>
+<polyline points="720.77,330.08 797.12,132.46" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(800,130) rotate(0)"/>
+</svg>

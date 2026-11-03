@@ -1,5 +1,8 @@
 # Builds the site from the map's CellDesigner files (kept in a private repository):
-#   python3 scripts/build.py <map folder> [<updated map folder>]
+#   python3 scripts/build.py <map folder> [<updated map folder> [<small maps folder>]]
+# A small maps folder holds standalone Process Description fragments (one mechanism each, drafts to be merged into a
+# submap); its .xml files are copied byte for byte into maps-small/ and listed in the group "Small maps", each with
+# the line its README.md table gives it.
 # With an updated folder (the same files with proteins added), every map whose file differs gets a second entry
 # right under the original, "<name> (updated)", copied byte for byte into maps-updated/ and drawn as
 # drawn/<slug>-updated.svg; maps that did not change appear once.
@@ -45,7 +48,7 @@ def copy_all(src, out):
     return files
 
 
-def main(src, upd=None):
+def main(src, upd=None, small=None):
     global updated, changed
     files = copy_all(src, os.path.join(ROOT, 'maps'))
     updated = upd
@@ -100,10 +103,32 @@ def main(src, upd=None):
             maps.append(entry_for('maps', rel, name, slug(name), group))
             if updated and rel in changed:
                 maps.append(dict(entry_for('maps-updated', rel, name + ' (updated)', slug(name) + '-updated', group), updated=True))
+    out_s = os.path.join(ROOT, 'maps-small')
+    if os.path.isdir(out_s):
+        shutil.rmtree(out_s)
+    if small:
+        about = {}
+        readme = os.path.join(small, 'README.md')
+        if os.path.exists(readme):
+            for line in open(readme, encoding='utf-8'):
+                c = [x.strip() for x in line.strip().strip('|').split('|')]
+                if len(c) >= 3 and c[0].endswith('.xml'):
+                    about[c[0]] = '%s (to be merged into: %s)' % (c[1], c[2])
+        os.makedirs(out_s)
+        for n in sorted(x for x in os.listdir(small) if x.endswith('.xml')):
+            shutil.copyfile(os.path.join(small, n), os.path.join(out_s, n))
+            if sha1(os.path.join(out_s, n)) != sha1(os.path.join(small, n)):
+                sys.exit('copy differs: ' + n)
+            e = entry_for('maps-small', n, n[:-4].upper(), 'small-' + slug(n[:-4]), 'Small maps')
+            e['about'] = about.get(n, '')
+            maps.append(e)
+        with open(os.path.join(ROOT, 'SHA1SUMS'), 'a', encoding='utf-8') as f:
+            for n in sorted(os.listdir(out_s)):
+                f.write('%s  maps-small/%s\n' % (sha1(os.path.join(out_s, n)), n))
     with open(os.path.join(ROOT, 'maps.json'), 'w', encoding='utf-8') as f:
         json.dump(maps, f, indent=1, ensure_ascii=False)
         f.write('\n')
 
 
 if __name__ == '__main__':
-    main(*sys.argv[1:3])
+    main(*sys.argv[1:4])

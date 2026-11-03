@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400">
+<rect width="100%" height="100%" fill="#fff"/>
+<path d="M60 40 H1020 A20 20 0 0 1 1040 60 V440 A20 20 0 0 1 1020 460 H60 A20 20 0 0 1 40 440 V60 A20 20 0 0 1 60 40 Z M56 42 H1024 A14 14 0 0 1 1038 56 V444 A14 14 0 0 1 1024 458 H56 A14 14 0 0 1 42 444 V56 A14 14 0 0 1 56 42 Z" fill="#9999ff" fill-opacity="0.25" fill-rule="evenodd"/>
+<rect x="40" y="40" width="1000" height="420" rx="20" fill="none" stroke="#9999ff" stroke-width="1"/>
+<rect x="42" y="42" width="996" height="416" rx="14" fill="none" stroke="#9999ff" stroke-width="1"/>
+<text x="50" y="461.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">microglia / neuron</text>
+<polygon points="125,110 215,110 220,115 220,350 215,355 125,355 120,350 120,115" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
+<text x="170" y="348" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NADPH oxidase</text>
+<ellipse cx="560" cy="215" rx="40" ry="15" fill="#ccff66" stroke="#000"/>
+<text x="560" y="219" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">O2</text>
+<ellipse cx="820" cy="215" rx="40" ry="15" fill="#ccff66" stroke="#000"/>
+<text x="820" y="219" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">superoxide (O2.-)</text>
+<rect x="130" y="120" width="80" height="40" rx="5" fill="#66b2ff" stroke="#000"/>
+<text x="170" y="144" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CYBB</text>
+<rect x="130" y="165" width="80" height="40" rx="5" fill="#f7f7f7" stroke="#000"/>
+<text x="170" y="189" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CYBA</text>
+<rect x="130" y="210" width="80" height="40" rx="5" fill="#f7f7f7" stroke="#000"/>
+<text x="170" y="234" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NCF1</text>
+<rect x="130" y="255" width="80" height="40" rx="5" fill="#f7f7f7" stroke="#000"/>
+<text x="170" y="279" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NCF2</text>
+<rect x="130" y="300" width="80" height="40" rx="5" fill="#f7f7f7" stroke="#000"/>
+<text x="170" y="324" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">RAC1</text>
+<g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<polyline points="608,215 758,215"/>
+<polyline points="227.99,229.99 682.51,210.32"/>
+</g>
+<polygon points="780,215 765,220 765,210" fill="#000"/>
+<polyline points="600,215 766,215" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<circle cx="685.5" cy="210.19" r="3" fill="#fff" stroke="#000"/>
+<polyline points="220,230.34 682.51,210.32" fill="none" stroke="#1f6fd1" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(690,215) rotate(0)"/>
+</svg>

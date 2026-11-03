@@ -129,7 +129,7 @@
    "summary": "Suppressor of cytokine signalling 1 limits interferon signalling in glia. SOCS1 expressed in oligodendrocytes (PLP/SOCS1 mice) lowers their IFN-gamma responsiveness and changes the course of EAE. In primary mouse astrocytes interferon induces SOCS1, and SOCS1 knockdown raises interferon-induced CXCL10, CCL2 and CCL5.",
    "links": [
     "Inhibits IFN-gamma receptor signalling in oligodendrocytes (top-level map).",
-    "Its transcription is stimulated by JAK-STAT signalling, and it inhibits CXCL10 transcription in astrocytes (Astrocyte signaling)."
+    "Its transcription is stimulated by JAK-STAT signalling, and it inhibits JAK-STAT signalling in astrocytes, drawn as the map draws SOCS3 (Astrocyte signaling); it acts at the receptor and JAKs, not on the CXCL10 gene."
    ],
    "refs": [
     {
@@ -208,7 +208,7 @@
    "summary": "Progranulin restrains microglial activation. Microglia-specific progranulin deletion in mice raises NF-kB activity and TNF, and progranulin-deficient microglia make more C1q and C3 and prune inhibitory synapses. Progranulin-deficient mice also show more microgliosis and neuron loss after MPTP.",
    "links": [
     "Lowers TNF production by microglia (top-level map).",
-    "Inhibits C1q production (Microglial phagocytosis)."
+    "Progranulin loss raises C1q production; the mechanism is not established, so the step is an unknown process (?) (Microglial phagocytosis)."
    ],
    "refs": [
     {
@@ -282,8 +282,8 @@
    ],
    "summary": "The LDL receptor takes up apoE and amyloid-beta in the brain. Brain LDLR overexpression lowers apoE by 50 to 90 percent, speeds amyloid-beta clearance and reduces microgliosis and astrogliosis in APP/PS1 mice, and it suppresses microglial activation in tauopathy mice. In primary astrocytes LDLR drives amyloid-beta uptake and lysosomal degradation.",
    "links": [
-    "Lowers extracellular apoE (top-level map), stimulating its uptake and degradation (Astrocyte signaling).",
-    "Stimulates the uptake and degradation of amyloid-beta 42 (APP processing)."
+    "Lowers extracellular apoE (top-level map); its uptake and lysosomal degradation of apoE is one omitted process (//) in Astrocyte signaling.",
+    "Stimulates the uptake and degradation of amyloid-beta 42, drawn as one omitted process (//): binding, uptake and lysosomal degradation (APP processing)."
    ],
    "refs": [
     {
@@ -312,7 +312,7 @@
    "summary": "Lipoprotein lipase supports lipid uptake by microglia. Microglia-specific Lpl knockdown in mice lowers lipid uptake and phagocytic capacity, LPL activity rises in the mouse brain during remyelination, and LPL binds amyloid-beta and promotes its uptake by astrocytes and microglia.",
    "links": [
     "Supports phagocytosis by microglia (top-level map).",
-    "Stimulates the uptake and degradation of amyloid-beta 42 (APP processing)."
+    "Stimulates the uptake of amyloid-beta 42 (it binds amyloid-beta; degradation follows in the lysosome), drawn as one omitted process (//) with LDLR (APP processing). LPL knockdown in microglia lowered uptake, not the degradation of what was taken up."
    ],
    "refs": [
     {
@@ -426,7 +426,7 @@
    ],
    "summary": "IL-1beta induces HIF-1alpha and its target VEGF-A in human astrocytes and in mouse brain, and HIF-1alpha is needed for the VEGF-A response. Both proteins are found in reactive astrocytes of active multiple sclerosis lesions, and astrocytic VEGF-A drives BBB breakdown in EAE.",
    "links": [
-    "Induced by IL-1 receptor signalling (top-level map); drives VEGFA production in astrocytes (altered BBB permeability). The outgoing top-level arc to VEGFA was removed (nuclear protein to secreted product)."
+    "Induced by IL-1 receptor signalling (top-level map); in Astrocyte signaling its production under IL-1beta is an unknown process (?), as the paper shows the induction, not the path; drives VEGFA production in astrocytes (altered BBB permeability). The outgoing top-level arc to VEGFA was removed (nuclear protein to secreted product)."
    ],
    "refs": [
     {
