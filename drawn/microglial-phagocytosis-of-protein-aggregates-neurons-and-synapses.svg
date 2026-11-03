@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="15000" height="12000" viewBox="0 0 15000 12000">
+<rect width="100%" height="100%" fill="#fff"/>
+<path d="M40 5770 H10290 A20 20 0 0 1 10310 5790 V11320 A20 20 0 0 1 10290 11340 H40 A20 20 0 0 1 20 11320 V5790 A20 20 0 0 1 40 5770 Z M46 5782 H10284 A14 14 0 0 1 10298 5796 V11314 A14 14 0 0 1 10284 11328 H46 A14 14 0 0 1 32 11314 V5796 A14 14 0 0 1 46 5782 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
+<rect x="20" y="5770" width="10290" height="5570" rx="20" fill="none" stroke="#000" stroke-width="2"/>
+<rect x="32" y="5782" width="10266" height="5546" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<text x="2792.5" y="9339" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">microglial phagocytosis</text>
+<path d="M330 6430 H10190 A20 20 0 0 1 10210 6450 V8160 A20 20 0 0 1 10190 8180 H330 A20 20 0 0 1 310 8160 V6450 A20 20 0 0 1 330 6430 Z M336 6442 H10184 A14 14 0 0 1 10198 6456 V8154 A14 14 0 0 1 10184 8168 H336 A14 14 0 0 1 322 8154 V6456 A14 14 0 0 1 336 6442 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
+<rect x="310" y="6430" width="9900" height="1750" rx="20" fill="none" stroke="#000" stroke-width="2"/>
+<rect x="322" y="6442" width="9876" height="1726" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<text x="1743" y="7999" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">microglia</text>
+<path d="M250 8570 H8120 A20 20 0 0 1 8140 8590 V9180 A20 20 0 0 1 8120 9200 H250 A20 20 0 0 1 230 9180 V8590 A20 20 0 0 1 250 8570 Z M256 8582 H8114 A14 14 0 0 1 8128 8596 V9174 A14 14 0 0 1 8114 9188 H256 A14 14 0 0 1 242 9174 V8596 A14 14 0 0 1 256 8582 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
+<rect x="230" y="8570" width="7910" height="630" rx="20" fill="none" stroke="#000" stroke-width="2"/>
+<rect x="242" y="8582" width="7886" height="606" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<text x="2239" y="9054" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">neuron</text>
+<path d="M8677 8561 H10182 A20 20 0 0 1 10202 8581 V11218 A20 20 0 0 1 10182 11238 H8677 A20 20 0 0 1 8657 11218 V8581 A20 20 0 0 1 8677 8561 Z M8683 8573 H10176 A14 14 0 0 1 10190 8587 V11212 A14 14 0 0 1 10176 11226 H8683 A14 14 0 0 1 8669 11212 V8587 A14 14 0 0 1 8683 8573 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
+<rect x="8657" y="8561" width="1545" height="2677" rx="20" fill="none" stroke="#000" stroke-width="2"/>
+<rect x="8669" y="8573" width="1521" height="2653" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<text x="9258.5" y="10492" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">target neuron</text>
+<path d="M9118 8714 H9802 A20 20 0 0 1 9822 8734 V9086 A20 20 0 0 1 9802 9106 H9118 A20 20 0 0 1 9098 9086 V8734 A20 20 0 0 1 9118 8714 Z M9124 8726 H9796 A14 14 0 0 1 9810 8740 V9080 A14 14 0 0 1 9796 9094 H9124 A14 14 0 0 1 9110 9080 V8740 A14 14 0 0 1 9124 8726 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
+<rect x="9098" y="8714" width="724" height="392" rx="20" fill="none" stroke="#000" stroke-width="2"/>
+<rect x="9110" y="8726" width="700" height="368" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<text x="9371" y="9086" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">dendritic spine</text>
+<path d="M1930 6805 H2770 A20 20 0 0 1 2790 6825 V7095 A20 20 0 0 1 2770 7115 H1930 A20 20 0 0 1 1910 7095 V6825 A20 20 0 0 1 1930 6805 Z M1936 6817 H2764 A14 14 0 0 1 2778 6831 V7089 A14 14 0 0 1 2764 7103 H1936 A14 14 0 0 1 1922 7089 V6831 A14 14 0 0 1 1936 6817 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
+<rect x="1910" y="6805" width="880" height="310" rx="20" fill="none" stroke="#000" stroke-width="2"/>
+<rect x="1922" y="6817" width="856" height="286" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<text x="2628" y="7074" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">mitochondrion</text>
+<path d="M8240 8572.5 H8565 A20 20 0 0 1 8585 8592.5 V9170 A20 20 0 0 1 8565 9190 H8240 A20 20 0 0 1 8220 9170 V8592.5 A20 20 0 0 1 8240 8572.5 Z M8246 8584.5 H8559 A14 14 0 0 1 8573 8598.5 V9164 A14 14 0 0 1 8559 9178 H8246 A14 14 0 0 1 8232 9164 V8598.5 A14 14 0 0 1 8246 8584.5 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
+<rect x="8220" y="8572.5" width="365" height="617.5" rx="20" fill="none" stroke="#000" stroke-width="2"/>
+<rect x="8232" y="8584.5" width="341" height="593.5" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<text x="8370.5" y="8821.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">synapse</text>
+<path d="M9163 8857 H9735 A20 20 0 0 1 9755 8877 V9043 A20 20 0 0 1 9735 9063 H9163 A20 20 0 0 1 9143 9043 V8877 A20 20 0 0 1 9163 8857 Z M9169 8869 H9729 A14 14 0 0 1 9743 8883 V9037 A14 14 0 0 1 9729 9051 H9169 A14 14 0 0 1 9155 9037 V8883 A14 14 0 0 1 9169 8869 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
+<rect x="9143" y="8857" width="612" height="206" rx="20" fill="none" stroke="#000" stroke-width="2"/>
+<rect x="9155" y="8869" width="588" height="182" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<text x="9351" y="9037" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">smooth endoplasmic reticulm</text>
+<path d="M4965 6977.5 H5435 A20 20 0 0 1 5455 6997.5 V7102.5 A20 20 0 0 1 5435 7122.5 H4965 A20 20 0 0 1 4945 7102.5 V6997.5 A20 20 0 0 1 4965 6977.5 Z M4971 6989.5 H5429 A14 14 0 0 1 5443 7003.5 V7096.5 A14 14 0 0 1 5429 7110.5 H4971 A14 14 0 0 1 4957 7096.5 V7003.5 A14 14 0 0 1 4971 6989.5 Z" fill="#cccc00" fill-opacity="0.5" fill-rule="evenodd"/>
+<rect x="4945" y="6977.5" width="510" height="145" rx="20" fill="none" stroke="#000" stroke-width="2"/>
+<rect x="4957" y="6989.5" width="486" height="121" rx="14" fill="none" stroke="#000" stroke-width="1"/>
+<text x="5182.5" y="7102.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="start">nucleus</text>
+<polygon points="8597,9666 8745,9666 8750,9671 8750,9794 8745,9799 8597,9799 8592,9794 8592,9671" fill="#f7f7f7" stroke="#000"/>
+<text x="8671" y="9792" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">sAPP beta:NMDA receptor</text>
+<polygon points="8847,9289 8919,9289 8924,9294 8924,9326 8919,9331 8847,9331 8842,9326 8842,9294" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="8883" y="9324" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CREB</text>
+<polygon points="8925,10214 9000,10214 9005,10219 9005,10259 9000,10264 8925,10264 8920,10259 8920,10219" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="8962.5" y="10257" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">active</text>
+<polygon points="8830.5,9552.5 8920.5,9552.5 8925.5,9557.5 8925.5,9617.5 8920.5,9622.5 8830.5,9622.5 8825.5,9617.5 8825.5,9557.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="8875.5" y="9615.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">missfolded</text>
+<polygon points="3097.5,8102.5 3482.5,8102.5 3487.5,8107.5 3487.5,8212.5 3482.5,8217.5 3097.5,8217.5 3092.5,8212.5 3092.5,8107.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="3290" y="8210.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">integrin receptors</text>
+<polygon points="8846,9347 8918,9347 8923,9352 8923,9381 8918,9386 8846,9386 8841,9381 8841,9352" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="8882" y="9379" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">GSK3</text>
+<polygon points="8291,8743.5 8349,8743.5 8354,8748.5 8354,8771.5 8349,8776.5 8291,8776.5 8286,8771.5 8286,8748.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="8320" y="8769.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">synapse</text>
+<polygon points="8625,9814 8715,9814 8720,9819 8720,9844 8715,9849 8625,9849 8620,9844 8620,9819" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="8670" y="9842" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NMDA receptor</text>
+<polygon points="9148,8827 9228,8827 9233,8832 9233,8862 9228,8867 9148,8867 9143,8862 9143,8832" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="9188" y="8860" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IP3 receptors</text>
+<polygon points="9647,8826 9767,8826 9772,8831 9772,8861 9767,8866 9647,8866 9642,8861 9642,8831" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="9707" y="8859" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ryanodine receptors</text>
+<polygon points="9458.5,8826.5 9578.5,8826.5 9583.5,8831.5 9583.5,8861.5 9578.5,8866.5 9458.5,8866.5 9453.5,8861.5 9453.5,8831.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="9518.5" y="8859.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ryanodine receptors</text>
+<polygon points="9279.5,8828.5 9359.5,8828.5 9364.5,8833.5 9364.5,8863.5 9359.5,8868.5 9279.5,8868.5 9274.5,8863.5 9274.5,8833.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="9319.5" y="8861.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IP3 receptors</text>
+<polygon points="8697,8483 8923,8483 8928,8488 8928,8612 8923,8617 8697,8617 8692,8612 8692,8488" fill="#f7f7f7" stroke="#000"/>
+<text x="8810" y="8610" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">C3:complement component C1q</text>
+<polygon points="8608,9860 8713,9860 8718,9865 8718,10005 8713,10010 8608,10010 8603,10005 8603,9865" fill="#f7f7f7" stroke="#000"/>
+<text x="8660.5" y="10003" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">sAPP beta:TMEM97</text>
+<polygon points="8637,10802 8734,10802 8739,10807 8739,10934 8734,10939 8637,10939 8632,10934 8632,10807" fill="#f7f7f7" stroke="#000"/>
+<text x="8685.5" y="10932" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">sAPP beta:PRNP</text>
+<polygon points="8622,10499 8751,10499 8756,10504 8756,10684 8751,10689 8622,10689 8617,10684 8617,10504" fill="#f7f7f7" stroke="#000"/>
+<text x="8686.5" y="10682" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">GRM5:sAPP beta:PRNP</text>
+<polygon points="4045.25,6297.75 4454.75,6297.75 4459.75,6302.75 4459.75,6457.25 4454.75,6462.25 4045.25,6462.25 4040.25,6457.25 4040.25,6302.75" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="4250" y="6455.25" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">signaling adapter Fc gamma receptors</text>
+<polygon points="2925,6385 3155,6385 3160,6390 3160,6520 3155,6525 2925,6525 2920,6520 2920,6390" fill="#f7f7f7" stroke="#000"/>
+<text x="3040" y="6518" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Abeta 42: (GPCRs)</text>
+<polygon points="3232.5,6395 3447.5,6395 3452.5,6400 3452.5,6440 3447.5,6445 3232.5,6445 3227.5,6440 3227.5,6400" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="3340" y="6438" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">G-protein coupled receptors (GPCRs)</text>
+<polygon points="2737,6385 2905,6385 2910,6390 2910,6520 2905,6525 2737,6525 2732,6520 2732,6390" fill="#f7f7f7" stroke="#000"/>
+<text x="2821" y="6518" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Abeta 42: (SRs)</text>
+<polygon points="454,8102 544,8102 549,8107 549,8217 544,8222 454,8222 449,8217 449,8107" fill="#f7f7f7" stroke="#000"/>
+<text x="499" y="8215" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ADP: P2RY12</text>
+<polygon points="815,8102 925,8102 930,8107 930,8217 925,8222 815,8222 810,8217 810,8107" fill="#f7f7f7" stroke="#000"/>
+<text x="870" y="8215" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CX3CL1: CX3CR1</text>
+<polygon points="1244,8101 1334,8101 1339,8106 1339,8216 1334,8221 1244,8221 1239,8216 1239,8106" fill="#f7f7f7" stroke="#000"/>
+<text x="1289" y="8214" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">UDP: P2RY6</text>
+<polygon points="1590,8108 1755,8108 1760,8113 1760,8207 1755,8212 1590,8212 1585,8207 1585,8113" fill="#f7f7f7" stroke="#000"/>
+<text x="1672.5" y="8205" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine: TREM2</text>
+<polygon points="1790,8107 1965,8107 1970,8112 1970,8212 1965,8217 1790,8217 1785,8212 1785,8112" fill="#f7f7f7" stroke="#000"/>
+<text x="1877.5" y="8210" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine: ADGRG1</text>
+<polygon points="6927.5,8122.5 7292.5,8122.5 7297.5,8127.5 7297.5,8202.5 7292.5,8207.5 6927.5,8207.5 6922.5,8202.5 6922.5,8127.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="7110" y="8200.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Sialic acid-binding immunoglobulin-type lectins (SIGLECs)</text>
+<polygon points="7450,8104 7610,8104 7615,8109 7615,8219 7610,8224 7450,8224 7445,8219 7445,8109" fill="#f7f7f7" stroke="#000"/>
+<text x="7530" y="8217" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">sialylated glycolipid: SIGLEC</text>
+<polygon points="7855,8110 7945,8110 7950,8115 7950,8225 7945,8230 7855,8230 7850,8225 7850,8115" fill="#f7f7f7" stroke="#000"/>
+<text x="7900" y="8223" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CD47: SIRPA</text>
+<polygon points="6590,8097.5 6770,8097.5 6775,8102.5 6775,8227.5 6770,8232.5 6590,8232.5 6585,8227.5 6585,8102.5" fill="#f7f7f7" stroke="#000"/>
+<text x="6680" y="8225.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">sialylated glycoprotein: SIGLEC</text>
+<polygon points="4530,8085.16 4770,8085.16 4775,8090.16 4775,8239.84 4770,8244.84 4530,8244.84 4525,8239.84 4525,8090.16" fill="#f7f7f7" stroke="#000"/>
+<text x="4650" y="8237.84" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">desialylated glycolipid: LGALS3: MERKTK</text>
+<polygon points="2331.5,8082.62 2546.5,8082.62 2551.5,8087.62 2551.5,8236.38 2546.5,8241.38 2331.5,8241.38 2326.5,8236.38 2326.5,8087.62" fill="#f7f7f7" stroke="#000"/>
+<text x="2439" y="8234.38" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine: GAS6: MERKTK</text>
+<polygon points="3645,8490 3935,8490 3940,8495 3940,8595 3935,8600 3645,8600 3640,8595 3640,8495" fill="#f7f7f7" stroke="#000"/>
+<text x="3790" y="8593" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine: complement component C1q</text>
+<polygon points="3545,8083.75 3815,8083.75 3820,8088.75 3820,8231.25 3815,8236.25 3545,8236.25 3540,8231.25 3540,8088.75" fill="#f7f7f7" stroke="#000"/>
+<text x="3680" y="8229.25" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine: MFGE8: integrin receptors</text>
+<polygon points="4075,8090 4305,8090 4310,8095 4310,8220 4305,8225 4075,8225 4070,8220 4070,8095" fill="#f7f7f7" stroke="#000"/>
+<text x="4190" y="8218" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">complement component C1q: MEGF10</text>
+<polygon points="2147.5,8490 2312.5,8490 2317.5,8495 2317.5,8595 2312.5,8600 2147.5,8600 2142.5,8595 2142.5,8495" fill="#f7f7f7" stroke="#000"/>
+<text x="2230" y="8593" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine: GAS6</text>
+<polygon points="2647.5,8490 2812.5,8490 2817.5,8495 2817.5,8595 2812.5,8600 2647.5,8600 2642.5,8595 2642.5,8495" fill="#f7f7f7" stroke="#000"/>
+<text x="2730" y="8593" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine: APOE</text>
+<polygon points="2874,8084 3074,8084 3079,8089 3079,8236.25 3074,8241.25 2874,8241.25 2869,8236.25 2869,8089" fill="#f7f7f7" stroke="#000"/>
+<text x="2974" y="8234.25" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine: APOE: TREM2</text>
+<polygon points="3177.5,8490 3342.5,8490 3347.5,8495 3347.5,8595 3342.5,8600 3177.5,8600 3172.5,8595 3172.5,8495" fill="#f7f7f7" stroke="#000"/>
+<text x="3260" y="8593" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine: MFGE8</text>
+<polygon points="4310,8492.5 4490,8492.5 4495,8497.5 4495,8592.5 4490,8597.5 4310,8597.5 4305,8592.5 4305,8497.5" fill="#f7f7f7" stroke="#000"/>
+<text x="4400" y="8590.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">desialylated glycolipid: LGALS3</text>
+<polygon points="3415,8430 3585,8430 3590,8435 3590,8465 3585,8470 3415,8470 3410,8465 3410,8435" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="3500" y="8463" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">complement component C1q</text>
+<polygon points="4855,8492.5 5025,8492.5 5030,8497.5 5030,8592.5 5025,8597.5 4855,8597.5 4850,8592.5 4850,8497.5" fill="#f7f7f7" stroke="#000"/>
+<text x="4940" y="8590.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">desialylated glycolipid: CALR</text>
+<polygon points="5085,8085 5285,8085 5290,8090 5290,8240 5285,8245 5085,8245 5080,8240 5080,8090" fill="#f7f7f7" stroke="#000"/>
+<text x="5185" y="8238" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">desialylated glycolipid: CALR: LRP1</text>
+<polygon points="5665,8492.5 5835,8492.5 5840,8497.5 5840,8592.5 5835,8597.5 5665,8597.5 5660,8592.5 5660,8497.5" fill="#f7f7f7" stroke="#000"/>
+<text x="5750" y="8590.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">desialylated glycolipid: C3b</text>
+<polygon points="5945,8085 6135,8085 6140,8090 6140,8239.84 6135,8244.84 5945,8244.84 5940,8239.84 5940,8090" fill="#f7f7f7" stroke="#000"/>
+<text x="6040" y="8237.84" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">desialylated glycolipid: C3b: CR1</text>
+<polygon points="1561.5,8423.5 1658.5,8423.5 1663.5,8428.5 1663.5,8491.5 1658.5,8496.5 1561.5,8496.5 1556.5,8491.5 1556.5,8428.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1610" y="8489.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
+<polygon points="1625,8705 1715,8705 1720,8710 1720,8770 1715,8775 1625,8775 1620,8770 1620,8710" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1670" y="8768" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
+<polygon points="6311.5,8353.5 6408.5,8353.5 6413.5,8358.5 6413.5,8421.5 6408.5,8426.5 6311.5,8426.5 6306.5,8421.5 6306.5,8358.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="6360" y="8419.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">fibril</text>
+<polygon points="6035,8355 6125,8355 6130,8360 6130,8420 6125,8425 6035,8425 6030,8420 6030,8360" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="6080" y="8418" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
+<polygon points="6335,8515 6445,8515 6450,8520 6450,8580 6445,8585 6335,8585 6330,8580 6330,8520" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="6390" y="8578" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">neuraminidases</text>
+<polygon points="6975,8673.5 7105,8673.5 7110,8678.5 7110,8703.5 7105,8708.5 6975,8708.5 6970,8703.5 6970,8678.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="7040" y="8701.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">sialyltransferases</text>
+<polygon points="1020,5960 1400,5960 1405,5965 1405,6195 1400,6200 1020,6200 1015,6195 1015,5965" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1210" y="6193" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">neuronal protein aggregates</text>
+<polygon points="2465,6395 2615,6395 2620,6400 2620,6443.75 2615,6448.75 2465,6448.75 2460,6443.75 2460,6400" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="2540" y="6441.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">scavenger receptors (SRs)</text>
+<polygon points="1732.75,6392.5 1947.25,6392.5 1952.25,6397.5 1952.25,6442.5 1947.25,6447.5 1732.75,6447.5 1727.75,6442.5 1727.75,6397.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1840" y="6440.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Pattern recognition receptors (PRR)</text>
+<polygon points="1560.45,6101.25 1840.45,6101.25 1845.45,6106.25 1845.45,6193.75 1840.45,6198.75 1560.45,6198.75 1555.45,6193.75 1555.45,6106.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1700.45" y="6191.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Damage-Associated Molecular Patterns (DAMPs)</text>
+<polygon points="1563.2,6039 1837.7,6039 1842.7,6044 1842.7,6076 1837.7,6081 1563.2,6081 1558.2,6076 1558.2,6044" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1700.45" y="6074" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Pathogen-associated molecular patterns (PAMPs)</text>
+<polygon points="1575,8815 1705,8815 1710,8820 1710,8920 1705,8925 1575,8925 1570,8920 1570,8820" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1640" y="8918" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">stressor factors</text>
+<polygon points="2780,8420 2960,8420 2965,8425 2965,8455 2960,8460 2780,8460 2775,8455 2775,8425" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="2870" y="8453" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">opsonins</text>
+<polygon points="9175,8550 9345,8550 9350,8555 9350,8585 9345,8590 9175,8590 9170,8585 9170,8555" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="9260" y="8583" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">complement component C1q</text>
+<polygon points="6705,7890 6835,7890 6840,7895 6840,7925 6835,7930 6705,7930 6700,7925 6700,7895" fill="#f7f7f7" stroke="#000"/>
+<text x="6770" y="7923" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">resting microglia M0</text>
+<polygon points="6960,7995 7300,7995 7305,8000 7305,8040 7300,8045 6960,8045 6955,8040 6955,8000" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="7130" y="8038" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">receptors expressed in healthy neurons and synapses</text>
+<polygon points="55,8220 385,8220 390,8225 390,8335 385,8340 55,8340 50,8335 50,8225" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="220" y="8333" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">full-length MAPT  </text>
+<polygon points="1564.55,6220 1855.45,6220 1860.45,6225 1860.45,6315 1855.45,6320 1564.55,6320 1559.55,6315 1559.55,6225" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1710" y="6313" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Resolution-Associated Molecular Patterns (RAMPs)</text>
+<polygon points="1077.25,6370 1522.75,6370 1527.75,6375 1527.75,6525 1522.75,6530 1077.25,6530 1072.25,6525 1072.25,6375" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1300" y="6523" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Toll-like receptors (TLRs)</text>
+<polygon points="1675,8425 1765,8425 1770,8430 1770,8490 1765,8495 1675,8495 1670,8490 1670,8430" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1720" y="8488" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
+<polygon points="565,6550 795,6550 800,6555 800,6625 795,6630 565,6630 560,6625 560,6555" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="680" y="6623" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">advance glycation end-products (AGEs)</text>
+<polygon points="5175,6350 5615,6350 5620,6355 5620,6485 5615,6490 5175,6490 5170,6485 5170,6355" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="5395" y="6483" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Interferon receptors</text>
+<polygon points="5290,6225 5865,6225 5870,6230 5870,6325 5865,6330 5290,6330 5285,6325 5285,6230" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="5577.5" y="6323" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cytokines</text>
+<polygon points="6415,6385 6525,6385 6530,6390 6530,6450 6525,6455 6415,6455 6410,6450 6410,6390" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="6470" y="6448" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">neuraminidases</text>
+<polygon points="6391.5,6253.5 6488.5,6253.5 6493.5,6258.5 6493.5,6321.5 6488.5,6326.5 6391.5,6326.5 6386.5,6321.5 6386.5,6258.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="6440" y="6319.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">fibril</text>
+<polygon points="5040,7007.5 5420,7007.5 5425,7012.5 5425,7067.5 5420,7072.5 5040,7072.5 5035,7067.5 5035,7012.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="5230" y="7065.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">up-regulated genes in microglial phagocytosis</text>
+<polygon points="3765,6592.5 3855,6592.5 3860,6597.5 3860,6642.5 3855,6647.5 3765,6647.5 3760,6642.5 3760,6597.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="3810" y="6640.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">high</text>
+<polygon points="3765,6282.5 3855,6282.5 3860,6287.5 3860,6332.5 3855,6337.5 3765,6337.5 3760,6332.5 3760,6287.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="3810" y="6330.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">high</text>
+<polygon points="7489.5,6461 7683.5,6461 7688.5,6466 7688.5,6539 7683.5,6544 7489.5,6544 7484.5,6539 7484.5,6466" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="7586.5" y="6537" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">metalloproteinases</text>
+<polygon points="7488.5,6279.5 7682.5,6279.5 7687.5,6284.5 7687.5,6357.5 7682.5,6362.5 7488.5,6362.5 7483.5,6357.5 7483.5,6284.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="7585.5" y="6355.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">metalloproteinases</text>
+<polygon points="8625.5,9737 8715.5,9737 8720.5,9742 8720.5,9767 8715.5,9772 8625.5,9772 8620.5,9767 8620.5,9742" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="8670.5" y="9765" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NMDA receptor</text>
+<polygon points="2932.5,6390 3147.5,6390 3152.5,6395 3152.5,6435 3147.5,6440 2932.5,6440 2927.5,6435 2927.5,6395" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="3040" y="6433" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">G-protein coupled receptors (GPCRs)</text>
+<polygon points="2745,6391.25 2895,6391.25 2900,6396.25 2900,6440 2895,6445 2745,6445 2740,6440 2740,6396.25" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="2820" y="6438" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">scavenger receptors (SRs)</text>
+<polygon points="7494.38,8118.04 7570.62,8118.04 7575.62,8123.04 7575.62,8164.96 7570.62,8169.96 7494.38,8169.96 7489.38,8164.96 7489.38,8123.04" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="7532.5" y="8162.96" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SIGLECs</text>
+<polygon points="3624,8091.75 3736,8091.75 3741,8096.75 3741,8130.75 3736,8135.75 3624,8135.75 3619,8130.75 3619,8096.75" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="3680" y="8128.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">integrin receptors</text>
+<polygon points="3705,8500 3875,8500 3880,8505 3880,8535 3875,8540 3705,8540 3700,8535 3700,8505" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="3790" y="8533" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">complement component C1q</text>
+<polygon points="4103.25,8158.5 4273.25,8158.5 4278.25,8163.5 4278.25,8193.5 4273.25,8198.5 4103.25,8198.5 4098.25,8193.5 4098.25,8163.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="4188.25" y="8191.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">complement component C1q</text>
+<polygon points="6647.88,8106.54 6724.12,8106.54 6729.12,8111.54 6729.12,8153.46 6724.12,8158.46 6647.88,8158.46 6642.88,8153.46 6642.88,8111.54" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="6686" y="8151.46" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SIGLECs</text>
+<polygon points="3112.5,8117.5 3292.5,8117.5 3297.5,8122.5 3297.5,8182.5 3292.5,8187.5 3112.5,8187.5 3107.5,8182.5 3107.5,8122.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="3202.5" y="8180.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">complement receptor 3</text>
+<polygon points="1266.5,5983.5 1363.5,5983.5 1368.5,5988.5 1368.5,6051.5 1363.5,6056.5 1266.5,6056.5 1261.5,6051.5 1261.5,5988.5" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1315" y="6049.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
+<polygon points="1030,6105 1120,6105 1125,6110 1125,6170 1120,6175 1030,6175 1025,6170 1025,6110" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1075" y="6168" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">fibril</text>
+<polygon points="1144.5,6072.43 1365.5,6072.43 1370.5,6077.43 1370.5,6174.43 1365.5,6179.43 1144.5,6179.43 1139.5,6174.43 1139.5,6077.43" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1255" y="6172.43" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
+<polygon points="8723,8543 8893,8543 8898,8548 8898,8578 8893,8583 8723,8583 8718,8578 8718,8548" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="8808" y="8576" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">complement component C1q</text>
+<polygon points="285,8235 375,8235 380,8240 380,8300 375,8305 285,8305 280,8300 280,8240" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="330" y="8298" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">monomer</text>
+<polygon points="175,8235 265,8235 270,8240 270,8300 265,8305 175,8305 170,8300 170,8240" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="220" y="8298" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">aggregated</text>
+<polygon points="65,8235 155,8235 160,8240 160,8300 155,8305 65,8305 60,8300 60,8240" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="110" y="8298" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">oligomer</text>
+<polygon points="4166.25,6310.75 4253.25,6310.75 4258.25,6315.75 4258.25,6428.75 4253.25,6433.75 4166.25,6433.75 4161.25,6428.75 4161.25,6315.75" fill="#f7f7f7" stroke="#000"/>
+<text x="4209.75" y="6426.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CD16</text>
+<polygon points="4054.75,6312.25 4144.75,6312.25 4149.75,6317.25 4149.75,6427.25 4144.75,6432.25 4054.75,6432.25 4049.75,6427.25 4049.75,6317.25" fill="#f7f7f7" stroke="#000"/>
+<text x="4099.75" y="6425.25" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CD64</text>
+<polygon points="4275.75,6307.75 4443.75,6307.75 4448.75,6312.75 4448.75,6431.75 4443.75,6436.75 4275.75,6436.75 4270.75,6431.75 4270.75,6312.75" fill="#f7f7f7" stroke="#000"/>
+<text x="4359.75" y="6429.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CD32</text>
+<polygon points="5415,6375 5605,6375 5610,6380 5610,6460 5605,6465 5415,6465 5410,6460 5410,6380" fill="#f7f7f7" stroke="#000"/>
+<text x="5510" y="6458" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">interferon alpha/beta receptor</text>
+<polygon points="5190,6375 5370,6375 5375,6380 5375,6460 5370,6465 5190,6465 5185,6460 5185,6380" fill="#f7f7f7" stroke="#000"/>
+<text x="5280" y="6458" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Interferon gamma receptors</text>
+<polygon points="5490,6240 5760,6240 5765,6245 5765,6305 5760,6310 5490,6310 5485,6305 5485,6245" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="5625" y="6303" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Trensforming growth factor beta</text>
+<polygon points="1157.5,6082.43 1247.5,6082.43 1252.5,6087.43 1252.5,6147.43 1247.5,6152.43 1157.5,6152.43 1152.5,6147.43 1152.5,6087.43" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1202.5" y="6145.43" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">protofibril</text>
+<polygon points="1263.5,6082.43 1353.5,6082.43 1358.5,6087.43 1358.5,6147.43 1353.5,6152.43 1263.5,6152.43 1258.5,6147.43 1258.5,6087.43" fill="#f7f7f7" stroke="#000" stroke-dasharray="5,3"/>
+<text x="1308.5" y="6145.43" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">fibril</text>
+<polygon points="8500,9330 8610,9330 8625,9345 8610,9360 8500,9360 8485,9345" fill="#cc99ff" stroke="#000"/>
+<text x="8555" y="9349" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">calcium ion import</text>
+<ellipse cx="8566.5" cy="9294.25" rx="20" ry="20" fill="#9999ff" stroke="#000"/>
+<text x="8566.5" y="9298.25" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Ca2+</text>
+<ellipse cx="8736.5" cy="9294.25" rx="20" ry="20" fill="#9999ff" stroke="#000"/>
+<text x="8736.5" y="9298.25" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Ca2+</text>
+<polygon points="8845,9183 9025,9183 9040,9198 9025,9213 8845,9213 8830,9198" fill="#cc99ff" stroke="#000"/>
+<text x="8935" y="9202" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">calcineurin-mediated signaling</text>
+<rect x="8987.93" y="9427" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="9027.93" cy="9427" rx="46" ry="8" fill="#fff" stroke="#000"/>
+<text x="9027.93" y="9430" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">phosphorylated</text>
+<text x="9027.93" y="9451" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
+<rect x="9145" y="9867" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="9185" y="9891" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">EEF2</text>
+<ellipse cx="8800" cy="10238" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="8800" y="10242" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IP3</text>
+<ellipse cx="8800" cy="10275" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="8800" y="10279" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">P</text>
+<polygon points="9390,9135 9550,9135 9565,9150 9550,9165 9390,9165 9375,9150" fill="#cc99ff" stroke="#000"/>
+<text x="9470" y="9154" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">synaptic proteins translation</text>
+<polygon points="8825,10095 8995,10095 9010,10110 8995,10125 8825,10125 8810,10110" fill="#cc99ff" stroke="#000"/>
+<text x="8910" y="10114" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">long-term synaptic depression</text>
+<polygon points="8820,10135 9000,10135 9015,10150 9000,10165 8820,10165 8805,10150" fill="#cc99ff" stroke="#000"/>
+<text x="8910" y="10154" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">long-term synaptic potentiation</text>
+<polygon points="8805,9865 8945,9865 8960,9880 8945,9895 8805,9895 8790,9880" fill="#cc99ff" stroke="#000"/>
+<text x="8875" y="9884" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">calcium oin homeostasis</text>
+<polygon points="8843,9242 9033,9242 9048,9257 9033,9272 8843,9272 8828,9257" fill="#cc99ff" stroke="#000"/>
+<text x="8938" y="9261" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CREB transcription factor activity</text>
+<polygon points="8696.5,9004.5 8826.5,9004.5 8841.5,9019.5 8826.5,9034.5 8696.5,9034.5 8681.5,9019.5" fill="#cc99ff" stroke="#000"/>
+<text x="8761.5" y="9023.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">mitochondrial damage</text>
+<ellipse cx="8843.5" cy="9119" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="8843.5" y="9123" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ROS</text>
+<circle cx="8704" cy="9119" r="11.25" fill="#ffcccc" stroke="#000"/>
+<line x1="8710" y1="9104" x2="8698" y2="9134" stroke="#000"/>
+<rect x="8987" y="9567" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="9027" y="9591" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
+<circle cx="8320" cy="8040" r="11.25" fill="#ffcccc" stroke="#000"/>
+<line x1="8326" y1="8025" x2="8314" y2="8055" stroke="#000"/>
+<polygon points="8840,9795 8950,9795 8965,9810 8950,9825 8840,9825 8825,9810" fill="#cc99ff" stroke="#000"/>
+<text x="8895" y="9814" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">neurodegeneration</text>
+<ellipse cx="9409.5" cy="8953" rx="20" ry="20" fill="#9999ff" stroke="#000"/>
+<text x="9409.5" y="8957" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Ca2+</text>
+<ellipse cx="9409.5" cy="8788" rx="20" ry="20" fill="#9999ff" stroke="#000"/>
+<text x="9409.5" y="8792" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">Ca2+</text>
+<rect x="9170" y="8480" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="9210" y="8504" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">C3</text>
+<rect x="8511.64" y="11020" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="8551.64" cy="11020" rx="35" ry="8" fill="#fff" stroke="#000"/>
+<text x="8551.64" y="11023" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">sAPP beta</text>
+<text x="8551.64" y="11044" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
+<rect x="8630" y="10955" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000" stroke-dasharray="5,3"/>
+<text x="8670" y="10984" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">PRNP</text>
+<polygon points="8270,8905 8370,8905 8385,8920 8370,8935 8270,8935 8255,8920" fill="#cc99ff" stroke="#000"/>
+<text x="8320" y="8924" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">synaptic plasticity</text>
+<rect x="8506.64" y="9851.57" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="8546.64" cy="9851.57" rx="35" ry="8" fill="#fff" stroke="#000"/>
+<text x="8546.64" y="9854.57" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">sAPP beta</text>
+<text x="8546.64" y="9875.57" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
+<rect x="8580" y="10735" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="8620" y="10764" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">GRM5</text>
+<rect x="8623.57" y="10038.57" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="8663.57" y="10067.57" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TMEM97</text>
+<rect x="8621.5" y="10423.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="8661.5" y="10447.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">FYN</text>
+<rect x="8621" y="10304" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="8661" y="10328" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">FYN</text>
+<rect x="2190" y="6405" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="2230" y="6434" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MSR1</text>
+<rect x="2370" y="6405" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="2410" y="6434" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CD36</text>
+<rect x="2100" y="6405" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="2140" y="6434" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">AGER</text>
+<rect x="2280" y="6405" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="2320" y="6434" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SCARB1</text>
+<rect x="2010" y="6405" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="2050" y="6434" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MARCO</text>
+<rect x="3460" y="6395" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="3500" y="6424" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">FPR2</text>
+<rect x="3550" y="6395" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="3590" y="6424" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CMKLR1</text>
+<rect x="2880" y="6255" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="2920" cy="6255" rx="32" ry="8" fill="#fff" stroke="#000"/>
+<text x="2920" y="6258" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Abeta 42</text>
+<text x="2920" y="6279" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
+<ellipse cx="429.5" cy="8673" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="429.5" y="8677" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ATP</text>
+<ellipse cx="430" cy="8465" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="430" y="8469" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ATP</text>
+<ellipse cx="430" cy="8335" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="430" y="8339" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ADP</text>
+<rect x="700" y="8335" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="740" y="8359" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CX3CL1</text>
+<rect x="698" y="8646" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="738" y="8670" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CX3CL1</text>
+<rect x="310" y="8132" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="350" y="8161" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">P2RY12</text>
+<rect x="630" y="8132" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="670" y="8161" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CX3CR1</text>
+<polygon points="730,7985 870,7985 885,8000 870,8015 730,8015 715,8000" fill="#cc99ff" stroke="#000"/>
+<text x="800" y="8004" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">microglial cell migration</text>
+<ellipse cx="1250" cy="8685" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="1250" y="8689" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">UTP</text>
+<ellipse cx="1250" cy="8345" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="1250" y="8349" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">UDP</text>
+<ellipse cx="1250" cy="8495" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="1250" y="8499" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">UTP</text>
+<rect x="1080" y="8130" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="1120" y="8159" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">P2RY6</text>
+<polygon points="2155,7895 2285,7895 2300,7910 2285,7925 2155,7925 2140,7910" fill="#cc99ff" stroke="#000"/>
+<text x="2220" y="7914" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">microglial phagocytosis</text>
+<rect x="2050" y="8132" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="2090" y="8161" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ADGRG1</text>
+<ellipse cx="1860" cy="8550" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="1860" y="8554" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine</text>
+<rect x="1421" y="8130" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="1461" y="8159" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TREM2</text>
+<rect x="7690" y="8560" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="7730" y="8584" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CD47</text>
+<rect x="7690" y="8150" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="7730" y="8179" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SIRPA</text>
+<rect x="2170" y="8132" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="2210" y="8161" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MERKTK</text>
+<rect x="2680" y="8133" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="2720" y="8162" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TREM2</text>
+<polygon points="7375,7855 7505,7855 7520,7870 7505,7885 7375,7885 7360,7870" fill="#cc99ff" stroke="#000"/>
+<text x="7440" y="7874" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">microglial phagocytosis</text>
+<rect x="3840" y="8125" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="3880" y="8154" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MEGF10</text>
+<rect x="1970" y="8430" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="2010" y="8454" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">GAS6</text>
+<rect x="2460" y="8430" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="2500" y="8454" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APOE</text>
+<rect x="3040" y="8430" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="3080" y="8454" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MFGE8</text>
+<rect x="4179" y="8435" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="4219" y="8459" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LGALS3</text>
+<rect x="4729" y="8435" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="4769" y="8459" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CALR</text>
+<rect x="4346.25" y="8134.31" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="4386.25" y="8163.31" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MERKTK</text>
+<rect x="4890" y="8135" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="4930" y="8164" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LRP1</text>
+<rect x="5710" y="8134.84" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="5750" y="8163.84" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CR1</text>
+<ellipse cx="1460" cy="8610" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="1460" y="8614" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine</text>
+<rect x="5190" y="8415" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="5230" y="8439" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">C3</text>
+<rect x="5369" y="8355" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="5409" cy="8355" rx="21" ry="8" fill="#fff" stroke="#000"/>
+<text x="5409" y="8358" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">C3a</text>
+<text x="5409" y="8379" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">C3</text>
+<rect x="5460" y="8355" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="5500" cy="8355" rx="21" ry="8" fill="#fff" stroke="#000"/>
+<text x="5500" y="8358" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">C3b</text>
+<text x="5500" y="8379" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">C3</text>
+<polygon points="5335,7930 5465,7930 5480,7945 5465,7960 5335,7960 5320,7945" fill="#cc99ff" stroke="#000"/>
+<text x="5400" y="7949" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">microglial phagocytosis</text>
+<rect x="6815" y="8555" width="130" height="40" rx="5" fill="#ccffcc" stroke="#000" stroke-dasharray="5,3"/>
+<ellipse cx="6880" cy="8555" rx="32" ry="8" fill="#fff" stroke="#000"/>
+<text x="6880" y="8558" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">sialylated</text>
+<text x="6880" y="8579" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">generic glycoprotein</text>
+<rect x="6475" y="8545" width="130" height="40" rx="5" fill="#ccffcc" stroke="#000" stroke-dasharray="5,3"/>
+<ellipse cx="6540" cy="8545" rx="38" ry="8" fill="#fff" stroke="#000"/>
+<text x="6540" y="8548" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">desialylated</text>
+<text x="6540" y="8569" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">generic glycoprotein</text>
+<ellipse cx="7120" cy="8565" rx="70" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="7120" y="8569" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">sialylated glycolipid</text>
+<ellipse cx="5980" cy="8570" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="5980" y="8574" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">desialylated glycolipid</text>
+<ellipse cx="6220" cy="8390" rx="25" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="6220" y="8394" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LPS</text>
+<polygon points="6145,8465 6295,8465 6310,8480 6295,8495 6145,8495 6130,8480" fill="#cc99ff" stroke="#000"/>
+<text x="6220" y="8484" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">exo-alpha-sialidase activity</text>
+<rect x="6280" y="8136" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="6320" y="8165" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TLR4</text>
+<rect x="6420" y="8136" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<ellipse cx="6460" cy="8136" rx="38" ry="8" fill="#fff" stroke="#000"/>
+<text x="6460" y="8139" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">desialylated</text>
+<text x="6460" y="8165" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TLR4</text>
+<polygon points="6295,8005 6445,8005 6460,8020 6445,8035 6295,8035 6280,8020" fill="#cc99ff" stroke="#000"/>
+<text x="6370" y="8024" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">microglial cell activation</text>
+<ellipse cx="7137" cy="8805" rx="45" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="7137" y="8809" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">glycolipid</text>
+<rect x="6815" y="8785" width="130" height="40" rx="5" fill="#ccffcc" stroke="#000" stroke-dasharray="5,3"/>
+<text x="6880" y="8809" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">generic glycoprotein</text>
+<polygon points="2095,6595 2245,6595 2260,6610 2245,6625 2095,6625 2080,6610" fill="#cc99ff" stroke="#000"/>
+<text x="2170" y="6614" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">microglial cell activation</text>
+<polygon points="3750,8025 3950,8025 3965,8040 3950,8055 3750,8055 3735,8040" fill="#cc99ff" stroke="#000"/>
+<text x="3850" y="8044" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">complement mediated phagocytosis </text>
+<rect x="7080" y="8055" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="7120" y="8084" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">PILRA</text>
+<circle cx="350" cy="8010" r="11.25" fill="#ffcccc" stroke="#000"/>
+<line x1="356" y1="7995" x2="344" y2="8025" stroke="#000"/>
+<polygon points="365,7935 515,7935 530,7950 515,7965 365,7965 350,7950" fill="#cc99ff" stroke="#000"/>
+<text x="440" y="7954" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">microglial cell activation</text>
+<rect x="190" y="7030" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="230" y="7054" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CCL2</text>
+<rect x="190" y="6940" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="230" y="6964" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CXCL10</text>
+<polygon points="200,7275 280,7275 295,7290 280,7305 200,7305 185,7290" fill="#cc99ff" stroke="#000"/>
+<text x="240" y="7294" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cell chemotaxis</text>
+<rect x="520" y="6940" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="560" y="6964" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CXCL10</text>
+<rect x="520" y="7030" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="560" y="7054" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CCL2</text>
+<polygon points="1011.5,6954 1328.5,6954 1344.5,6970 1328.5,6986 1011.5,6986 995.5,6970" fill="#cc99ff" stroke="#000"/>
+<text x="1170" y="6974" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cytokine production involved in inflammatory response</text>
+<polygon points="4590,6405 4810,6405 4825,6420 4810,6435 4590,6435 4575,6420" fill="#cc99ff" stroke="#000"/>
+<text x="4700" y="6424" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">receptor signaling pathway via JAK-STAT</text>
+<rect x="1810" y="8720" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="1850" y="8744" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">PTEN</text>
+<rect x="1940" y="8770" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="1980" y="8794" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
+<rect x="1810" y="8820" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="1850" y="8844" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">PTEN</text>
+<rect x="2050" y="6780" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="2090" y="6804" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TSPO</text>
+<rect x="1900" y="6820" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="1940" y="6844" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">HK2</text>
+<rect x="1790" y="7060" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="1830" y="7084" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">HK2</text>
+<polygon points="2245,7195 2295,7195 2310,7210 2295,7225 2245,7225 2230,7210" fill="#cc99ff" stroke="#000"/>
+<text x="2270" y="7214" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">glycolysis</text>
+<polygon points="2195,6915 2345,6915 2360,6930 2345,6945 2195,6945 2180,6930" fill="#cc99ff" stroke="#000"/>
+<text x="2270" y="6934" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">mitochondrial respiration</text>
+<polygon points="2585,6975 2735,6975 2750,6990 2735,7005 2585,7005 2570,6990" fill="#cc99ff" stroke="#000"/>
+<text x="2660" y="6994" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ATP biosynthetic process</text>
+<ellipse cx="2552" cy="7042" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<ellipse cx="2546" cy="7036" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<ellipse cx="2540" cy="7030" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<ellipse cx="2534" cy="7024" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<ellipse cx="2528" cy="7018" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="2528" y="7022" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ATP</text>
+<circle cx="2530" cy="6860" r="11.25" fill="#ffcccc" stroke="#000"/>
+<line x1="2536" y1="6845" x2="2524" y2="6875" stroke="#000"/>
+<polygon points="2255,7345 2525,7345 2540,7360 2525,7375 2255,7375 2240,7360" fill="#cc99ff" stroke="#000"/>
+<text x="2390" y="7364" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">microglial phagocytosis of protein aggregates</text>
+<ellipse cx="1990" cy="6300" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="1990" y="6304" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LPS</text>
+<ellipse cx="2552" cy="7222" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<ellipse cx="2546" cy="7216" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<ellipse cx="2540" cy="7210" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<ellipse cx="2534" cy="7204" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<ellipse cx="2528" cy="7198" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="2528" y="7202" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ATP</text>
+<rect x="940" y="6405" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="980" y="6434" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">AGER</text>
+<polygon points="1035,6705 1125,6705 1140,6720 1125,6735 1035,6735 1020,6720" fill="#cc99ff" stroke="#000"/>
+<text x="1080" y="6724" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">oxidative stress</text>
+<polygon points="905,7045 1055,7045 1070,7060 1055,7075 905,7075 890,7060" fill="#cc99ff" stroke="#000"/>
+<text x="980" y="7064" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">microglial cell activation</text>
+<rect x="940" y="6550" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="980" y="6574" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">DIAPH1</text>
+<polygon points="435,6365 585,6365 600,6380 585,6395 435,6395 420,6380" fill="#cc99ff" stroke="#000"/>
+<text x="510" y="6384" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">altered BBB permeability</text>
+<circle cx="740" cy="6710" r="11.25" fill="#ffcccc" stroke="#000"/>
+<line x1="746" y1="6695" x2="734" y2="6725" stroke="#000"/>
+<circle cx="830" cy="6570" r="11.25" fill="#ffcccc" stroke="#000"/>
+<line x1="836" y1="6555" x2="824" y2="6585" stroke="#000"/>
+<ellipse cx="6060" cy="6440" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="6060" y="6444" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">desialylated glycolipid</text>
+<polygon points="6225,6335 6375,6335 6390,6350 6375,6365 6225,6365 6210,6350" fill="#cc99ff" stroke="#000"/>
+<text x="6300" y="6354" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">exo-alpha-sialidase activity</text>
+<rect x="6555" y="6415" width="130" height="40" rx="5" fill="#ccffcc" stroke="#000" stroke-dasharray="5,3"/>
+<ellipse cx="6620" cy="6415" rx="38" ry="8" fill="#fff" stroke="#000"/>
+<text x="6620" y="6418" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">desialylated</text>
+<text x="6620" y="6439" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">generic glycoprotein</text>
+<rect x="6915" y="6420" width="130" height="40" rx="5" fill="#ccffcc" stroke="#000" stroke-dasharray="5,3"/>
+<ellipse cx="6980" cy="6420" rx="32" ry="8" fill="#fff" stroke="#000"/>
+<text x="6980" y="6423" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">sialylated</text>
+<text x="6980" y="6444" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">generic glycoprotein</text>
+<ellipse cx="7200" cy="6435" rx="70" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="7200" y="6439" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">sialylated glycolipid</text>
+<polygon points="3870,6375 3970,6375 3985,6390 3970,6405 3870,6405 3855,6390" fill="#cc99ff" stroke="#000"/>
+<text x="3920" y="6394" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cholesterol efflux</text>
+<rect x="3690" y="6360" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="3730" cy="6360" rx="29" ry="8" fill="#fff" stroke="#000"/>
+<text x="3730" y="6363" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">form E4</text>
+<text x="3730" y="6384" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APOE</text>
+<polygon points="7332.5,6580 7427.5,6580 7442.5,6595 7427.5,6610 7332.5,6610 7317.5,6595" fill="#cc99ff" stroke="#000"/>
+<text x="7380" y="6599" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">iron accumulation</text>
+<ellipse cx="8963.5" cy="10233" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="8963.5" y="10237" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IP3</text>
+<rect x="8834.75" y="9560" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="8874.75" y="9584" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
+<rect x="3307.5" y="8122.5" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="3347.5" y="8151.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TREM2</text>
+<rect x="3397.5" y="8122.5" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="3437.5" y="8151.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CSF1R</text>
+<rect x="8768" y="8493" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="8808" y="8517" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">C3</text>
+<rect x="8627.57" y="9684" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="8667.57" cy="9684" rx="35" ry="8" fill="#fff" stroke="#000"/>
+<text x="8667.57" y="9687" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">sAPP beta</text>
+<text x="8667.57" y="9708" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
+<rect x="8620.64" y="9887.29" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="8660.64" cy="9887.29" rx="35" ry="8" fill="#fff" stroke="#000"/>
+<text x="8660.64" y="9890.29" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">sAPP beta</text>
+<text x="8660.64" y="9911.29" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
+<rect x="8623" y="9936" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="8663" y="9965" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TMEM97</text>
+<rect x="8642.71" y="10819" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="8682.71" cy="10819" rx="35" ry="8" fill="#fff" stroke="#000"/>
+<text x="8682.71" y="10822" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">sAPP beta</text>
+<text x="8682.71" y="10843" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
+<rect x="8641.5" y="10868.5" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000" stroke-dasharray="5,3"/>
+<text x="8681.5" y="10897.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">PRNP</text>
+<rect x="8649.71" y="10569" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="8689.71" cy="10569" rx="35" ry="8" fill="#fff" stroke="#000"/>
+<text x="8689.71" y="10572" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">sAPP beta</text>
+<text x="8689.71" y="10593" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
+<rect x="8650.5" y="10614.5" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000" stroke-dasharray="5,3"/>
+<text x="8690.5" y="10643.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">PRNP</text>
+<rect x="8646.5" y="10506.5" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="8686.5" y="10535.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">GRM5</text>
+<rect x="2780" y="6465" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="2820" cy="6465" rx="32" ry="8" fill="#fff" stroke="#000"/>
+<text x="2820" y="6468" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Abeta 42</text>
+<text x="2820" y="6489" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
+<rect x="3000" y="6465" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="3040" cy="6465" rx="32" ry="8" fill="#fff" stroke="#000"/>
+<text x="3040" y="6468" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Abeta 42</text>
+<text x="3040" y="6489" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
+<rect x="459" y="8107" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="499" y="8136" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">P2RY12</text>
+<ellipse cx="499" cy="8182" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="499" y="8186" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ADP</text>
+<rect x="830" y="8162" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="870" y="8186" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CX3CL1</text>
+<rect x="830" y="8107" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="870" y="8136" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CX3CR1</text>
+<rect x="1249" y="8106" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="1289" y="8135" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">P2RY6</text>
+<ellipse cx="1289" cy="8181" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="1289" y="8185" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">UDP</text>
+<rect x="1640" y="8113" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="1680" y="8142" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TREM2</text>
+<ellipse cx="1672" cy="8179" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="1672" y="8183" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine</text>
+<ellipse cx="1885" cy="8180.75" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="1885" y="8184.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine</text>
+<rect x="1840" y="8112" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="1880" y="8141" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ADGRG1</text>
+<rect x="7860" y="8170" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="7900" y="8194" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CD47</text>
+<rect x="7860" y="8115" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="7900" y="8144" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SIRPA</text>
+<rect x="2690" y="8499" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="2730" y="8523" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APOE</text>
+<rect x="2187.5" y="8500" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="2227.5" y="8524" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">GAS6</text>
+<rect x="3219" y="8499" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="3259" y="8523" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MFGE8</text>
+<rect x="4150" y="8100" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="4190" y="8129" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MEGF10</text>
+<rect x="2395.25" y="8087.62" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="2435.25" y="8116.62" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MERKTK</text>
+<rect x="2929" y="8089" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="2969" y="8118" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TREM2</text>
+<ellipse cx="2227.5" cy="8560" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="2227.5" y="8564" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine</text>
+<rect x="2395.25" y="8142.62" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="2435.25" y="8166.62" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">GAS6</text>
+<ellipse cx="2435.25" cy="8202.62" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="2435.25" y="8206.62" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine</text>
+<ellipse cx="2727.5" cy="8560" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="2727.5" y="8564" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine</text>
+<rect x="2929" y="8144" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="2969" y="8168" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APOE</text>
+<ellipse cx="2969" cy="8204" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="2969" y="8208" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine</text>
+<ellipse cx="3257.5" cy="8560" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="3257.5" y="8564" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine</text>
+<rect x="3640" y="8143.75" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="3680" y="8167.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MFGE8</text>
+<ellipse cx="3680" cy="8203.75" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="3680" y="8207.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine</text>
+<ellipse cx="3790" cy="8560" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="3790" y="8564" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">phosphatidylserine</text>
+<rect x="6000" y="8090" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="6040" y="8119" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CR1</text>
+<rect x="4355" y="8502.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="4395" y="8526.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LGALS3</text>
+<rect x="4611.25" y="8090.47" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="4651.25" y="8119.47" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MERKTK</text>
+<rect x="4611.25" y="8145.47" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="4651.25" y="8169.47" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LGALS3</text>
+<rect x="4900" y="8498.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="4940" y="8522.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CALR</text>
+<rect x="5140" y="8145" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="5180" y="8169" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CALR</text>
+<rect x="5140" y="8090" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="5180" y="8119" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LRP1</text>
+<rect x="5710" y="8505.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="5750" cy="8505.5" rx="21" ry="8" fill="#fff" stroke="#000"/>
+<text x="5750" y="8508.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">C3b</text>
+<text x="5750" y="8529.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">C3</text>
+<rect x="6000" y="8152" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="6040" cy="8152" rx="21" ry="8" fill="#fff" stroke="#000"/>
+<text x="6040" y="8155" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">C3b</text>
+<text x="6040" y="8176" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">C3</text>
+<rect x="1571.5" y="8438.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="1611.5" cy="8438.5" rx="32" ry="8" fill="#fff" stroke="#000"/>
+<text x="1611.5" y="8441.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Abeta 42</text>
+<text x="1611.5" y="8462.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
+<rect x="1629.25" y="8715.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="1669.25" y="8739.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
+<rect x="6620" y="8171.5" width="130" height="40" rx="5" fill="#ccffcc" stroke="#000" stroke-dasharray="5,3"/>
+<ellipse cx="6685" cy="8171.5" rx="32" ry="8" fill="#fff" stroke="#000"/>
+<text x="6685" y="8174.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">sialylated</text>
+<text x="6685" y="8195.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">generic glycoprotein</text>
+<ellipse cx="7530" cy="8190" rx="70" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="7530" y="8194" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">sialylated glycolipid</text>
+<ellipse cx="6042" cy="8212" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="6042" y="8216" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">desialylated glycolipid</text>
+<ellipse cx="5750" cy="8564.5" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="5750" y="8568.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">desialylated glycolipid</text>
+<ellipse cx="4940" cy="8562.5" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="4940" y="8566.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">desialylated glycolipid</text>
+<ellipse cx="5180" cy="8205" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="5180" y="8209" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">desialylated glycolipid</text>
+<ellipse cx="4405" cy="8562.5" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="4405" y="8566.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">desialylated glycolipid</text>
+<ellipse cx="4645" cy="8205.16" rx="75" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="4645" y="8209.16" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">desialylated glycolipid</text>
+<rect x="6320.5" y="8366.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="6360.5" cy="8366.5" rx="32" ry="8" fill="#fff" stroke="#000"/>
+<text x="6360.5" y="8369.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Abeta 42</text>
+<text x="6360.5" y="8390.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
+<rect x="6039.25" y="8365.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="6079.25" y="8389.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
+<rect x="6960" y="8130" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="7000" y="8159" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CD22</text>
+<rect x="7170" y="8130" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="7210" y="8159" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SIGLEC11</text>
+<rect x="7070" y="8130" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="7110" y="8159" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CD33</text>
+<rect x="1347.75" y="6395" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="1387.75" y="6424" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TLR4</text>
+<rect x="1172.25" y="6395" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="1212.25" y="6424" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TLR2</text>
+<rect x="1262.25" y="6395" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="1302.25" y="6424" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TLR3</text>
+<rect x="1437.75" y="6395" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="1477.75" y="6424" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TLR9</text>
+<rect x="1082.25" y="6395" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="1122.25" y="6424" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TLR1</text>
+<polygon points="1595,8825 1685,8825 1700,8840 1685,8855 1595,8855 1580,8840" fill="#cc99ff" stroke="#000"/>
+<text x="1640" y="8844" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">neuron death</text>
+<polygon points="1595,8865 1685,8865 1700,8880 1685,8895 1595,8895 1580,8880" fill="#cc99ff" stroke="#000"/>
+<text x="1640" y="8884" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">neuron stress</text>
+<ellipse cx="1710" cy="6250" rx="140" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="1710" y="6254" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cardiolipin (unsaturated acyl chain)</text>
+<rect x="1679.25" y="8435.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="1719.25" y="8459.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
+<rect x="6350" y="8525" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="6390" y="8549" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NEU1</text>
+<ellipse cx="1700" cy="6130" rx="140" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="1700" y="6134" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cardiolipin (saturated acyl chain)</text>
+<rect x="5295" y="6245" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="5335" y="6269" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IFNG</text>
+<rect x="5395" y="6245" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="5435" y="6269" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IFNB1</text>
+<rect x="5780" y="6250" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="5820" y="6274" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TNF</text>
+<rect x="6400.5" y="6266.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="6440.5" cy="6266.5" rx="32" ry="8" fill="#fff" stroke="#000"/>
+<text x="6440.5" y="6269.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Abeta 42</text>
+<text x="6440.5" y="6290.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
+<rect x="6430" y="6395" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="6470" y="6419" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NEU1</text>
+<polygon points="5285,7025 5350,7025 5325,7050 5260,7050" fill="#66ff66" stroke="#000"/>
+<text x="5305" y="7041.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APOE</text>
+<polygon points="5215,7025 5280,7025 5255,7050 5190,7050" fill="#66ff66" stroke="#000"/>
+<text x="5235" y="7041.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TREM2</text>
+<polygon points="5145,7025 5210,7025 5185,7050 5120,7050" fill="#66ff66" stroke="#000"/>
+<text x="5165" y="7041.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ITGAX</text>
+<polygon points="5355,7025 5420,7025 5395,7050 5330,7050" fill="#66ff66" stroke="#000"/>
+<text x="5375" y="7041.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">AXL</text>
+<polygon points="5075,7025 5140,7025 5115,7050 5050,7050" fill="#66ff66" stroke="#000"/>
+<text x="5095" y="7041.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CLEC7A</text>
+<ellipse cx="3810" cy="6610" rx="45" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="3810" y="6614" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cholesterol</text>
+<ellipse cx="3810" cy="6302.5" rx="45" ry="12.5" fill="#ccff66" stroke="#000"/>
+<text x="3810" y="6306.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">cholesterol</text>
+<rect x="7497.5" y="6292.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="7537.5" y="6316.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MMP1</text>
+<rect x="7583" y="6292" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="7623" y="6316" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MMP9</text>
+<rect x="7498.5" y="6474" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="7538.5" y="6498" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MMP1</text>
+<rect x="7584" y="6473.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="7624" y="6497.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MMP9</text>
+<rect x="3117.5" y="8127.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="3157.5" y="8151.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ITGB2</text>
+<rect x="3207.5" y="8127.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="3247.5" y="8151.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ITGAM</text>
+<rect x="1276.5" y="5998.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<ellipse cx="1316.5" cy="5998.5" rx="32" ry="8" fill="#fff" stroke="#000"/>
+<text x="1316.5" y="6001.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">Abeta 42</text>
+<text x="1316.5" y="6022.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
+<rect x="1034.25" y="6115.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="1074.25" y="6139.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
+<rect x="179.25" y="8245.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="219.25" y="8269.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
+<rect x="69.25" y="8245.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="109.25" y="8269.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
+<rect x="289.25" y="8245.5" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="329.25" y="8269.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
+<rect x="4059.75" y="6337.25" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="4099.75" y="6366.25" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">FCGR1A</text>
+<rect x="4169.25" y="6319.75" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="4209.25" y="6348.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">FCGR3A</text>
+<rect x="4169.25" y="6364.75" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="4209.25" y="6393.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">FCGR3B</text>
+<rect x="4275.75" y="6313.75" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="4315.75" y="6342.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">FCGR2A</text>
+<rect x="4361.75" y="6315.75" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="4401.75" y="6344.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">FCGR2B</text>
+<rect x="4322.75" y="6368.75" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="4362.75" y="6397.75" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">FCGR2C</text>
+<rect x="5195" y="6390" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="5235" y="6419" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IFNGR1</text>
+<rect x="5285" y="6390" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="5325" y="6419" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IFNGR2</text>
+<rect x="5430" y="6390" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="5470" y="6419" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IFNAR1</text>
+<rect x="5520" y="6390" width="80" height="50" rx="5" fill="#ffffcc" stroke="#000"/>
+<text x="5560" y="6419" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IFNAR2</text>
+<rect x="5495" y="6250" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="5535" y="6274" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TGFB1</text>
+<rect x="5585" y="6250" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="5625" y="6274" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TGFB2</text>
+<rect x="5675" y="6250" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="5715" y="6274" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">TGFB3</text>
+<rect x="1267.5" y="6093.86" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="1307.5" y="6117.86" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SNCA</text>
+<rect x="1161.5" y="6093.86" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
+<text x="1201.5" y="6117.86" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SNCA</text>
+<g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<polyline points="240,7313 240,7520 800,7520 800,7963"/>
+<polyline points="1552,6129.95 1409.33,6129.11 1407.88,6373"/>
+<polyline points="390,8124 390,8043.5 440,8043.5 440,7987"/>
+<polyline points="350,8033 350,8110"/>
+<polyline points="219.93,8212 218.76,8079.61 330,8078.63"/>
+<polyline points="7042.5,7987 7042.49,7976.48 6459.99,7976.73 6460,7994"/>
+<polyline points="7130,7987 7130,7910 6862,7910"/>
+<polyline points="1840,6455.5 1840.07,6610.11 2058,6610.01"/>
+<polyline points="1227.47,6160.43 1227.27,6217.64 1212.88,6217.59 1212.33,6373"/>
+<polyline points="1177.49,6160.43 1177.42,6220.31 1162.45,6220.3 1162.27,6373"/>
+<polyline points="1358.42,6160.43 1357.83,6222.11 1349.42,6222.03 1347.96,6373"/>
+<polyline points="1258.57,6160.43 1259.12,6222.07 1250.72,6222.14 1252.06,6373"/>
+<polyline points="1850.7,6059.94 1949.81,6059.22 1952.09,6370.5"/>
+<polyline points="1853.45,6150 1896.2,6150.02 1896.13,6370.5"/>
+<polyline points="7168.84,8788.16 7169.43,8595.84"/>
+<polyline points="7118,8690.92 7139.09,8690.73 7139.09,8690.22 7156.64,8690.06"/>
+<polyline points="6912.5,8777 6912.5,8617"/>
+<polyline points="6962,8690.92 6941.75,8690.73 6941.75,8690.23 6925,8690.07"/>
+<polyline points="6500,8128 6500,8020 6482,8020"/>
+<polyline points="6368,8173.5 6398,8173.5"/>
+<polyline points="5951.38,8550.45 5953.63,8317.06 6388.62,8321.27 6389.85,8193.5"/>
+<polyline points="5980,8549.5 5980.13,8339.94 7016.17,8340.54 7016.24,8218.5"/>
+<polyline points="6605.01,8537 6605.25,8336.24 6922.35,8336.62 6922.49,8218.5"/>
+<polyline points="6137.98,8390.56 6180.03,8393.52 6176.55,8443.05"/>
+<polyline points="6298.52,8390.52 6260.27,8393.04 6263.56,8443.05"/>
+<polyline points="6220,8410.5 6220,8443"/>
+<polyline points="6040.04,8077 6040.68,7963.11 5502,7960.12"/>
+<polyline points="5184.58,8077.01 5178.85,7967.38 5298.03,7961.15"/>
+<polyline points="4649.97,8077.16 4649.49,7962.8 5298,7960.09"/>
+<polyline points="5278,8435 5500,8435 5500,8417"/>
+<polyline points="5413.75,8435 5413.75,8415.5 5409,8415.5 5409,8417"/>
+<polyline points="3880.01,8548 3880.21,8657.32 5380.38,8654.66 5380.01,8447.5"/>
+<polyline points="1537.29,8614.78 1831.3,8614.78 1831.3,8583.55"/>
+<polyline points="1609.99,8504.5 1609.93,8550.23 1680.37,8550.31 1680.31,8594.78"/>
+<polyline points="1570.12,8807 1572.52,8648.24 1679.84,8649.86 1680.07,8634.78"/>
+<polyline points="1809.99,8712 1809.93,8649.61 1685.32,8649.73 1685.31,8634.78"/>
+<polyline points="1720,8503 1720,8550.01 1685.3,8550 1685.3,8594.78"/>
+<polyline points="5797.99,8171.95 5918.03,8166.01"/>
+<polyline points="5750.03,8484.5 5750.65,8333.21 5845.58,8333.6 5846.25,8169.56"/>
+<polyline points="5519.99,8403 5519.75,8544.77 5638,8544.96"/>
+<polyline points="5926.98,8586.84 5927.01,8625.02 5572.43,8625.38 5572.34,8544.85"/>
+<polyline points="4977.98,8171.96 5058.05,8166.5"/>
+<polyline points="4940.02,8484.5 4940.42,8337.02 5010.8,8337.21 5011.25,8169.69"/>
+<polyline points="4768.97,8483 4768.75,8544.71 4828,8544.92"/>
+<polyline points="5926.97,8586.84 5926.98,8625.01 4799.24,8625.33 4799.22,8544.82"/>
+<polyline points="4434.23,8171.26 4503.05,8166.51"/>
+<polyline points="4400.02,8484.5 4400.48,8337.2 4462.76,8337.39 4463.28,8169.26"/>
+<polyline points="4218.97,8483 4218.76,8544.7 4283,8544.92"/>
+<polyline points="5926.97,8586.84 5926.98,8625 4251.11,8625.32 4251.1,8544.81"/>
+<polyline points="4190,8082 4190,7910 2322,7910"/>
+<polyline points="3680,8075.75 3680.09,7910.74 2322,7910.01"/>
+<polyline points="2974,8076 2974,7910 2322,7910"/>
+<polyline points="2439,8074.63 2439,7910 2322,7910"/>
+<polyline points="3500,8478 3500,8545 3618,8545"/>
+<polyline points="1860,8570.5 1860,8685 3552.5,8685 3552.5,8545"/>
+<polyline points="3080.02,8478 3080.2,8545.24 3150.5,8545.06"/>
+<polyline points="1860,8570.5 1859.98,8685.03 3114.79,8685.19 3114.81,8545.15"/>
+<polyline points="2500.01,8478 2500.11,8545.21 2620.5,8545.03"/>
+<polyline points="1860,8570.5 1859.98,8685.04 2553.48,8685.18 2553.51,8545.13"/>
+<polyline points="2010.01,8478 2010.12,8545.21 2120.5,8545.04"/>
+<polyline points="1859.99,8570.5 1859.9,8685.15 2059.65,8685.31 2059.76,8545.13"/>
+<polyline points="3928,8162.23 4048.01,8158.23"/>
+<polyline points="3790.05,8482 3790.78,8360.59 3975.04,8361.7 3976.25,8160.62"/>
+<polyline points="3973,8040.08 3996.01,8040.32 3994.99,8140"/>
+<polyline points="3495.5,8160 3518,8160"/>
+<polyline points="3260,8482 3260.05,8364.16 3507.11,8364.25 3507.19,8160"/>
+<polyline points="2767.98,8169.92 2847.06,8164.21"/>
+<polyline points="2730.01,8482 2730.21,8358.39 2800.57,8358.5 2800.88,8167.55"/>
+<polyline points="2257.96,8168.72 2304.6,8164.15"/>
+<polyline points="2230.01,8482 2230.16,8358.95 2278.45,8359.01 2278.69,8166.69"/>
+<polyline points="6679.99,8089.5 6679.85,7870.45 7349,7870.01"/>
+<polyline points="6914.5,8165 6797,8165"/>
+<polyline points="6912.51,8547 6912.73,8195.49 6867.17,8195.46 6867.19,8165"/>
+<polyline points="7530,8096 7530,7870 7531,7870"/>
+<polyline points="7305.5,8165.03 7366.77,8165.26 7423,8164.36"/>
+<polyline points="7120,8544.5 7120.09,8362.76 7396.01,8362.9 7396.1,8164.79"/>
+<polyline points="7120,8585.5 7120,8655 6008.7,8655 6008.7,8603.55"/>
+<polyline points="6329.94,8593 6329.75,8620.47 6028.7,8618.38"/>
+<polyline points="6130.48,8502.99 6136.72,8605.81 6028.67,8612.37"/>
+<polyline points="1718,8870 5960.01,8870 5960.01,8618.27 5988.7,8618.27"/>
+<polyline points="7900,8102 7900,7870 7531,7870"/>
+<polyline points="7777.98,8174.5 7828.04,8171.37"/>
+<polyline points="7730.01,8552 7730.29,8351.63 7799.75,8351.73 7800,8173.12"/>
+<polyline points="6880,8603 6880,8630 6540,8630 6540,8607"/>
+<polyline points="6390,8593 6390,8602.49 6520,8602.5"/>
+<polyline points="6309.79,8503 6307.11,8606.59 6520.01,8612.11"/>
+<polyline points="1877.5,8099 1877.5,7910 2118,7910"/>
+<polyline points="1672.5,8100 1672.5,7910 2118,7910"/>
+<polyline points="2042.03,8168.75 1991.9,8164.05"/>
+<polyline points="1860.09,8529.5 1860.83,8357.01 2019.18,8357.69 2020,8166.69"/>
+<polyline points="1508.97,8166.79 1563.09,8161.96"/>
+<polyline points="1859.95,8529.5 1858.88,8356.29 1533.7,8358.31 1532.5,8164.69"/>
+<polyline points="1289,8093 1289,7910 2118,7910"/>
+<polyline points="1167.97,8166.84 1217.07,8162.8"/>
+<polyline points="1249.93,8324.5 1249.26,8247.55 1190.35,8248.06 1189.62,8165.06"/>
+<polyline points="1250,8474.5 1250,8379.5"/>
+<polyline points="1250,8664.5 1250,8529.5"/>
+<polyline points="1562,8842.5 1380,8842.5 1379.99,8590 1270,8590"/>
+<polyline points="840,8094 840,8057.5 800,8057.5 800,8037"/>
+<polyline points="549.03,8094 549.43,7999.31 693,7999.91"/>
+<polyline points="717.98,8168.9 788.06,8163.65"/>
+<polyline points="740.01,8327 740.1,8249.87 747.4,8249.88 747.5,8166.69"/>
+<polyline points="397.94,8168.49 427.18,8164.77"/>
+<polyline points="429.97,8314.5 429.74,8243.9 412.38,8243.95 412.12,8166.69"/>
+<polyline points="738.06,8638 739.84,8397"/>
+<polyline points="430,8444.5 430,8369.5"/>
+<polyline points="429.52,8652.5 429.94,8499.5"/>
+<polyline points="3219.5,6420 3182,6420"/>
+<polyline points="2968,6275 3202.1,6274.86 3202.19,6420"/>
+<polyline points="2628,6421.74 2710,6420.37"/>
+<polyline points="2872,6275.01 2661.89,6275.16 2662,6421.17"/>
+<polyline points="3040.01,6533 3040.1,6616.63 2282,6617.48"/>
+<polyline points="2821.01,6533 2821.14,6601.5 2282,6602.46"/>
+<polyline points="9162,8500 9145,8500 9145,8583.5 8950,8583.5"/>
+<polyline points="9305,8598 9305,8609 9063.63,8609 9063.63,8583.5"/>
+<polyline points="9367,9150 9031.49,9149.99 9031.5,8596"/>
+<polyline points="9383.02,8795.65 9041.5,8795.65 9041.5,8596"/>
+<polyline points="9634,8846.07 9605.5,8846.31"/>
+<polyline points="9013,10239 9612.46,10239.15 9612.79,8858.75"/>
+<polyline points="9240.99,8847.29 9252.51,8847.71"/>
+<polyline points="9013,10239 9253.34,10239.04 9253.57,8860.25"/>
+<polyline points="9409.5,8925 9409.5,8830"/>
+<polyline points="9371.51,8852.36 9391.36,8863.27"/>
+<polyline points="9446.69,8850.69 9427.27,8862.64"/>
+<polyline points="8791.73,9857.19 8803.25,9805.18 8803.52,9805.24"/>
+<polyline points="8546.64,9899.57 8546.64,9935 8581,9935"/>
+<polyline points="8615.57,10063.47 8566.17,10062.85 8567.78,9935"/>
+<polyline points="8320,8784.5 8320,8842.02 8320,8842.02 8320,8883"/>
+<polyline points="8320,8735.5 8320,8077"/>
+<polyline points="8802,10110 8440.55,10110.16 8439.82,8404.2 8328,8404.25"/>
+<polyline points="8684,8550.05 8507.01,8551.18 8506,8393.1 8340,8394.15"/>
+<polyline points="8797,10150 8430.55,10150.15 8429.84,8404.21 8340,8404.24"/>
+<polyline points="8546.64,9843.57 8546.64,9732.5 8570,9732.5"/>
+<polyline points="8612,9831.5 8563.65,9831.5 8563.65,9732.5"/>
+<polyline points="8685.57,10794 8686.31,10711"/>
+<polyline points="8667.85,10758.48 8668.64,10758.33 8669.5,10762.8 8685.88,10759.62"/>
+<polyline points="8551.64,11012 8551.64,10870.5 8610,10870.5"/>
+<polyline points="8622.02,10979.5 8581.68,10977 8582.38,10965.84 8551.64,10963.94"/>
+<polyline points="8979,9587.07 8947.5,9587.32"/>
+<polyline points="8758,9699.26 8956.13,9699.56 8956.27,9607.25"/>
+<polyline points="8709,10303.98 8745.9,10303.91 8744.94,9840.2 8731,9840.23"/>
+<polyline points="9027.07,9559 9027.72,9489"/>
+<polyline points="9137,9887 9095,9887 9094.99,9517.04 9047.46,9517.05"/>
+<polyline points="8758,9732.5 9085,9732.49 9084.99,9522.04 9047.42,9522.05"/>
+<polyline points="9013,10226.5 9165,10226.5 9165,9929"/>
+<polyline points="8661.45,10415.5 8661.14,10366"/>
+<polyline points="8764,10594 8785,10594 8784.99,10383.71 8681.25,10383.72"/>
+<polyline points="8727,9119 8786.5,9119"/>
+<polyline points="8761.73,9042.5 8763.33,9099.01"/>
+<polyline points="8764.5,9294.25 8800.74,9294.25 8800.75,9257 8817,9257"/>
+<polyline points="8726,9935 8765,9935 8765,9880 8779,9880"/>
+<polyline points="8728.5,9772.01 9035.28,9772.46 9034.79,10110.04 9021,10110.02"/>
+<polyline points="8758,9765.75 9045,9765.75 9045,10150 9037,10150"/>
+<polyline points="9233,9887 9470,9887 9470,9176"/>
+<polyline points="8843,10238.09 8898,10238.74"/>
+<polyline points="8840.34,10270.22 8866.88,10270.22 8866.88,10238.38"/>
+<polyline points="8709,10334 8877.45,10333.99 8877.44,10258.5"/>
+<polyline points="8709,10324 8753,10324 8753,9840.25 8742,9840.25"/>
+<polyline points="8931,9366.5 9027.93,9366.5 9027.93,9405"/>
+<polyline points="8764.5,9294.25 8801.25,9294.25 8801.25,9366.5 8819,9366.5"/>
+<polyline points="8764.5,9294.25 8798.25,9294.25 8798.25,9299.5 8831,9299.5"/>
+<polyline points="8764.5,9294.25 8802.75,9294.25 8802.75,9198 8808,9198"/>
+<polyline points="8594.5,9294.25 8694.5,9294.25"/>
+<polyline points="8633,9345 8646.5,9345 8646.5,9306.75"/>
+<polyline points="8671,9658 8671,9627.13 8651.5,9627.13 8651.5,9314.25"/>
+<polyline points="512,6960 292,6960"/>
+<polyline points="1387.75,6453 1387.61,6910.28 390.01,6909.98 390,6940"/>
+<polyline points="512,7050 292,7050"/>
+<polyline points="1387.75,6453 1387.59,6920.27 395.04,6919.94 395,7030"/>
+<polyline points="182,6960 138,6960 138,7290 163,7290"/>
+<polyline points="182,7050 138,7050 138,7290 163,7290"/>
+<polyline points="1709.97,6270.5 1703,7900.63 2118,7902.41"/>
+<polyline points="1407.74,6453 1406.92,6970.1 1366.5,6970.03"/>
+<polyline points="1562,6250.02 1427.37,6250.37 1427.72,6384"/>
+<polyline points="1360.5,6038.26 1367.52,6038.25 1367.74,6373"/>
+<polyline points="1125,6183 1125.01,6220.94 1192.22,6220.92 1192.25,6373"/>
+<polyline points="4421.73,6373.75 4417.99,7950.36 5309,7952.47"/>
+<polyline points="4467.75,6421.05 4564,6420.11"/>
+<polyline points="4700,6443 4700,7945 5298,7945"/>
+<polyline points="1850,8812 1850,8782"/>
+<polyline points="1932,8790 1858,8790"/>
+<polyline points="1728,8740 1784.5,8740 1784.5,8790 1830,8790"/>
+<polyline points="1829.87,7108 1817.55,7864.91 2140.4,7870.17 2140.36,7873"/>
+<polyline points="1830,7052 1830,6840 1878,6840"/>
+<polyline points="1376.5,6001.75 1550.39,6001.79 1550.18,6949.94 1810,6950"/>
+<polyline points="2070,6828 2070,6950 1838,6950"/>
+<polyline points="2539.09,7242.45 2535.07,7277.75 2473.47,7270.73 2467.49,7323.14"/>
+<polyline points="2270,6953 2270,7173"/>
+<polyline points="2485.01,7209.68 2469.45,7209.06 2474.68,7077.98 2278,7070.12"/>
+<polyline points="1960,6868 1960.01,7075.01 2250,7075"/>
+<polyline points="1990,6320.5 1990.01,7065 2250,7065"/>
+<polyline points="2170,6633 2170.01,7065 2250,7065"/>
+<polyline points="2269.57,7232.99 2268.16,7259.2 2319.46,7261.95 2315.59,7334.02"/>
+<polyline points="2530.61,6882.98 2538.32,6983.56"/>
+<polyline points="2562.02,6989.49 2552.53,6988.87 2555.62,6940.88 2547.47,6940.35"/>
+<polyline points="2368,6930.13 2401.5,6930.65 2401.37,6938.61 2522.52,6940.51"/>
+<polyline points="2138,6800.02 2414.19,6800.71 2413.86,6935.36 2514.63,6935.61"/>
+<polyline points="2540,7062.5 2540,7163.5"/>
+<polyline points="987.5,6969.95 980.48,6969.9 980.14,7023"/>
+<polyline points="980,6598 980,6622.5 1080,6622.5 1080,6683"/>
+<polyline points="1080.04,6743 1080.1,6774.54 1169.67,6774.37 1169.96,6932"/>
+<polyline points="980,6463 980,6528"/>
+<polyline points="740,6687 740,6652"/>
+<polyline points="882,7059.98 816.09,7059.85 816.89,6662.64 760,6662.53"/>
+<polyline points="830.42,6547.01 836.2,6437.04 918.03,6441.35"/>
+<polyline points="882,7052.37 877.6,7052.29 887.58,6459.76"/>
+<polyline points="5162,6385 5140,6385 5140,6420 4847,6420"/>
+<polyline points="5335,6293 5335,6329 5280,6329 5280,6353"/>
+<polyline points="5435,6293 5435,6329 5510,6329 5510,6353"/>
+<polyline points="5723.79,6338 5731.07,7936.36 5502,7937.4"/>
+<polyline points="6378.52,6290.58 6341.97,6293.23 6343.41,6313.06"/>
+<polyline points="7200,6455.5 7200,6525 6088.7,6525 6088.7,6473.55"/>
+<polyline points="6409.95,6463 6409.72,6495.43 6108.7,6493.38"/>
+<polyline points="6210.48,6372.99 6216.72,6475.81 6108.67,6482.37"/>
+<polyline points="6980,6468 6980,6500 6620,6500 6620,6477"/>
+<polyline points="6470,6463 6470,6472.49 6600,6472.5"/>
+<polyline points="6389.79,6373 6387.11,6476.59 6600.01,6482.11"/>
+<polyline points="6060,6460.5 6060,7945 5502,7945"/>
+<polyline points="6652.52,6463 6657.13,7948.85 5502,7952.43"/>
+<polyline points="5229.93,7080.5 5222.65,7936.67 5298,7937.31"/>
+<polyline points="3810,6584.5 3810,6359.5"/>
+<polyline points="3778,6380.02 3788.59,6380.04 3788.42,6464.97 3795,6464.98"/>
+<polyline points="3847,6390.02 3833.89,6390.06 3834.1,6464.95 3822.5,6464.98"/>
+<polyline points="3752,6633.75 3016.43,6633.46 3016.44,6625.29 2282,6625.01"/>
+<polyline points="7695.5,6341.75 7730.49,6341.77 7730.2,7101.56 7440.28,7101.45 7440,7844"/>
+<polyline points="7586.42,6453 7585.72,6384.5"/>
+<polyline points="7442.51,6587 7442.63,6411.71 7566,6411.79"/>
+</g>
+<polygon points="800,7985 795,7970 805,7970" fill="#000"/>
+<polyline points="240,7305 240,7520 800,7520 800,7971" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1407.75,6395 1402.84,6379.97 1412.84,6380.03" fill="#000"/>
+<polyline points="1560,6130 1409.33,6129.11 1407.83,6381" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="440,7965 445,7980 435,7980" fill="#000"/>
+<polyline points="390,8132 390,8043.5 440,8043.5 440,7979" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="350,8132 345,8117 355,8117" fill="#000"/>
+<polyline points="350,8025 350,8118" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="345,8078.5 330.04,8083.63 329.96,8073.63" fill="#fff" stroke="#000"/>
+<line x1="325.04" y1="8083.18" x2="324.96" y2="8074.18" stroke="#000"/>
+<polyline points="220,8220 218.76,8079.61 330,8078.63" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(350,8078.5) rotate(90)"/>
+<line x1="6454" y1="8002" x2="6466" y2="8002" stroke="#000"/>
+<polyline points="7042.5,7995 7042.49,7976.48 6459.99,7976.73 6460,8002" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6840,7910 6855,7905 6855,7915" fill="#000"/>
+<polyline points="7130,7995 7130,7910 6854,7910" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2080,6610 2065,6615.01 2065,6605.01" fill="#000"/>
+<polyline points="1840,6447.5 1840.07,6610.11 2066,6610.01" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1212.25,6395 1207.3,6379.98 1217.3,6380.02" fill="#000"/>
+<polyline points="1227.5,6152.43 1227.27,6217.64 1212.88,6217.59 1212.3,6381" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1162.25,6395 1157.27,6379.99 1167.27,6380.01" fill="#000"/>
+<polyline points="1177.5,6152.43 1177.42,6220.31 1162.45,6220.3 1162.27,6381" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1347.75,6395 1342.9,6379.95 1352.89,6380.05" fill="#000"/>
+<polyline points="1358.5,6152.43 1357.83,6222.11 1349.42,6222.03 1347.89,6381" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1252.25,6395 1247.12,6380.04 1257.12,6379.96" fill="#000"/>
+<polyline points="1258.5,6152.43 1259.12,6222.07 1250.72,6222.14 1252.13,6381" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1952.25,6392.5 1947.14,6377.54 1957.14,6377.46" fill="#000"/>
+<polyline points="1842.7,6060 1949.81,6059.22 1952.15,6378.5" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1896.12,6392.5 1891.13,6377.5 1901.13,6377.5" fill="#000"/>
+<polyline points="1845.45,6150 1896.2,6150.02 1896.13,6378.5" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="7169.5,8573.84 7174.45,8588.85 7164.45,8588.82" fill="#000"/>
+<polyline points="7168.82,8796.16 7169.45,8587.84" fill="none" stroke="#000000" stroke-width="1"/>
+<circle cx="7159.64" cy="8690.03" r="3" fill="#fff" stroke="#000"/>
+<polyline points="7110,8691 7139.09,8690.73 7139.09,8690.22 7156.64,8690.06" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(7169.16,8685) rotate(-89.83)"/>
+<polygon points="6912.5,8595 6917.5,8610 6907.5,8610" fill="#000"/>
+<polyline points="6912.5,8785 6912.5,8609" fill="none" stroke="#000000" stroke-width="1"/>
+<circle cx="6922" cy="8690.04" r="3" fill="#fff" stroke="#000"/>
+<polyline points="6970,8691 6941.75,8690.73 6941.75,8690.23 6925,8690.07" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(6912.5,8690) rotate(-90)"/>
+<polygon points="6460,8020 6475,8015 6475,8025" fill="#000"/>
+<polyline points="6500,8136 6500,8020 6474,8020" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6420,8173.5 6405,8178.5 6405,8168.5" fill="#000"/>
+<polyline points="6360,8173.5 6406,8173.5" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6390,8178.5 6394.85,8193.55 6384.86,8193.45" fill="#fff" stroke="#000"/>
+<line x1="6394.31" y1="8198.54" x2="6385.31" y2="8198.46" stroke="#000"/>
+<polyline points="5951.3,8558.45 5953.63,8317.06 6388.62,8321.27 6389.85,8193.5" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(6390,8173.5) rotate(0)"/>
+<line x1="7022.25" y1="8210.5" x2="7010.25" y2="8210.5" stroke="#000"/>
+<polyline points="5980,8557.5 5980.13,8339.94 7016.17,8340.54 7016.25,8210.5" fill="none" stroke="#000000" stroke-width="1"/>
+<line x1="6928.5" y1="8210.51" x2="6916.5" y2="8210.49" stroke="#000"/>
+<polyline points="6605,8545 6605.25,8336.24 6922.35,8336.62 6922.5,8210.5" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6175,8465 6171.07,8449.69 6181.04,8450.39" fill="#000"/>
+<polyline points="6130,8390 6180.03,8393.52 6175.98,8451.03" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6265,8465 6259.03,8450.36 6269.01,8449.7" fill="#000"/>
+<polyline points="6306.5,8390 6260.27,8393.04 6264.08,8451.03" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6220,8465 6215,8450 6225,8450" fill="#000"/>
+<polyline points="6220,8402.5 6220,8451" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="5480,7960 5495.03,7955.08 5494.97,7965.08" fill="#000"/>
+<polyline points="6040,8085 6040.68,7963.11 5494,7960.08" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="5320,7960 5305.28,7965.78 5304.76,7955.79" fill="#000"/>
+<polyline points="5185,8085 5178.85,7967.38 5306.02,7960.73" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="5320,7960 5305.02,7965.06 5304.98,7955.06" fill="#000"/>
+<polyline points="4650,8085.16 4649.49,7962.8 5306,7960.06" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="5500,8395 5505,8410 5495,8410" fill="#000"/>
+<polyline points="5270,8435 5500,8435 5500,8409" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="5409,8395 5414,8410 5404,8410" fill="#000"/>
+<polyline points="5413.75,8435 5413.75,8415.5 5409,8415.5 5409,8409" fill="none" stroke="#000000" stroke-width="1"/>
+<circle cx="5380.01" cy="8444.5" r="3" fill="#fff" stroke="#000"/>
+<polyline points="3880,8540 3880.21,8657.32 5380.38,8654.66 5380.01,8447.5" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(5385,8435) rotate(-0)"/><text x="5385" y="8438" font-family="'Times New Roman', serif" font-weight="bold" font-size="10" text-anchor="middle">//</text>
+<polygon points="1831.3,8561.55 1836.3,8576.55 1826.3,8576.55" fill="#000"/>
+<polyline points="1529.29,8614.78 1831.3,8614.78 1831.3,8575.55" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1680.29,8609.78 1675.31,8594.78 1685.31,8594.79" fill="#fff" stroke="#000"/>
+<line x1="1675.82" y1="8589.78" x2="1684.82" y2="8589.79" stroke="#000"/>
+<polyline points="1610,8496.5 1609.93,8550.23 1680.37,8550.31 1680.31,8594.78" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1680.29,8619.78 1685.07,8634.86 1675.07,8634.71" fill="#fff" stroke="#000"/>
+<line x1="1684.49" y1="8639.85" x2="1675.49" y2="8639.71" stroke="#000"/>
+<polyline points="1570,8815 1572.52,8648.24 1679.84,8649.86 1680.07,8634.78" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1685.29,8619.78 1690.31,8634.78 1680.31,8634.79" fill="#fff" stroke="#000"/>
+<line x1="1689.81" y1="8639.78" x2="1680.81" y2="8639.79" stroke="#000"/>
+<polyline points="1810,8720 1809.93,8649.61 1685.32,8649.73 1685.31,8634.78" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1685.29,8609.78 1680.3,8594.78 1690.3,8594.78" fill="#fff" stroke="#000"/>
+<line x1="1680.8" y1="8589.78" x2="1689.8" y2="8589.78" stroke="#000"/>
+<polyline points="1720,8495 1720,8550.01 1685.3,8550 1685.3,8594.78" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1680.29,8614.78) rotate(0)"/>
+<polygon points="5940,8164.92 5925.27,8170.66 5924.77,8160.67" fill="#000"/>
+<polyline points="5790,8172.34 5926.02,8165.61" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="5750,8492.5 5750.65,8333.21 5845.58,8333.6 5846.25,8169.56" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(5865,8168.63) rotate(-2.83)"/>
+<polygon points="5660,8545 5644.99,8549.98 5645.01,8539.98" fill="#000"/>
+<polyline points="5520,8395 5519.75,8544.77 5646,8544.98" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="5926.97,8578.84 5927.01,8625.02 5572.43,8625.38 5572.34,8544.85" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(5589.88,8544.88) rotate(0.1)"/>
+<polygon points="5080,8165 5065.37,8171.01 5064.69,8161.03" fill="#000"/>
+<polyline points="4970,8172.5 5066.03,8165.95" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="4940,8492.5 4940.42,8337.02 5010.8,8337.21 5011.25,8169.69" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(5025,8168.75) rotate(-3.9)"/>
+<polygon points="4850,8545 4834.98,8549.95 4835.02,8539.95" fill="#000"/>
+<polyline points="4769,8475 4768.75,8544.71 4836,8544.95" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="5926.97,8578.84 5926.98,8625.01 4799.24,8625.33 4799.22,8544.82" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(4809.38,8544.86) rotate(0.2)"/>
+<polygon points="4525,8165 4510.38,8171.02 4509.69,8161.04" fill="#000"/>
+<polyline points="4426.25,8171.81 4511.03,8165.96" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="4400,8492.5 4400.48,8337.2 4462.76,8337.39 4463.28,8169.26" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(4475.62,8168.41) rotate(-3.95)"/>
+<polygon points="4305,8545 4289.98,8549.95 4290.02,8539.95" fill="#000"/>
+<polyline points="4219,8475 4218.76,8544.7 4291,8544.95" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="5926.97,8578.84 5926.98,8625 4251.11,8625.32 4251.1,8544.81" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(4261.88,8544.85) rotate(0.2)"/>
+<polygon points="2300,7910 2315,7905 2315,7915" fill="#000"/>
+<polyline points="4190,8090 4190,7910 2314,7910" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2300,7910 2315,7905.01 2315,7915.01" fill="#000"/>
+<polyline points="3680,8083.75 3680.09,7910.74 2314,7910.01" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2300,7910 2315,7905 2315,7915" fill="#000"/>
+<polyline points="2974,8084 2974,7910 2314,7910" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2300,7910 2315,7905 2315,7915" fill="#000"/>
+<polyline points="2439,8082.62 2439,7910 2314,7910" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="3640,8545 3625,8550 3625,8540" fill="#000"/>
+<polyline points="3500,8470 3500,8545 3626,8545" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="1860,8562.5 1860,8685 3552.5,8685 3552.5,8545" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(3570,8545) rotate(0)"/>
+<polygon points="3172.5,8545 3157.51,8550.04 3157.49,8540.04" fill="#000"/>
+<polyline points="3080,8470 3080.2,8545.24 3158.5,8545.04" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="1860,8562.5 1859.98,8685.03 3114.79,8685.19 3114.81,8545.15" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(3126.35,8545.12) rotate(-0.15)"/>
+<polygon points="2642.5,8545 2627.51,8550.02 2627.49,8540.02" fill="#000"/>
+<polyline points="2500,8470 2500.11,8545.21 2628.5,8545.02" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="1860,8562.5 1859.98,8685.04 2553.48,8685.18 2553.51,8545.13" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2571.3,8545.1) rotate(-0.08)"/>
+<polygon points="2142.5,8545 2127.51,8550.02 2127.49,8540.02" fill="#000"/>
+<polyline points="2010,8470 2010.12,8545.21 2128.5,8545.02" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="1860,8562.5 1859.9,8685.15 2059.65,8685.31 2059.76,8545.13" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2076.31,8545.11) rotate(-0.09)"/>
+<polygon points="4070,8157.5 4055.17,8163 4054.84,8153" fill="#000"/>
+<polyline points="3920,8162.5 4056.01,8157.97" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="3790,8490 3790.78,8360.59 3975.04,8361.7 3976.25,8160.62" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="3994.83,8155 3989.99,8139.95 3999.99,8140.06" fill="#fff" stroke="#000"/>
+<line x1="3990.54" y1="8134.96" x2="3999.54" y2="8135.05" stroke="#000"/>
+<polyline points="3965,8040 3996.01,8040.32 3994.99,8140" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(3995,8160) rotate(-1.91)"/>
+<polygon points="3540,8160 3525,8165 3525,8155" fill="#000"/>
+<polyline points="3487.5,8160 3526,8160" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="3260,8490 3260.05,8364.16 3507.11,8364.25 3507.19,8160" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(3513.75,8160) rotate(0)"/>
+<polygon points="2869,8162.62 2854.4,8168.69 2853.68,8158.72" fill="#000"/>
+<polyline points="2760,8170.5 2855.04,8163.63" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="2730,8490 2730.21,8358.39 2800.57,8358.5 2800.88,8167.55" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2814.5,8166.56) rotate(-4.13)"/>
+<polygon points="2326.5,8162 2312.06,8168.44 2311.08,8158.49" fill="#000"/>
+<polyline points="2250,8169.5 2312.57,8163.37" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="2230,8490 2230.16,8358.95 2278.45,8359.01 2278.69,8166.69" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2288.25,8165.75) rotate(-5.6)"/>
+<line x1="7357" y1="7876" x2="7357" y2="7864" stroke="#000"/>
+<polyline points="6680,8097.5 6679.85,7870.45 7357,7870" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6775,8165 6790,8160 6790,8170" fill="#000"/>
+<polyline points="6922.5,8165 6789,8165" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="6912.5,8555 6912.73,8195.49 6867.17,8195.46 6867.19,8165" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(6848.75,8165) rotate(180)"/>
+<line x1="7523" y1="7864" x2="7523" y2="7876" stroke="#000"/>
+<polyline points="7530,8104 7530,7870 7523,7870" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="7445,8164 7430.08,8169.24 7429.92,8159.24" fill="#000"/>
+<polyline points="7297.5,8165 7366.77,8165.26 7431,8164.23" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="7120,8552.5 7120.09,8362.76 7396.01,8362.9 7396.1,8164.79" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(7405.88,8164.63) rotate(-0.92)"/>
+<polygon points="6008.7,8581.55 6013.7,8596.55 6003.7,8596.55" fill="#000"/>
+<polyline points="7120,8577.5 7120,8655 6008.7,8655 6008.7,8595.55" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6013.7,8618.27 6028.74,8613.38 6028.67,8623.38" fill="#fff" stroke="#000"/>
+<line x1="6033.73" y1="8613.91" x2="6033.67" y2="8622.91" stroke="#000"/>
+<polyline points="6330,8585 6329.75,8620.47 6028.7,8618.38" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6013.7,8613.27 6028.37,8607.38 6028.98,8617.36" fill="#fff" stroke="#000"/>
+<line x1="6033.39" y1="8607.57" x2="6033.94" y2="8616.56" stroke="#000"/>
+<polyline points="6130,8495 6136.72,8605.81 6028.67,8612.37" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6003.7,8618.27 5988.7,8623.27 5988.7,8613.27" fill="#fff" stroke="#000"/>
+<line x1="5983.7" y1="8622.77" x2="5983.7" y2="8613.77" stroke="#000"/>
+<polyline points="1710,8870 5960.01,8870 5960.01,8618.27 5988.7,8618.27" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(6008.7,8618.27) rotate(-90)"/>
+<line x1="7523" y1="7864" x2="7523" y2="7876" stroke="#000"/>
+<polyline points="7900,8110 7900,7870 7523,7870" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="7850,8170 7835.34,8175.93 7834.72,8165.95" fill="#000"/>
+<polyline points="7770,8175 7836.03,8170.87" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="7730,8560 7730.29,8351.63 7799.75,8351.73 7800,8173.12" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(7810,8172.5) rotate(-3.58)"/>
+<polygon points="6540,8585 6545,8600 6535,8600" fill="#000"/>
+<polyline points="6880,8595 6880,8630 6540,8630 6540,8599" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6535,8602.5 6520,8607.5 6520,8597.5" fill="#fff" stroke="#000"/>
+<line x1="6515" y1="8607" x2="6515" y2="8598" stroke="#000"/>
+<polyline points="6390,8585 6390,8602.49 6520,8602.5" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6535,8612.5 6519.88,8617.11 6520.13,8607.11" fill="#fff" stroke="#000"/>
+<line x1="6514.89" y1="8616.48" x2="6515.12" y2="8607.48" stroke="#000"/>
+<polyline points="6310,8495 6307.11,8606.59 6520.01,8612.11" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(6540,8607.5) rotate(-90)"/>
+<polygon points="2140,7910 2125,7915 2125,7905" fill="#000"/>
+<polyline points="1877.5,8107 1877.5,7910 2126,7910" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2140,7910 2125,7915 2125,7905" fill="#000"/>
+<polyline points="1672.5,8108 1672.5,7910 2126,7910" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1970,8162 1985.4,8158.42 1984.47,8168.38" fill="#000"/>
+<polyline points="2050,8169.5 1983.94,8163.31" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="1860.05,8537.5 1860.83,8357.01 2019.18,8357.69 2020,8166.69" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2010,8165.75) rotate(-174.64)"/>
+<polygon points="1585,8160 1570.5,8166.31 1569.61,8156.35" fill="#000"/>
+<polyline points="1501,8167.5 1571.06,8161.25" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="1860,8537.5 1858.88,8356.29 1533.7,8358.31 1532.5,8164.69" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1543,8163.75) rotate(-5.1)"/>
+<polygon points="2140,7910 2125,7915 2125,7905" fill="#000"/>
+<polyline points="1289,8101 1289,7910 2126,7910" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1239,8161 1224.46,8167.21 1223.64,8157.25" fill="#000"/>
+<polyline points="1160,8167.5 1225.05,8162.15" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="1250,8332.5 1249.26,8247.55 1190.35,8248.06 1189.62,8165.06" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1199.5,8164.25) rotate(-4.7)"/>
+<polygon points="1250,8357.5 1255,8372.5 1245,8372.5" fill="#000"/>
+<polyline points="1250,8482.5 1250,8371.5" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1250,8420) rotate(-90)"/>
+<polygon points="1250,8507.5 1255,8522.5 1245,8522.5" fill="#000"/>
+<polyline points="1250,8672.5 1250,8521.5" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1255,8590 1270,8585 1270,8595" fill="#fff" stroke="#000"/>
+<line x1="1275" y1="8585.5" x2="1275" y2="8594.5" stroke="#000"/>
+<polyline points="1570,8842.5 1380,8842.5 1379.99,8590 1270,8590" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1250,8590) rotate(-90)"/>
+<polygon points="800,8015 805,8030 795,8030" fill="#000"/>
+<polyline points="840,8102 840,8057.5 800,8057.5 800,8029" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="715,8000 699.98,8004.94 700.02,7994.94" fill="#000"/>
+<polyline points="549,8102 549.43,7999.31 701,7999.94" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="810,8162 795.42,8168.11 794.67,8158.14" fill="#000"/>
+<polyline points="710,8169.5 796.04,8163.05" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="740,8335 740.1,8249.87 747.4,8249.88 747.5,8166.69" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(760,8165.75) rotate(-4.29)"/>
+<polygon points="449,8162 434.75,8168.85 433.49,8158.93" fill="#000"/>
+<polyline points="390,8169.5 435.11,8163.77" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="430,8322.5 429.74,8243.9 412.38,8243.95 412.12,8166.69" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(419.5,8165.75) rotate(-7.24)"/>
+<polygon points="740,8375 744.89,8390.04 734.89,8389.96" fill="#000"/>
+<polyline points="738,8646 739.9,8389" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(739,8510.5) rotate(-89.58)"/>
+<polygon points="430,8347.5 435,8362.5 425,8362.5" fill="#000"/>
+<polyline points="430,8452.5 430,8361.5" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(430,8400) rotate(-90)"/>
+<polygon points="430,8477.5 434.96,8492.51 424.96,8492.49" fill="#000"/>
+<polyline points="429.5,8660.5 429.96,8491.5" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(429.75,8569) rotate(-89.84)"/>
+<polygon points="3160,6420 3175,6415 3175,6425" fill="#000"/>
+<polyline points="3227.5,6420 3174,6420" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="2960,6275 3202.1,6274.86 3202.19,6420" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(3193.75,6420) rotate(180)"/>
+<polygon points="2732,6420 2717.09,6425.25 2716.92,6415.25" fill="#000"/>
+<polyline points="2620,6421.88 2718,6420.23" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="2880,6275 2661.89,6275.16 2662,6421.17" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2676,6420.94) rotate(-0.96)"/>
+<polygon points="2260,6617.5 2274.99,6612.48 2275.01,6622.48" fill="#000"/>
+<polyline points="3040,6525 3040.1,6616.63 2274,6617.48" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2260,6602.5 2274.99,6597.47 2275.01,6607.47" fill="#000"/>
+<polyline points="2821,6525 2821.14,6601.5 2274,6602.47" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8928,8583.5 8943,8578.5 8943,8588.5" fill="#000"/>
+<polyline points="9170,8500 9145,8500 9145,8583.5 8942,8583.5" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="9305,8590 9305,8609 9063.63,8609 9063.63,8583.5" fill="none" stroke="#000000" stroke-width="1"/>
+<circle cx="9031.5" cy="8593" r="3" fill="#fff" stroke="#000"/>
+<polyline points="9375,9150 9031.49,9149.99 9031.5,8596" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="6,4"/>
+<circle cx="9041.5" cy="8593" r="3" fill="#fff" stroke="#000"/>
+<polyline points="9391.02,8795.65 9041.5,8795.65 9041.5,8596" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="6,4"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(9036.5,8583.5) rotate(180)"/><text x="9036.5" y="8586.5" font-family="'Times New Roman', serif" font-weight="bold" font-size="10" text-anchor="middle">?</text>
+<polygon points="9583.5,8846.5 9598.46,8841.37 9598.54,8851.37" fill="#000"/>
+<polyline points="9642,8846 9597.5,8846.38" fill="none" stroke="#000000" stroke-width="1"/>
+<circle cx="9612.79" cy="8855.75" r="3" fill="#fff" stroke="#000"/>
+<polyline points="9005,10239 9612.46,10239.15 9612.79,8858.75" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(9612.75,8846.25) rotate(179.51)"/>
+<polygon points="9274.5,8848.5 9259.33,8852.95 9259.69,8842.96" fill="#000"/>
+<polyline points="9233,8847 9260.51,8847.99" fill="none" stroke="#000000" stroke-width="1"/>
+<circle cx="9253.57" cy="8857.25" r="3" fill="#fff" stroke="#000"/>
+<polyline points="9005,10239 9253.34,10239.04 9253.57,8860.25" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(9253.75,8847.75) rotate(2.07)"/>
+<polygon points="9409.5,8808 9414.5,8823 9404.5,8823" fill="#000"/>
+<polyline points="9409.5,8933 9409.5,8822" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="9404.5,8870.5 9388.95,8867.65 9393.77,8858.89" fill="#fff" stroke="#000"/>
+<line x1="9384.81" y1="8864.8" x2="9389.14" y2="8856.92" stroke="#000"/>
+<polyline points="9364.5,8848.5 9391.36,8863.27" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="9414.5,8870.5 9424.65,8858.38 9429.9,8866.9" fill="#fff" stroke="#000"/>
+<line x1="9429.17" y1="8856.19" x2="9433.89" y2="8863.85" stroke="#000"/>
+<polyline points="9453.5,8846.5 9427.27,8862.64" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(9409.5,8870.5) rotate(-90)"/>
+<polygon points="8825,9810 8809.27,9811.64 8811.44,9801.87" fill="#000"/>
+<polyline points="8790,9865 8803.25,9805.18 8811.33,9806.97" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8603,9935 8588,9940 8588,9930" fill="#000"/>
+<polyline points="8546.64,9891.57 8546.64,9935 8589,9935" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="8623.57,10063.57 8566.17,10062.85 8567.78,9935" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(8574.82,9935) rotate(0)"/>
+<polygon points="8320,8905 8315,8890 8325,8890" fill="#000"/>
+<polyline points="8320,8776.5 8320,8842.02 8320,8842.02 8320,8891" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8320,8055 8325,8070 8315,8070" fill="#000"/>
+<polyline points="8320,8743.5 8320,8069" fill="none" stroke="#000000" stroke-width="1"/>
+<line x1="8328" y1="8398.25" x2="8328" y2="8410.25" stroke="#000"/>
+<polyline points="8810,10110 8440.55,10110.16 8439.82,8404.2 8328,8404.25" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8325,8394.25 8339.97,8389.15 8340.03,8399.15" fill="#fff" stroke="#000"/>
+<line x1="8344.97" y1="8389.62" x2="8345.03" y2="8398.62" stroke="#000"/>
+<polyline points="8692,8550 8507.01,8551.18 8506,8393.1 8340,8394.15" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8325,8404.25 8340,8399.24 8340,8409.24" fill="#fff" stroke="#000"/>
+<line x1="8345" y1="8399.74" x2="8345" y2="8408.74" stroke="#000"/>
+<polyline points="8805,10150 8430.55,10150.15 8429.84,8404.21 8340,8404.24" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(8320,8399.25) rotate(-90)"/>
+<polygon points="8592,9732.5 8577,9737.5 8577,9727.5" fill="#000"/>
+<polyline points="8546.64,9851.57 8546.64,9732.5 8578,9732.5" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="8620,9831.5 8563.65,9831.5 8563.65,9732.5" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(8569.32,9732.5) rotate(-0)"/>
+<polygon points="8686.5,10689 8691.37,10704.04 8681.37,10703.96" fill="#000"/>
+<polyline points="8685.5,10802 8686.38,10703" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="8660,10760 8668.64,10758.33 8669.5,10762.8 8685.88,10759.62" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(8686,10745.5) rotate(-89.49)"/>
+<polygon points="8632,10870.5 8617,10875.5 8617,10865.5" fill="#000"/>
+<polyline points="8551.64,11020 8551.64,10870.5 8618,10870.5" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="8630,10980 8581.68,10977 8582.38,10965.84 8551.64,10963.94" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(8551.64,10945.25) rotate(-90)"/>
+<polygon points="8925.5,9587.5 8940.46,9582.38 8940.54,9592.38" fill="#000"/>
+<polyline points="8987,9587 8939.5,9587.39" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8956.29,9592.25 8961.27,9607.26 8951.27,9607.24" fill="#fff" stroke="#000"/>
+<line x1="8960.76" y1="9612.26" x2="8951.76" y2="9612.24" stroke="#000"/>
+<polyline points="8750,9699.25 8956.13,9699.56 8956.27,9607.25" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(8956.25,9587.25) rotate(179.53)"/>
+<line x1="8722.99" y1="9834.24" x2="8723.01" y2="9846.24" stroke="#000"/>
+<polyline points="8701,10304 8745.9,10303.91 8744.94,9840.2 8723,9840.24" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="9027.93,9467 9032.79,9482.05 9022.79,9481.95" fill="#000"/>
+<polyline points="9027,9567 9027.8,9481" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="9032.46,9517.05 9047.46,9512.05 9047.46,9522.05" fill="#fff" stroke="#000"/>
+<line x1="9052.46" y1="9512.55" x2="9052.46" y2="9521.55" stroke="#000"/>
+<polyline points="9145,9887 9095,9887 9094.99,9517.04 9047.46,9517.05" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="9032.42,9522.05 9047.42,9517.05 9047.42,9527.05" fill="#fff" stroke="#000"/>
+<line x1="9052.42" y1="9517.55" x2="9052.42" y2="9526.55" stroke="#000"/>
+<polyline points="8750,9732.5 9085,9732.49 9084.99,9522.04 9047.42,9522.05" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(9027.46,9517) rotate(-89.47)"/>
+<polygon points="9165,9907 9170,9922 9160,9922" fill="#000"/>
+<polyline points="9005,10226.5 9165,10226.5 9165,9921" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8661,10344 8666.09,10358.97 8656.09,10359.03" fill="#000"/>
+<polyline points="8661.5,10423.5 8661.09,10358" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8666.25,10383.72 8681.25,10378.72 8681.25,10388.72" fill="#fff" stroke="#000"/>
+<line x1="8686.25" y1="10379.22" x2="8686.25" y2="10388.22" stroke="#000"/>
+<polyline points="8756,10594 8785,10594 8784.99,10383.71 8681.25,10383.72" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(8661.25,10383.75) rotate(-90.36)"/>
+<polygon points="8808.5,9119 8793.5,9124 8793.5,9114" fill="#000"/>
+<polyline points="8719,9119 8794.5,9119" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8763.75,9114 8758.33,9099.15 8768.32,9098.86" fill="#fff" stroke="#000"/>
+<line x1="8758.69" y1="9094.14" x2="8767.68" y2="9093.88" stroke="#000"/>
+<polyline points="8761.5,9034.5 8763.33,9099.01" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(8763.75,9119) rotate(0)"/>
+<line x1="8825" y1="9263" x2="8825" y2="9251" stroke="#000"/>
+<polyline points="8756.5,9294.25 8800.74,9294.25 8800.75,9257 8825,9257" fill="none" stroke="#000000" stroke-width="1"/>
+<line x1="8787" y1="9886" x2="8787" y2="9874" stroke="#000"/>
+<polyline points="8718,9935 8765,9935 8765,9880 8787,9880" fill="none" stroke="#000000" stroke-width="1"/>
+<line x1="9013.01" y1="10104" x2="9012.99" y2="10116" stroke="#000"/>
+<polyline points="8720.5,9772 9035.28,9772.46 9034.79,10110.04 9013,10110" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="9015,10150 9030,10145 9030,10155" fill="#000"/>
+<polyline points="8750,9765.75 9045,9765.75 9045,10150 9029,10150" fill="none" stroke="#000000" stroke-width="1"/>
+<line x1="9476" y1="9168" x2="9464" y2="9168" stroke="#000"/>
+<polyline points="9225,9887 9470,9887 9470,9168" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8920,10239 8904.94,10243.82 8905.06,10233.82" fill="#000"/>
+<polyline points="8835,10238 8906,10238.84" fill="none" stroke="#000000" stroke-width="1"/>
+<polyline points="8832.34,10270.22 8866.88,10270.22 8866.88,10238.38" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8877.44,10243.5 8882.44,10258.5 8872.44,10258.5" fill="#fff" stroke="#000"/>
+<line x1="8881.94" y1="10263.5" x2="8872.94" y2="10263.5" stroke="#000"/>
+<polyline points="8701,10334 8877.45,10333.99 8877.44,10258.5" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(8877.5,10238.5) rotate(0.67)"/>
+<polygon points="8720,9840.25 8735,9835.25 8735,9845.25" fill="#000"/>
+<polyline points="8701,10324 8753,10324 8753,9840.25 8734,9840.25" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="9027.93,9427 9022.93,9412 9032.93,9412" fill="#000"/>
+<polyline points="8923,9366.5 9027.93,9366.5 9027.93,9413" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8841,9366.5 8826,9371.5 8826,9361.5" fill="#000"/>
+<polyline points="8756.5,9294.25 8801.25,9294.25 8801.25,9366.5 8827,9366.5" fill="none" stroke="#000000" stroke-width="1"/>
+<line x1="8839" y1="9305.5" x2="8839" y2="9293.5" stroke="#000"/>
+<polyline points="8756.5,9294.25 8798.25,9294.25 8798.25,9299.5 8839,9299.5" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8830,9198 8815,9203 8815,9193" fill="#000"/>
+<polyline points="8756.5,9294.25 8802.75,9294.25 8802.75,9198 8816,9198" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8716.5,9294.25 8701.5,9299.25 8701.5,9289.25" fill="#000"/>
+<polyline points="8586.5,9294.25 8702.5,9294.25" fill="none" stroke="#000000" stroke-width="1"/>
+<circle cx="8646.5" cy="9303.75" r="3" fill="#fff" stroke="#000"/>
+<polyline points="8625,9345 8646.5,9345 8646.5,9306.75" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="8651.5,9299.25 8656.5,9314.25 8646.5,9314.25" fill="#fff" stroke="#000"/>
+<line x1="8656" y1="9319.25" x2="8647" y2="9319.25" stroke="#000"/>
+<polyline points="8671,9666 8671,9627.13 8651.5,9627.13 8651.5,9314.25" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(8651.5,9294.25) rotate(0)"/>
+<polygon points="270,6960 285,6955 285,6965" fill="#000"/>
+<polyline points="520,6960 284,6960" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="390,6955 385,6940 395,6940" fill="#fff" stroke="#000"/>
+<line x1="385.51" y1="6935" x2="394.51" y2="6935" stroke="#000"/>
+<polyline points="1387.75,6445 1387.61,6910.28 390.01,6909.98 390,6940" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(395,6960) rotate(180)"/>
+<polygon points="270,7050 285,7045 285,7055" fill="#000"/>
+<polyline points="520,7050 284,7050" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="395,7045 390,7030 400,7030" fill="#fff" stroke="#000"/>
+<line x1="390.51" y1="7025" x2="399.51" y2="7025" stroke="#000"/>
+<polyline points="1387.75,6445 1387.59,6920.27 395.04,6919.94 395,7030" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(395,7050) rotate(180)"/>
+<polygon points="185,7290 170,7295 170,7285" fill="#000"/>
+<polyline points="190,6960 138,6960 138,7290 171,7290" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="185,7290 170,7295 170,7285" fill="#000"/>
+<polyline points="190,7050 138,7050 138,7290 171,7290" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2140,7902.5 2124.98,7907.44 2125.02,7897.44" fill="#000"/>
+<polyline points="1710,6262.5 1703,7900.63 2126,7902.44" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1344.5,6970 1359.51,6965.02 1359.49,6975.02" fill="#000"/>
+<polyline points="1407.75,6445 1406.92,6970.1 1358.5,6970.02" fill="none" stroke="#000000" stroke-width="1"/>
+<line x1="1421.74" y1="6392.02" x2="1433.74" y2="6391.98" stroke="#000"/>
+<polyline points="1570,6250 1427.37,6250.37 1427.74,6392" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1367.75,6395 1362.74,6380 1372.74,6380" fill="#000"/>
+<polyline points="1368.5,6038.25 1367.52,6038.25 1367.74,6381" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1192.25,6395 1187.25,6380 1197.25,6380" fill="#000"/>
+<polyline points="1125,6175 1125.01,6220.94 1192.22,6220.92 1192.25,6381" fill="none" stroke="#000000" stroke-width="1"/>
+<line x1="5316.99" y1="7958.49" x2="5317.01" y2="7946.49" stroke="#000"/>
+<polyline points="4421.75,6365.75 4417.99,7950.36 5317,7952.49" fill="none" stroke="#000000" stroke-width="1"/>
+<line x1="4572.06" y1="6426.03" x2="4571.94" y2="6414.03" stroke="#000"/>
+<polyline points="4459.75,6421.12 4572,6420.03" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="5320,7945 5305,7950 5305,7940" fill="#000"/>
+<polyline points="4700,6435 4700,7945 5306,7945" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1850,8760 1855,8775 1845,8775" fill="#000"/>
+<polyline points="1850,8820 1850,8774" fill="none" stroke="#000000" stroke-width="1"/>
+<line x1="1858" y1="8784" x2="1858" y2="8796" stroke="#000"/>
+<polyline points="1940,8790 1858,8790" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1845,8790 1830,8795 1830,8785" fill="#fff" stroke="#000"/>
+<line x1="1825" y1="8794.5" x2="1825" y2="8785.5" stroke="#000"/>
+<polyline points="1720,8740 1784.5,8740 1784.5,8790 1830,8790" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1850,8790) rotate(-90)"/>
+<polygon points="2140,7895 2135.24,7879.92 2145.24,7880.08" fill="#000"/>
+<polyline points="1830,7100 1817.55,7864.91 2140.4,7870.17 2140.23,7881" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1900,6840 1885,6845 1885,6835" fill="#000"/>
+<polyline points="1830,7060 1830,6840 1886,6840" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1825,6950 1810,6955 1810,6945" fill="#fff" stroke="#000"/>
+<line x1="1805" y1="6954.5" x2="1805" y2="6945.5" stroke="#000"/>
+<polyline points="1368.5,6001.75 1550.39,6001.79 1550.18,6949.94 1810,6950" fill="none" stroke="#000000" stroke-width="1"/>
+<line x1="1838" y1="6944" x2="1838" y2="6956" stroke="#000"/>
+<polyline points="2070,6820 2070,6950 1838,6950" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1830,6950) rotate(-90)"/>
+<polygon points="2465,7345 2461.73,7329.53 2471.67,7330.66" fill="#000"/>
+<polyline points="2540,7234.5 2535.07,7277.75 2473.47,7270.73 2466.59,7331.09" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2270,7195 2265,7180 2275,7180" fill="#000"/>
+<polyline points="2270,6945 2270,7181" fill="none" stroke="#000000" stroke-width="1"/>
+<line x1="2278.24" y1="7064.12" x2="2277.76" y2="7076.11" stroke="#000"/>
+<polyline points="2493,7210 2469.45,7209.06 2474.68,7077.98 2278,7070.12" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2265,7075 2250,7080 2250,7070" fill="#fff" stroke="#000"/>
+<line x1="2245" y1="7079.5" x2="2245" y2="7070.5" stroke="#000"/>
+<polyline points="1960,6860 1960.01,7075.01 2250,7075" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2265,7065 2250,7070 2250,7060" fill="#fff" stroke="#000"/>
+<line x1="2245" y1="7069.5" x2="2245" y2="7060.5" stroke="#000"/>
+<polyline points="1990,6312.5 1990.01,7065 2250,7065" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2265,7065 2250,7070 2250,7060" fill="#fff" stroke="#000"/>
+<line x1="2245" y1="7069.5" x2="2245" y2="7060.5" stroke="#000"/>
+<polyline points="2170,6625 2170.01,7065 2250,7065" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2270,7070) rotate(90)"/>
+<line x1="2309.17" y1="7341.68" x2="2321.15" y2="7342.33" stroke="#000"/>
+<polyline points="2270,7225 2268.16,7259.2 2319.46,7261.95 2315.16,7342" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2540,7005.5 2533.87,6990.93 2543.84,6990.16" fill="#000"/>
+<polyline points="2530,6875 2538.93,6991.54" fill="none" stroke="#000000" stroke-width="1"/>
+<circle cx="2544.48" cy="6940.16" r="3" fill="#fff" stroke="#000"/>
+<polyline points="2570,6990 2552.53,6988.87 2555.62,6940.88 2547.47,6940.35" fill="none" stroke="#000000" stroke-width="1"/>
+<circle cx="2525.52" cy="6940.56" r="3" fill="#fff" stroke="#000"/>
+<polyline points="2360,6930 2401.5,6930.65 2401.37,6938.61 2522.52,6940.51" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="2529.63,6935.65 2514.62,6940.61 2514.65,6930.61" fill="#fff" stroke="#000"/>
+<line x1="2509.62" y1="6940.1" x2="2509.64" y2="6931.1" stroke="#000"/>
+<polyline points="2130,6800 2414.19,6800.71 2413.86,6935.36 2514.63,6935.61" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2535,6940.25) rotate(85.62)"/>
+<polygon points="2540,7185.5 2535,7170.5 2545,7170.5" fill="#000"/>
+<polyline points="2540,7054.5 2540,7171.5" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(2540,7120) rotate(90)"/>
+<polygon points="980,7045 975.1,7029.97 985.1,7030.03" fill="#000"/>
+<polyline points="995.5,6970 980.48,6969.9 980.09,7031" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1080,6705 1075,6690 1085,6690" fill="#000"/>
+<polyline points="980,6590 980,6622.5 1080,6622.5 1080,6691" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="1170,6954 1164.97,6939.01 1174.97,6938.99" fill="#000"/>
+<polyline points="1080.03,6735 1080.1,6774.54 1169.67,6774.37 1169.97,6940" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1169.83,6864.19) rotate(89.89)"/><text x="1169.83" y="6867.19" font-family="'Times New Roman', serif" font-weight="bold" font-size="10" text-anchor="middle">//</text>
+<polygon points="980,6550 975,6535 985,6535" fill="#000"/>
+<polyline points="980,6455 980,6536" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="740,6630 745,6645 735,6645" fill="#000"/>
+<polyline points="740,6695 740,6644" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="745,6662.5 760.01,6657.53 759.99,6667.53" fill="#fff" stroke="#000"/>
+<line x1="765.01" y1="6658.04" x2="764.99" y2="6667.04" stroke="#000"/>
+<polyline points="890,7060 816.09,7059.85 816.89,6662.64 760,6662.53" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(740,6662.5) rotate(-90)"/>
+<polygon points="940,6442.5 924.76,6446.71 925.28,6436.72" fill="#000"/>
+<polyline points="830,6555 836.2,6437.04 926.02,6441.77" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="887.84,6444.77 892.58,6459.85 882.59,6459.68" fill="#fff" stroke="#000"/>
+<line x1="892" y1="6464.84" x2="883" y2="6464.69" stroke="#000"/>
+<polyline points="890,7052.5 877.6,7052.29 887.58,6459.76" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(888.1,6439.77) rotate(3.01)"/>
+<polygon points="4825,6420 4840,6415 4840,6425" fill="#000"/>
+<polyline points="5170,6385 5140,6385 5140,6420 4839,6420" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="5280,6375 5275,6360 5285,6360" fill="#000"/>
+<polyline points="5335,6285 5335,6329 5280,6329 5280,6361" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="5510,6375 5505,6360 5515,6360" fill="#000"/>
+<polyline points="5435,6285 5435,6329 5510,6329 5510,6361" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="5480,7937.5 5494.98,7932.43 5495.02,7942.43" fill="#000"/>
+<polyline points="5723.75,6330 5731.07,7936.36 5494,7937.44" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(5727.41,7133.18) rotate(89.74)"/><text x="5727.41" y="7136.18" font-family="'Times New Roman', serif" font-weight="bold" font-size="10" text-anchor="middle">//</text>
+<polygon points="6345,6335 6338.93,6320.4 6348.9,6319.68" fill="#000"/>
+<polyline points="6386.5,6290 6341.97,6293.23 6343.99,6321.04" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6088.7,6451.55 6093.7,6466.55 6083.7,6466.55" fill="#000"/>
+<polyline points="7200,6447.5 7200,6525 6088.7,6525 6088.7,6465.55" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6093.7,6493.27 6108.74,6488.38 6108.67,6498.38" fill="#fff" stroke="#000"/>
+<line x1="6113.73" y1="6488.91" x2="6113.67" y2="6497.91" stroke="#000"/>
+<polyline points="6410,6455 6409.72,6495.43 6108.7,6493.38" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6093.7,6483.27 6108.37,6477.38 6108.98,6487.36" fill="#fff" stroke="#000"/>
+<line x1="6113.39" y1="6477.57" x2="6113.94" y2="6486.56" stroke="#000"/>
+<polyline points="6210,6365 6216.72,6475.81 6108.67,6482.37" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(6088.7,6488.27) rotate(-90)"/>
+<polygon points="6620,6455 6625,6470 6615,6470" fill="#000"/>
+<polyline points="6980,6460 6980,6500 6620,6500 6620,6469" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6615,6472.5 6600,6477.5 6600,6467.5" fill="#fff" stroke="#000"/>
+<line x1="6595" y1="6477" x2="6595" y2="6468" stroke="#000"/>
+<polyline points="6470,6455 6470,6472.49 6600,6472.5" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="6615,6482.5 6599.88,6487.11 6600.13,6477.11" fill="#fff" stroke="#000"/>
+<line x1="6594.89" y1="6486.48" x2="6595.12" y2="6477.48" stroke="#000"/>
+<polyline points="6390,6365 6387.11,6476.59 6600.01,6482.11" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(6620,6477.5) rotate(-90)"/>
+<polygon points="5480,7945 5495,7940 5495,7950" fill="#000"/>
+<polyline points="6060,6452.5 6060,7945 5494,7945" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(6060,7198.75) rotate(90)"/><text x="6060" y="7201.75" font-family="'Times New Roman', serif" font-weight="bold" font-size="10" text-anchor="middle">//</text>
+<polygon points="5480,7952.5 5494.98,7947.45 5495.02,7957.45" fill="#000"/>
+<polyline points="6652.5,6455 6657.13,7948.85 5494,7952.46" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(6654.81,7201.93) rotate(89.82)"/><text x="6654.81" y="7204.93" font-family="'Times New Roman', serif" font-weight="bold" font-size="10" text-anchor="middle">//</text>
+<polygon points="5320,7937.5 5304.96,7942.37 5305.04,7932.37" fill="#000"/>
+<polyline points="5230,7072.5 5222.65,7936.67 5306,7937.38" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="3810,6337.5 3815,6352.5 3805,6352.5" fill="#000"/>
+<polyline points="3810,6592.5 3810,6351.5" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="3805,6465 3799.99,6468.99 3795,6464.98 3800.01,6460.99" fill="#fff" stroke="#000"/>
+<polyline points="3770,6380 3788.59,6380.04 3788.42,6464.97 3795,6464.98" fill="none" stroke="#000000" stroke-width="1"/>
+<circle cx="3819.5" cy="6464.99" r="3" fill="#fff" stroke="#000"/>
+<polyline points="3855,6390 3833.89,6390.06 3834.1,6464.95 3822.5,6464.98" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(3810,6465) rotate(-90)"/>
+<polygon points="2260,6625 2275,6620.01 2275,6630.01" fill="#000"/>
+<polyline points="3760,6633.75 3016.43,6633.46 3016.44,6625.29 2274,6625.01" fill="none" stroke="#000000" stroke-width="1"/>
+<line x1="7434" y1="7852" x2="7446" y2="7852" stroke="#000"/>
+<polyline points="7687.5,6341.75 7730.49,6341.77 7730.2,7101.56 7440.28,7101.45 7440,7852" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="7585.5,6362.5 7590.65,6377.45 7580.65,6377.55" fill="#000"/>
+<polyline points="7586.5,6461 7585.64,6376.5" fill="none" stroke="#000000" stroke-width="1"/>
+<polygon points="7581,6411.8 7566,6416.79 7566,6406.79" fill="#fff" stroke="#000"/>
+<line x1="7561" y1="6416.29" x2="7561" y2="6407.29" stroke="#000"/>
+<polyline points="7442.5,6595 7442.63,6411.71 7566,6411.79" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(7586,6411.75) rotate(-90.58)"/>
+</svg>

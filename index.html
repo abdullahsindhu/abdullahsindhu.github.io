@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Neuroinflammation map</title>
+<style>
+  body { margin: 0; padding: 16px; font-family: Helvetica, Arial, sans-serif; color: #222; background: #fff; }
+  h1 { font-size: 20px; font-weight: normal; margin: 0 0 14px; text-align: center; }
+</style>
+<style>
+  /* the maps on the left, the chosen one in the middle as CellDesigner draws it
+     (converter/cdrender.py), an empty column of the list's width on the right */
+  .m2 { display: grid; grid-template-columns: 240px minmax(600px, 1fr) minmax(0, 240px); column-gap: 32px; align-items: start;
+        width: min(100vw / var(--zoom, 1) - 32px, 2000px); position: relative; left: 50%; transform: translateX(-50%); }
+  .m2-nav { grid-column: 1; }
+  .m2-main { grid-column: 2; min-width: 0; }
+  #m2-list { max-height: calc(100vh / var(--zoom, 1) - 140px); overflow-y: auto; display: flex; flex-direction: column; gap: 2px; }
+  @media (max-width: 940px) {
+    .m2 { display: block; width: auto; left: 0; transform: none; }
+    .m2-nav { margin-bottom: 12px; }
+    #m2-list { max-height: 127px; border-bottom: 1px solid #eee; }
+  }
+  .m2-group { font-size: 14px; line-height: 18px; color: #000; padding: 2px 5px 2px 0; margin-top: 6px; }
+  .m2-group:first-child { margin-top: 0; }
+  /* flex: none: the list has a max-height, and an item with overflow hidden would otherwise
+     shrink to fit it, its highlight cutting the text */
+  .m2-group, .m2-item { flex: none; }
+  .m2-item { display: block; width: calc(100% - 14px); margin-left: 14px; text-align: left; font-size: 14px; line-height: 18px; padding: 2px 4px; border: 1px solid transparent; border-radius: 4px; background: none; cursor: pointer; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .m2-item:hover { background: #f3f3f3; }
+  .m2-item.m2-on { background: #4183c4; color: #fff; }
+  .m2-item:focus { outline: none; }
+  .m2-item.m2-bad:not(.m2-on) { color: #c62828; }
+
+  #m2-view { position: relative; width: 100%; height: 504px; min-height: 300px; max-height: calc(100vh / var(--zoom, 1) - 70px); resize: vertical; overflow: hidden; box-sizing: border-box; border: 1px solid #ddd; border-radius: 4px; background: #fff; cursor: grab; touch-action: none; user-select: none; }
+  #m2-view.m2-drag { cursor: grabbing; }
+  #m2-view:focus, .m2-ctrl button:focus { outline: none; }
+  #m2-img { position: absolute; left: 0; top: 0; max-width: none; pointer-events: none; }
+  #m2-err { position: absolute; left: 16px; top: 40px; right: 16px; font-size: 14px; color: #c62828; }
+  .m2-ctrl { position: absolute; top: 8px; right: 8px; display: flex; gap: 4px; align-items: center; }
+  .m2-ctrl button { font-size: 13px; min-width: 28px; padding: 2px 8px; color: #222; background: #fffffff0; border: 1px solid #bbb; border-radius: 4px; cursor: pointer; }
+  .m2-ctrl button:hover { border-color: #4183c4; color: #4183c4; }
+  #m2-out, #m2-in { box-sizing: border-box; width: 21px; height: 21px; min-width: 0; padding: 0; }
+  #m2-fit { box-sizing: border-box; height: 21px; padding: 0 6px; }
+  .m2-top { display: flex; align-items: center; gap: 6px; margin: 0 0 6px; white-space: nowrap; }
+  #m2-err.m2-quiet { color: #777; }
+  #m2-note { position: absolute; left: 8px; bottom: 8px; font-size: 12px; color: #777; background: #ffffffe0; padding: 0 4px; pointer-events: none; }
+  #m2-note:empty { display: none; }
+  #m2-zoom { font-size: 12px; color: #666; min-width: 40px; text-align: right; margin-right: 4px; }
+  /* full screen: the map alone, as on the Atlas; the arrow keys still go through the list */
+  #m2-view:fullscreen { width: 100vw; height: 100vh !important; max-height: none; border: 0; border-radius: 0; resize: none; }
+  #m2-view:-webkit-full-screen { width: 100vw; height: 100vh !important; max-height: none; border: 0; border-radius: 0; resize: none; }
+  #m2-full { box-sizing: border-box; width: 21px; height: 21px; min-width: 0; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
+  #m2-full svg { width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  /* the buttons of the Atlas download row: white, grey edge and text, filled blue on hover */
+  .m2-btn { display: inline-flex; align-items: center; font: inherit; font-size: 14px; line-height: 20px; padding: 4px 10px; margin: 4px 4px 0 0; color: #777 !important; background: #fff; border: 1px solid #777; border-radius: 5px; text-decoration: none; cursor: pointer; }
+  .m2-btn:hover { background: #4183c4; border-color: #4183c4; color: #fff !important; }
+  .m2-btn:focus { outline: none; }
+  .m2-btn svg { width: 14px; height: 14px; margin-left: 5px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+  #m2-downloads { margin: 10px 0 0; display: flex; flex-wrap: wrap; }
+  .m2 a { color: #1c47a9; }
+  .m2 a:hover, .m2 a:active { color: #1c47a9; }
+</style>
+</head>
+<body>
+<h1>Neuroinflammation map</h1>
+<div class="m2">
+<div class="m2-nav">
+<div id="m2-list"></div>
+</div>
+<div class="m2-main">
+<div id="m2-view" tabindex="0">
+<img id="m2-img" alt="">
+<div id="m2-err"></div>
+<div id="m2-note"></div>
+<div class="m2-ctrl">
+<span id="m2-zoom"></span>
+<button type="button" id="m2-out" title="Zoom out">&minus;</button>
+<button type="button" id="m2-in" title="Zoom in">+</button>
+<button type="button" id="m2-fit">Fit</button>
+<button type="button" id="m2-full" title="Full screen" aria-label="Full screen"></button>
+</div>
+</div>
+<div id="m2-downloads"></div>
+</div>
+</div>
+<script>
+(function () {
+  // A lean copy of the Atlas viewer (as the Colours page's): the map fits the window when
+  // chosen, never above the reading size (100%, 0.675 px per unit, as the map pages), the
+  // wheel or a pinch zooms at the pointer, a drag moves it, Fit returns. The up and down
+  // arrow keys go through the list, ?map=<slug> opens a map.
+  var view = document.getElementById('m2-view'), img = document.getElementById('m2-img');
+  var err = document.getElementById('m2-err'), list = document.getElementById('m2-list');
+  var STANDARD = 0.675, MIN = 0.08, MAX = 4, KEEP = 80;
+  var z = STANDARD, tx = 0, ty = 0, moved = false, mapW = 0, mapH = 0, shown = false;
+  var maps = [], cur = -1, buttons = [];
+  function pz() { return view.currentCSSZoom || 1; }
+  function draw() {
+    if (!shown) return;
+    var w = mapW * z, h = mapH * z, vw = view.clientWidth, vh = view.clientHeight;
+    tx = Math.min(vw - Math.min(KEEP, w), Math.max(Math.min(KEEP, w) - w, tx));
+    ty = Math.min(vh - Math.min(KEEP, h), Math.max(Math.min(KEEP, h) - h, ty));
+    img.style.width = w + 'px';
+    img.style.height = h + 'px';
+    img.style.transform = 'translate(' + tx + 'px,' + ty + 'px)';
+    document.getElementById('m2-zoom').textContent = Math.round(z / STANDARD * 100) + '%';
+  }
+  function zoomAt(nz, cx, cy) {
+    nz = Math.max(MIN, Math.min(MAX, nz));
+    tx = cx - (cx - tx) * nz / z;
+    ty = cy - (cy - ty) * nz / z;
+    z = nz;
+    moved = true;
+    draw();
+  }
+  function fit() {
+    if (!shown) return;
+    z = Math.min(view.clientWidth / mapW, view.clientHeight / mapH, STANDARD);
+    tx = (view.clientWidth - mapW * z) / 2;
+    ty = (view.clientHeight - mapH * z) / 2;
+    moved = false;
+    draw();
+  }
+  function centre() { return [view.clientWidth / 2, view.clientHeight / 2]; }
+  document.getElementById('m2-in').addEventListener('click', function () { var c = centre(); zoomAt(z * 1.25, c[0], c[1]); });
+  document.getElementById('m2-out').addEventListener('click', function () { var c = centre(); zoomAt(z / 1.25, c[0], c[1]); });
+  document.getElementById('m2-fit').addEventListener('click', fit);
+  view.addEventListener('wheel', function (e) {
+    e.preventDefault();
+    var r = view.getBoundingClientRect();
+    zoomAt(z * Math.exp(-e.deltaY * (e.deltaMode ? 0.05 : 0.0015)), (e.clientX - r.left) / pz(), (e.clientY - r.top) / pz());
+  }, { passive: false });
+  view.addEventListener('dblclick', function (e) {
+    if (e.target.closest('.m2-ctrl')) return;
+    var r = view.getBoundingClientRect();
+    zoomAt(z * 1.5, (e.clientX - r.left) / pz(), (e.clientY - r.top) / pz());
+  });
+  var pts = {}, last = null;
+  view.addEventListener('pointerdown', function (e) {
+    if (e.target.closest('.m2-ctrl')) return;
+    var r = view.getBoundingClientRect();
+    if (e.clientX > r.right - 18 && e.clientY > r.bottom - 18) return; // the resize handle
+    view.setPointerCapture(e.pointerId);
+    pts[e.pointerId] = [e.clientX, e.clientY];
+    last = null;
+    view.classList.add('m2-drag');
+  });
+  view.addEventListener('pointermove', function (e) {
+    if (!pts[e.pointerId]) return;
+    var prev = pts[e.pointerId];
+    pts[e.pointerId] = [e.clientX, e.clientY];
+    var ids = Object.keys(pts);
+    if (ids.length === 1) {
+      tx += (e.clientX - prev[0]) / pz();
+      ty += (e.clientY - prev[1]) / pz();
+      moved = true;
+      draw();
+    } else if (ids.length === 2) {
+      var a = pts[ids[0]], b = pts[ids[1]], r = view.getBoundingClientRect();
+      var d = Math.hypot(a[0] - b[0], a[1] - b[1]);
+      if (last) zoomAt(z * d / last, ((a[0] + b[0]) / 2 - r.left) / pz(), ((a[1] + b[1]) / 2 - r.top) / pz());
+      last = d;
+    }
+  });
+  function release(e) {
+    delete pts[e.pointerId];
+    last = null;
+    if (!Object.keys(pts).length) view.classList.remove('m2-drag');
+  }
+  view.addEventListener('pointerup', release);
+  view.addEventListener('pointercancel', release);
+  // the window's height: 77% of the browser window, as the Atlas's, until its lower edge is dragged
+  var autoH = null;
+  function viewHeight() {
+    if (autoH !== null && view.style.height !== autoH) return;
+    autoH = Math.round(Math.max(300, window.innerHeight / pz() * 0.77)) + 'px';
+    view.style.height = autoH;
+  }
+  viewHeight();
+  window.addEventListener('resize', viewHeight);
+  if (window.ResizeObserver) new ResizeObserver(function () { if (moved) draw(); else fit(); }).observe(view);
+  // full screen: the map alone; Esc or the button returns to the page
+  var full = document.getElementById('m2-full');
+  var FULL_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></svg>';
+  var EXIT_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4v5H4M20 9h-5V4M15 20v-5h5M4 15h5v5"/></svg>';
+  function isFull() { return (document.fullscreenElement || document.webkitFullscreenElement) === view; }
+  function showFull() {
+    var on = isFull();
+    full.innerHTML = on ? EXIT_ICON : FULL_ICON;
+    full.title = on ? 'Exit full screen (Esc)' : 'Full screen';
+    full.setAttribute('aria-label', full.title);
+  }
+  if (view.requestFullscreen || view.webkitRequestFullscreen) {
+    showFull();
+    full.addEventListener('click', function () {
+      if (isFull()) (document.exitFullscreen || document.webkitExitFullscreen).call(document);
+      else (view.requestFullscreen || view.webkitRequestFullscreen).call(view);
+    });
+    var onFull = function () { showFull(); requestAnimationFrame(function () { if (moved) draw(); else fit(); }); };
+    document.addEventListener('fullscreenchange', onFull);
+    document.addEventListener('webkitfullscreenchange', onFull);
+  } else full.style.display = 'none'; // iPhone: no full screen for page elements
+
+  function cdOf(m) { return 'drawn/' + m.slug + '.svg?' + m.svg.slice(0, 8); }
+  var note = document.getElementById('m2-note');
+  function address() {
+    if (cur >= 0) history.replaceState(null, '', '?map=' + maps[cur].slug);
+  }
+  // the chosen map; reactions cdrender.py cannot draw yet are counted under it
+  function show() {
+    var m = maps[cur];
+    note.textContent = m.notes && m.notes.length ? m.notes.length + (m.notes.length > 1 ? ' reactions' : ' reaction') + ' not drawn yet (two joining into one, or one splitting in two)' : '';
+    err.className = '';
+    if (m.error) {
+      shown = false;
+      img.removeAttribute('src');
+      img.style.display = 'none';
+      err.textContent = m.error;
+      document.getElementById('m2-zoom').textContent = '';
+      return;
+    }
+    err.textContent = '';
+    img.style.display = '';
+    mapW = m.width;
+    mapH = m.height;
+    shown = true;
+    img.src = cdOf(m);
+    fit();
+    // the neighbours load in the background, so the arrow keys show them at once
+    [cur - 1, cur + 1].forEach(function (j) {
+      var n = maps[j];
+      if (n && !n.error) new Image().src = cdOf(n);
+    });
+  }
+  var DL_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5"/><path d="M4 15v5h16v-5"/></svg>';
+  function choose(i, again) {
+    if (i < 0 || i >= maps.length || (i === cur && !again)) return;
+    if (cur >= 0 && buttons[cur]) buttons[cur].classList.remove('m2-on');
+    cur = i;
+    var m = maps[i], b = buttons[i];
+    b.classList.add('m2-on');
+    b.scrollIntoView({ block: 'nearest' });
+    address();
+    document.getElementById('m2-downloads').innerHTML =
+      '<a class="m2-btn" href="' + encodeURI(m.file) + '" download title="' + m.name + '.xml, sha1 ' + m.sha1 + '">CellDesigner' + DL_ICON + '</a>';
+    show();
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.altKey || e.ctrlKey || e.metaKey) return;
+    if (e.key === 'ArrowDown') choose(cur + 1);
+    else if (e.key === 'ArrowUp') choose(cur - 1);
+    else if (document.activeElement === view && (e.key === '+' || e.key === '=')) { var c = centre(); zoomAt(z * 1.25, c[0], c[1]); }
+    else if (document.activeElement === view && e.key === '-') { var c2 = centre(); zoomAt(z / 1.25, c2[0], c2[1]); }
+    else if (document.activeElement === view && e.key === '0') fit();
+    else return;
+    e.preventDefault();
+  });
+
+  function buildList() {
+    list.innerHTML = '';
+    buttons = [];
+    var group = null;
+    maps.forEach(function (m, i) {
+      if (m.group !== group) {
+        group = m.group;
+        var g = document.createElement('div');
+        g.className = 'm2-group';
+        g.textContent = group;
+        list.appendChild(g);
+      }
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'm2-item' + (m.error ? ' m2-bad' : '');
+      b.textContent = m.name;
+      b.title = m.error ? m.name + ': ' + m.error : m.name;
+      b.addEventListener('click', function () { choose(i); });
+      buttons.push(b);
+      list.appendChild(b);
+    });
+  }
+
+  fetch('maps.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (data) {
+    maps = data;
+    buildList();
+    var want = new URLSearchParams(location.search).get('map');
+    var start = maps.findIndex(function (m) { return m.slug === want; });
+    choose(start < 0 ? 0 : start);
+  });
+})();
+</script>
+</body>
+</html>
