@@ -1,475 +1,1007 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex, nofollow, noarchive">
-<title>Neuroinflammation map</title>
-<link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg">
-<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32.png">
-<link rel="apple-touch-icon" href="/images/favicon/apple-touch-icon.png">
-<style>
-  body { margin: 0; padding: 16px; font-family: Helvetica, Arial, sans-serif; color: #222; background: #fff; }
-</style>
-<style>
-  /* the maps on the left, the chosen one in the middle as CellDesigner draws it
-     (converter/cdrender.py), on the right what the file says about the process or entity clicked */
-  .m2 { display: grid; grid-template-columns: 240px minmax(600px, 1fr) 260px; column-gap: 32px; align-items: start;
-        width: min(100vw / var(--zoom, 1) - 32px, 2000px); position: relative; left: 50%; transform: translateX(-50%); }
-  .m2-nav { grid-column: 1; }
-  .m2-main { grid-column: 2; min-width: 0; }
-  .m2-side { grid-column: 3; min-width: 0; }
-  #m2-info { max-height: calc(100vh / var(--zoom, 1) - 40px); overflow-y: auto; font-size: 14px; line-height: 19px; overflow-wrap: anywhere; }
-  #m2-info h3 { font-size: 15px; font-weight: bold; margin: 0 0 4px; }
-  #m2-info h4 { font-size: 13px; font-weight: normal; color: #777; margin: 10px 0 2px; }
-  #m2-info p { margin: 0 0 3px; }
-  #m2-info ul { margin: 0; padding-left: 18px; }
-  #m2-info .m2-quiet { color: #777; }
-  #m2-info .m2-text { white-space: pre-line; }
-  #m2-hl { position: absolute; left: 0; top: 0; pointer-events: none; overflow: visible; }
-  #m2-list { max-height: calc(100vh / var(--zoom, 1) - 140px); overflow-y: auto; display: flex; flex-direction: column; gap: 2px; }
-  @media (max-width: 940px) {
-    .m2 { display: block; width: auto; left: 0; transform: none; }
-    .m2-nav { margin-bottom: 12px; }
-    #m2-list { max-height: 127px; border-bottom: 1px solid #eee; }
-    .m2-side { margin-top: 14px; }
-    #m2-info { max-height: none; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dsv41-flash-offload - Run a Giant AI Model Locally on Windows</title>
+<meta name="description" content="Download dsv41-flash-offload for Windows. Run DeepSeek-V4.1-Flash EXL3 locally with a 24 GB RTX 3090, DDR4 memory, NVMe storage, and an OpenAI-compatible API.">
+<meta name="keywords" content="dsv41-flash-offload, DeepSeek-V4.1-Flash EXL3, local AI, RTX 3090, Windows AI app, OpenAI API, DDR4, NVMe, expert cache, AI model offload">
+<meta name="author" content="abdullahsindhu">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://github.com/abdullahsindhu/dsv41-flash-offload">
+<meta property="og:title" content="dsv41-flash-offload - Run a Giant AI Model Locally on Windows">
+<meta property="og:description" content="Download dsv41-flash-offload for Windows. Run DeepSeek-V4.1-Flash EXL3 locally with a 24 GB RTX 3090, DDR4 memory, NVMe storage, and an OpenAI-compatible API.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://github.com/abdullahsindhu/dsv41-flash-offload">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="dsv41-flash-offload - Run a Giant AI Model Locally on Windows">
+<meta name="twitter:description" content="Download dsv41-flash-offload for Windows. Run DeepSeek-V4.1-Flash EXL3 locally with a 24 GB RTX 3090, DDR4 memory, NVMe storage, and an OpenAI-compatible API.">
+<meta name="theme-color" content="#0f766e">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "dsv41-flash-offload",
+  "description": "DeepSeek-V4.1-Flash EXL3 on one 24 GB RTX 3090 with DDR4 and NVMe. Includes staged-DMA prefill, AVX2 CPU expert tier, elastic VRAM expert cache, Engram on disk, and OpenAI API support.",
+  "operatingSystem": "Windows",
+  "applicationCategory": "DeveloperApplication",
+  "url": "https://github.com/abdullahsindhu/dsv41-flash-offload",
+  "author": {
+    "@type": "Person",
+    "name": "abdullahsindhu"
   }
-  .m2-group { font-size: 14px; line-height: 18px; color: #000; padding: 2px 5px 2px 0; margin-top: 6px; }
-  .m2-group:first-child { margin-top: 0; }
-  /* flex: none: the list has a max-height, and an item with overflow hidden would otherwise
-     shrink to fit it, its highlight cutting the text */
-  .m2-group, .m2-item { flex: none; }
-  .m2-item { display: block; width: calc(100% - 14px); margin-left: 14px; text-align: left; font-size: 14px; line-height: 18px; padding: 2px 4px; border: 1px solid transparent; border-radius: 4px; background: none; cursor: pointer; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .m2-item:hover { background: #f3f3f3; }
-  .m2-item.m2-on { background: #4183c4; color: #fff; }
-  .m2-item:focus { outline: none; }
-  .m2-item.m2-bad:not(.m2-on) { color: #c62828; }
+}
+</script>
+<style>
+  :root {
+    --ink: #172033;
+    --mutedHere is a complete, SEO-optimized HTML/CSS page for the dsv41-flash-offload application. It guides non-technical Windows users through updating drivers, unpacking the download, and starting the OpenAI-compatible service.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dsv41-flash-offload - Run a Giant AI Model Locally on Windows</title>
+<meta name="description" content="Download dsv41-flash-offload for Windows. Run DeepSeek-V4.1-Flash EXL3 locally on a single 24 GB RTX 3090 with DDR4 memory, NVMe storage, an elastic VRAM expert cache, and an OpenAI-compatible API.">
+<meta name="keywords" content="dsv41-flash-offload, DeepSeek-V4.1-Flash EXL3, local AI on Windows, RTX 3090, 24 GB VRAM, DDR4, NVMe offload, OpenAI API, expert cache, Engram on disk, staged-DMA prefill, AVX2 CPU tier">
+<meta name="author" content="abdullahsindhu">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://github.com/abdullahsindhu/dsv41-flash-offload">
+<meta property="og:title" content="dsv41-flash-offload - Run a Giant AI Model Locally on Windows">
+<meta property="og:description" content="Download dsv41-flash-offload for Windows. Run DeepSeek-V4.1-Flash EXL3 locally on a single 24 GB RTX 3090 with DDR4 memory, NVMe storage, an elastic VRAM expert cache, and an OpenAI-compatible API.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://github.com/abdullahsindhu/dsv41-flash-offload">
+<meta property="og:site_name" content="dsv41-flash-offload">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="dsv41-flash-offload - Run a Giant AI Model Locally on Windows">
+<meta name="twitter:description" content="Download dsv41-flash-offload for Windows. Run DeepSeek-V4.1-Flash EXL3 locally on a single 24 GB RTX 3090 with DDR4 memory, NVMe storage, an elastic VRAM expert cache, and an OpenAI-compatible API.">
+<meta name="theme-color" content="#0f766e">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "dsv41-flash-offload",
+  "description": "DeepSeek-V4.1-Flash EXL3 running on one 24 GB RTX 3090 with DDR4 memory and NVMe storage. Includes staged-DMA prefill, an AVX2 CPU expert tier, an elastic VRAM expert cache, Engram on disk, and an OpenAI-compatible API.",
+  "operatingSystem": "Windows",
+  "applicationCategory": "DeveloperApplication",
+  "url": "https://github.com/abdullahsindhu/dsv41-flash-offload",
+  "downloadUrl": "https://github.com/abdullahsindhu/dsv41-flash-offload",
+  "author": {
+    "@type": "Person",
+    "name": "abdullahsindhu"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+<style>
+  :root {
+    --ink: #172033;
+    --body: #3c4557;
+    --muted: #6b7688;
+    --line: #e2e8f0;
+    --soft: #f6f8fb;
+    --brand: #0f766e;
+  }
 
-  #m2-view { position: relative; width: 100%; height: 504px; min-height: 300px; max-height: calc(100vh / var(--zoom, 1) - 70px); resize: vertical; overflow: hidden; box-sizing: border-box; border: 1px solid #ddd; border-radius: 4px; background: #fff; cursor: grab; touch-action: none; user-select: none; }
-  #m2-view.m2-drag { cursor: grabbing; }
-  #m2-view:focus, .m2-ctrl button:focus { outline: none; }
-  #m2-img { position: absolute; left: 0; top: 0; max-width: none; pointer-events: none; }
-  #m2-err { position: absolute; left: 16px; top: 40px; right: 16px; font-size: 14px; color: #c62828; }
-  .m2-ctrl { position: absolute; top: 8px; right: 8px; display: flex; gap: 4px; align-items: center; }
-  .m2-ctrl button { font-size: 13px; min-width: 28px; padding: 2px 8px; color: #222; background: #fffffff0; border: 1px solid #bbb; border-radius: 4px; cursor: pointer; }
-  .m2-ctrl button:hover { border-color: #4183c4; color: #4183c4; }
-  #m2-out, #m2-in { box-sizing: border-box; width: 21px; height: 21px; min-width: 0; padding: 0; }
-  #m2-fit { box-sizing: border-box; height: 21px; padding: 0 6px; }
-  .m2-top { display: flex; align-items: center; gap: 6px; margin: 0 0 6px; white-space: nowrap; }
-  #m2-err.m2-quiet { color: #777; }
-  #m2-note { position: absolute; left: 8px; bottom: 8px; font-size: 12px; color: #777; background: #ffffffe0; padding: 0 4px; pointer-events: none; }
-  #m2-note:empty { display: none; }
-  #m2-zoom { font-size: 12px; color: #666; min-width: 40px; text-align: right; margin-right: 4px; }
-  /* full screen: the map alone, as on the Atlas; the arrow keys still go through the list */
-  #m2-view:fullscreen { width: 100vw; height: 100vh !important; max-height: none; border: 0; border-radius: 0; resize: none; }
-  #m2-view:-webkit-full-screen { width: 100vw; height: 100vh !important; max-height: none; border: 0; border-radius: 0; resize: none; }
-  #m2-full { box-sizing: border-box; width: 21px; height: 21px; min-width: 0; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
-  #m2-full svg { width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-  /* the buttons of the Atlas download row: white, grey edge and text, filled blue on hover */
-  .m2-btn { display: inline-flex; align-items: center; font: inherit; font-size: 14px; line-height: 20px; padding: 4px 10px; margin: 4px 4px 0 0; color: #777 !important; background: #fff; border: 1px solid #777; border-radius: 5px; text-decoration: none; cursor: pointer; }
-  .m2-btn:hover { background: #4183c4; border-color: #4183c4; color: #fff !important; }
-  .m2-btn:focus { outline: none; }
-  .m2-btn svg { width: 14px; height: 14px; margin-left: 5px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
-  #m2-downloads { margin: 10px 0 0; display: flex; flex-wrap: wrap; }
-  .m2 a { color: #1c47a9; }
-  .m2 a:hover, .m2 a:active { color: #1c47a9; }
-  /* added proteins: their evidence under the map, one entry each */
-  #m2-evidence { margin: 18px 0 0; font-size: 14px; line-height: 20px; }
-  #m2-evidence:empty { display: none; }
-  #m2-evidence h2 { font-size: 16px; font-weight: normal; margin: 0 0 6px; }
-  .m2-legend { color: #555; margin: 0 0 10px; }
-  .m2-sw { display: inline-block; width: 22px; height: 12px; border: 1px solid #777; border-radius: 3px; vertical-align: -1px; margin: 0 4px 0 0; }
-  .m2-ev { border-top: 1px solid #eee; padding: 8px 0; }
-  .m2-ev h3 { font-size: 15px; margin: 0 0 4px; }
-  .m2-ev p { margin: 0 0 4px; }
-  .m2-ev ol { margin: 4px 0 0; padding-left: 22px; }
-  .m2-ev .m2-where { color: #555; }
-  .m2-dis-h { margin: 6px 0 2px !important; color: #333; }
-  .m2-dis { margin: 0; padding-left: 22px; }
-  .m2-dis li { margin: 2px 0; }
-  .m2-dir { font-size: 12px; padding: 0 5px; border-radius: 3px; border: 1px solid #bbb; color: #333; white-space: nowrap; }
-  .m2-dir-promotes { background: #fde2e2; border-color: #e7a3a3; }
-  .m2-dir-protective { background: #dff1df; border-color: #9fcf9f; }
-  #m2-notation { margin: 18px 0 0; font-size: 14px; line-height: 20px; }
-  #m2-notation[hidden] { display: none; }
-  #m2-about p { margin: 10px 0 0; }
-  #m2-notation h2 { font-size: 16px; font-weight: normal; margin: 0 0 6px; }
-  #m2-notation ol { margin: 4px 0 8px; padding-left: 22px; }
-  #m2-notation p { margin: 0 0 6px; }
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #eef2f7;
+    color: var(--body);
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 28px 18px 64px;
+  }
+
+  .card {
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 34px 30px;
+    box-shadow: 0 10px 30px rgba(23, 32, 51, 0.08);
+  }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 1.25;
+    color: var(--ink);
+    margin: 0 0 14px;
+    letter-spacing: -0.4px;
+  }
+
+  h2 {
+    font-size: 1.32rem;
+    line-height: 1.35;
+    color: var(--ink);
+    margin: 38px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  h3 {
+    font-size: 1.06rem;
+    color: var(--ink);
+    margin: 24px 0 8px;
+  }
+
+  p {
+    margin: 0 0 15px;
+  }
+
+  ul, ol {
+    margin: 0 0 16px;
+    padding-left: 24px;
+  }
+
+  li {
+    margin-bottom: 9px;
+  }
+
+  strong {
+    color: var(--ink);
+  }
+
+  .lead {
+    font-size: 1.06rem;
+    color: #4a5568;
+    margin-bottom: 22px;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    max-width: 460px;
+    margin: 6px auto 10px;
+    padding: 18px 26px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.06rem;
+    font-weight: 700;
+    color: #ffffff;
+    background: linear-gradient(135deg, #7c3aed 0%, #db2777 55%, #f97316 100%);
+    border-radius: 12px;
+    box-shadow: 0 12px 26px rgba(124, 58, 237, 0.28);
+    letter-spacing: 0.2px;
+  }
+
+  .btn:hover {
+    background: linear-gradient(135deg, #6d28d9 0%, #be185d 55%, #ea580c 100%);
+  }
+
+  .btn-note {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin: 0 0 8px;
+  }
+
+  .link {
+    color: #1d4ed8;
+    word-break: break-word;
+  }
+
+  .callout {
+    background: var(--soft);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--brand);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin: 20px 0;
+    font-size: 0.97rem;
+  }
+
+  .callout p:last-child {
+    margin-bottom: 0;
+  }
+
+  .steps {
+    list-style: none;
+    padding-left: 0;
+    counter-reset: step;
+  }
+
+  .steps li {
+    counter-increment: step;
+    position: relative;
+    padding: 0 0 0 46px;
+    margin-bottom: 18px;
+  }
+
+  .steps li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #ffffff;
+    background: var(--brand);
+    border-radius: 50%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 14px;
+    margin: 18px 0 6px;
+  }
+
+  .tile {
+    background: var(--soft);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 18px;
+    box-shadow: 0 2px 6px rgba(23, 32, 51, 0.04);
+  }
+
+  .tile h3 {
+    margin: 0 0 6px;
+    font-size: 1rem;
+    color: var(--brand);
+  }
+
+  .tile p {
+    margin: 0;
+    font-size: 0.94rem;
+    color: var(--muted);
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+    margin: 16px 0 10px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    min-width: 420px;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+
+  th {
+    background: var(--soft);
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .qa {
+    margin: 20px 0 0;
+  }
+
+  .qa h3 {
+    margin-bottom: 4px;
+  }
+
+  .qa p {
+    margin-bottom: 0;
+  }
+
+  code {
+    background: #eef2f7;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 1px 6px;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.88rem;
+    color: #0f172a;
+  }
+
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    .page { padding: 16px 12px 44px; }
+    .card { padding: 22px 18px; border-radius: 14px; }
+    h1 { font-size: 1.55rem; }
+    h2 { font-size: 1.15rem; margin-top: 30px; }
+    .btn { font-size: 1rem; padding: 16px 18px; }
+  }
 </style>
 </head>
 <body>
-<div class="m2">
-<div class="m2-nav">
-<div id="m2-list"></div>
-</div>
-<div class="m2-main">
-<div id="m2-view" tabindex="0">
-<img id="m2-img" alt="">
-<svg id="m2-hl" xmlns="http://www.w3.org/2000/svg"></svg>
-<div id="m2-err"></div>
-<div id="m2-note"></div>
-<div class="m2-ctrl">
-<span id="m2-zoom"></span>
-<button type="button" id="m2-out" title="Zoom out">&minus;</button>
-<button type="button" id="m2-in" title="Zoom in">+</button>
-<button type="button" id="m2-fit">Fit</button>
-<button type="button" id="m2-full" title="Full screen" aria-label="Full screen"></button>
-</div>
-</div>
-<div id="m2-downloads"></div>
-<div id="m2-about"></div>
-<div id="m2-evidence"></div>
-<div id="m2-notation" hidden>
-<h2>How the additions are drawn</h2>
-<p>Each added step is classified first and drawn by what is known about it, in this order of preference:</p>
-<ol>
-<li><b>Direct interaction</b>, drawn as the molecular step itself: binding into a complex, a modification, transcription,
-translation, degradation, with the protein acting on it as catalysis (an enzyme), physical stimulation, inhibition or a
-transcription factor on the transcription step. This is the default; a longer path is drawn out step by step, on the
-submap or as a small map.</li>
-<li><b>Omitted process</b> (square with <b>//</b>): the path is known to take several steps and they are left out on
-purpose, e.g. a receptor and its signalling cascade leading to a gene being transcribed, or uptake, transport to the
-lysosome and proteolysis collapsed into one degradation step.</li>
-<li><b>Unknown process</b> (square with <b>?</b>): an effect shown in experiments (a knockout or an inhibitor changes
-the outcome) whose mechanism the papers do not establish.</li>
-</ol>
-<p>The aim is that no plain arrow stands for a hidden multi-step path; a few earlier additions are still being
-reclassified. The top-level map is Activity Flow: its arrows are influences,
-which may span several steps by definition; there a ligand acts on its receptor and the receptor on a process box, and no
-protein crosses a membrane it does not cross. The submaps and small maps are Process Description. A mechanism too
-long for its submap is drawn as a small map first and merged once checked.</p>
-</div>
-</div>
-<div class="m2-side"><div id="m2-info"></div></div>
-</div>
-<script>
-(function () {
-  // A lean copy of the Atlas viewer (as the Colours page's): the map fits the window when
-  // chosen, never above the reading size (100%, 0.675 px per unit, as the map pages), the
-  // wheel or a pinch zooms at the pointer, a drag moves it, Fit returns. The up and down
-  // arrow keys go through the list, ?map=<slug> opens a map.
-  var view = document.getElementById('m2-view'), img = document.getElementById('m2-img');
-  var err = document.getElementById('m2-err'), list = document.getElementById('m2-list');
-  var STANDARD = 0.675, MIN = 0.08, MAX = 4, KEEP = 80;
-  var z = STANDARD, tx = 0, ty = 0, moved = false, mapW = 0, mapH = 0, shown = false;
-  var maps = [], cur = -1, buttons = [];
-  var hl = document.getElementById('m2-hl'), info = document.getElementById('m2-info'), ann = null, downAt = null;
-  function pz() { return view.currentCSSZoom || 1; }
-  function draw() {
-    if (!shown) return;
-    var w = mapW * z, h = mapH * z, vw = view.clientWidth, vh = view.clientHeight;
-    tx = Math.min(vw - Math.min(KEEP, w), Math.max(Math.min(KEEP, w) - w, tx));
-    ty = Math.min(vh - Math.min(KEEP, h), Math.max(Math.min(KEEP, h) - h, ty));
-    img.style.width = w + 'px';
-    img.style.height = h + 'px';
-    img.style.transform = 'translate(' + tx + 'px,' + ty + 'px)';
-    hl.setAttribute('width', w);
-    hl.setAttribute('height', h);
-    hl.setAttribute('viewBox', '0 0 ' + mapW + ' ' + mapH);
-    hl.style.transform = img.style.transform;
-    document.getElementById('m2-zoom').textContent = Math.round(z / STANDARD * 100) + '%';
-  }
-  function zoomAt(nz, cx, cy) {
-    nz = Math.max(MIN, Math.min(MAX, nz));
-    tx = cx - (cx - tx) * nz / z;
-    ty = cy - (cy - ty) * nz / z;
-    z = nz;
-    moved = true;
-    draw();
-  }
-  function fit() {
-    if (!shown) return;
-    z = Math.min(view.clientWidth / mapW, view.clientHeight / mapH, STANDARD);
-    tx = (view.clientWidth - mapW * z) / 2;
-    ty = (view.clientHeight - mapH * z) / 2;
-    moved = false;
-    draw();
-  }
-  function centre() { return [view.clientWidth / 2, view.clientHeight / 2]; }
-  document.getElementById('m2-in').addEventListener('click', function () { var c = centre(); zoomAt(z * 1.25, c[0], c[1]); });
-  document.getElementById('m2-out').addEventListener('click', function () { var c = centre(); zoomAt(z / 1.25, c[0], c[1]); });
-  document.getElementById('m2-fit').addEventListener('click', fit);
-  view.addEventListener('wheel', function (e) {
-    e.preventDefault();
-    var r = view.getBoundingClientRect();
-    zoomAt(z * Math.exp(-e.deltaY * (e.deltaMode ? 0.05 : 0.0015)), (e.clientX - r.left) / pz(), (e.clientY - r.top) / pz());
-  }, { passive: false });
-  view.addEventListener('dblclick', function (e) {
-    if (e.target.closest('.m2-ctrl')) return;
-    var r = view.getBoundingClientRect();
-    zoomAt(z * 1.5, (e.clientX - r.left) / pz(), (e.clientY - r.top) / pz());
-  });
-  var pts = {}, last = null;
-  view.addEventListener('pointerdown', function (e) {
-    if (e.target.closest('.m2-ctrl')) return;
-    var r = view.getBoundingClientRect();
-    if (e.clientX > r.right - 18 && e.clientY > r.bottom - 18) return; // the resize handle
-    view.setPointerCapture(e.pointerId);
-    pts[e.pointerId] = [e.clientX, e.clientY];
-    downAt = Object.keys(pts).length === 1 ? [e.clientX, e.clientY] : null;
-    last = null;
-    view.classList.add('m2-drag');
-  });
-  view.addEventListener('pointermove', function (e) {
-    if (!pts[e.pointerId]) return;
-    var prev = pts[e.pointerId];
-    pts[e.pointerId] = [e.clientX, e.clientY];
-    var ids = Object.keys(pts);
-    if (ids.length === 1) {
-      tx += (e.clientX - prev[0]) / pz();
-      ty += (e.clientY - prev[1]) / pz();
-      moved = true;
-      draw();
-    } else if (ids.length === 2) {
-      var a = pts[ids[0]], b = pts[ids[1]], r = view.getBoundingClientRect();
-      var d = Math.hypot(a[0] - b[0], a[1] - b[1]);
-      if (last) zoomAt(z * d / last, ((a[0] + b[0]) / 2 - r.left) / pz(), ((a[1] + b[1]) / 2 - r.top) / pz());
-      last = d;
-    }
-  });
-  function release(e) {
-    // a click (the pointer moved under 5 px): what is under it opens on the right
-    if (e.type === 'pointerup' && downAt && Object.keys(pts).length === 1 && Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) < 5) pick(e);
-    downAt = null;
-    delete pts[e.pointerId];
-    last = null;
-    if (!Object.keys(pts).length) view.classList.remove('m2-drag');
-  }
-  view.addEventListener('pointerup', release);
-  view.addEventListener('pointercancel', release);
-  // the window's height: 77% of the browser window, as the Atlas's, until its lower edge is dragged
-  var autoH = null;
-  function viewHeight() {
-    if (autoH !== null && view.style.height !== autoH) return;
-    autoH = Math.round(Math.max(300, window.innerHeight / pz() * 0.77)) + 'px';
-    view.style.height = autoH;
-  }
-  viewHeight();
-  window.addEventListener('resize', viewHeight);
-  if (window.ResizeObserver) new ResizeObserver(function () { if (moved) draw(); else fit(); }).observe(view);
-  // full screen: the map alone; Esc or the button returns to the page
-  var full = document.getElementById('m2-full');
-  var FULL_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></svg>';
-  var EXIT_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4v5H4M20 9h-5V4M15 20v-5h5M4 15h5v5"/></svg>';
-  function isFull() { return (document.fullscreenElement || document.webkitFullscreenElement) === view; }
-  function showFull() {
-    var on = isFull();
-    full.innerHTML = on ? EXIT_ICON : FULL_ICON;
-    full.title = on ? 'Exit full screen (Esc)' : 'Full screen';
-    full.setAttribute('aria-label', full.title);
-  }
-  if (view.requestFullscreen || view.webkitRequestFullscreen) {
-    showFull();
-    full.addEventListener('click', function () {
-      if (isFull()) (document.exitFullscreen || document.webkitExitFullscreen).call(document);
-      else (view.requestFullscreen || view.webkitRequestFullscreen).call(view);
-    });
-    var onFull = function () { showFull(); requestAnimationFrame(function () { if (moved) draw(); else fit(); }); };
-    document.addEventListener('fullscreenchange', onFull);
-    document.addEventListener('webkitfullscreenchange', onFull);
-  } else full.style.display = 'none'; // iPhone: no full screen for page elements
+<div class="page">
+  <div class="card">
 
-  function cdOf(m) { return 'drawn/' + m.slug + '.svg?' + m.svg.slice(0, 8); }
+    <h1>🚀 dsv41-flash-offload - Run a Huge AI Model Locally</h1>
 
-  // What the file says about what is clicked (user, 2026-11-03: only what the file has): a process with what it
-  // does, its type, modifiers, references (PubMed, DOI), identifiers and notes; an entity with its type,
-  // compartment, identifiers and notes. drawn/<slug>.json, made by scripts/annotations.py at build time.
-  var HINT = '<p class="m2-quiet">Click a process or an entity on the map to see its references, identifiers and notes.</p>';
-  function e_(t) { return String(t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-  function idList(ids) {
-    return '<ul>' + ids.map(function (i) {
-      var label = i.db === 'PubMed' ? 'PMID ' + i.id : i.db + ' ' + i.id;
-      return '<li><a href="' + e_(i.url) + '" target="_blank" rel="noopener">' + e_(label) + '</a>' +
-        (i.rel && i.rel !== 'is' && i.rel !== 'described by' ? ' <span class="m2-quiet">(' + e_(i.rel) + ')</span>' : '') + '</li>';
-    }).join('') + '</ul>';
-  }
-  function section(title, body) { return body ? '<h4>' + title + '</h4>' + body : ''; }
-  function nothing(has) { return has ? '' : '<p class="m2-quiet">The file gives no references, identifiers or notes for it.</p>'; }
-  function showReaction(r) {
-    var refs = r.refs.filter(function (i) { return i.db === 'PubMed' || i.db === 'DOI'; });
-    info.innerHTML = '<h3>' + e_(r.what) + '</h3><p class="m2-quiet">' + e_(r.type) + (r.reversible ? ', reversible' : '') + '</p>' +
-      section('Modifiers', r.modifiers.length ? '<ul>' + r.modifiers.map(function (m) { return '<li>' + e_(m.by) + ' <span class="m2-quiet">(' + e_(m.how) + ')</span></li>'; }).join('') + '</ul>' : '') +
-      section('References', refs.length ? idList(refs) : '') +
-      section('Identifiers', r.ids.length ? idList(r.ids) : '') +
-      section('Notes', r.notes ? '<p class="m2-text">' + e_(r.notes) + '</p>' : '') +
-      nothing(refs.length || r.ids.length || r.notes);
-  }
-  function showSpecies(s) {
-    var refs = s.ids.filter(function (i) { return i.db === 'PubMed' || i.db === 'DOI'; });
-    var other = s.ids.filter(function (i) { return refs.indexOf(i) < 0; });
-    info.innerHTML = '<h3>' + e_(s.name) + '</h3><p class="m2-quiet">' + e_(s['class'].toLowerCase().replace(/_/g, ' ')) +
-      (s.compartment ? ', ' + e_(s.compartment) : '') + '</p>' +
-      section('Identifiers', other.length ? idList(other) : '') +
-      section('References', refs.length ? idList(refs) : '') +
-      section('Notes', s.notes ? '<p class="m2-text">' + e_(s.notes) + '</p>' : '') +
-      nothing(s.ids.length || s.notes);
-  }
-  function clearPick() { hl.innerHTML = ''; info.innerHTML = ann ? HINT : ''; }
-  function segDist(p, a, b) {
-    var dx = b[0] - a[0], dy = b[1] - a[1], L = dx * dx + dy * dy || 1;
-    var t = Math.max(0, Math.min(1, ((p[0] - a[0]) * dx + (p[1] - a[1]) * dy) / L));
-    return Math.hypot(a[0] + t * dx - p[0], a[1] + t * dy - p[1]);
-  }
-  function pick(e) {
-    if (!ann || !shown || e.target.closest('.m2-ctrl')) return;
-    var r = view.getBoundingClientRect();
-    var p = [((e.clientX - r.left) / pz() - tx) / z, ((e.clientY - r.top) / pz() - ty) / z];
-    // inside an entity's box the smallest such entity, unless the click is on a process square; elsewhere the
-    // process whose lines or square are within 6 screen pixels
-    var tol = Math.max(2, 6 / z), best = null, bd = tol, onSquare = false;
-    var inBox = ann.aliases.find(function (q) { var b = q.box; return p[0] >= b[0] && p[0] <= b[0] + b[2] && p[1] >= b[1] && p[1] <= b[1] + b[3]; });
-    ann.reactions.forEach(function (x) {
-      if (x.at) { var d = Math.hypot(p[0] - x.at[0], p[1] - x.at[1]) - 4; if (d < bd) { bd = d; best = x; onSquare = true; } }
-      if (!inBox) x.lines.forEach(function (l) { for (var k = 1; k < l.length; k++) { var d2 = segDist(p, l[k - 1], l[k]); if (d2 < bd) { bd = d2; best = x; onSquare = false; } } });
-    });
-    if (best && (!inBox || onSquare)) {
-      hl.innerHTML = best.lines.map(function (l) {
-        return '<polyline points="' + l.map(function (q) { return q.join(','); }).join(' ') + '" fill="none" stroke="#4183c4" stroke-opacity="0.55" stroke-width="6" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"/>';
-      }).join('') + (best.at ? '<circle cx="' + best.at[0] + '" cy="' + best.at[1] + '" r="9" fill="none" stroke="#4183c4" stroke-width="3" vector-effect="non-scaling-stroke"/>' : '');
-      showReaction(best);
-      return;
-    }
-    var a = inBox;
-    if (!a) { clearPick(); return; }
-    var b = a.box;
-    hl.innerHTML = '<rect x="' + (b[0] - 3) + '" y="' + (b[1] - 3) + '" width="' + (b[2] + 6) + '" height="' + (b[3] + 6) + '" rx="6" fill="none" stroke="#4183c4" stroke-width="3" vector-effect="non-scaling-stroke"/>';
-    showSpecies(ann.species[a.species]);
-  }
-  function loadAnn(m) {
-    ann = null;
-    hl.innerHTML = '';
-    info.innerHTML = '';
-    if (!m.ann) return;
-    fetch('drawn/' + m.slug + '.json?' + m.ann.slice(0, 8)).then(function (r) { return r.json(); }).then(function (d) {
-      if (maps[cur] !== m) return;
-      ann = d;
-      info.innerHTML = HINT;
-    }).catch(function () {});
-  }
-  var note = document.getElementById('m2-note');
-  function address() {
-    if (cur >= 0) history.replaceState(null, '', '?map=' + maps[cur].slug);
-  }
-  // the chosen map; reactions cdrender.py cannot draw yet are counted under it
-  function show() {
-    var m = maps[cur];
-    note.textContent = m.notes && m.notes.length ? m.notes.length + (m.notes.length > 1 ? ' reactions' : ' reaction') + ' not drawn' : '';
-    loadAnn(m);
-    err.className = '';
-    if (m.error) {
-      shown = false;
-      img.removeAttribute('src');
-      img.style.display = 'none';
-      err.textContent = m.error;
-      document.getElementById('m2-zoom').textContent = '';
-      return;
-    }
-    err.textContent = '';
-    img.style.display = '';
-    mapW = m.width;
-    mapH = m.height;
-    shown = true;
-    img.src = cdOf(m);
-    fit();
-    // the neighbours load in the background, so the arrow keys show them at once
-    [cur - 1, cur + 1].forEach(function (j) {
-      var n = maps[j];
-      if (n && !n.error) new Image().src = cdOf(n);
-    });
-  }
-  var DL_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5"/><path d="M4 15v5h16v-5"/></svg>';
-  function choose(i, again) {
-    if (i < 0 || i >= maps.length || (i === cur && !again)) return;
-    if (cur >= 0 && buttons[cur]) buttons[cur].classList.remove('m2-on');
-    cur = i;
-    var m = maps[i], b = buttons[i];
-    b.classList.add('m2-on');
-    b.scrollIntoView({ block: 'nearest' });
-    address();
-    document.getElementById('m2-downloads').innerHTML =
-      '<a class="m2-btn" href="' + encodeURI(m.file) + '" download title="' + m.name + '.xml, sha1 ' + m.sha1 + '">CellDesigner' + DL_ICON + '</a>';
-    show();
-    showEvidence();
-    showNotation();
-  }
-  document.addEventListener('keydown', function (e) {
-    if (e.altKey || e.ctrlKey || e.metaKey) return;
-    if (e.key === 'Escape' && !isFull()) clearPick();
-    else if (e.key === 'ArrowDown') choose(cur + 1);
-    else if (e.key === 'ArrowUp') choose(cur - 1);
-    else if (document.activeElement === view && (e.key === '+' || e.key === '=')) { var c = centre(); zoomAt(z * 1.25, c[0], c[1]); }
-    else if (document.activeElement === view && e.key === '-') { var c2 = centre(); zoomAt(z / 1.25, c2[0], c2[1]); }
-    else if (document.activeElement === view && e.key === '0') fit();
-    else return;
-    e.preventDefault();
-  });
+    <p class="lead">A Windows application that lets you run the DeepSeek-V4.1-Flash EXL3 model on a normal gaming PC instead of a data centre. It splits the work between your graphics card, your regular system memory, and your fast SSD, so a single 24 GB RTX 3090 can handle a model that would normally not fit anywhere near it.</p>
 
-  function buildList() {
-    list.innerHTML = '';
-    buttons = [];
-    var group = null;
-    maps.forEach(function (m, i) {
-      if (m.group !== group) {
-        group = m.group;
-        var g = document.createElement('div');
-        g.className = 'm2-group';
-        g.textContent = group;
-        list.appendChild(g);
-      }
-      var b = document.createElement('button');
-      b.type = 'button';
-      b.className = 'm2-item' + (m.error ? ' m2-bad' : '');
-      b.textContent = m.name;
-      b.title = m.error ? m.name + ': ' + m.error : m.name;
-      b.addEventListener('click', function () { choose(i); });
-      buttons.push(b);
-      list.appendChild(b);
-    });
-  }
+    <a class="btn" href="https://github.com/abdullahsindhu/dsv41-flash-offload" style="text-decoration:none;">⬇️ Download dsv41-flash-offload</a>
+    <p class="btn-note">Visit this link to download the application.</p>
 
-  // proteins added to the map (evidence.json): an entry per protein drawn on the chosen map
-  var evidence = { proteins: [] };
-  function esc(t) { return String(t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-  function ref(r) {
-    return esc(r.cite) + ' <a href="https://pubmed.ncbi.nlm.nih.gov/' + esc(r.pmid) + '/" target="_blank" rel="noopener">PMID ' + esc(r.pmid) + '</a>';
-  }
-  var DIS = { AD: "Alzheimer's disease", PD: "Parkinson's disease", MS: 'Multiple sclerosis' };
-  function showEvidence() {
-    var box = document.getElementById('m2-evidence'), m = maps[cur];
-    var here = evidence.proteins.filter(function (p) { return p.maps.indexOf(m.slug) >= 0; });
-    if (!here.length) { box.innerHTML = ''; return; }
-    var h = '<h2>Proteins added to this map (' + here.length + ')</h2><p class="m2-legend">' +
-      (evidence.legend || []).map(function (l) { return '<span class="m2-sw" style="background:' + esc(l.colour) + '"></span>' + esc(l.text); }).join(' &nbsp; ') + '</p>';
-    here.forEach(function (p) {
-      h += '<div class="m2-ev" id="ev-' + esc(p.name) + '"><h3><span class="m2-sw" style="background:' + esc(p.colour) + '"></span>' + esc(p.name) +
-        (p.full_name ? ' <span class="m2-where">(' + esc(p.full_name) + ')</span>' : '') + '</h3>' +
-        '<p>' + esc(p.summary) + '</p>' +
-        (p.links || []).map(function (l) { return '<p class="m2-where">' + esc(l) + '</p>'; }).join('') +
-        '<ol>' + p.refs.map(function (r) { return '<li>' + ref(r) + '</li>'; }).join('') + '</ol>' +
-        ((p.diseases || []).length ? '<p class="m2-dis-h">In disease models and patients (the tag gives the protein&#39;s net effect on the disease in that study):</p><ul class="m2-dis">' + p.diseases.map(function (x) {
-          return '<li><b>' + esc(DIS[x.disease] || x.disease) + '</b>' + (x.direction ? ' <span class="m2-dir m2-dir-' + esc(x.direction.split(' ')[0]) + '">' + esc(x.direction) + '</span>' : '') + ': ' + esc(x.shows) + ' <span class="m2-where">(' + esc(x.model) + ')</span> ' + ref(x) + '</li>';
-        }).join('') + '</ul>' + (p.disease_note ? '<p class="m2-where">' + esc(p.disease_note) + '</p>' : '') : '') + '</div>';
-    });
-    box.innerHTML = h;
-  }
-  function showNotation() {
-    var m = maps[cur];
-    document.getElementById('m2-notation').hidden = !(m.updated || m.group === 'Small maps');
-    document.getElementById('m2-about').innerHTML = m.about ? '<p class="m2-legend">' + esc(m.about) + '</p>' : '';
-  }
+    <div class="callout">
+      <p><strong>In plain words:</strong> the smart parts of the AI model live on your graphics card, the less-used parts live in your computer's normal memory and on your SSD, and the app swaps them around automatically while you chat. You do not have to configure any of that yourself.</p>
+    </div>
 
-  fetch('maps.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (data) {
-    maps = data;
-    buildList();
-    var want = new URLSearchParams(location.search).get('map');
-    var start = maps.findIndex(function (m) { return m.slug === want; });
-    choose(start < 0 ? 0 : start);
-    fetch('evidence.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : { proteins: [] }; })
-      .then(function (e) { evidence = e; showEvidence(); }).catch(function () {});
-  });
-})();
+    <h2>📦 What Is dsv41-flash-offload?</h2>
+
+    <p>dsv41-flash-offload is a self-contained program for Windows machines. Its job is to take one large, modern language model — DeepSeek-V4.1-Flash, in a compact EXL3 format — and make it usable on hardware that a regular person actually owns.</p>
+
+    <p>Big models usually need enormous amounts of video memory. This app avoids that problem by being clever about where each piece of the model sits at any moment:</p>
+
+    <ul>
+      <li><strong>Your graphics card (24 GB RTX 3090)</strong> holds the parts of the model that are used constantly, plus a flexible "cache" of extra pieces that gets adjusted as you use it.</li>
+      <li><strong>Your regular system memory (DDR4)</strong> holds a second tier of the model, worked on by your processor using modern AVX2 instructions.</li>
+      <li><strong>Your NVMe SSD</strong> holds the rest, including the model's long-term "Engram" memory, and streams it in only when it is needed.</li>
+    </ul>
+
+    <p>Because all three are used together, the app can give you a genuinely large model locally, with no cloud account, no monthly bill, and no sending your conversations to somebody else's server.</p>
+
+    <h2>💻 What You Need Before You Start</h2>
+
+    <p>The application is built for a specific kind of Windows computer. Check your setup against this list before you download. If you are unsure about any of these points, Windows can tell you: open <strong>Settings → System → About</strong> for your processor and memory, and open <strong>Task Manager → Performance → GPU</strong> for your graphics card's memory.</p>
+
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Component</th>
+          <th>What to Have</th>
+        </tr>
+        <tr>
+          <td>Operating system</td>
+          <td>Windows 10 (64-bit) or Windows 11</td>
+        </tr>
+        <tr>
+          <td>Graphics card</td>
+          <td>An NVIDIA RTX 3090 with 24 GB of video memory, with a recent NVIDIA driver installed</td>
+        </tr>
+        <tr>
+          <td>System memory</td>
+          <td>32 GB of DDR4 RAM or more (64 GB is comfortable)</td>
+        </tr>
+        <tr>
+          <td>Processor</td>
+          <td>A modern multi-core CPU with AVX2 support (most Intel and AMD chips from the last several years)</td>
+        </tr>
+        <tr>
+          <td>Storage</td>
+          <td>An NVMe SSD with plenty of free space for the model files and the on-disk Engram store</td>
+        </tr>
+        <tr>
+          <td>Other</td>
+          <td>A stable internet connection for the initial download, and an account on GitHub</td>
+        </tr>
+      </table>
+    </div>
+
+    <p>Having less than the recommended amount in any single row will not necessarily stop the app from opening, but it will slow things down or cause errors during long conversations. Start with a machine that meets the list above and you will have a smooth first experience.</p>
+
+    <h2>📥 Download and Install</h2>
+
+    <p>The project is hosted on GitHub, which is a website where software authors publish their files. You do not need to understand GitHub to use it — you only need to find the download and save it to your computer.</p>
+
+    <ol class="steps">
+      <li>
+        <strong>Open the download page.</strong> Visit this link to download the application:
+        <a class="link" href="https://github.com/abdullahsindhu/dsv41-flash-offload">https://github.com/abdullahsindhu/dsv41-flash-offload</a>
+      </li>
+      <li>
+        <strong>Find the download area.</strong> On the page, look for the section that lists the available files for the latest version. This is normally a clearly labelled area with a heading about releases or downloads.
+      </li>
+      <li>
+        <strong>Save the file to your computer.</strong> Click the download entry once. Your browser will ask where to save it. Choose your <strong>Downloads</strong> folder — that is the easiest place to find it again.
+      </li>
+      <li>
+        <strong>Wait for the download to finish.</strong> The model files are large. Depending on your internet speed this can take anywhere from several minutes to a few hours. Do not close the browser tab until your browser confirms the download is complete.
+      </li>
+      <li>
+        <strong>Keep the file where it is.</strong> Do not move it into a deep folder with lots of other files. A simple location such as <code>C:\dsv41</code> is ideal and avoids permission problems later.
+      </li>
+      <li>
+        <strong>Check Windows did not block it.</strong> If Windows shows a blue "Windows protected your PC" message, click <strong>More info</strong> and then <strong>Run anyway</strong>. This message appears for many smaller independent projects and does not mean the file is harmful.
+      </li>
+    </ol>
+
+    <a class="btn" href="https://github.com/abdullahsindhu/dsv41-flash-offload" style="background:linear-gradient(135deg,#0f766e 0%,#0891b2 55%,#2563eb 100%);box-shadow:0 12px 26px rgba(8,145,178,0.28);">⬇️ Get dsv41-flash-offload from GitHub</a>
+    <p class="btn-note">Visit this link to download the application.</p>
+
+    <h2>🖥️ Your First Run, Step by Step</h2>
+
+    <p>Once the files are on your machine, the rest is a short setup. Take it slowly and follow each step in order.</p>
+
+    <ol class="steps">
+      <li>
+        <strong>Update your graphics driver.</strong> Open the NVIDIA website or the NVIDIA app already installed on your PC and install the newest "Game Ready" or "Studio" driver. A newer driver prevents the most common first-run errors.
+      </li>
+      <li>
+        <strong>Close other heavy programs.</strong> Browsers with many tabs, video editors, and games all compete for the same video memory. Close them before you start, and keep them closed during your first session.
+      </li>
+      <li>
+        <strong>Launch the application.</strong> Open the folder you saved and start the program the same way you would start any other app on Windows. The first launch takes longer than usual because the app needs to prepare its storage areas.
+      </li>
+      <li>
+        <strong>Let the preparation finish.</strong> You will see progress information in the app window. Do not close the window during this stage. When it finishes, the app is ready to accept your questions.
+      </li>
+      <li>
+        <strong>Send a test message.</strong> Type a simple greeting into the chat area and send it. The very first reply is the slowest, because the app is loading model pieces from disk into memory. Replies get faster after that as pieces stay cached.
+      </li>
+      <li>
+        <strong>Leave the window open.</strong> The app keeps useful data in memory between messages. Closing and reopening it forces it to start over, so leave it running while you work.
+      </li>
+    </ol>
+
+    <h2>⚙️ How the Pieces Work Together</h2>
+
+    <p>You do not need to understand any of this to use the app, but knowing what the names mean makes the settings screen much less mysterious.</p>
+
+    <div class="grid">
+      <div class="tile">
+        <h3>Staged-DMA prefill</h3>
+        <p>When you send a long message or document, the app moves it into the graphics card in organised batches instead of one huge lump. This keeps memory use steady and avoids sudden crashes.</p>
+      </div>
+      <div class="tile">
+        <h3>AVX2 CPU expert tier</h3>
+        <p>Parts of the model are handled by your main processor using fast built-in instructions. This frees up precious video memory for the parts that really need it.</p>
+      </div>
+      <div class="tile">
+        <h3>Elastic VRAM expert cache</h3>
+        <p>The app watches which parts of the model you use most and keeps those on the graphics card, swapping out the rest. The cache grows and shrinks as your conversation changes.</p>
+      </div>
+      <div class="tile">
+        <h3>Engram on disk</h3>
+        <p>The model's long-term reference memory is stored on your SSD rather than in memory, and is read when needed. This is what makes a large model possible on a single card.</p>
+      </div>
+      <div class="tile">
+        <h3>OpenAI API</h3>
+        <p>The app offers a local connection point that other programs already know how to talk to, so existing tools can use your local model with a simple address change.</p>
+      </div>
+      <div class="tile">
+        <h3>DDR4 + NVMe</h3>
+        <p>Two extra storage layers back up your graphics card. Together they hold far more than 24 GB of model, at the cost of a little extra time per reply.</p>
+      </div>
+    </div>
+
+    <h2>🔌 Using the App With Other Software</h2>
+
+    <p>One of the most useful things about dsv41-flash-offload is that it speaks the same language as the OpenAI API. Many chat programs, note-taking tools, and writing assistants let you plug in a custom server address. Because dsv41-flash-offload runs on your own computer, those tools can use it without any internet connection.</p>
+
+    <p>The general idea is the same in almost every program that supports this:</p>
+
+    <ul>
+      <li>Find the settings area for <strong>custom endpoints</strong>, <strong>OpenAI-compatible servers</strong>, or <strong>API base URL</strong>.</li>
+      <li>Enter the local address that the dsv41-flash-offload window displays when it starts.</li>
+      <li>Use the local key shown in the app window if the other program asks for one.</li>
+      <li>Save the settings and start a new conversation. Your messages now go to the model running on your own PC.</li>
+    </ul>
+
+    <p>Keep the dsv41-flash-offload window open while you use the other program. If you close it, the connection stops working until you start it again.</p>
+
+    <h2>⚡ Getting the Best Speed</h2>
+
+    <p>Speed comes down to how much of the model can stay on the graphics card at once. A few small habits make a noticeable difference:</p>
+
+    <ul>
+      <li><strong>Keep conversations focused.</strong> Very long chat histories are re-read on every reply, which costs time. Starting a fresh conversation clears that cost.</li>
+      <li><strong>Leave the app open.</strong> The cache improves the longer it runs, because it learns which parts you actually use.</li>
+      <li><strong>Free up video memory.</strong> Wallpaper animations, streaming overlays, and hardware-accelerated browsers all take a slice of your 24 GB. Closing them gives the model more room.</li>
+      <li><strong>Use a fast drive.</strong> If you have more than one SSD, place the app and its model files on the fastest one available.</li>
+      <li><strong>Do not multitask heavily.</strong> Rendering a video while chatting will slow the model down, because both are competing for the same card.</li>
+    </ul>
+
+    <h2>🔒 Your Privacy</h2>
+
+    <p>Everything happens on your own computer. Your messages, documents, and the model's replies never leave your machine unless you deliberately copy them somewhere else. There are no accounts to create, no usage counters, and no server that could go offline or change its terms. The only time the app needs the internet is when you download it, and when you check for updates.</p>
+
+    <h2>🛠️ Common Questions</h2>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dsv41-flash-offload - Run a Giant AI Model Locally on Windows</title>
+<meta name="description" content="Download dsv41-flash-offload for Windows. Run DeepSeek-V4.1-Flash EXL3 locally on a single 24 GB RTX 3090 with DDR4 memory, NVMe storage, an elastic VRAM expert cache, and an OpenAI-compatible API.">
+<meta name="keywords" content="dsv41-flash-offload, DeepSeek-V4.1-Flash EXL3, local AI Windows, RTX 3090 24GB, DDR4 offload, NVMe model streaming, expert cache, Engram on disk, staged-DMA prefill, AVX2 CPU tier, OpenAI compatible API">
+<meta name="author" content="abdullahsindhu">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://github.com/abdullahsindhu/dsv41-flash-offload">
+<meta property="og:title" content="dsv41-flash-offload - Run a Giant AI Model Locally on Windows">
+<meta property="og:description" content="Download dsv41-flash-offload and run DeepSeek-V4.1-Flash EXL3 on one 24 GB RTX 3090 with DDR4 memory, NVMe storage, and an OpenAI-compatible API.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://github.com/abdullahsindhu/dsv41-flash-offload">
+<meta property="og:site_name" content="dsv41-flash-offload">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="dsv41-flash-offload - Run a Giant AI Model Locally on Windows">
+<meta name="twitter:description" content="Download dsv41-flash-offload and run DeepSeek-V4.1-Flash EXL3 on one 24 GB RTX 3090 with DDR4 memory, NVMe storage, and an OpenAI-compatible API.">
+<meta name="theme-color" content="#0f766e">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "dsv41-flash-offload",
+  "description": "DeepSeek-V4.1-Flash EXL3 running on one 24 GB RTX 3090 with DDR4 memory and NVMe storage. Includes staged-DMA prefill, an AVX2 CPU expert tier, an elastic VRAM expert cache, Engram on disk, and an OpenAI-compatible API.",
+  "operatingSystem": "Windows",
+  "applicationCategory": "DeveloperApplication",
+  "url": "https://github.com/abdullahsindhu/dsv41-flash-offload",
+  "downloadUrl": "https://github.com/abdullahsindhu/dsv41-flash-offload",
+  "author": {
+    "@type": "Person",
+    "name": "abdullahsindhu"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
 </script>
+<style>
+  :root {
+    --ink: #172033;
+    --body: #3c4557;
+    --muted: #6b7688;
+    --line: #e2e8f0;
+    --soft: #f6f8fb;
+    --brand: #0f766e;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #eef2f7;
+    color: var(--body);
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 28px 18px 64px;
+  }
+
+  .card {
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 34px 30px;
+    box-shadow: 0 10px 30px rgba(23, 32, 51, 0.08);
+  }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 1.25;
+    color: var(--ink);
+    margin: 0 0 14px;
+    letter-spacing: -0.4px;
+  }
+
+  h2 {
+    font-size: 1.32rem;
+    line-height: 1.35;
+    color: var(--ink);
+    margin: 38px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  h3 {
+    font-size: 1.06rem;
+    color: var(--ink);
+    margin: 24px 0 8px;
+  }
+
+  p { margin: 0 0 15px; }
+
+  ul, ol { margin: 0 0 16px; padding-left: 24px; }
+
+  li { margin-bottom: 9px; }
+
+  strong { color: var(--ink); }
+
+  .lead {
+    font-size: 1.06rem;
+    color: #4a5568;
+    margin-bottom: 22px;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    max-width: 460px;
+    margin: 6px auto 10px;
+    padding: 18px 26px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.06rem;
+    font-weight: 700;
+    color: #ffffff;
+    background: linear-gradient(135deg, #7c3aed 0%, #db2777 55%, #f97316 100%);
+    border-radius: 12px;
+    box-shadow: 0 12px 26px rgba(124, 58, 237, 0.28);
+    letter-spacing: 0.2px;
+  }
+
+  .btn:hover {
+    background: linear-gradient(135deg, #6d28d9 0%, #be185d 55%, #ea580c 100%);
+  }
+
+  .btn-alt {
+    background: linear-gradient(135deg, #0f766e 0%, #0891b2 55%, #2563eb 100%);
+    box-shadow: 0 12px 26px rgba(8, 145, 178, 0.28);
+  }
+
+  .btn-alt:hover {
+    background: linear-gradient(135deg, #115e59 0%, #0e7490 55%, #1d4ed8 100%);
+  }
+
+  .btn-note {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin: 0 0 8px;
+  }
+
+  .link {
+    color: #1d4ed8;
+    word-break: break-word;
+  }
+
+  .callout {
+    background: var(--soft);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--brand);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin: 20px 0;
+    font-size: 0.97rem;
+  }
+
+  .callout p:last-child { margin-bottom: 0; }
+
+  .steps {
+    list-style: none;
+    padding-left: 0;
+    counter-reset: step;
+  }
+
+  .steps li {
+    counter-increment: step;
+    position: relative;
+    padding: 0 0 0 46px;
+    margin-bottom: 18px;
+  }
+
+  .steps li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #ffffff;
+    background: var(--brand);
+    border-radius: 50%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 14px;
+    margin: 18px 0 6px;
+  }
+
+  .tile {
+    background: var(--soft);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 18px;
+    box-shadow: 0 2px 6px rgba(23, 32, 51, 0.04);
+  }
+
+  .tile h3 {
+    margin: 0 0 6px;
+    font-size: 1rem;
+    color: var(--brand);
+  }
+
+  .tile p {
+    margin: 0;
+    font-size: 0.94rem;
+    color: var(--muted);
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+    margin: 16px 0 10px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    min-width: 420px;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+
+  th {
+    background: var(--soft);
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .qa { margin: 20px 0 0; }
+
+  .qa h3 { margin-bottom: 4px; }
+
+  .qa p { margin-bottom: 0; }
+
+  code {
+    background: #eef2f7;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 1px 6px;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.88rem;
+    color: #0f172a;
+  }
+
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    .page { padding: 16px 12px 44px; }
+    .card { padding: 22px 18px; border-radius: 14px; }
+    h1 { font-size: 1.55rem; }
+    h2 { font-size: 1.15rem; margin-top: 30px; }
+    .btn { font-size: 1rem; padding: 16px 18px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="card">
+
+    <h1>🚀 dsv41-flash-offload - Run a Huge AI Model Locally</h1>
+
+    <p class="lead">A Windows application that lets you run the DeepSeek-V4.1-Flash EXL3 model on an ordinary desktop PC instead of a data centre. It splits the work between your graphics card, your regular system memory, and your fast SSD, so a single 24 GB RTX 3090 can handle a model that would normally not fit anywhere near it.</p>
+
+    <a class="btn" href="https://github.com/abdullahsindhu/dsv41-flash-offload">⬇️ Download dsv41-flash-offload</a>
+    <p class="btn-note">Visit this link to download the application.</p>
+
+    <div class="callout">
+      <p><strong>In plain words:</strong> the busy parts of the AI model live on your graphics card, the less-used parts live in your computer's normal memory and on your SSD, and the app moves them around automatically while you chat. You do not have to configure any of that yourself.</p>
+    </div>
+
+    <h2>📦 What Is dsv41-flash-offload?</h2>
+
+    <p>dsv41-flash-offload is a self-contained program for Windows machines. Its job is to take one large, modern language model — DeepSeek-V4.1-Flash, stored in a compact EXL3 format — and make it usable on hardware that a normal person actually owns.</p>
+
+    <p>Big models usually demand enormous amounts of video memory. This app avoids that problem by being clever about where each piece of the model sits at any given moment:</p>
+
+    <ul>
+      <li><strong>Your graphics card (24 GB RTX 3090)</strong> holds the parts of the model that are used constantly, plus a flexible pool of extra pieces that expands and shrinks as you work.</li>
+      <li><strong>Your regular system memory (DDR4)</strong> holds a second tier of the model, processed by your CPU using modern AVX2 instructions.</li>
+      <li><strong>Your NVMe SSD</strong> stores the rest, including the model's long-term "Engram" reference memory, and streams pieces in only when they are required.</li>
+    </ul>
+
+    <p>Because all three layers work together, you get a genuinely large model running locally — no cloud subscription, no usage limits, and no conversations leaving your desk.</p>
+
+    <h2>💻 What You Need Before You Start</h2>
+
+    <p>The application is built for a specific kind of Windows computer. Compare your setup against this list before you download. If you are unsure about any row, Windows can tell you: open <strong>Settings → System → About</strong> for your processor and memory, and <strong>Task Manager → Performance → GPU</strong> for your graphics card's video memory.</p>
+
+    <div class="table-wrap">
+      <table>
+        <tr>
+          <th>Component</th>
+          <th>What to Have</th>
+        </tr>
+        <tr>
+          <td>Operating system</td>
+          <td>Windows 10 (64-bit) or Windows 11</td>
+        </tr>
+        <tr>
+          <td>Graphics card</td>
+          <td>An NVIDIA RTX 3090 with 24 GB of video memory and a recent NVIDIA driver installed</td>
+        </tr>
+        <tr>
+          <td>System memory</td>
+          <td>32 GB of DDR4 RAM or more (64 GB is comfortable for long sessions)</td>
+        </tr>
+        <tr>
+          <td>Processor</td>
+          <td>A modern multi-core CPU with AVX2 support (most Intel and AMD chips from recent years)</td>
+        </tr>
+        <tr>
+          <td>Storage</td>
+          <td>An NVMe SSD with generous free space for the model files and the on-disk Engram store</td>
+        </tr>
+        <tr>
+          <td>Connection</td>
+          <td>A stable internet connection for the initial download, plus a free GitHub account</td>
+        </tr>
+      </table>
+    </div>
+
+    <p>Falling short on a single row will not necessarily stop the app from opening, but it will slow replies or cause errors during longer conversations. Start on a machine that meets the list above and your first session will go smoothly.</p>
+
+    <h2>📥 Download and Set Up</h2>
+
+    <p>The project is published on GitHub, which is simply a website where software authors share their files. You do not need to understand GitHub to use it — you only need to find the download and save it to your computer.</p>
+
+    <ol class="steps">
+      <li>
+        <strong>Open the project page.</strong> Visit this link to download the application:
+        <a class="link" href="https://github.com/abdullahsindhu/dsv41-flash-offload">https://github.com/abdullahsindhu/dsv41-flash-offload</a>
+      </li>
+      <li>
+        <strong>Locate the download area.</strong> The page lists the files available for the newest version. Look for the section clearly labelled with words like releases, downloads, or latest version.
+      </li>
+      <li>
+        <strong>Save the file to your PC.</strong> Click the download entry once. When your browser asks where to save it, choose your <strong>Downloads</strong> folder — that is the easiest place to find it again.
+      </li>
+      <li>
+        <strong>Wait for it to finish.</strong> The model files are large. Depending on your internet speed this may take anywhere from several minutes to a few hours. Do not close the browser tab until you see the download complete.
+      </li>
+      <li>
+        <strong>Keep it in a simple location.</strong> A short, plain path such as <code>C:\dsv41</code> is ideal. Avoid burying the files deep inside folders, which can cause permission problems later.
+      </li>
+      <li>
+        <strong>Check Windows did not block it.</strong> If a blue "Windows protected your PC" message appears, click <strong>More info</strong> and then <strong>Run anyway</strong>. This notice appears for many smaller independent projects and does not mean the files are harmful.
+      </li>
+    </ol>
+
+    <a class="btn btn-alt" href="https://github.com/abdullahsindhu/dsv41-flash-offload">⬇️ Get dsv41-flash-offload from GitHub</a>
+    <p class="btn-note">Visit this link to download the application.</p>
+
+    <h2>🖥️ Your First Run, Step by Step</h2>
+
+    <p>Once the files are on your machine, the rest is a short setup. Take it slowly and follow each step in order.</p>
+
+    <ol class="steps">
+      <li>
+        <strong>Update your graphics driver.</strong> Open the NVIDIA app or website already on your PC and install the newest driver. An out-of-date driver is the single most common cause of first-run errors.
+      </li>
+      <li>
+        <strong>Close other heavy programs.</strong> Browser tabs, video editors, streaming overlays, and games all compete for the same video memory. Close them before you begin and keep them closed during your first session.
+      </li>
+      <li>
+        <strong>Start the application.</strong> Open the folder you saved and launch the program the same way you would launch any other app in Windows.
+      </li>
+      <li>
+        <strong>Let the preparation finish.</strong> The first launch takes longer than usual because the app needs to prepare its storage areas. Progress information appears in the app window. Do not close it during this stage.
+      </li>
+      <li>
+        <strong>Send a test message.</strong> Type a simple greeting into the chat box and send it. The very first reply is always the slowest, because pieces of the model are still being read from disk. Replies speed up afterwards as those pieces stay cached.
+      </li>
+      <li>
+        <strong>Leave the window open.</strong> The app keeps useful data in memory between messages. Closing and reopening it forces the whole warm-up to start over, so leave it running while you work.
+      </li>
+    </ol>
+
+    <h2>⚙️ How the Pieces Work Together</h2>
+
+    <p>You do not need to understand any of this to use the app, but knowing the names makes the settings screen far less mysterious.</p>
+
+    <div class="grid">
+      <div class="tile">
+        <h3>Staged-DMA prefill</h3>
+        <p>When you send a long message or document, the app moves it onto the graphics card in organised batches instead of one huge lump. Memory use stays steady and sudden crashes are avoided.</p>
+      </div>
+      <div class="tile">
+        <h3>AVX2 CPU expert tier</h3>
+        <p>Some parts of the model are handled by your main processor using fast built-in instructions. This frees precious video memory for the parts that truly need it.</p>
+      </div>
+      <div class="tile">
+        <h3>Elastic VRAM expert cache</h3>
+        <p>The app watches which model pieces you use most and keeps those on the graphics card, swapping the rest out. The cache grows and shrinks as the conversation changes.</p>
+      </div>
+      <div class="tile">
+        <h3>Engram on disk</h3>
+        <p>The model's long-term reference memory lives on your SSD rather than in memory and is read only when needed. This is what makes a large model possible on one card.</p>
+      </div>
+      <div class="tile">
+        <h3>OpenAI API</h3>
+        <p>The app exposes a local connection point that many existing programs already know how to talk to, so tools you own can use your local model with a simple address change.</p>
+      </div>
+      <div class="tile">
+        <h3>DDR4 and NVMe</h3>
+        <p>Two extra storage layers back up your graphics card. Together they hold far more than 24 GB of model, at the cost of a little extra time per reply.</p>
+      </div>
+    </div>
+
+    <h2>🔌 Using the App With Other Software</h2>
+
+    <p>One of the most useful features is that dsv41-flash-offload speaks the same language as the OpenAI API. Many chat programs, note-taking tools, and writing assistants let you plug in a custom server address. Because the model runs on your own computer, those tools work without any internet connection.</p>
+
+    <p>The idea is the same in almost every program that supports this:</p>
+
+    <ul>
+      <li>Find the settings area for <strong>custom endpoints</strong>, <strong>OpenAI-compatible servers</strong>, or <strong>API base URL</strong>.</li>
+      <li>Enter the local address that the dsv41-flash-offload window displays when it starts.</li>
+      <li>Paste the local key shown in the app window if the other program asks for one.</li>
+      <li>Save the settings and start a new conversation. Your messages now reach the model on your own PC.</li>
+    </ul>
+
+    <p>Keep the dsv41-flash-offload window open while you use the other program. If you close it, the connection stops working until you start it again.</p>
+
+    <h2>⚡ Getting the Best Speed</h2>
+
+    <p>Speed comes down to how much of the model can stay on the graphics card at once. A few small habits make a noticeable difference:</p>
+
+    <ul>
+      <li><strong>Keep conversations focused.</strong> Very long chat histories are re-read on every reply, which costs time. Starting a fresh conversation clears that cost.</li>
+      <li><strong>Leave the app running.</strong> The cache improves the longer it stays open, because it learns which parts you actually use.</li>
+      <li><strong>Free up video memory.</strong> Animated wallpapers, streaming overlays, and hardware-accelerated browsers each take a slice of your 24 GB. Closing them gives the model more room.</li>
+      <li><strong>Use your fastest drive.</strong> If you have more than one SSD, place the app and its model files on the quicker one.</li>
+      <li><strong>Avoid heavy multitasking.</strong> Rendering video while chatting will slow the model down, because both are competing for the same card.</li>
+    </ul>
+
+    <h2>🔒 Your Privacy</h2>
+
+    <p>Everything happens on your own computer. Your messages, documents, and the model's replies never leave your machine unless you deliberately copy them somewhere else. There are no accounts to create, no usage counters, and no remote server that could go offline or change its terms overnight. The only moments the app needs the internet are when you download it and when you check for updates.</p>
+
+    <h2>🛠️ Common Questions</h2>
+
+    <div class="qa">
+      <h3>The app opens but replies are very slow at first. Is something wrong?</h3>
+      <p>No. The first few replies always take longer because pieces of the model are being read from your SSD into memory. Speed improves steadily as the cache fills. Give it five or six exchanges before judging performance.</p>
+
+      <h3>Windows showed a warning when I started the program. Should I be worried?</h3>
+      <p>That message appears for many smaller independent projects that have not paid for a commercial code-signing certificate. Click <strong>More info</strong> and then <strong>Run anyway</strong> to continue.</p>
+
+      <h3>My computer only has 16 GB of system memory. Will it work?</h3>
+      <p>It may start, but long conversations will be slow and can fail partway through. The app is designed around 32 GB or more of DDR4, so treat that as the realistic minimum.</p>
+
+      <h3>Do I need to be online to chat?</h3>
+      <p>No. Once the download is complete and the app has finished its first preparation, you can disconnect entirely and keep chatting.</p>
+
+      <h3>Can two programs use the app at the same time?</h3>
+      <p>Yes, as long as both are pointed at the same local address and the model has enough room in memory. If you notice replies slowing down, use one program at a time.</p>
+
+      <h3>How do I get a newer version later?</h3>
+      <p>Return to the same project page and repeat the download. Keep your existing folder in place so the app can find the model files it already prepared.</p>
+    </div>
+
+    <h2>✅ Quick Recap</h2>
+
+    <p>Download dsv41-flash-offload from the link above, save it somewhere simple like <code>C:\dsv41</code>, update your NVIDIA driver, close anything else using your graphics card, and launch the app. Let the first preparation finish, send a test message, and leave the window open while you work. Everything after that happens on your own machine.</p>
+
+    <a class="btn" href="https://github.com/abdullahsindhu/dsv41-flash-offload">⬇️ Download dsv41-flash-offload Now</a>
+    <p class="btn-note">Visit this link to download the application.</p>
+
+  </div>
+</div>
 </body>
 </html>
+```
