@@ -49,15 +49,11 @@
    "round": 1,
    "colour": "#ffcc00",
    "maps": [
-    "altered-bbb-permeability-updated",
-    "astrocyte-signaling-updated",
     "chrneuroinflammation46-updated"
    ],
    "summary": "Oncostatin M, made by CNS myeloid cells, acts on astrocytes and brain endothelium through its receptor OSMR with gp130. It induces IL-6 and STAT1/STAT3 activation in astrocytes and lowers claudin-5 and VE-cadherin in inflamed brain endothelial cells, and the OSM-OSMR axis shapes EAE, BBB leakage and cuprizone demyelination in mice.",
    "links": [
-    "Binds the OSMR complex (OSMR with IL6ST) on astrocytes and endothelial cells (top-level map).",
-    "Stimulates IL6 transcription in astrocytes (Astrocyte signaling).",
-    "Inhibits claudin-5 translation in brain endothelium (altered BBB permeability)."
+    "Binds the OSMR complex on astrocytes and endothelial cells (top-level map). Its IL6 and claudin-5 effects go through OSMR and STAT and are drawn as a routed micro-map, not as a shortcut arc into the submaps."
    ],
    "refs": [
     {
@@ -430,8 +426,7 @@
    ],
    "summary": "IL-1beta induces HIF-1alpha and its target VEGF-A in human astrocytes and in mouse brain, and HIF-1alpha is needed for the VEGF-A response. Both proteins are found in reactive astrocytes of active multiple sclerosis lesions, and astrocytic VEGF-A drives BBB breakdown in EAE.",
    "links": [
-    "Induced by IL-1 receptor signalling and induces VEGFA in astrocytes (top-level map).",
-    "Its production is stimulated by IL-1beta bound to its receptor (Astrocyte signaling), and it stimulates VEGFA production in astrocytes (altered BBB permeability)."
+    "Induced by IL-1 receptor signalling (top-level map); drives VEGFA production in astrocytes (altered BBB permeability). The outgoing top-level arc to VEGFA was removed (nuclear protein to secreted product)."
    ],
    "refs": [
     {
@@ -450,12 +445,11 @@
    "round": 1,
    "colour": "#ffcc00",
    "maps": [
-    "astrocyte-signaling-updated",
-    "chrneuroinflammation46-updated"
+    "astrocyte-signaling-updated"
    ],
    "summary": "The clock protein BMAL1 restrains astrocyte activation. Astrocyte-specific Bmal1 deletion causes astrocyte activation and inflammatory gene expression in vivo, and Bmal1 deletion raises complement C3, mainly in astrocytes, through REV-ERBalpha, with more microglial synapse engulfment.",
    "links": [
-    "Lowers C3 (top-level map) and inhibits C3 transcription in astrocytes (Astrocyte signaling), indirectly, through REV-ERBalpha."
+    "Inhibits C3 transcription in astrocytes, indirectly through REV-ERBalpha (Astrocyte signaling). Kept off the top-level overview: a nuclear protein should not reach the extracellular C3 node."
    ],
    "refs": [
     {
@@ -873,7 +867,7 @@
    ],
    "summary": "Interferon regulatory factor 1 is induced by IFN-gamma in astrocytes and binds inflammatory gene promoters. Astrocyte-specific Irf1 deletion limits blood-brain barrier disruption after injury, and Irf1 knockout reduces EAE and infarct size.",
    "links": [
-    "Induced by IFN-gamma receptor signalling and drives CXCL10 in astrocytes (top-level map and Astrocyte signaling)."
+    "Induced by IFN-gamma receptor signalling (top-level map); drives CXCL10 transcription in astrocytes (Astrocyte signaling). The outgoing top-level arc to CXCL10 was removed."
    ],
    "refs": [
     {
@@ -980,12 +974,11 @@
    "round": 2,
    "colour": "#66b2ff",
    "maps": [
-    "chrneuroinflammation46-updated",
-    "nlrp3-inflammasome-updated"
+    "chrneuroinflammation46-updated"
    ],
    "summary": "Macrophage migration inhibitory factor is needed for NLRP3 inflammasome activation and drives TLR4/MyD88/NF-kB signalling in microglia, shown by knockdown in microglia and in an MPTP Parkinson model.",
    "links": [
-    "Promotes TLR4 signalling and NLRP3 inflammasome activation in microglia (top-level map and NLRP3 inflammasome)."
+    "Promotes TLR4 signalling in microglia (top-level map). Its direct NLRP3 binding needs an intracellular MIF pool and is drawn as a pending micro-map."
    ],
    "refs": [
     {

@@ -727,8 +727,6 @@
 <text x="3560" y="6294" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ferroptosis</text>
 <polygon points="3375,6315 3485,6315 3500,6330 3485,6345 3375,6345 3360,6330" fill="#cc99ff" stroke="#000"/>
 <text x="3430" y="6334" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">iron homeostasis</text>
-<rect x="4189.2" y="2275.7" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
-<text x="4229.2" y="2299.7" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">OSM</text>
 <circle cx="6855" cy="2299" r="11.25" fill="#ffcc00" stroke="#000"/>
 <line x1="6861" y1="2284" x2="6849" y2="2314" stroke="#000"/>
 <rect x="6815" y="2231" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
@@ -1035,7 +1033,6 @@
 <polyline points="3747.53,1410.5 3749.93,2149"/>
 <polyline points="4561,1950 4379.99,1949.94 4380.03,1786.92 3756.75,1786.73"/>
 <polyline points="2639,1787.75 3191.38,1787.62 3191.37,1786.89 3728.75,1786.77"/>
-<polyline points="4205.06,2269.85 3755.8,1788.93"/>
 <polyline points="4759,1922.19 5028,1920.17"/>
 <polyline points="6002,2020 5939.5,2020"/>
 <polyline points="6922,1925 5963.73,1925.26 5963.75,2000"/>
@@ -1562,8 +1559,6 @@
 <polygon points="3743.75,1786.77 3728.75,1791.77 3728.75,1781.77" fill="#fff" stroke="#000"/>
 <line x1="3723.75" y1="1791.27" x2="3723.75" y2="1782.27" stroke="#000"/>
 <polyline points="2631,1787.75 3191.38,1787.62 3191.37,1786.89 3728.75,1786.77" fill="none" stroke="#000000" stroke-width="1"/>
-<line x1="3760.18" y1="1784.83" x2="3751.41" y2="1793.02" stroke="#000"/>
-<polyline points="4210.52,2275.7 3755.8,1788.93" fill="none" stroke="#e69500" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(3748.75,1786.75) rotate(89.81)"/>
 <polygon points="5050,1920 5035.04,1925.11 5034.96,1915.11" fill="#000"/>
 <polyline points="4751,1922.25 5036,1920.11" fill="none" stroke="#000000" stroke-width="1"/>
