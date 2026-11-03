@@ -6006,6 +6006,25 @@
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
 </celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa_add3" species="s_add2" compartmentAlias="ca1">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="3372.8" y="601.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1"/>
+<celldesigner:paint color="ff66b2ff" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
 </celldesigner:listOfSpeciesAliases>
 <celldesigner:listOfGroups/>
 <celldesigner:listOfProteins>
@@ -6093,6 +6112,7 @@
 <celldesigner:protein id="pr_add37" name="VTN" type="GENERIC"/>
 <celldesigner:protein id="pr_add42" name="ITGAV" type="GENERIC"/>
 <celldesigner:protein id="pr_add45" name="ITGB5" type="GENERIC"/>
+<celldesigner:protein id="pr_add4" name="IRF1" type="GENERIC"/>
 </celldesigner:listOfProteins>
 <celldesigner:listOfGenes>
 <celldesigner:gene id="gn1" name="CCL2" type="GENE"/>
@@ -8266,6 +8286,17 @@
 <celldesigner:speciesIdentity>
 <celldesigner:class>COMPLEX</celldesigner:class>
 <celldesigner:name>VTN:ITGAV:ITGB5</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s_add2" id="s_add2" name="IRF1" compartment="c1" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr_add4</celldesigner:proteinReference>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
@@ -11501,6 +11532,14 @@
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ffe69500"/>
 </celldesigner:modification>
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s_add2" aliases="sa_add3" targetLineIndex="-1,2">
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff1f6fd1"/>
+</celldesigner:modification>
 </celldesigner:listOfModification>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -11513,6 +11552,11 @@
 <bqmodel:isDescribedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:pubmed:18713987"/>
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:40435213"/>
 </rdf:Bag>
 </bqmodel:isDescribedBy>
 </rdf:Description>
@@ -11548,6 +11592,13 @@
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa_add14</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</modifierSpeciesReference>
+<modifierSpeciesReference metaid="CDMT00440" species="s_add2">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa_add3</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </modifierSpeciesReference>

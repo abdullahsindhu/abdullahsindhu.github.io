@@ -3,6 +3,10 @@
   {
    "colour": "#ffcc00",
    "text": "round 1: the strongest candidates"
+  },
+  {
+   "colour": "#66b2ff",
+   "text": "later rounds"
   }
  ],
  "proteins": [
@@ -690,6 +694,523 @@
     {
      "pmid": "18985734",
      "cite": "Milner R et al. 2009, Glia."
+    }
+   ]
+  },
+  {
+   "name": "GPNMB",
+   "full_name": "glycoprotein nmb",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "Glycoprotein NMB is raised in disease-associated microglia. In human iPSC-derived microglia GPNMB sits next to Ser129-phosphorylated alpha-synuclein, and knocking it down in microglia blocks clearance of the aggregates from neurons.",
+   "links": [
+    "Promotes clearance of alpha-synuclein and supports phagocytosis in microglia (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "42842725",
+     "cite": "Chueh HJ et al. 2026, Sci Transl Med."
+    },
+    {
+     "pmid": "35981040",
+     "cite": "Diaz-Ortiz ME et al. 2022, Science."
+    }
+   ]
+  },
+  {
+   "name": "TYROBP",
+   "full_name": "transmembrane immune signaling adaptor TYROBP",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "TYROBP (DAP12) is the signalling adaptor of TREM2 and other microglial receptors. In primary mouse microglia a dominant-negative DAP12 abolishes TREM2-driven phagocytosis of apoptotic neurons, and its loss changes disease in amyloid and tau mice.",
+   "links": [
+    "Binds TREM2 and supports phagocytosis in microglia (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "15728241",
+     "cite": "Takahashi K et al. 2005, J Exp Med."
+    },
+    {
+     "pmid": "33053435",
+     "cite": "Cui X et al. 2021, Brain Res Bull."
+    }
+   ]
+  },
+  {
+   "name": "CD9",
+   "full_name": "CD9 molecule",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "Tetraspanin CD9 marks synapse-engulfing microglia. After cortical injury in mice, deleting CD9 in microglia or blocking it reduces synapse engulfment, synapse loss and Syk phosphorylation and improves memory.",
+   "links": [
+    "Promotes synapse loss in microglia (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "42425959",
+     "cite": "Matoba K et al. 2026, Nat Commun."
+    }
+   ]
+  },
+  {
+   "name": "GBA1",
+   "full_name": "glucosylceramidase beta 1",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "nlrp3-inflammasome-updated"
+   ],
+   "summary": "Glucocerebrosidase is the lysosomal enzyme lost in Gaucher disease and a Parkinson risk gene. Its loss and alpha-synuclein form a bidirectional loop: low GCase raises alpha-synuclein, which in turn lowers GCase, shown in neurons and patient tissue.",
+   "links": [
+    "Catalyses alpha-synuclein degradation in the phagolysosome (NLRP3 inflammasome)."
+   ],
+   "refs": [
+    {
+     "pmid": "21700325",
+     "cite": "Mazzulli JR et al. 2011, Cell."
+    },
+    {
+     "pmid": "38530880",
+     "cite": "Wang R et al. 2024, Sci Signal."
+    }
+   ]
+  },
+  {
+   "name": "GALC",
+   "full_name": "galactosylceramidase",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "Galactosylceramidase is the enzyme lost in Krabbe disease. GALC-deficient microglia fail to raise TREM2 and clear myelin debris after demyelination, and GALC-null astrocytes overexpress lipocalin-2.",
+   "links": [
+    "Supports TREM2 induction in microglia (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "28575206",
+     "cite": "Scott-Hewitt NJ et al. 2017, Hum Mol Genet."
+    },
+    {
+     "pmid": "39738378",
+     "cite": "Favret J et al. 2024, Sci Rep."
+    }
+   ]
+  },
+  {
+   "name": "PLIN2",
+   "full_name": "perilipin 2",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "nlrp3-inflammasome-updated"
+   ],
+   "summary": "Perilipin 2 coats lipid droplets in microglia. Its knockdown blocks NLRP3 inflammasome activation after ischaemia and in microglia after oxygen-glucose deprivation, and its loss in myelin-laden phagocytes lowers inflammation and improves remyelination.",
+   "links": [
+    "Promotes NLRP3 inflammasome activation in microglia (NLRP3 inflammasome)."
+   ],
+   "refs": [
+    {
+     "pmid": "37010675",
+     "cite": "Liu XY et al. 2023, In Vitro Cell Dev Biol Anim."
+    },
+    {
+     "pmid": "41294836",
+     "cite": "Stephens IO et al. 2025, Cells."
+    },
+    {
+     "pmid": "36100764",
+     "cite": "Loix M et al. 2022, Cell Mol Life Sci."
+    }
+   ]
+  },
+  {
+   "name": "CH25H",
+   "full_name": "cholesterol 25-hydroxylase",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "Cholesterol 25-hydroxylase makes 25-hydroxycholesterol. In microglia its knockout lowers IL-1beta after LPS and blocks NLRP3 inflammasome assembly, and its deletion rescues tau neurodegeneration. The product 25-HC is anti-inflammatory in peripheral macrophages, so the sign is microglia-specific.",
+   "links": [
+    "Induced by TLR4 signalling and promotes NLRP3 inflammasome activation in microglia (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "32552741",
+     "cite": "Wong MY et al. 2020, J Neuroinflammation."
+    },
+    {
+     "pmid": "39369253",
+     "cite": "Romero J et al. 2024, J Neuroinflammation."
+    },
+    {
+     "pmid": "41239156",
+     "cite": "Zhang H et al. 2026, Neurosci Bull."
+    }
+   ]
+  },
+  {
+   "name": "IRF1",
+   "full_name": "interferon regulatory factor 1",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "astrocyte-signaling-updated",
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "Interferon regulatory factor 1 is induced by IFN-gamma in astrocytes and binds inflammatory gene promoters. Astrocyte-specific Irf1 deletion limits blood-brain barrier disruption after injury, and Irf1 knockout reduces EAE and infarct size.",
+   "links": [
+    "Induced by IFN-gamma receptor signalling and drives CXCL10 in astrocytes (top-level map and Astrocyte signaling)."
+   ],
+   "refs": [
+    {
+     "pmid": "40435213",
+     "cite": "Cui W et al. 2025, Sci Transl Med."
+    },
+    {
+     "pmid": "11777545",
+     "cite": "Jarosinski KW et al. 2002, J Neuroimmunol."
+    },
+    {
+     "pmid": "11536325",
+     "cite": "Dell'Albani P et al. 2001, J Neurosci Res."
+    }
+   ]
+  },
+  {
+   "name": "ZBP1",
+   "full_name": "Z-DNA binding protein 1",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "neuron-signaling-updated"
+   ],
+   "summary": "Z-DNA binding protein 1 is a sensor that engages RIPK3. In neurons it is needed to restrict neuroinvasive Zika virus, with loss of RIPK3 phosphorylation in its absence, and it engages RIPK3 in microglia.",
+   "links": [
+    "Promotes necrosome (RIPK1/RIPK3)-driven MLKL activation in neurons (Neuron signaling)."
+   ],
+   "refs": [
+    {
+     "pmid": "30635240",
+     "cite": "Daniels BP et al. 2019, Immunity."
+    },
+    {
+     "pmid": "41098523",
+     "cite": "Liu Y et al. 2025, Transbound Emerg Dis."
+    }
+   ]
+  },
+  {
+   "name": "IFITM3",
+   "full_name": "interferon induced transmembrane protein 3",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "Interferon-induced transmembrane protein 3 is induced by IFN-gamma in neurons and by IL-6 and IL-1beta in astrocytes. It binds the gamma-secretase complex near its active site and raises amyloid-beta, and its knockout lowers gamma-secretase activity and plaques in 5xFAD mice.",
+   "links": [
+    "Induced by IFN-gamma receptor signalling and raises amyloid processing in neurons (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "32879487",
+     "cite": "Hur JY et al. 2020, Nature."
+    }
+   ]
+  },
+  {
+   "name": "CYBB",
+   "full_name": "cytochrome b-245 beta chain",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "CYBB (NOX2, gp91phox) is the catalytic subunit of the microglial and neuronal NADPH oxidase that makes superoxide. In an LPS Parkinson model NOX2 drives degeneration, and neuronal NOX2 deletion is protective.",
+   "links": [
+    "Drives oxidative stress in microglia (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "36870375",
+     "cite": "Tu D et al. 2023, Free Radic Biol Med."
+    }
+   ]
+  },
+  {
+   "name": "PECAM1",
+   "full_name": "platelet and endothelial cell adhesion molecule 1",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "PECAM1 (CD31) is on brain endothelium and leukocytes. After stroke it promotes neutrophil infiltration, and on brain endothelium it stabilises the blood-brain barrier, so its two roles have opposite signs.",
+   "links": [
+    "Promotes infiltration at the blood vessel and stabilises the barrier in endothelial cells (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "33388423",
+     "cite": "Winneberger J et al. 2021, Brain Behav Immun."
+    },
+    {
+     "pmid": "31024547",
+     "cite": "Wimmer I et al. 2019, Front Immunol."
+    }
+   ]
+  },
+  {
+   "name": "MIF",
+   "full_name": "macrophage migration inhibitory factor",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated",
+    "nlrp3-inflammasome-updated"
+   ],
+   "summary": "Macrophage migration inhibitory factor is needed for NLRP3 inflammasome activation and drives TLR4/MyD88/NF-kB signalling in microglia, shown by knockdown in microglia and in an MPTP Parkinson model.",
+   "links": [
+    "Promotes TLR4 signalling and NLRP3 inflammasome activation in microglia (top-level map and NLRP3 inflammasome)."
+   ],
+   "refs": [
+    {
+     "pmid": "41254084",
+     "cite": "Huang Y et al. 2025, Commun Biol."
+    },
+    {
+     "pmid": "34308845",
+     "cite": "Huang H et al. 2021, Nan Fang Yi Ke Da Xue Xue Bao."
+    },
+    {
+     "pmid": "41323117",
+     "cite": "Zhou F et al. 2025, Anesthesiol Res Pract."
+    }
+   ]
+  },
+  {
+   "name": "POMC",
+   "full_name": "proopiomelanocortin",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "The POMC peptide alpha-MSH, through the melanocortin-4 receptor, dampens astrocyte inflammation. It lowers iNOS and NO in primary astrocytes, and astrocyte-specific MC4R knockdown in EAE removes its suppression of NF-kB signalling. The active peptide is alpha-MSH, cleaved from POMC.",
+   "links": [
+    "Acts through MC4R to lower NF-kB signalling in astrocytes (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "17595227",
+     "cite": "Caruso C et al. 2007, Endocrinology."
+    },
+    {
+     "pmid": "41454349",
+     "cite": "Wang Y et al. 2025, J Neuroinflammation."
+    },
+    {
+     "pmid": "40015967",
+     "cite": "Khalife MR et al. 2025, eNeuro."
+    }
+   ]
+  },
+  {
+   "name": "CXCL16",
+   "full_name": "C-X-C motif chemokine ligand 16",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "CXCL16 is made by microglia and macrophages and recruits CXCR6-positive CD8 T cells into the injured and amyloid-laden brain. It also makes astrocytes release CCL2.",
+   "links": [
+    "Recruits CD8 T cells through CXCR6 (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "40328251",
+     "cite": "Ge X et al. 2025, Neuron."
+    },
+    {
+     "pmid": "41174156",
+     "cite": "Zattoni M et al. 2025, Sci Rep."
+    },
+    {
+     "pmid": "22378888",
+     "cite": "Rosito M et al. 2012, J Neurosci."
+    }
+   ]
+  },
+  {
+   "name": "CSF1",
+   "full_name": "colony stimulating factor 1",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "Colony-stimulating factor 1, made by injured neurons, drives microglial proliferation and activation through CSF1R. Its receptor sits only on microglia in the CNS, and TYROBP lies downstream.",
+   "links": [
+    "Binds CSF1R on microglia (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "26642091",
+     "cite": "Guan Z et al. 2016, Nat Neurosci."
+    },
+    {
+     "pmid": "27132056",
+     "cite": "Chu CH et al. 2016, Brain Behav Immun."
+    }
+   ]
+  },
+  {
+   "name": "CCL4",
+   "full_name": "C-C motif chemokine ligand 4",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "CCL4 (MIP-1beta) is a microglial chemokine. Through CCR5 it drives microglial engulfment of synapses and, on neurons, blocks autophagy, shown with knockdown, overexpression and the CCR5 blocker maraviroc.",
+   "links": [
+    "Acts through CCR5 to drive synapse loss (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "42178562",
+     "cite": "Cao Y et al. 2026, J Neuroinflammation."
+    },
+    {
+     "pmid": "28193696",
+     "cite": "Jo M et al. 2017, J Neurosci."
+    }
+   ]
+  },
+  {
+   "name": "MC4R",
+   "full_name": "melanocortin 4 receptor",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "The melanocortin-4 receptor is the alpha-MSH receptor on astrocytes and neurons. Astrocyte-specific MC4R knockdown in EAE and MC4R knockout with cell-specific rescue show that it lowers NF-kB signalling and iNOS. Added as the missing partner of POMC, after it passed the bar by itself.",
+   "links": [
+    "Binds alpha-MSH and lowers NF-kB signalling in astrocytes (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "17595227",
+     "cite": "Caruso C et al. 2007, Endocrinology."
+    },
+    {
+     "pmid": "40015967",
+     "cite": "Khalife MR et al. 2025, eNeuro."
+    },
+    {
+     "pmid": "41454349",
+     "cite": "Wang Y et al. 2025, J Neuroinflammation."
+    },
+    {
+     "pmid": "29642894",
+     "cite": "Chen S et al. 2018, J Neuroinflammation."
+    }
+   ]
+  },
+  {
+   "name": "CXCR6",
+   "full_name": "C-X-C motif chemokine receptor 6",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "CXCR6 is the CXCL16 receptor on CD8 T cells. In 5xFAD mice its loss removes brain CD8 T cells, raises amyloid and worsens memory, with more microglial TNF. Added as the missing partner of CXCL16, after it passed the bar by itself.",
+   "links": [
+    "Binds CXCL16 and drives CD8 T cell accumulation (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "37679549",
+     "cite": "Su W et al. 2023, Nat Immunol."
+    },
+    {
+     "pmid": "40328251",
+     "cite": "Ge X et al. 2025, Neuron."
+    }
+   ]
+  },
+  {
+   "name": "CSF1R",
+   "full_name": "colony stimulating factor 1 receptor",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "CSF1R is the microglial receptor for CSF1 (and IL34). Its inhibition and microglia-restricted knockout change microglial number and state, and CSF1 acting on it raises ERK and changes microglial TNF, NO and IL-1beta output. Added as the missing partner of CSF1, after it passed the bar by itself.",
+   "links": [
+    "Binds CSF1 and drives MAPK signalling and phagocytosis in microglia (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "26642091",
+     "cite": "Guan Z et al. 2016, Nat Neurosci."
+    },
+    {
+     "pmid": "27132056",
+     "cite": "Chu CH et al. 2016, Brain Behav Immun."
+    },
+    {
+     "pmid": "12032144",
+     "cite": "Mitrasinovic OM et al. 2002, J Biol Chem."
+    },
+    {
+     "pmid": "12927763",
+     "cite": "Mitrasinovic OM et al. 2003, Neurobiol Aging."
+    }
+   ]
+  },
+  {
+   "name": "CCR5",
+   "full_name": "C-C motif chemokine receptor 5",
+   "round": 2,
+   "colour": "#66b2ff",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "CCR5 is a CCL4 receptor on neurons and microglia. On neurons it blocks autophagy through mTORC1 in Huntington and tau models, rescued by maraviroc; on microglia it drives synapse engulfment. It is protective in some other CNS models, so the sign depends on the setting. Added as the missing partner of CCL4, after it passed the bar by itself.",
+   "links": [
+    "Binds CCL4 and drives synapse loss in microglia (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "42178562",
+     "cite": "Cao Y et al. 2026, J Neuroinflammation."
+    },
+    {
+     "pmid": "37105172",
+     "cite": "Festa BP et al. 2023, Neuron."
+    },
+    {
+     "pmid": "28193696",
+     "cite": "Jo M et al. 2017, J Neurosci."
     }
    ]
   }
