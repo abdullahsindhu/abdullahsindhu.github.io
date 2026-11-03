@@ -42,12 +42,14 @@
      "cite": "Schreuder H et al. 1995, FEBS Lett."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "15967035",
      "model": "IL-1Ra (Il1rn) knockout mice, intracerebroventricular infusion of human oligomeric Abeta1-42",
      "shows": "Loss of endogenous IL-1Ra worsens Abeta-induced microglial activation and neuronal damage in the hippocampus, i.e. IL-1Ra restrains IL-1-driven glial activation in an AD-like model.",
+     "direction": "protective",
      "cite": "Craft JM et al. 2005, J Neuroinflammation."
     },
     {
@@ -55,6 +57,7 @@
      "pmid": "27356916",
      "model": "IL-1Ra (Il1rn) knockout and caspase-1 knockout mice, aging, substantia nigra",
      "shows": "IL-1Ra knockout mice, with no other insult, show age-related loss of nigral dopamine neurons, more activated microglia and worse motor skills, so endogenous IL-1Ra protects dopaminergic neurons by limiting IL-1 signalling.",
+     "direction": "protective",
      "cite": "Stojakovic A et al. 2016, Mol Neurobiol."
     },
     {
@@ -62,6 +65,7 @@
      "pmid": "16415102",
      "model": "IL-1Ra-deficient and IL-1-deficient mice, MOG-induced EAE",
      "shows": "Imbalance of the IL-1/IL-1Ra system drives EAE: IL-1Ra deficiency gives severe disease while IL-1 deficiency protects, showing IL-1Ra blockade of IL-1R1 signalling limits autoimmune neuroinflammation.",
+     "direction": "protective",
      "cite": "Matsuki T et al. 2006, Int Immunol."
     }
    ]
@@ -108,12 +112,14 @@
      "cite": "Janssens K et al. 2015, Glia."
     }
    ],
+   "disease_note": "The OSM-OSMR axis acts in both directions by cell type: on brain endothelium it loosens the barrier (drawn), while astrocytic OSMR lowers EAE severity.",
    "diseases": [
     {
      "disease": "MS",
      "pmid": "35666306",
      "model": "EAE, OSMRbeta-deficient mice, mouse and human brain endothelium; active MS lesions",
      "shows": "Myeloid-derived OSM acts on OSMR at the blood-brain barrier, lowering claudin-5 and ZO-1 and letting leukocytes in; OSM is raised in MS lesions and OSMR deficiency protects, matching the drawn OSM-OSMR edge.",
+     "direction": "promotes disease",
      "cite": "Hermans D et al. 2022, Acta Neuropathol."
     }
    ]
@@ -153,12 +159,14 @@
      "cite": "Houben E et al. 2020, Proc Natl Acad Sci U S A."
     }
    ],
+   "disease_note": "The OSM-OSMR axis acts in both directions by cell type: on brain endothelium it loosens the barrier, while astrocytic OSMR lowers EAE severity (Deerhake 2021).",
    "diseases": [
     {
      "disease": "MS",
      "pmid": "33581044",
      "model": "EAE; astrocyte-specific OsmR deletion, myeloid Dectin-1/Card9 mutants",
      "shows": "OSMR acts specifically in astrocytes to reduce EAE severity, establishing the myeloid-OSM to astrocyte-OSMR axis in vivo; note the net effect here is protective, whereas the map draws OSM/OSMR as inflammatory.",
+     "direction": "protective",
      "cite": "Deerhake ME et al. 2021, Immunity."
     }
    ]
@@ -195,12 +203,14 @@
      "cite": "Kim JH et al. 2014, Exp Neurobiol."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "27213058",
      "model": "N9 microglial cells exposed to Abeta, SOCS1 siRNA",
      "shows": "SOCS1 knockdown abolishes the shift of Abeta-activated microglia away from the pro-inflammatory state, showing SOCS1 limits Abeta-driven microglial inflammation; weak evidence (microglial cell line, no in vivo AD model).",
+     "direction": "protective",
      "cite": "Cai H et al. 2016, Neural Plast."
     },
     {
@@ -208,6 +218,7 @@
      "pmid": "17314297",
      "model": "PLP/SOCS1 transgenic mice (SOCS1 in oligodendrocytes), MOG-induced EAE",
      "shows": "Oligodendrocyte SOCS1 lowers IFN-gamma responsiveness of oligodendrocytes and changes the course of EAE, showing SOCS1 limits interferon signalling in glia in an MS model.",
+     "direction": "protective",
      "cite": "Balabanov R et al. 2007, J Neurosci."
     }
    ]
@@ -238,12 +249,14 @@
      "cite": "Li Z et al. 2023, Adv Sci (Weinh)."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "PD",
      "pmid": "42606072",
      "model": "Primary mouse microglia and a mouse PD model; microglia-specific Tab2 knockdown",
      "shows": "K63 ubiquitination of TAB2 drives TAB1-TAK1-TAB2 complex formation and NF-kB activation in microglia, and microglial Tab2 knockdown protects dopaminergic neurons, matching the drawn TAB2-TAK1 edge.",
+     "direction": "promotes disease",
      "cite": "Zhao Y et al. 2026, Adv Sci (Weinh)."
     }
    ]
@@ -266,12 +279,14 @@
      "cite": "Hauptmann J et al. 2020, Acta Neuropathol."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "MS",
      "pmid": "32651669",
      "model": "EAE; endothelial Il1r1-deficient mice, blood-brain barrier endothelium",
      "shows": "Endothelial IL-1R1 signalling drives ACKR1 (Darc) expression in blood-brain barrier endothelial cells during EAE, the chemokine-shuttling step the map draws.",
+     "direction": "direction not stated",
      "cite": "Hauptmann J et al. 2020, Acta Neuropathol."
     }
    ]
@@ -304,12 +319,14 @@
      "cite": "Martens LH et al. 2012, J Clin Invest."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "32973454",
      "model": "5xFAD mice, intrahippocampal progranulin protein; microglia isolated from 5xFAD brains",
      "shows": "Progranulin administration lowers Abeta plaques, downregulates BACE1 and improves microglial Abeta phagocytosis in 5xFAD mice, consistent with progranulin restraining microglial/amyloid pathology.",
+     "direction": "protective",
      "cite": "Guan Z et al. 2020, Front Cell Neurosci."
     },
     {
@@ -317,6 +334,7 @@
      "pmid": "24804730",
      "model": "MPTP mouse model of PD, progranulin gene delivery (overexpression)",
      "shows": "Progranulin gene delivery protects nigrostriatal dopaminergic neurons in the MPTP model, showing progranulin acts as an anti-inflammatory/neurotrophic brake in a PD model.",
+     "direction": "protective",
      "cite": "Van Kampen JM et al. 2014, PLoS One."
     },
     {
@@ -324,6 +342,7 @@
      "pmid": "37120788",
      "model": "Grn-deficient mice, cuprizone/toxin-induced demyelination; microglia",
      "shows": "Progranulin deficiency causes sex-dependent changes in the microglial response to demyelination and myelination defects, showing progranulin regulates microglia during demyelinating injury.",
+     "direction": "protective",
      "cite": "Zhang T et al. 2023, Acta Neuropathol."
     }
    ]
@@ -372,12 +391,14 @@
      "cite": "Khurana V et al. 2010, PLoS Genet."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "38575959",
      "model": "Cathepsin D (Ctsd) knockout mice; brain",
      "shows": "Genetic deletion of cathepsin D triggers prominent tauopathy and intracellular Abeta accumulation, showing the lysosomal protease is needed to clear AD-related proteins.",
+     "direction": "protective",
      "cite": "Terron HM et al. 2024, Alzheimers Res Ther."
     },
     {
@@ -385,6 +406,7 @@
      "pmid": "35287553",
      "model": "alpha-synucleinopathy cell and mouse models, recombinant pro-cathepsin D",
      "shows": "Recombinant pro-CTSD enhances degradation of alpha-synuclein in synucleinopathy models, the cathepsin D to alpha-synuclein step the map draws.",
+     "direction": "protective",
      "cite": "Prieto Huarcaya S et al. 2022, Autophagy."
     }
    ]
@@ -418,12 +440,14 @@
      "cite": "Basak JM et al. 2012, J Biol Chem."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "20005821",
      "model": "LDLR overexpression in the brain of APP/PS1 amyloid mice; astrocytes",
      "shows": "Brain LDLR overexpression lowers apoE, speeds Abeta clearance and reduces amyloid deposition with less microgliosis and astrogliosis, the LDLR-apoE-Abeta uptake step the map draws.",
+     "direction": "protective",
      "cite": "Kim J et al. 2009, Neuron."
     }
    ]
@@ -464,12 +488,14 @@
      "cite": "Ma Y et al. 2013, Mol Cell Proteomics."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "21177248",
      "model": "Primary astrocytes, LPL overexpression and knockdown, Abeta uptake",
      "shows": "LPL binds Abeta and promotes glycosaminoglycan-dependent cellular uptake of Abeta by astrocytes; weak as a disease paper (in vitro only, no AD animal model).",
+     "direction": "protective",
      "cite": "Nishitsuji K et al. 2010, J Biol Chem."
     },
     {
@@ -477,6 +503,7 @@
      "pmid": "31130950",
      "model": "Human active MS lesions and myelin-laden phagocytes; ANGPTL4 as LPL inhibitor",
      "shows": "LPL-immunoreactive phagocytes take up myelin-derived lipids, and inhibiting LPL with ANGPTL4 blocks this uptake; astrocytic ANGPTL4 is lost in active MS lesions. Weak: LPL is inhibited indirectly, not deleted.",
+     "direction": "direction not stated",
      "cite": "Kamermans A et al. 2019, Front Immunol."
     }
    ]
@@ -511,12 +538,14 @@
      "cite": "Grinberg YY et al. 2013, J Neurochem."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "22005929",
      "model": "APP/PS1 and IGF-1-pathway mutant mice; astrocytes",
      "shows": "IGF-1 regulation of calcineurin in astrocytes shapes amyloid pathology and glial inflammation, showing astrocytic IGF-1 signalling modifies AD pathology.",
+     "direction": "direction not stated",
      "cite": "Fernandez AM et al. 2011, Mol Psychiatry."
     },
     {
@@ -524,6 +553,7 @@
      "pmid": "38750702",
      "model": "6-OHDA rat parkinsonism, intrahippocampal RAd-IGF1 gene therapy",
      "shows": "IGF-1 gene therapy prevents memory deficits and modulates dopaminergic neurodegeneration and glial inflammation in a PD model, matching the drawn anti-inflammatory role of IGF-1.",
+     "direction": "protective",
      "cite": "Herrera ML et al. 2024, Brain Behav Immun."
     }
    ]
@@ -550,12 +580,14 @@
      "cite": "Lu N et al. 2025, J Neuroinflammation."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "35303422",
      "model": "5XFAD mice; microglia-specific Pkm2 ablation and PKM2 inhibitor",
      "shows": "A PKM2-glycolysis-H4K12 lactylation feedback loop drives microglial dysfunction in 5XFAD mice, and microglial Pkm2 ablation or PKM2 inhibition improves microglial function, the loop the map draws.",
+     "direction": "promotes disease",
      "cite": "Pan RY et al. 2022, Cell Metab."
     },
     {
@@ -563,6 +595,7 @@
      "pmid": "41462282",
      "model": "Rotenone-treated BV2 microglia (PD cell model), PKM2 inhibitor shikonin",
      "shows": "PKM2-driven glycolytic flux produces methylglyoxal adducts that activate NF-kB in rotenone-exposed microglia, and PKM2 inhibition blocks it; weak (microglial cell line, no in vivo PD arm).",
+     "direction": "promotes disease",
      "cite": "Zhao Y et al. 2025, Cell Commun Signal."
     }
    ]
@@ -589,12 +622,14 @@
      "cite": "Yan W et al. 2026, Neuromolecular Med."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "42035056",
      "model": "APP/PS1 mice, peri-plaque microglia; LDH inhibition with stiripentol",
      "shows": "LDHA is enriched in peri-plaque microglia and sustains the lactate rise with amyloid pathology; pharmacological LDH inhibition lowers interstitial Abeta and depletes peri-plaque microglia.",
+     "direction": "promotes disease",
      "cite": "Ashley CC et al. 2026, J Neuroinflammation."
     },
     {
@@ -602,6 +637,7 @@
      "pmid": "42026401",
      "model": "MPTP-type mouse PD model and microglia; BMSC exosomal miR-1278 acting on Ldha",
      "shows": "Ldha-dependent microglial polarisation drives PD pathology, lowered by exosomal miR-1278; weak, since Ldha is targeted indirectly through a miRNA.",
+     "direction": "promotes disease",
      "cite": "Yan W et al. 2026, Neuromolecular Med."
     },
     {
@@ -609,6 +645,7 @@
      "pmid": "42706251",
      "model": "EAE in female mice; microglial Ldha deletion",
      "shows": "A lactate-H4K12la-HDAC1 axis governs microglial state transitions in EAE, with microglial Ldha deletion changing microglial states and disease course.",
+     "direction": "direction not stated",
      "cite": "Li J et al. 2026, Nat Commun."
     }
    ]
@@ -643,12 +680,14 @@
      "cite": "Forsythe JA et al. 1996, Mol Cell Biol."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "MS",
      "pmid": "22653056",
      "model": "EAE and other CNS inflammatory models; astrocyte-specific VEGF-A/HIF-1alpha manipulation; active MS lesions",
      "shows": "Astrocytic HIF-1alpha-driven VEGF-A causes blood-brain barrier disruption in CNS inflammatory disease, and both proteins are found in reactive astrocytes of active MS lesions.",
+     "direction": "promotes disease",
      "cite": "Argaw AT et al. 2012, J Clin Invest."
     }
    ]
@@ -675,12 +714,14 @@
      "cite": "Griffin P et al. 2020, Elife."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "33328329",
      "model": "APP/PS1 mice and primary astrocytes; astrocyte Bmal1 deletion",
      "shows": "The astrocyte circadian clock protein BMAL1 controls Chi3l1/YKL-40 and restrains glial activation and neuroinflammation in AD mice, matching the drawn role of BMAL1 restraining astrocyte activation.",
+     "direction": "protective",
      "cite": "Lananna BV et al. 2020, Sci Transl Med."
     },
     {
@@ -688,6 +729,7 @@
      "pmid": "38032732",
      "model": "Global postnatal and cell-type-specific (neuronal) Bmal1 deletion in mice; dopaminergic neurons",
      "shows": "Neuronal Bmal1 deletion causes cell-autonomous loss of tyrosine hydroxylase-positive dopaminergic neurons, a PD-relevant phenotype; cell type differs from the astrocytic role the map draws.",
+     "direction": "protective",
      "cite": "Kanan MF et al. 2024, JCI Insight."
     },
     {
@@ -695,6 +737,7 @@
      "pmid": "29234010",
      "model": "EAE; myeloid-specific Bmal1 deletion (LysM-Cre)",
      "shows": "Loss of BMAL1 in myeloid cells exacerbates T cell-mediated CNS autoimmunity, with more immune cell accumulation and activation in EAE, i.e. BMAL1 restrains glial/myeloid activation in an MS model.",
+     "direction": "protective",
      "cite": "Sutton CE et al. 2017, Nat Commun."
     }
    ]
@@ -729,12 +772,14 @@
      "cite": "Aid S et al. 2008, J Neuroinflammation."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "18292081",
      "model": "Abeta-mediated suppression of memory and hippocampal plasticity in mice, selective COX-2 inhibitor versus COX-1-preferring NSAIDs",
      "shows": "Selective COX-2 inhibition rescues Abeta-mediated suppression of synaptic plasticity and memory, showing COX-2 (and its prostaglandin product) mediates Abeta-driven dysfunction.",
+     "direction": "promotes disease",
      "cite": "Kotilinek LA et al. 2008, Brain."
     },
     {
@@ -742,6 +787,7 @@
      "pmid": "14704277",
      "model": "MPTP mouse model of PD; COX-2-deficient mice, JNK2/JNK3 knockouts",
      "shows": "COX-2 is indispensable for MPTP-induced dopaminergic cell death, placing COX-2 downstream of JNK in PD neurodegeneration.",
+     "direction": "promotes disease",
      "cite": "Hunot S et al. 2004, Proc Natl Acad Sci U S A."
     },
     {
@@ -749,6 +795,7 @@
      "pmid": "20388219",
      "model": "TMEV-induced demyelinating disease (MS model), COX-2 inhibitors; COX-2-overexpressing and COX-2-knockout oligodendrocytes; human MS lesions",
      "shows": "COX-2 inhibitors limit demyelination in the TMEV MS model and COX-2 level sets oligodendrocyte vulnerability to excitotoxic death; cell type is oligodendrocytes, not the microglia the map draws.",
+     "direction": "promotes disease",
      "cite": "Carlson NG et al. 2010, J Neuroinflammation."
     }
    ]
@@ -787,12 +834,14 @@
      "cite": "Shen W et al. 2014, J Neuroinflammation."
     }
    ],
+   "disease_note": "The CXCL12-CXCR4 axis is protective in the AD and MS models (it brings in protective B cells, or holds infiltrates outside the parenchyma) and harmful in the PD model (it drives microglial accumulation).",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "41107404",
      "model": "5xFAD and uMT/5xFAD mice; AAV-siCXCL12 in frontal microglia, CXCR4 antagonist",
      "shows": "Suppressing microglial CXCL12 blocks CXCR4+ B cell entry into the cortex and increases Abeta burden in 5xFAD mice, showing the CXCL12-CXCR4 axis is functional in AD.",
+     "direction": "protective",
      "cite": "Zhang YL et al. 2025, Acta Pharmacol Sin."
     },
     {
@@ -800,6 +849,7 @@
      "pmid": "31831012",
      "model": "A53T alpha-synuclein mice, primary microglia and BV-2 cells; PD patient brain tissue",
      "shows": "alpha-Synuclein raises microglial CXCL12 via TLR4/NF-kB and CXCL12/CXCR4/FAK/Src/Rac1 signalling drives microglial accumulation in the substantia nigra, the CXCL12-CXCR4 edge in a PD model.",
+     "direction": "promotes disease",
      "cite": "Li Y et al. 2019, J Neuroinflammation."
     },
     {
@@ -807,6 +857,7 @@
      "pmid": "17114479",
      "model": "EAE; CXCL12 at the blood-brain barrier, CXCR4 blockade (AMD3100)",
      "shows": "Abluminal CXCL12 holds mononuclear infiltrates in the perivascular space during EAE; loss of this gradient lets leukocytes into the parenchyma.",
+     "direction": "protective",
      "cite": "McCandless EE et al. 2006, J Immunol."
     }
    ]
@@ -841,12 +892,14 @@
      "cite": "McCandless EE et al. 2008, Am J Pathol."
     }
    ],
+   "disease_note": "The CXCL12-CXCR4 axis is protective in the AD and MS models (it brings in protective B cells, or holds infiltrates outside the parenchyma) and harmful in the PD model (it drives microglial accumulation).",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "41107404",
      "model": "5xFAD and uMT/5xFAD mice; CXCR4 antagonist, microglial CXCL12 knockdown",
      "shows": "Blocking CXCR4 abolishes the protective infiltration of CXCR4+ memory B cells into the AD cortex, showing CXCR4 mediates the CXCL12 signal in an AD model.",
+     "direction": "protective",
      "cite": "Zhang YL et al. 2025, Acta Pharmacol Sin."
     },
     {
@@ -854,6 +907,7 @@
      "pmid": "31831012",
      "model": "A53T alpha-synuclein mice and primary microglia; CXCR4 pathway blockade",
      "shows": "CXCR4 is upregulated in substantia nigra microglia of A53T mice and CXCL12/CXCR4 signalling mediates alpha-synuclein-induced microglial accumulation.",
+     "direction": "promotes disease",
      "cite": "Li Y et al. 2019, J Neuroinflammation."
     },
     {
@@ -861,6 +915,7 @@
      "pmid": "17114479",
      "model": "EAE; CXCR4 blockade with AMD3100",
      "shows": "CXCR4 engagement by abluminal CXCL12 keeps infiltrating leukocytes perivascular in EAE; blocking the receptor changes their entry into the parenchyma.",
+     "direction": "protective",
      "cite": "McCandless EE et al. 2006, J Immunol."
     }
    ]
@@ -896,12 +951,14 @@
      "cite": "Legler DF et al. 1998, J Exp Med."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "MS",
      "pmid": "16280350",
      "model": "Human MS CSF and actively demyelinating MS lesions",
      "shows": "CXCL13 is produced in active MS lesions and raised in MS CSF, where it is linked to recruitment of CXCR5-positive B and T cells, anchoring the drawn CXCL13-CXCR5 edge in MS; source is myeloid/stromal rather than neuronal as drawn.",
+     "direction": "promotes disease",
      "cite": "Krumbholz M et al. 2005, Brain."
     }
    ]
@@ -937,12 +994,14 @@
      "cite": "Shen Y et al. 2020, J Neuroinflammation."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "MS",
      "pmid": "29535739",
      "model": "Th17-transfer EAE; CXCR5+PD-1+ T follicular helper cells, CXCL13 antagonism",
      "shows": "CXCR5+ cells infiltrate the CNS in proportion to disease severity and blocking the CXCR5 ligand CXCL13 reduces EAE; CXCR5 here sits on infiltrating lymphocytes, not on the microglia or neurons the map draws.",
+     "direction": "promotes disease",
      "cite": "Quinn JL et al. 2018, Front Immunol."
     }
    ]
@@ -983,6 +1042,7 @@
      "cite": "Milner R et al. 1999, J Cell Sci."
     }
    ],
+   "disease_note": "",
    "diseases": []
   },
   {
@@ -1016,12 +1076,14 @@
      "cite": "Milner R et al. 2009, Glia."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "PD",
      "pmid": "42185903",
      "model": "Microglia and a PD/alpha-synuclein mouse model with cognitive impairment; integrin alphaV/beta5-FAK axis, irisin as ligand",
      "shows": "Signalling through microglial integrin alphaVbeta5 drives phagocytic uptake and lysosomal clearance of alpha-synuclein and lowers alpha-synuclein burden, the alphaVbeta5 phagocytic role the map draws.",
+     "direction": "protective",
      "cite": "Liu Y et al. 2026, J Neuroinflammation."
     }
    ]
@@ -1048,12 +1110,14 @@
      "cite": "Diaz-Ortiz ME et al. 2022, Science."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "42192197",
      "model": "PS19 tauopathy mice; microglia-specific Gpnmb knockout (CX3CR1-Cre Gpnmb-flox)",
      "shows": "Microglial GPNMB is needed for mitochondria-carrying extracellular vesicle transfer to astrocytes; its deletion impairs astrocyte function and worsens cognition in PS19 mice.",
+     "direction": "protective",
      "cite": "Liang C et al. 2026, Nat Neurosci."
     },
     {
@@ -1061,6 +1125,7 @@
      "pmid": "42842725",
      "model": "Human iPSC-derived microglia with Ser129-phosphorylated alpha-synuclein aggregates; GPNMB knockdown",
      "shows": "GPNMB sits next to alpha-synuclein aggregates and its knockdown blocks microglial trogocytosis-mediated clearance of intraneuronal alpha-synuclein.",
+     "direction": "protective",
      "cite": "Chueh HJ et al. 2026, Sci Transl Med."
     }
    ]
@@ -1087,12 +1152,14 @@
      "cite": "Cui X et al. 2021, Brain Res Bull."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "33053435",
      "model": "Microglial TREM2 and DAP12 knockout AD model mice; primary microglia with Abeta1-42",
      "shows": "Microglial DAP12 (TYROBP) knockout changes inflammatory cytokine output and Abeta plaque deposition in AD model mice, the TREM2-TYROBP signalling step the map draws.",
+     "direction": "direction not stated",
      "cite": "Cui X et al. 2020, Brain Res Bull."
     }
    ]
@@ -1115,12 +1182,14 @@
      "cite": "Matoba K et al. 2026, Nat Commun."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "33752701",
      "model": "Humanized APP knock-in AD mice; CD9+ plaque-associated (MGnD) microglia and extracellular vesicles",
      "shows": "CD9 marks the plaque-associated microglia that engulf dystrophic neurites and hyper-secrete CD9+ vesicles carrying phospho-tau; functional CD9 blockade data exist only in the cortical-injury model.",
+     "direction": "direction not stated",
      "cite": "Clayton K et al. 2021, Mol Neurodegener."
     }
    ]
@@ -1147,12 +1216,14 @@
      "cite": "Wang R et al. 2024, Sci Signal."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "PD",
      "pmid": "21700325",
      "model": "Patient-derived and GBA1-mutant neurons, GCase knockdown and alpha-synuclein manipulation (synucleinopathy models)",
      "shows": "Low GCase raises alpha-synuclein and alpha-synuclein in turn inhibits GCase, the bidirectional GBA1-alpha-synuclein loop the map draws.",
+     "direction": "protective",
      "cite": "Mazzulli JR et al. 2011, Cell."
     }
    ]
@@ -1179,12 +1250,14 @@
      "cite": "Favret J et al. 2024, Sci Rep."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "MS",
      "pmid": "28575206",
      "model": "GALC +/- mice (MS risk variant model), cuprizone demyelination and remyelination",
      "shows": "Heterozygous GALC mice clear myelin debris poorly and remyelinate less after cuprizone, with a blunted microglial phagocytic response and reduced Trem2, linking the MS risk gene GALC to microglial myelin clearance.",
+     "direction": "protective",
      "cite": "Scott-Hewitt NJ et al. 2017, Hum Mol Genet."
     }
    ]
@@ -1215,12 +1288,14 @@
      "cite": "Loix M et al. 2022, Cell Mol Life Sci."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "41294836",
      "model": "CRISPR Plin2-knockout BV2 microglia challenged with AD-related stimuli",
      "shows": "Plin2 loss reduces microglial lipid droplet burden and changes phagocytosis and bioenergetics under AD stimuli; weak (microglial cell line, no in vivo AD model).",
+     "direction": "direction not stated",
      "cite": "Stephens IO et al. 2025, Cells."
     },
     {
@@ -1228,6 +1303,7 @@
      "pmid": "36100764",
      "model": "Myelin-laden phagocytes and demyelination/remyelination models; Plin2 loss",
      "shows": "Perilipin-2 limits remyelination by preventing lipid droplet degradation in myelin-laden phagocytes.",
+     "direction": "promotes disease",
      "cite": "Loix M et al. 2022, Cell Mol Life Sci."
     }
    ]
@@ -1258,12 +1334,14 @@
      "cite": "Zhang H et al. 2026, Neurosci Bull."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "PD",
      "pmid": "42418556",
      "model": "MPTP and alpha-synuclein preformed fibril mouse models; astrocyte-specific Ch25h conditional knockout and knockdown; PD patient iPSC-derived astrocytes",
      "shows": "Astrocytic CH25H is raised in PD and its conditional knockout or knockdown reduces dopaminergic neuron loss and motor deficits by freeing p62 for autophagic degradation of alpha-synuclein.",
+     "direction": "promotes disease",
      "cite": "Zhang X et al. 2026, Sci Transl Med."
     }
    ]
@@ -1295,12 +1373,14 @@
      "cite": "Dell'Albani P et al. 2001, J Neurosci Res."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "MS",
      "pmid": "40057949",
      "model": "EAE and human MS lesions; astrocytic IRF1 and its repressor BATF2",
      "shows": "Astrocytic IRF1 drives interferon-gamma-induced inflammatory programmes (including caspase-1) in EAE and colocalises with astrocytes in MS lesions; loss of the repressor BATF2 amplifies IRF1 and worsens disease.",
+     "direction": "promotes disease",
      "cite": "Tinkey RA et al. 2025, Cell Rep."
     }
    ]
@@ -1327,12 +1407,14 @@
      "cite": "Liu Y et al. 2025, Transbound Emerg Dis."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "42162276",
      "model": "PS19 tauopathy mice; Zbp1 haploinsufficiency; human AD excitatory neurons",
      "shows": "Tau aggregates reactivate transposable elements producing Z-RNAs that activate ZBP1 and kill neurons; Zbp1 haploinsufficiency rescues cognition, the ZBP1-RIPK3 necroptosis route the map draws.",
+     "direction": "promotes disease",
      "cite": "Liu W et al. 2026, Nat Neurosci."
     }
    ]
@@ -1355,12 +1437,14 @@
      "cite": "Hur JY et al. 2020, Nature."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "32879487",
      "model": "Human AD brain, APP mouse models and cell models; IFITM3 knockout and overexpression",
      "shows": "IFITM3 binds the gamma-secretase complex and raises Abeta production; its deletion lowers amyloid, the IFITM3-gamma-secretase step the map draws.",
+     "direction": "promotes disease",
      "cite": "Hur JY et al. 2020, Nature."
     }
    ]
@@ -1383,12 +1467,14 @@
      "cite": "Tu D et al. 2023, Free Radic Biol Med."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "18202172",
      "model": "Tg2576 APP-overexpressing mice crossed to Nox2 (Cybb)-null mice",
      "shows": "Deleting the NADPH oxidase catalytic subunit Nox2 in APP mice abolishes the cerebrovascular oxidative stress and rescues neurovascular and behavioural dysfunction, showing NOX2-derived superoxide mediates amyloid-driven damage.",
+     "direction": "promotes disease",
      "cite": "Park L et al. 2008, Proc Natl Acad Sci U S A."
     },
     {
@@ -1396,6 +1482,7 @@
      "pmid": "36870375",
      "model": "Chronic LPS mouse model of PD and midbrain neuron-glia cultures; neuronal and global NOX2 deletion",
      "shows": "NOX2 is persistently upregulated in microglia and neurons in a PD model and neuronal NOX2 deletion is protective, the superoxide-producing role the map draws.",
+     "direction": "promotes disease",
      "cite": "Tu D et al. 2023, Free Radic Biol Med."
     },
     {
@@ -1403,6 +1490,7 @@
      "pmid": "33868265",
      "model": "MOG-induced EAE in Nox2 (Cybb) gene-ablated mice; CNS myeloid cells and microglia",
      "shows": "Nox2 deficiency reduces EAE severity, immune cell infiltration, demyelination and CNS oxidative stress, showing microglial NOX2 drives MS-model pathology.",
+     "direction": "promotes disease",
      "cite": "Hu CF et al. 2021, Front Immunol."
     }
    ]
@@ -1429,12 +1517,14 @@
      "cite": "Wimmer I et al. 2019, Front Immunol."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "MS",
      "pmid": "31024547",
      "model": "Human MS white and grey matter lesions; human blood-brain barrier endothelial model with PECAM-1 loss; neuroinflammation",
      "shows": "PECAM-1 is strongly upregulated in early MS lesions and stabilises barrier integrity while favouring paracellular T-cell diapedesis, the two opposite-sign roles the map draws.",
+     "direction": "both directions",
      "cite": "Wimmer I et al. 2019, Front Immunol."
     }
    ]
@@ -1465,12 +1555,14 @@
      "cite": "Zhou F et al. 2025, Anesthesiol Res Pract."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "PD",
      "pmid": "41254084",
      "model": "MPTP/MPP+ PD models and microglia; MIF knockdown",
      "shows": "MIF downregulation attenuates microglial neuroinflammation through TLR4/MyD88/TRAF6/NF-kB and protects dopaminergic neurons, matching the drawn MIF-NLRP3/NF-kB role.",
+     "direction": "promotes disease",
      "cite": "Huang Y et al. 2025, Commun Biol."
     },
     {
@@ -1478,6 +1570,7 @@
      "pmid": "23797673",
      "model": "MOG-induced EAE in MIF-deficient mice; CNS effector mechanisms",
      "shows": "MIF-deficient mice mount normal peripheral myelin-specific responses but develop much milder EAE with less CNS inflammation, showing MIF potentiates autoimmune neuroinflammation in the CNS.",
+     "direction": "promotes disease",
      "cite": "Cox GM et al. 2013, J Immunol."
     }
    ]
@@ -1508,12 +1601,14 @@
      "cite": "Khalife MR et al. 2025, eNeuro."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "36703981",
      "model": "5XFAD and 3xTg AD mice, chronic NDP-alpha-MSH (POMC-derived melanocortin analogue)",
      "shows": "The alpha-MSH analogue improves cognition and lowers microgliosis and phospho-tau in advanced AD mice, the anti-inflammatory melanocortin action the map draws; the analogue is not MC4R-selective.",
+     "direction": "protective",
      "cite": "Daini E et al. 2023, Front Immunol."
     },
     {
@@ -1521,6 +1616,7 @@
      "pmid": "38110615",
      "model": "MPTP+LPS mouse PD model, systemic NDP-MSH (non-brain-penetrant melanocortin agonist), Treg depletion",
      "shows": "Melanocortin receptor activation with an alpha-MSH analogue attenuates striatal dopamine depletion and modulates immune responses in a PD model; acts through MC1R rather than the MC4R drawn.",
+     "direction": "protective",
      "cite": "Srivastava P et al. 2023, J Neuroimmune Pharmacol."
     },
     {
@@ -1528,6 +1624,7 @@
      "pmid": "41454349",
      "model": "EAE mouse model of MS; astrocyte-specific MC4R knockdown",
      "shows": "The melanocortin (alpha-MSH)-MC4R axis on astrocytes limits blood-brain barrier disruption and neuroinflammation in EAE; astrocytic MC4R knockdown removes the protection.",
+     "direction": "protective",
      "cite": "Wang Y et al. 2025, J Neuroinflammation."
     }
    ]
@@ -1558,6 +1655,7 @@
      "cite": "Rosito M et al. 2012, J Neurosci."
     }
    ],
+   "disease_note": "",
    "diseases": []
   },
   {
@@ -1582,12 +1680,14 @@
      "cite": "Chu CH et al. 2016, Brain Behav Immun."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "MS",
      "pmid": "30144320",
      "model": "Mouse EAE spinal cord; viral overexpression of CSF1 in spinal neurons",
      "shows": "Neuron-derived CSF1 is raised in EAE and its overexpression drives microglial proliferation and activation with microglia enwrapping CSF1-expressing neurons, followed by neuronal loss and demyelination.",
+     "direction": "promotes disease",
      "cite": "Gushchina S et al. 2018, Glia."
     }
    ]
@@ -1614,6 +1714,7 @@
      "cite": "Jo M et al. 2017, J Neurosci."
     }
    ],
+   "disease_note": "",
    "diseases": []
   },
   {
@@ -1646,12 +1747,14 @@
      "cite": "Chen S et al. 2018, J Neuroinflammation."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "MS",
      "pmid": "41454349",
      "model": "EAE mouse model of MS; astrocyte-specific MC4R knockdown",
      "shows": "Astrocytic MC4R knockdown in EAE removes the protection against blood-brain barrier disruption and neuroinflammation, showing MC4R lowers NF-kB-driven astrocyte inflammation in an MS model.",
+     "direction": "protective",
      "cite": "Wang Y et al. 2025, J Neuroinflammation."
     }
    ]
@@ -1678,12 +1781,14 @@
      "cite": "Ge X et al. 2025, Neuron."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "37679549",
      "model": "5xFAD mice; Cxcr6 knockout and bone-marrow chimeras; brain CD8 T cells",
      "shows": "CXCR6 is needed for CD8 T cell residency in the AD brain; its loss removes brain CD8 T cells, raises amyloid and worsens memory with more microglial TNF, the CXCL16-CXCR6 edge the map draws.",
+     "direction": "protective",
      "cite": "Su W et al. 2023, Nat Immunol."
     }
    ]
@@ -1718,12 +1823,14 @@
      "cite": "Mitrasinovic OM et al. 2003, Neurobiol Aging."
     }
    ],
+   "disease_note": "",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "26921617",
      "model": "5xFAD/APP mice, CSF1R inhibitor PLX3397 (microglial elimination)",
      "shows": "CSF1R inhibition eliminates microglia in AD mice and prevents neuronal loss and inflammatory gene expression without changing amyloid, showing microglia depend on CSF1R signalling in AD.",
+     "direction": "promotes disease",
      "cite": "Spangenberg EE et al. 2016, Brain."
     },
     {
@@ -1731,6 +1838,7 @@
      "pmid": "39284516",
      "model": "alpha-synuclein transgenic (synucleinopathy) mice, CSF1R inhibitor pexidartinib (PLX3397)",
      "shows": "CSF-1R inhibition depletes microglia in a synucleinopathy model and changes microglial and neuronal fates, showing CSF1R maintains the microglial population in PD models.",
+     "direction": "direction not stated",
      "cite": "Iba M et al. 2024, Brain Behav Immun."
     },
     {
@@ -1738,6 +1846,7 @@
      "pmid": "36635255",
      "model": "MOG-induced EAE; CSF1R inhibitor PLX5622 and Ccr2-reporter mice",
      "shows": "Depleting microglia and meningeal macrophages through CSF1R inhibition delays EAE onset, showing CSF1R-dependent microglia drive MS-model pathology.",
+     "direction": "promotes disease",
      "cite": "Montilla A et al. 2023, Cell Death Dis."
     }
    ]
@@ -1768,12 +1877,14 @@
      "cite": "Jo M et al. 2017, J Neurosci."
     }
    ],
+   "disease_note": "The direction differs by disease and mechanism: neuronal CCR5 blocks autophagy in the tau model (drawn), while CCR5-deficient mice fare worse after MPTP through a different route (more astrocytic MAO-B, so more toxin activated), which the map does not draw.",
    "diseases": [
     {
      "disease": "AD",
      "pmid": "37105172",
      "model": "Tauopathy (and Huntington) mouse models and neurons; CCR5 knockout and the CCR5 blocker maraviroc",
      "shows": "Microglia-derived CCL3/4/5 activate neuronal CCR5, raising mTORC1 and blocking autophagy and clearance of aggregate-prone proteins; CCR5 loss or maraviroc restores autophagy in the tau model.",
+     "direction": "promotes disease",
      "cite": "Festa BP et al. 2023, Neuron."
     },
     {
@@ -1781,6 +1892,7 @@
      "pmid": "22922220",
      "model": "MPTP mouse model of PD in CCR5 wild-type and knockout mice; nigral glia and dopaminergic neurons",
      "shows": "CCR5-deficient mice have fewer nigral dopaminergic neurons, more microglial activation, greater dopamine depletion and worse behaviour after MPTP, so here CCR5 is protective - the opposite sign to the pro-inflammatory CCR5 role the map draws, and MPTP-induced TH cell loss itself was barely changed.",
+     "direction": "protective",
      "cite": "Choi DY et al. 2012, Neurobiol Dis."
     }
    ]

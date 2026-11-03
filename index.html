@@ -88,6 +88,9 @@
   .m2-dis-h { margin: 6px 0 2px !important; color: #333; }
   .m2-dis { margin: 0; padding-left: 22px; }
   .m2-dis li { margin: 2px 0; }
+  .m2-dir { font-size: 12px; padding: 0 5px; border-radius: 3px; border: 1px solid #bbb; color: #333; white-space: nowrap; }
+  .m2-dir-promotes { background: #fde2e2; border-color: #e7a3a3; }
+  .m2-dir-protective { background: #dff1df; border-color: #9fcf9f; }
   #m2-notation { margin: 18px 0 0; font-size: 14px; line-height: 20px; }
   #m2-notation[hidden] { display: none; }
   #m2-about p { margin: 10px 0 0; }
@@ -445,9 +448,9 @@ long for its submap is drawn as a small map first and merged once checked.</p>
         '<p>' + esc(p.summary) + '</p>' +
         (p.links || []).map(function (l) { return '<p class="m2-where">' + esc(l) + '</p>'; }).join('') +
         '<ol>' + p.refs.map(function (r) { return '<li>' + ref(r) + '</li>'; }).join('') + '</ol>' +
-        ((p.diseases || []).length ? '<p class="m2-dis-h">In disease models and patients:</p><ul class="m2-dis">' + p.diseases.map(function (x) {
-          return '<li><b>' + esc(DIS[x.disease] || x.disease) + '</b>: ' + esc(x.shows) + ' <span class="m2-where">(' + esc(x.model) + ')</span> ' + ref(x) + '</li>';
-        }).join('') + '</ul>' : '') + '</div>';
+        ((p.diseases || []).length ? '<p class="m2-dis-h">In disease models and patients (the tag gives the protein&#39;s net effect on the disease in that study):</p><ul class="m2-dis">' + p.diseases.map(function (x) {
+          return '<li><b>' + esc(DIS[x.disease] || x.disease) + '</b>' + (x.direction ? ' <span class="m2-dir m2-dir-' + esc(x.direction.split(' ')[0]) + '">' + esc(x.direction) + '</span>' : '') + ': ' + esc(x.shows) + ' <span class="m2-where">(' + esc(x.model) + ')</span> ' + ref(x) + '</li>';
+        }).join('') + '</ul>' + (p.disease_note ? '<p class="m2-where">' + esc(p.disease_note) + '</p>' : '') : '') + '</div>';
     });
     box.innerHTML = h;
   }
