@@ -61,6 +61,17 @@
   #m2-downloads { margin: 10px 0 0; display: flex; flex-wrap: wrap; }
   .m2 a { color: #1c47a9; }
   .m2 a:hover, .m2 a:active { color: #1c47a9; }
+  /* added proteins: their evidence under the map, one entry each */
+  #m2-evidence { margin: 18px 0 0; font-size: 14px; line-height: 20px; }
+  #m2-evidence:empty { display: none; }
+  #m2-evidence h2 { font-size: 16px; font-weight: normal; margin: 0 0 6px; }
+  .m2-legend { color: #555; margin: 0 0 10px; }
+  .m2-sw { display: inline-block; width: 22px; height: 12px; border: 1px solid #777; border-radius: 3px; vertical-align: -1px; margin: 0 4px 0 0; }
+  .m2-ev { border-top: 1px solid #eee; padding: 8px 0; }
+  .m2-ev h3 { font-size: 15px; margin: 0 0 4px; }
+  .m2-ev p { margin: 0 0 4px; }
+  .m2-ev ol { margin: 4px 0 0; padding-left: 22px; }
+  .m2-ev .m2-where { color: #555; }
 </style>
 </head>
 <body>
@@ -83,6 +94,7 @@
 </div>
 </div>
 <div id="m2-downloads"></div>
+<div id="m2-evidence"></div>
 </div>
 </div>
 <script>
@@ -246,6 +258,7 @@
     document.getElementById('m2-downloads').innerHTML =
       '<a class="m2-btn" href="' + encodeURI(m.file) + '" download title="' + m.name + '.xml, sha1 ' + m.sha1 + '">CellDesigner' + DL_ICON + '</a>';
     show();
+    showEvidence();
   }
   document.addEventListener('keydown', function (e) {
     if (e.altKey || e.ctrlKey || e.metaKey) return;
@@ -281,12 +294,36 @@
     });
   }
 
+  // proteins added to the map (evidence.json): an entry per protein drawn on the chosen map
+  var evidence = { proteins: [] };
+  function esc(t) { return String(t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function ref(r) {
+    return esc(r.cite) + ' <a href="https://pubmed.ncbi.nlm.nih.gov/' + esc(r.pmid) + '/" target="_blank" rel="noopener">PMID ' + esc(r.pmid) + '</a>';
+  }
+  function showEvidence() {
+    var box = document.getElementById('m2-evidence'), m = maps[cur];
+    var here = evidence.proteins.filter(function (p) { return p.maps.indexOf(m.slug) >= 0; });
+    if (!here.length) { box.innerHTML = ''; return; }
+    var h = '<h2>Proteins added to this map (' + here.length + ')</h2><p class="m2-legend">' +
+      (evidence.legend || []).map(function (l) { return '<span class="m2-sw" style="background:' + esc(l.colour) + '"></span>' + esc(l.text); }).join(' &nbsp; ') + '</p>';
+    here.forEach(function (p) {
+      h += '<div class="m2-ev" id="ev-' + esc(p.name) + '"><h3><span class="m2-sw" style="background:' + esc(p.colour) + '"></span>' + esc(p.name) +
+        (p.full_name ? ' <span class="m2-where">(' + esc(p.full_name) + ')</span>' : '') + '</h3>' +
+        '<p>' + esc(p.summary) + '</p>' +
+        (p.links || []).map(function (l) { return '<p class="m2-where">' + esc(l) + '</p>'; }).join('') +
+        '<ol>' + p.refs.map(function (r) { return '<li>' + ref(r) + '</li>'; }).join('') + '</ol></div>';
+    });
+    box.innerHTML = h;
+  }
+
   fetch('maps.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (data) {
     maps = data;
     buildList();
     var want = new URLSearchParams(location.search).get('map');
     var start = maps.findIndex(function (m) { return m.slug === want; });
     choose(start < 0 ? 0 : start);
+    fetch('evidence.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : { proteins: [] }; })
+      .then(function (e) { evidence = e; showEvidence(); }).catch(function () {});
   });
 })();
 </script>
