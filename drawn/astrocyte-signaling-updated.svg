@@ -383,8 +383,8 @@
 <text x="2580" y="654" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">HIF1A</text>
 <circle cx="2580" cy="716" r="11.25" fill="#ffcc00" stroke="#000"/>
 <line x1="2586" y1="701" x2="2574" y2="731" stroke="#000"/>
-<rect x="3190" y="2066" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
-<text x="3230" y="2090" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">BMAL1</text>
+<rect x="3600" y="1385" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="3640" y="1409" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">BMAL1</text>
 <circle cx="1550.7" cy="610.6" r="11.25" fill="#ffcc00" stroke="#000"/>
 <line x1="1556.7" y1="595.6" x2="1544.7" y2="625.6" stroke="#000"/>
 <rect x="1329" y="545" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
@@ -393,6 +393,17 @@
 <text x="4501" y="2260.8" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">VTN</text>
 <rect x="3600" y="375" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
 <text x="3640" y="399" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">OSM</text>
+<rect x="3760" y="1360" width="70" height="25" fill="#ffcc00" stroke="#000"/>
+<text x="3795" y="1376.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NR1D1</text>
+<polygon points="3775,1450 3840,1450 3815,1475 3750,1475" fill="#ffcc00" stroke="#000"/>
+<text x="3795" y="1466.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NR1D1</text>
+<rect x="4000" y="1445" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="4040" y="1469" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NR1D1</text>
+<rect x="4900" y="1958" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="4940" y="1982" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">PTK2</text>
+<rect x="4716" y="1954" width="88" height="48" rx="9" fill="none" stroke="#000" stroke-dasharray="4,2"/>
+<rect x="4720" y="1958" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="4760" y="1982" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">PTK2</text>
 <rect x="3372.8" y="601" width="80" height="40" rx="5" fill="#66b2ff" stroke="#000"/>
 <text x="3412.8" y="625" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IRF1</text>
 <rect x="1178" y="560" width="80" height="40" rx="5" fill="#e7dbe2" stroke="#000"/>
@@ -620,7 +631,7 @@
 <polyline points="3940,1600.5 3940,1675.5"/>
 <polyline points="3706.41,1314.11 3930.5,1643.39"/>
 <polyline points="3958.92,1315.49 3945.34,1637.01"/>
-<polyline points="3269.24,2061.8 3942.45,1646.57"/>
+<polyline points="4025.71,1492.08 3946.4,1642.35"/>
 <polyline points="3943.75,1730.5 3943.77,2170.36 3292,2170.03"/>
 <polyline points="4050,1600.5 4050,1675.5"/>
 <polyline points="3713.16,1313.16 4039.34,1639.34"/>
@@ -644,7 +655,6 @@
 <polyline points="4600,1600.5 4600,1675.5"/>
 <polyline points="3740.54,1309.83 4587.55,1642.08"/>
 <polyline points="4516.75,1315.23 4602.93,1637.27"/>
-<polyline points="5082.5,2115.16 4610.7,1650.61"/>
 <polyline points="4600,1730.5 4600,1878"/>
 <polyline points="2620,1600.5 2620,1675.5"/>
 <polyline points="3637.41,1307.53 2632.59,1642.47"/>
@@ -780,6 +790,13 @@
 <polyline points="3647.7,422.71 3682.5,547.95"/>
 <polyline points="3610,617.86 3527.49,1059.89"/>
 <polyline points="3628.08,617.99 3640,930 4480,930 4506.63,1249.58"/>
+<polyline points="3795,1393 3795,1428"/>
+<polyline points="3687.98,1408.75 3792.02,1416.88"/>
+<polyline points="3835.17,1462.91 3978,1464.37"/>
+<polyline points="4892,1978 4822,1978"/>
+<polyline points="5081.49,2133.2 4856.71,1987.35"/>
+<polyline points="4622.11,1597.46 4638,1610 4638,1680 4633.1,1683.87"/>
+<polyline points="4750.32,1950.45 4645.65,1652.55"/>
 </g>
 <polygon points="1168,560 1153,565 1153,555" fill="#000"/>
 <polyline points="1078,560 1154,560" fill="none" stroke="#000000" stroke-width="1"/>
@@ -926,8 +943,8 @@
 <polyline points="3701.91,1307.5 3930.5,1643.39" fill="none" stroke="#000000" stroke-width="1"/>
 <polygon points="3945,1645 3941.34,1636.84 3949.33,1637.18" fill="#fff" stroke="#000"/>
 <polyline points="3959.26,1307.5 3945.34,1637.01" fill="none" stroke="#000000" stroke-width="1"/>
-<line x1="3945.6" y1="1651.68" x2="3939.3" y2="1641.47" stroke="#000"/>
-<polyline points="3262.43,2066 3942.45,1646.57" fill="none" stroke="#e69500" stroke-width="1"/>
+<line x1="3941.09" y1="1639.55" x2="3951.71" y2="1645.15" stroke="#000"/>
+<polyline points="4029.44,1485 3946.4,1642.35" fill="none" stroke="#e69500" stroke-width="1" stroke-dasharray="6,4"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(3940,1645) rotate(90)"/>
 <polygon points="3270,2170.02 3285,2165.03 3285,2175.03" fill="#000"/>
 <polyline points="3943.75,1722.5 3943.77,2170.36 3284,2170.03" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="10,3,2,3"/>
@@ -987,8 +1004,6 @@
 <polyline points="3733.1,1306.9 4587.55,1642.08" fill="none" stroke="#000000" stroke-width="1"/>
 <polygon points="4605,1645 4599.07,1638.31 4606.8,1636.24" fill="#fff" stroke="#000"/>
 <polyline points="4514.68,1307.5 4602.93,1637.27" fill="none" stroke="#000000" stroke-width="1"/>
-<polygon points="4605,1645 4613.51,1647.76 4607.89,1653.46" fill="#fff" stroke="#000"/>
-<polyline points="5088.2,2120.77 4610.7,1650.61" fill="none" stroke="#e69500" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(4600,1645) rotate(90)"/>
 <polygon points="4600,1900 4595,1885 4605,1885" fill="#000"/>
 <polyline points="4600,1722.5 4600,1886" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="10,3,2,3"/>
@@ -1345,4 +1360,22 @@
 <polygon points="4508.54,1272.5 4502.31,1257.97 4512.28,1257.14" fill="#000"/>
 <polygon points="4508.14,1267.72 4505.55,1260.71 4509.54,1260.38" fill="#fff"/>
 <polyline points="3627.77,610 3640,930 4480,930 4507.3,1257.55" fill="none" stroke="#e69500" stroke-width="1"/>
+<polygon points="3795,1450 3790,1435 3800,1435" fill="#000"/>
+<polyline points="3795,1385 3795,1436" fill="none" stroke="#e69500" stroke-width="1" stroke-dasharray="10,4,2,4,2,4"/>
+<polygon points="3800,1417.5 3791.71,1420.86 3792.34,1412.89" fill="#fff" stroke="#000"/>
+<polyline points="3680,1408.12 3792.02,1416.88" fill="none" stroke="#e69500" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(3795,1417.5) rotate(90)"/>
+<polygon points="4000,1464.59 3984.95,1469.44 3985.05,1459.44" fill="#000"/>
+<polyline points="3827.17,1462.83 3986,1464.45" fill="none" stroke="#e69500" stroke-width="1" stroke-dasharray="10,3,2,3"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(3913.59,1463.71) rotate(0.58)"/>
+<polygon points="4800,1978 4815,1973 4815,1983" fill="#000"/>
+<polyline points="4900,1978 4814,1978" fill="none" stroke="#e69500" stroke-width="1"/>
+<polygon points="4850,1983 4858.89,1984 4854.53,1990.71" fill="#fff" stroke="#000"/>
+<polyline points="5088.2,2137.56 4856.71,1987.35" fill="none" stroke="#e69500" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(4850,1978) rotate(180)"/>
+<polygon points="4615.83,1697.5 4624.51,1684.28 4630.7,1692.13" fill="#000"/>
+<polyline points="4615.83,1592.5 4638,1610 4638,1680 4626.82,1688.82" fill="none" stroke="#e69500" stroke-width="1"/>
+<polygon points="4643,1645 4649.43,1651.22 4641.88,1653.87" fill="#fff" stroke="#000"/>
+<polyline points="4752.97,1958 4645.65,1652.55" fill="none" stroke="#e69500" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(4638,1645) rotate(90)"/><text x="4638" y="1648" font-family="'Times New Roman', serif" font-weight="bold" font-size="10" text-anchor="middle">//</text>
 </svg>

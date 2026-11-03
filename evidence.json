@@ -663,7 +663,7 @@
    ],
    "summary": "The clock protein BMAL1 restrains astrocyte activation. Astrocyte-specific Bmal1 deletion causes astrocyte activation and inflammatory gene expression in vivo, and Bmal1 deletion raises complement C3, mainly in astrocytes, through REV-ERBalpha, with more microglial synapse engulfment.",
    "links": [
-    "Inhibits C3 transcription in astrocytes, indirectly through REV-ERBalpha (Astrocyte signaling). Kept off the top-level overview: a nuclear protein should not reach the extracellular C3 node."
+    "Drives NR1D1 (REV-ERBalpha) transcription; REV-ERBalpha lowers C3 transcription in astrocytes, drawn as a dashed (unknown) inhibition since the papers do not show whether it acts on the C3 gene directly (Astrocyte signaling, Griffin 2020). Kept off the top-level overview: a nuclear protein should not reach the extracellular C3 node."
    ],
    "refs": [
     {
@@ -958,7 +958,8 @@
    ],
    "summary": "Vitronectin, a blood and matrix protein, leaks into the brain after cerebral ischaemia. In female mice its knockout reduces microglia and macrophage activation, leukocyte infiltration and striatal IL-6, and IL-6 reverses the protection. Vitronectin raises IL-6 through alphaV integrins and FAK in astrocytes. Waited in the first check because its partner its receptor, integrin alphaVbeta5 was not on the map; added together with its receptor, integrin alphaVbeta5 once its receptor, integrin alphaVbeta5 passed the same bar by itself.",
    "links": [
-    "Binds integrin alphaVbeta5 on astrocytes and microglia (top-level map); stimulates IL6 transcription through it in astrocytes (Astrocyte signaling)."
+    "Binds integrin alphaVbeta5 on astrocytes and microglia (top-level map).",
+    "In astrocytes the bound integrin activates FAK (PTK2); FAK leads to IL6 transcription by steps not shown, drawn as an omitted transcription (//) beside the existing one (Astrocyte signaling, Keasey 2018)."
    ],
    "refs": [
     {
