@@ -494,6 +494,204 @@
      "cite": "Aid S et al. 2008, J Neuroinflammation."
     }
    ]
+  },
+  {
+   "name": "CXCL12",
+   "full_name": "C-X-C motif chemokine ligand 12",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "CXCL12 (SDF-1) is made by CNS endothelium on the abluminal side of the blood-brain barrier, and its level there is raised by IL-1beta and TNF and lowered by IFN-gamma. In mouse EAE it holds CXCR4-positive leukocytes in perivascular cuffs, and keeping it there lowers infiltration and disease. In rat spinal cord models CXCL12 activates astrocytes and microglia. Added as the missing partner of CXCR4, after it passed the bar by itself.",
+   "links": [
+    "Induced by IL-1 and TNF receptor signalling and lowered by IFN-gamma in endothelial cells; binds CXCR4 on astrocytes and immune cells (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "21300915",
+     "cite": "Cruz-Orengo L et al. 2011, J Exp Med."
+    },
+    {
+     "pmid": "17114479",
+     "cite": "McCandless EE et al. 2006, J Immunol."
+    },
+    {
+     "pmid": "30955244",
+     "cite": "Liu ZY et al. 2019, CNS Neurosci Ther."
+    },
+    {
+     "pmid": "27760212",
+     "cite": "Li XQ et al. 2016, PLoS One."
+    },
+    {
+     "pmid": "24735601",
+     "cite": "Shen W et al. 2014, J Neuroinflammation."
+    }
+   ]
+  },
+  {
+   "name": "CXCR4",
+   "full_name": "C-X-C motif chemokine receptor 4",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "CXCR4 is the CXCL12 receptor on astrocytes, microglia, neurons and infiltrating leukocytes. On astrocytes its activation releases TNF. In mouse EAE and West Nile virus encephalitis, blocking it lets leukocytes leave the perivascular space and enter the brain tissue, so CXCR4 signalling at the barrier restrains infiltration. Waited in the first check because its partner CXCL12 was not on the map; added together with CXCL12 once CXCL12 passed the same bar by itself.",
+   "links": [
+    "Releases TNF from astrocytes; restrains leukocyte infiltration from immune cells (top-level map)."
+   ],
+   "refs": [
+    {
+     "pmid": "11426226",
+     "cite": "Bezzi P et al. 2001, Nat Neurosci."
+    },
+    {
+     "pmid": "17114479",
+     "cite": "McCandless EE et al. 2006, J Immunol."
+    },
+    {
+     "pmid": "18678898",
+     "cite": "McCandless EE et al. 2008, Proc Natl Acad Sci U S A."
+    },
+    {
+     "pmid": "18276777",
+     "cite": "McCandless EE et al. 2008, Am J Pathol."
+    }
+   ]
+  },
+  {
+   "name": "CXCL13",
+   "full_name": "C-X-C motif chemokine ligand 13",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "chrneuroinflammation46-updated",
+    "neuron-signaling-updated"
+   ],
+   "summary": "CXCL13 is made by neurons in the injured spinal cord and hippocampus. In mice it activates NF-kB and drives IL-6, IL-1beta and TNF through its receptor CXCR5, shown by neutralising antibody, knockdown, neuron-specific overexpression and Cxcr5 knockout mice. Waited in the first check because its partner its receptor CXCR5 was not on the map; added together with its receptor CXCR5 once its receptor CXCR5 passed the same bar by itself.",
+   "links": [
+    "Binds CXCR5 on neurons (top-level map and Neuron signaling)."
+   ],
+   "refs": [
+    {
+     "pmid": "37158939",
+     "cite": "Wang J et al. 2023, J Neuroinflammation."
+    },
+    {
+     "pmid": "33161894",
+     "cite": "Shen Y et al. 2020, J Neuroinflammation."
+    },
+    {
+     "pmid": "26752644",
+     "cite": "Jiang BC et al. 2016, J Clin Invest."
+    },
+    {
+     "pmid": "9463416",
+     "cite": "Legler DF et al. 1998, J Exp Med."
+    }
+   ]
+  },
+  {
+   "name": "CXCR5",
+   "full_name": "C-X-C motif chemokine receptor 5",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "chrneuroinflammation46-updated",
+    "neuron-signaling-updated"
+   ],
+   "summary": "CXCR5 is induced in hippocampal microglia in mouse sepsis, where its knockout lowers p38 activation, IL-1beta, IL-6 and cognitive deficits, and in primary microglia its knockdown lowers LPS-induced p38 and NF-kB activation. In spinal neurons it is needed for CXCL13 to activate NF-kB. In the retina and after stroke CXCR5 has been reported as protective, so its effect depends on the setting. Added as the missing partner of CXCL13, after it passed the bar by itself.",
+   "links": [
+    "Activates NF-kB signalling in neurons (top-level map and Neuron signaling); activates MAPK and NF-kB signalling in microglia (top-level map, shown after LPS without added CXCL13)."
+   ],
+   "refs": [
+    {
+     "pmid": "34711216",
+     "cite": "Shen Y et al. 2021, J Neuroinflammation."
+    },
+    {
+     "pmid": "37158939",
+     "cite": "Wang J et al. 2023, J Neuroinflammation."
+    },
+    {
+     "pmid": "26752644",
+     "cite": "Jiang BC et al. 2016, J Clin Invest."
+    },
+    {
+     "pmid": "33161894",
+     "cite": "Shen Y et al. 2020, J Neuroinflammation."
+    }
+   ]
+  },
+  {
+   "name": "VTN",
+   "full_name": "vitronectin",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "astrocyte-signaling-updated",
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "Vitronectin, a blood and matrix protein, leaks into the brain after cerebral ischaemia. In female mice its knockout reduces microglia and macrophage activation, leukocyte infiltration and striatal IL-6, and IL-6 reverses the protection. Vitronectin raises IL-6 through alphaV integrins and FAK in astrocytes. Waited in the first check because its partner its receptor, integrin alphaVbeta5 was not on the map; added together with its receptor, integrin alphaVbeta5 once its receptor, integrin alphaVbeta5 passed the same bar by itself.",
+   "links": [
+    "Binds integrin alphaVbeta5 on astrocytes and microglia (top-level map); stimulates IL6 transcription through it in astrocytes (Astrocyte signaling)."
+   ],
+   "refs": [
+    {
+     "pmid": "32312218",
+     "cite": "Jia C et al. 2020, Stroke."
+    },
+    {
+     "pmid": "29222114",
+     "cite": "Keasey MP et al. 2018, J Cell Sci."
+    },
+    {
+     "pmid": "35702047",
+     "cite": "Jia C et al. 2022, J Cereb Blood Flow Metab."
+    },
+    {
+     "pmid": "17548654",
+     "cite": "Milner R et al. 2007, J Immunol."
+    },
+    {
+     "pmid": "10564645",
+     "cite": "Milner R et al. 1999, J Cell Sci."
+    }
+   ]
+  },
+  {
+   "name": "ITGAV:ITGB5",
+   "full_name": "integrin alphaVbeta5",
+   "round": 1,
+   "colour": "#ffcc00",
+   "maps": [
+    "astrocyte-signaling-updated",
+    "chrneuroinflammation46-updated"
+   ],
+   "summary": "Integrin alphaVbeta5 is the main alphaV integrin of microglia and astrocytes, and alphaV integrins are the main vitronectin receptors of microglia. After intracerebral haemorrhage in mice alphaVbeta5 sits on microglia and macrophages, and its activation raises AMPK signalling and lowers IL-1beta and TNF, effects removed by the integrin inhibitor cilengitide (shown with irisin as ligand). Other alphaV integrins can take over in microglia lacking beta3 and beta5. Added as the missing partner of vitronectin, after it passed the bar by itself.",
+   "links": [
+    "Activates AMPK signalling in microglia; with vitronectin raises IL6 in astrocytes (top-level map and Astrocyte signaling)."
+   ],
+   "refs": [
+    {
+     "pmid": "35392928",
+     "cite": "Wang Y et al. 2022, J Neuroinflammation."
+    },
+    {
+     "pmid": "17548654",
+     "cite": "Milner R et al. 2007, J Immunol."
+    },
+    {
+     "pmid": "22074485",
+     "cite": "Welser-Alves JV et al. 2011, J Neuroinflammation."
+    },
+    {
+     "pmid": "18985734",
+     "cite": "Milner R et al. 2009, Glia."
+    }
+   ]
   }
  ]
 }

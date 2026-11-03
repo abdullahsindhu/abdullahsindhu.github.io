@@ -16,10 +16,10 @@
   "slug": "chrneuroinflammation46-updated",
   "group": "Top-level map",
   "file": "maps-updated/ChrNeuroinflammation46.xml",
-  "sha1": "8bb86f1bdcb5ffd0b797c03be2b40f51b6bcd356",
+  "sha1": "7b83d74fd51c75cb6e8c4b2c371f04d099b81bc9",
   "error": "",
   "notes": [],
-  "svg": "fcaeb4f6a4f7eba713d39afb0d8fc1ebaf9b45e0",
+  "svg": "709cdb2bffd454e1c925a492183cad31947f775b",
   "width": 10000.0,
   "height": 7000.0,
   "updated": true
@@ -103,10 +103,10 @@
   "slug": "astrocyte-signaling-updated",
   "group": "Submaps",
   "file": "maps-updated/submaps/Astrocyte signaling.xml",
-  "sha1": "3c8c51fb4110cbc89be56b4486e6d212d5e62491",
+  "sha1": "7a93f7d46798646bed7e2b2cfa1195cfdc161596",
   "error": "",
   "notes": [],
-  "svg": "feeeda9eb67e84a876cf35995e37606ea56278dc",
+  "svg": "fe13506ced62a31ee1fe55debeade88e856fd593",
   "width": 13244.0,
   "height": 7334.0,
   "updated": true
@@ -220,6 +220,19 @@
   "svg": "3beebc33ee929a0e4c51bb8a8428d875a96b7a69",
   "width": 6000.0,
   "height": 4000.0
+ },
+ {
+  "name": "Neuron signaling (updated)",
+  "slug": "neuron-signaling-updated",
+  "group": "Submaps",
+  "file": "maps-updated/submaps/Neuron signaling.xml",
+  "sha1": "c9161751b66d41f9d006b7d311ef537c35a78073",
+  "error": "",
+  "notes": [],
+  "svg": "6956e2e2e73f5be1bc8b8c43cdbcc9b6839ce47e",
+  "width": 6000.0,
+  "height": 4000.0,
+  "updated": true
  },
  {
   "name": "NLRP1 inflammasome",

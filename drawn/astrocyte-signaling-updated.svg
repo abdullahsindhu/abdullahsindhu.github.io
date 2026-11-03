@@ -57,6 +57,10 @@
 <text x="5635" y="1788" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">NLRP3:NROB2</text>
 <polygon points="2091.8,507.5 2181.8,507.5 2186.8,512.5 2186.8,617.5 2181.8,622.5 2091.8,622.5 2086.8,617.5 2086.8,512.5" fill="#ffcc00" stroke="#000" stroke-width="2"/>
 <text x="2136.8" y="615.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IL1RN:IL1R1</text>
+<polygon points="4968.8,2112.5 5058.8,2112.5 5063.8,2117.5 5063.8,2222.5 5058.8,2227.5 4968.8,2227.5 4963.8,2222.5 4963.8,2117.5" fill="#ffcc00" stroke="#000" stroke-width="2"/>
+<text x="5013.8" y="2220.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ITGAV:ITGB5</text>
+<polygon points="5093.2,2090 5183.2,2090 5188.2,2095 5188.2,2245 5183.2,2250 5093.2,2250 5088.2,2245 5088.2,2095" fill="#ffcc00" stroke="#000" stroke-width="2"/>
+<text x="5138.2" y="2243" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">VTN:ITGAV:ITGB5</text>
 <rect x="1070" y="334" width="80" height="40" rx="5" fill="#e7dbe2" stroke="#000"/>
 <text x="1110" y="358" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APP</text>
 <rect x="1388" y="720" width="80" height="40" rx="5" fill="#e7dbe2" stroke="#000"/>
@@ -383,6 +387,8 @@
 <line x1="1556.7" y1="595.6" x2="1544.7" y2="625.6" stroke="#000"/>
 <rect x="1329" y="545" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
 <text x="1369" y="569" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">LDLR</text>
+<rect x="4765.2" y="2238.3" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="4805.2" y="2262.3" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">VTN</text>
 <rect x="1178" y="560" width="80" height="40" rx="5" fill="#e7dbe2" stroke="#000"/>
 <text x="1218" y="584" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CASR</text>
 <rect x="1178" y="510" width="80" height="40" rx="5" fill="#e7dbe2" stroke="#000"/>
@@ -523,6 +529,16 @@
 <text x="2136.8" y="536.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IL1RN</text>
 <rect x="2096.8" y="557.5" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
 <text x="2136.8" y="581.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IL1R1</text>
+<rect x="4973.8" y="2117.5" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="5013.8" y="2141.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ITGAV</text>
+<rect x="4973.8" y="2162.5" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="5013.8" y="2186.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ITGB5</text>
+<rect x="5098.2" y="2095" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="5138.2" y="2119" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">VTN</text>
+<rect x="5098.2" y="2140" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="5138.2" y="2164" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ITGAV</text>
+<rect x="5098.2" y="2185" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
+<text x="5138.2" y="2209" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">ITGB5</text>
 <g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
 <polyline points="1086,560 1146,560"/>
 <polyline points="1110.24,382 1111.75,560"/>
@@ -613,6 +629,7 @@
 <polyline points="3740.54,1309.83 4587.55,1642.08"/>
 <polyline points="4516.75,1315.23 4602.93,1637.27"/>
 <polyline points="4505.74,2228.91 4603.66,1652.89"/>
+<polyline points="5082.5,2115.16 4610.7,1650.61"/>
 <polyline points="4600,1730.5 4600,1878"/>
 <polyline points="2620,1600.5 2620,1675.5"/>
 <polyline points="3637.41,1307.53 2632.59,1642.47"/>
@@ -741,6 +758,8 @@
 <polyline points="2577.2,618 2575.25,679.38"/>
 <polyline points="1514.45,584.66 1523.68,591.26"/>
 <polyline points="1416.92,571.94 1519.75,586.82"/>
+<polyline points="5071.8,2170 5066.2,2170"/>
+<polyline points="4852.8,2242.6 5072.95,2170"/>
 </g>
 <polygon points="1168,560 1153,565 1153,555" fill="#000"/>
 <polyline points="1078,560 1154,560" fill="none" stroke="#000000" stroke-width="1"/>
@@ -950,6 +969,8 @@
 <polyline points="4514.68,1307.5 4602.93,1637.27" fill="none" stroke="#000000" stroke-width="1"/>
 <polygon points="4605,1645 4607.6,1653.56 4599.72,1652.22" fill="#fff" stroke="#000"/>
 <polyline points="4504.4,2236.8 4603.66,1652.89" fill="none" stroke="#e69500" stroke-width="1"/>
+<polygon points="4605,1645 4613.51,1647.76 4607.89,1653.46" fill="#fff" stroke="#000"/>
+<polyline points="5088.2,2120.77 4610.7,1650.61" fill="none" stroke="#e69500" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(4600,1645) rotate(90)"/>
 <polygon points="4600,1900 4595,1885 4605,1885" fill="#000"/>
 <polyline points="4600,1722.5 4600,1886" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="10,3,2,3"/>
@@ -1290,4 +1311,8 @@
 <polygon points="1527.67,587.97 1519.18,590.78 1520.32,582.86" fill="#fff" stroke="#000"/>
 <polyline points="1409,570.79 1519.75,586.82" fill="none" stroke="#e69500" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(1524.76,592.03) rotate(35.59)"/>
+<polygon points="5088.2,2170 5073.2,2175 5073.2,2165" fill="#000"/>
+<polyline points="5063.8,2170 5074.2,2170" fill="none" stroke="#e69500" stroke-width="1"/>
+<polyline points="4845.2,2245.11 5072.95,2170" fill="none" stroke="#e69500" stroke-width="1"/>
+<rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(5076,2170) rotate(0)"/>
 </svg>
