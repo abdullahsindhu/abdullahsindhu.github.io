@@ -288,8 +288,6 @@
 <text x="1493.92" y="1581.96" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">MAPT</text>
 <polygon points="1050.17,1193.83 1160.17,1193.83 1175.17,1208.83 1160.17,1223.83 1050.17,1223.83 1035.17,1208.83" fill="#cc99ff" stroke="#000"/>
 <text x="1105.17" y="1212.83" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">neuron - apoptosis</text>
-<rect x="1136" y="1042.5" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
-<text x="1176" y="1066.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CTSD</text>
 <rect x="2381.67" y="1125.68" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
 <text x="2421.67" y="1149.68" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SIRT1</text>
 <rect x="2381.17" y="1078.68" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
@@ -382,7 +380,6 @@
 <polyline points="1050.18,1231.83 1050.51,1381.42 1216,1381.06"/>
 <polyline points="1105.15,1185.83 1104.66,970.43 1268,970.06"/>
 <polyline points="1105.15,1185.83 1104.68,938.55 1365,938.05"/>
-<polyline points="1224,1062.52 1269.99,1062.54 1269.99,1057.01"/>
 </g>
 <polygon points="2501.84,755.51 2516.84,750.51 2516.84,760.51" fill="#000"/>
 <polyline points="2674.83,764.34 2674.83,755.51 2515.84,755.51" fill="none" stroke="#000000" stroke-width="1"/>
@@ -509,6 +506,4 @@
 <polyline points="1105.17,1193.83 1104.66,970.43 1276,970.04" fill="none" stroke="#000000" stroke-width="1"/>
 <polygon points="1387,938.01 1372.01,943.04 1371.99,933.04" fill="#000"/>
 <polyline points="1105.17,1193.83 1104.68,938.55 1373,938.04" fill="none" stroke="#000000" stroke-width="1"/>
-<line x1="1275.99" y1="1065.01" x2="1263.99" y2="1065.01" stroke="#000"/>
-<polyline points="1216,1062.52 1269.99,1062.54 1269.99,1065.01" fill="none" stroke="#e69500" stroke-width="1"/>
 </svg>

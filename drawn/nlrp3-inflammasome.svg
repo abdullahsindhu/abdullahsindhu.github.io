@@ -231,8 +231,6 @@
 <ellipse cx="830" cy="1145" rx="35" ry="8" fill="#fff" stroke="#000"/>
 <text x="830" y="1148" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="10" text-anchor="middle">N-terminal</text>
 <text x="830" y="1169" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">GSDMD</text>
-<rect x="3514.3" y="688.5" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
-<text x="3554.3" y="712.5" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">CTSD</text>
 <rect x="2854.38" y="456.15" width="80" height="40" rx="5" fill="#e7dbe2" stroke="#000"/>
 <text x="2894.38" y="480.15" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">SNCA</text>
 <rect x="2856.38" y="501.15" width="80" height="50" rx="5" fill="#e7dbe2" stroke="#000"/>
@@ -382,7 +380,6 @@
 <polyline points="1220,620 1220,683"/>
 <polyline points="674.25,1510 774.5,1510"/>
 <polyline points="1072.11,720.12 730.24,720.4 731.35,1490"/>
-<polyline points="3602.3,708.52 3648.23,708.55 3648.23,714.06"/>
 </g>
 <polygon points="3034.68,486 3019.7,491.06 3019.66,481.06" fill="#000"/>
 <polyline points="3000,372.5 3000.48,486.15 3020.68,486.06" fill="none" stroke="#000000" stroke-width="1"/>
@@ -622,6 +619,4 @@
 <line x1="726.85" y1="1485.01" x2="735.85" y2="1484.99" stroke="#000"/>
 <polyline points="1080.11,720.11 730.24,720.4 731.35,1490" fill="none" stroke="#000000" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(731.38,1510) rotate(0)"/>
-<line x1="3642.23" y1="706.06" x2="3654.23" y2="706.06" stroke="#000"/>
-<polyline points="3594.3,708.52 3648.23,708.55 3648.23,706.06" fill="none" stroke="#e69500" stroke-width="1"/>
 </svg>

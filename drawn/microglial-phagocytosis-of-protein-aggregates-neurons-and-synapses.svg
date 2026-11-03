@@ -520,8 +520,6 @@
 <text x="3730" y="6384" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">APOE</text>
 <polygon points="7332.5,6580 7427.5,6580 7442.5,6595 7427.5,6610 7332.5,6610 7317.5,6595" fill="#cc99ff" stroke="#000"/>
 <text x="7380" y="6599" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">iron accumulation</text>
-<rect x="3460" y="8376" width="80" height="40" rx="5" fill="#ffcc00" stroke="#000"/>
-<text x="3500" y="8400" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">GRN</text>
 <ellipse cx="8963.5" cy="10233" rx="35" ry="12.5" fill="#ccff66" stroke="#000"/>
 <text x="8963.5" y="10237" font-family="'Dialog', 'Liberation Sans', Arial, sans-serif" font-size="12" text-anchor="middle">IP3</text>
 <rect x="8834.75" y="9560" width="80" height="40" rx="5" fill="#ccffcc" stroke="#000"/>
@@ -1011,7 +1009,6 @@
 <polyline points="7695.5,6341.75 7730.49,6341.77 7730.2,7101.56 7440.28,7101.45 7440,7844"/>
 <polyline points="7586.42,6453 7585.72,6384.5"/>
 <polyline points="7442.51,6587 7442.63,6411.71 7566,6411.79"/>
-<polyline points="3500,8424 3500,8419"/>
 </g>
 <polygon points="800,7985 795,7970 805,7970" fill="#000"/>
 <polyline points="240,7305 240,7520 800,7520 800,7971" fill="none" stroke="#000000" stroke-width="1"/>
@@ -1552,6 +1549,4 @@
 <line x1="7561" y1="6416.29" x2="7561" y2="6407.29" stroke="#000"/>
 <polyline points="7442.5,6595 7442.63,6411.71 7566,6411.79" fill="none" stroke="#000000" stroke-width="1"/>
 <rect x="-5" y="-5" width="10" height="10" fill="#fff" stroke="#000" transform="translate(7586,6411.75) rotate(-90.58)"/>
-<line x1="3494" y1="8427" x2="3506" y2="8427" stroke="#000"/>
-<polyline points="3500,8416 3500,8427" fill="none" stroke="#e69500" stroke-width="1"/>
 </svg>
